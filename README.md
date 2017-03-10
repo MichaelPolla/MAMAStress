@@ -2,8 +2,9 @@
 The best JIRA/GitHub software to get the stress of the team when the deadline approches
 
 ## Authors
-- Michael Polla
-- Salvatore Cicciu
-- Antoine Berger
-- Maxime Burri
-- Ana Domingos
+- **M**ichael Polla
+- **A**na Domingos
+- **M**axime Burri
+- **A**ntoine Berger
+- **S**alvatore Cicciu
+

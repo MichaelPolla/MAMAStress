@@ -9,10 +9,15 @@ jira = JIRA(options)
 
 # Get project
 project = jira.project(PROJECT_KEY)
-print project.id
 
 # Get components and version
 components = jira.project_components(project)
 versions = jira.project_versions(project)
-print components
-print versions
+
+# Get issues
+issues = jira.search_issues("project="+PROJECT_KEY,maxResults=50000)
+bugs=[]
+for issue in issues:
+    if(issue.fields.issuetype.name == "Bug"):
+        print issue.fields.created
+        bugs.append(issue)

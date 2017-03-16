@@ -13,6 +13,9 @@ project = jira.project(PROJECT_KEY)
 # Get components and version
 components = jira.project_components(project)
 versions = jira.project_versions(project)
+for version in versions:
+    if(hasattr(version, 'releaseDate')):
+        print version.name + " : \t"+version.releaseDate + " " + str(version.released)
 
 # Get issues
 issues = jira.search_issues("project="+PROJECT_KEY,maxResults=50000)

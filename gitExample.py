@@ -1,6 +1,7 @@
 import requests
 import json
 import sys
+import csv
 
 GITHUB_OWNER_REPO = "spring-projects/spring-amqp"
 GITHUB_OWNER_REPO_API = "https://api.github.com/repos/"+GITHUB_OWNER_REPO
@@ -31,7 +32,7 @@ def commits():
         if(int(r.headers['X-RateLimit-Remaining']) == 0):
             print "No more rate.... generate other access_token..."
             exit()
-            
+        
         # While not end, continue
         if(len(commits)==0):
             break
@@ -43,4 +44,16 @@ def commits():
 commits = commits()
 # Get date of last commit
 print str(len(commits))
-print commits[0]
+print json.dumps(commits[0])
+with open('gitExample.csv', 'wb') as csvfile:
+    fieldnames = ["date", "name_first_line"]
+    writer = csv.DictWriter(csvfile, delimiter=' ',
+        quotechar='\'', quoting=csv.QUOTE_MINIMAL,
+        fieldnames=fieldnames)
+    writer.writeheader()
+
+    for commit in commits:
+        writer.writerow({ \
+            "date" : commit['commit']['committer']['date'], \
+            "name_first_line" : commit['commit']['message'].split('\n', 1)[0]
+        })

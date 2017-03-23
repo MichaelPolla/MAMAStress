@@ -7,4 +7,3 @@ The best JIRA/GitHub software to get the stress of the team when the deadline ap
 - **M**axime Burri
 - **A**ntoine Berger
 - **S**alvatore Cicciu
-

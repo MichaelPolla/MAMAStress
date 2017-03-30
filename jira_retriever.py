@@ -45,6 +45,6 @@ with open('csv_data/jira_issues_bugs.csv', 'wb') as csvfile:
         # write only bugs
         if(issue.fields.issuetype.name == "Bug"):
             writer.writerow({ \
-                "date" : issue.fields.created, \
+                "date" : issue.fields.created.replace(".000+0000", "Z"), \
                 "summary" : issue.fields.summary
             })

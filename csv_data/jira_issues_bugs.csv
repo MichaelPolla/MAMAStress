@@ -1,242 +1,242 @@
 date,summary
-2017-03-29T18:52:24.000+0000,"@RabbitListener's @Exchange provides durable as false, meanwhile AbstractExchange is durable by default"
-2017-03-23T09:55:09.000+0000,AmqpRejectAndDontRequeueException does not stop the retry mechanism when TransactionManager is active
-2017-03-22T07:42:19.000+0000,Wrapped listener to Mockito Spy by RabbitListenerTestHarness do not work when tests are being run from maven build 
-2017-03-16T12:51:54.000+0000,BrokerRunning Rule - Use hostName with isBrokerAndManagementRunning()
-2017-03-15T15:21:58.000+0000,Bind the RoutingConnectionFactory key to SMLC Listener Threads
-2017-03-11T21:08:18.000+0000,Consumer count growing when not configured to do so
-2017-03-11T07:45:27.000+0000,Potential NPE parsing rabbit:listener-container
-2017-03-06T21:25:59.000+0000,Anonymous Queue in @RabbitListener.queuesToDeclare Does Not Work
-2017-02-26T23:05:32.000+0000,ChannelProxy Wrapper Should Not Refresh During Transaction
-2017-02-25T20:42:05.000+0000,ExchangeBuilder Sets Durable to False by Default
-2017-02-25T16:56:09.000+0000,Logback Appender Creates Location Data Unconditionally
-2017-02-14T00:55:40.000+0000,Fix MessagingMessageListenerAdapter.returnExceptions When Method Returns void
-2017-02-05T14:06:15.000+0000,AutorecoveringConnection.consumers leaked when killed a node of rabbitmq cluster
-2017-01-26T14:06:36.000+0000,NPE in RabbitTemplate When Server Does Not Populate CorrelationId
-2017-01-23T20:59:30.000+0000,SimpleMessageListenerContainerIntegration2Tests testDeleteOneQueue fails intermittently
-2017-01-20T15:17:43.000+0000,Bean creation slow
-2017-01-20T13:01:03.000+0000,RabbitListenerEndpointRegistry fails to shutdown if simultaneous with broker
-2017-01-16T21:01:07.000+0000,NPE in RabbitManagementTemplate
-2017-01-12T20:10:39.000+0000,RabbitManagementTemplate Support for Delayed and Internal Exchanges
-2017-01-06T15:48:21.000+0000,AsyncRabbitTemplate Does Not Stop Its Default Task Scheduler
-2017-01-03T18:33:10.000+0000,MessagingMessageListenerAdapter.invokeHandler() should include amqpMessage argument to the ListenerExecutionFailedException
-2016-12-23T14:07:33.000+0000,Add Diagnostics to LogBack Appender
-2016-12-18T11:12:15.000+0000,Fix race condition causing SimpleMessageListenerContainer to drop consumers to zero
-2016-12-08T08:24:32.000+0000,Container does not call rollbackOn
-2016-12-07T21:42:23.000+0000,Fix ImmediateAcknowledgeAmqpException Processing
-2016-12-03T18:07:03.000+0000,Fix Non-Managed DMLC with Spring-Managed Connection Factory
-2016-12-02T02:53:53.000+0000,Pom for spring-rabbit should update spring-amqp dependency.
-2016-11-14T16:56:56.000+0000,AmqpAppenderTests fail with Log4J 2.7
-2016-11-08T15:13:31.000+0000,1.6.4 released with snapshot dependencies
-2016-11-06T12:34:42.000+0000,MessageListenerContainerLifecycleIntegrationTests  testNonTransactionalHighLevel fails intermittently
-2016-10-31T14:53:01.000+0000,@Transactional is not considered in a @RabbitListener
-2016-10-24T21:01:16.000+0000,DMLC: Destroy Default Consumer Monitor on Context Destroy
-2016-10-20T09:22:20.000+0000,SimpleMessageListenerContainerIntegration2Tests testDeleteOneQueue fails intermittently
-2016-10-19T13:13:25.000+0000,NPE with null QueueName in SMLC
-2016-10-18T16:54:13.000+0000,Invalid GenericMessage requeued indefinitely
-2016-10-17T14:54:43.000+0000,SimpleAmqpHeaderMapper Skips Some Headers
-2016-10-17T14:51:53.000+0000,SimpleAmqpHeaderMapper doesn't map properly receivedUserId header
-2016-10-15T00:25:46.000+0000,Unable to refer to the default exchange using @Argument within a @RabbitListener
-2016-10-08T02:53:08.000+0000,RabbitMessagingTemplate doesn't take advantage of RabbitTemplate's registered converters
-2016-09-28T12:43:57.000+0000,Container Fails to Recover
-2016-09-01T21:11:00.000+0000,Don't Stop the Container on NoSuchMethodException
-2016-08-18T15:48:45.000+0000,Non Transactional RabbitTemplate Uses Container Transactional Channel
-2016-07-22T13:35:26.000+0000,CachingConnectionFactory onClose notification
-2016-07-11T12:19:26.000+0000,CachingConnectionFactoryIntegrationTests.hardErrorAndReconnect fails intermittently
-2016-07-05T23:05:47.000+0000,Spring AMQP Consumer pauses after running for sometime
-2016-06-29T21:02:58.000+0000,Concurrency issues with SimpleMessageListenerContainer.addQueueNames
-2016-06-22T07:43:52.000+0000,Fail to find handler method when Spring Devtools restart is enabled (default behavior)
-2016-05-30T13:49:03.000+0000,SimpleMessageListenerContainer does not support @Lazy annotation
-2016-05-26T20:38:35.000+0000,SimpleRetryPolicy: retrayableExceptions not working for java.lang.Error and java.lang.RuntimeException
-2016-05-19T06:24:36.000+0000,IO Platform build fails with NPE in Log4J during compilation
-2016-04-21T07:10:23.000+0000,Deadlock during bean init
-2016-04-15T17:59:37.000+0000,RabbitAdmin Exception when there are beans of type Collection declared with @JobScope 
-2016-04-05T18:24:47.000+0000,sdfdfsdsdfdfsdsdfdfsdsdfdfsdsdfdfsdsdfdfsdsdfdfsdsdfdfsdsdfdfsd
-2016-04-01T13:32:58.000+0000,@RabbitListener with autoStartup=false will never start	
-2016-03-24T08:32:14.000+0000,@RabbitListener creates two listener instances if annotated method is implementing interface method
-2016-03-18T10:03:37.000+0000,CachingConnectionFactory leaks channels when using channelCacheSize & channelCheckoutTimeout settings
-2016-03-04T12:12:23.000+0000,Build still fails Intermittently due to non-thread-safe use of Mockito
-2016-03-01T14:40:58.000+0000,Channel Leakage on Queue Name Too Long Exception
-2016-02-23T17:29:31.000+0000,Make RabbitListenerTestHarness getSpy public
-2016-02-23T17:25:31.000+0000,spring-rabbit-test LatchCountDownAndCallRealMethodAnswer countdown'ed too soon
-2016-02-11T12:32:58.000+0000,custom configuration of ConnectionFactory does not work on CloudFroundry
-2016-02-10T13:31:41.000+0000,"@RabbitHandler causing ""No method found for class [B"""
-2016-02-09T16:04:43.000+0000,Send of message via tx-channel is commited early with (JTA) transaction and TransactionTemplate
-2016-02-09T13:36:45.000+0000,squid:S1854 - Dead stores should be removed
-2016-02-09T01:18:43.000+0000,SimpleAmqpHeaderMapper does not handle org.springframework.util.MimeType
-2016-01-26T21:21:37.000+0000,NPE in RabbitAdmin
-2016-01-25T15:36:22.000+0000,Pending Confirms not nacked if close is detected in logicalClose
-2016-01-19T23:29:19.000+0000,Add mismatchedQueuesFatal to SimpleMessageLIstenerContainer to Detect Mismatched Queue Arguments
-2016-01-13T17:23:50.000+0000,AmqpAppender causes application error when declareExchange=true and no RabbitMQ connection available
-2015-12-18T16:03:10.000+0000,NPE in SMLC (Recoverable)
-2015-11-30T11:21:31.000+0000,Intermittent build failure caused by non-thread-safe use of Mockito
-2015-11-16T19:40:19.000+0000,Typo in the ContentTypeDelegatingMessageConverter method names
-2015-11-14T00:54:00.000+0000,Closing the CachingConnectionFactory at application context close is too abrupt
-2015-10-26T19:10:08.000+0000,"CachingConnectionFactory: Race condition around ""connection"" property"
-2015-10-16T02:03:50.000+0000,Class-level @RabbitListener causes INFO log message about NullPointerException
-2015-10-09T21:33:11.000+0000,@Header and @Payload Annotations Not Recognized on Proxy
-2015-10-09T19:36:49.000+0000,RabbitListenerAnnotationBeanPostProcessor cannot find Class-Level @RabbitListener annotations on beans with @Transactional annotations
-2015-10-08T06:30:41.000+0000,consumer does not reconnect when i limit task executor in SimpleMessageListenerContainer 
-2015-09-15T12:51:58.000+0000,@PreDestroy not honored by @RabbitListener components/ConnectionFactories
-2015-09-03T20:40:54.000+0000,ConcurrentModificationException in PublisherCallbackChannelImpl
-2015-08-14T14:19:03.000+0000,BackPort AMQP-519 and AMQP-496
-2015-08-12T08:24:14.000+0000,Fix Class Tangle
-2015-08-08T10:24:28.000+0000,Shut Down DeferredCloseExecutor in CachingConnectionFactory
-2015-08-06T08:35:04.000+0000,rabbit:listener-container is not using the provided id
-2015-08-06T01:25:34.000+0000,"Setting autoDelete or exclusive to anything, including ""true"" in @Queue without a queue name results in them being disabled"
-2015-07-15T16:05:28.000+0000,Direct Reply-To requires separate connection
-2015-06-28T07:56:30.000+0000,Admin Hang After IllegalArgumentException on declareQueue()
-2015-06-26T13:51:22.000+0000,ConcurrentModificationException on RabbitTemplate.getUnconfirmed()
-2015-06-19T03:02:33.000+0000,Fanout binding is not created due to missing routing key
-2015-06-01T10:14:07.000+0000,Add Docs for ConsumerTagStrategy
-2015-05-26T10:45:19.000+0000,Enable SSL Protocol Selection When Not Using Certificates
-2015-05-12T00:50:49.000+0000,Dynamic Consumer Adjustment Does Not Work when Channel is Transacted
-2015-05-08T08:03:04.000+0000,Some threads are not interrupted when Workers did not finish before shutdownTimeout
-2015-04-21T12:11:56.000+0000,createBareConnection logs an error
-2015-04-09T05:00:16.000+0000,Normal closes are logged as error
-2015-04-07T22:52:56.000+0000,Queue name containing ${random.value} can not be bound to an exchange binding
-2015-04-02T15:04:10.000+0000,NPE encountered when one Rabbit server in HA cluster went down
-2015-03-09T05:13:35.000+0000,Fix javadoc for SimpleMessageListenerContainer's setConcurrentConsumers method
-2015-03-05T04:49:32.000+0000,PRECONDITION_FAILED on two queues with different TTL
-2015-03-02T05:28:36.000+0000,@RabbitListener cannot be a scoped proxy
-2015-02-19T00:51:04.000+0000,Send of message via tx-channel is commited early when external (JTA) transaction is present
-2015-02-18T16:33:00.000+0000,Invalid property documentation in RabbitMQ XSD
-2015-02-06T11:32:26.000+0000,Occasional Log Appender Test Failures
-2015-01-29T06:08:34.000+0000,Early Exit Queue Declaration on a Connection Reset
-2015-01-27T20:16:35.000+0000,Connection Reset on basicQos Should Not Be Fatal
-2015-01-21T02:59:57.000+0000,Thread safety of ErlangTemplate
-2015-01-19T08:55:52.000+0000,RabbitTemplate.convertAndSend is hanging occasionally
-2015-01-06T09:15:04.000+0000,Log4j dependency should be optional
-2015-01-05T09:46:22.000+0000,PublisherCallbackChannelImpl Incompatible with JRockit
-2014-12-11T02:08:07.000+0000,AmqpInvokerServiceExporter: wrap exceptions to the RemoteInvocationResult
-2014-11-27T19:42:03.000+0000,AbstractConnectionFactory.setAddresses(String) should ignore empty string
-2014-11-24T10:08:17.000+0000,Spring-rabbit dependency on log4j should be optional in pom
-2014-10-31T00:44:20.000+0000,ConditionalRejectingErrorHandler.DefaultExceptionStrategy catches only org.springframework.amqp.support.converter.MessageConversionException
-2014-10-21T05:21:17.000+0000,convertAndSend() methods can throw MessageConversionException but that's not documented
-2014-10-10T02:07:28.000+0000,Default MessagePropertiesConverter should convert LongString values nested in lists
-2014-09-01T07:36:16.000+0000,Allow value expressions for messaging listener annotation destinations
-2014-08-12T04:44:40.000+0000,RabbitTemplate Memory Leak with Publisher Confirms/Returns
-2014-07-15T19:30:55.000+0000,Error creating RabbitMQ Connection Factory
-2014-06-05T06:41:04.000+0000,Direct exchange binding default routing key fails on queue name with dot char
-2014-05-26T07:15:39.000+0000,Prefetch count = 0 after passive declare failure in BlockingQueueConsumer
-2014-05-16T13:17:53.000+0000,Restore Listener Exception Logging; Add WARN Log to AmqpRequestAndDontRequeueRecoverer
-2014-05-05T11:45:53.000+0000,Spring AMQP should be an abstraction and should not show underlying details.
-2014-04-19T21:09:30.000+0000,Misleading Javadoc for AmqpAppender
-2014-03-29T23:23:24.000+0000,org.springframework.retry Listed as Optional Maven Dependency
-2014-03-27T06:35:40.000+0000,Possible deadlock condition in org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer#restart
-2014-03-26T13:12:20.000+0000,AmqpRejectAndDontRequeueException kills pub-sub-channel consumer
-2014-03-13T07:35:28.000+0000,Fix NPE in Test Case
-2014-03-08T02:23:06.000+0000,Bindings are not re-established after re-creating anonymous queues
-2014-02-26T03:33:24.000+0000,ConcurrentModificationException on HashMap$HashIterator.nextEntry when SimpleMessageListenerContainer#queuesChanged()
-2014-02-21T07:22:58.000+0000,Memory leak with SimpleMessageListener under certain conditions
-2014-02-04T05:59:40.000+0000,MessageBuilderSupport has wrong visibility
-2014-01-23T05:10:42.000+0000,MessageProperties Change to Support Builder API Breaks User Apps
-2014-01-22T09:43:10.000+0000,AmqpAppender appends throwable information even when layout handles it
-2014-01-22T01:00:04.000+0000,Cannot download spring amqp 1.2.1.RELEASE from springsource repository
-2013-12-19T11:48:49.000+0000,MessageListenerAdaper.invokeListenerMethod - NoSuchMethodException causes endless loop
-2013-12-17T10:02:34.000+0000,Long running publisher's performance are getting down
-2013-12-12T06:16:10.000+0000,"Fix ""Rollback"" Documentation"
-2013-12-10T07:51:04.000+0000,Update Gradle to 1.9; Add testAll Task.
-2013-11-18T09:41:01.000+0000,Wrong RabbitMQ credentials are not considered as fatal error by SimpleMessageListenerContainer
-2013-10-28T11:18:05.000+0000,Container Doesn't Stop Consuming
-2013-09-18T01:38:55.000+0000,Auto creation queue does not have routing key
-2013-09-11T06:35:56.000+0000,Adding multiple listeners inside a single listener-container element is not working
-2013-09-05T18:26:55.000+0000,"When java.lang.Error(e.g.OutOfMemory) occurs, threads do not abort."
-2013-08-30T03:30:01.000+0000,String array can not be converted back from message 
-2013-08-19T19:46:37.000+0000,Manifest files in jars are truncated to one line making them useless for osgi deployments
-2013-08-08T12:34:47.000+0000,CachingConnectionFactory.CachedChannelInvocationHandler channels prematurely closed due to channel cache size comparison being off by 1
-2013-06-28T05:13:51.000+0000,AmqpAppender cannot be used as a root logger appender 
-2013-05-08T12:37:09.000+0000,"Queues are created in passive mode, I  don't see a ""passive"" flag in XML. "
-2013-04-25T07:51:57.000+0000,Don't Reject If Container is Stopping
-2013-04-24T10:11:37.000+0000,ConsumerChannelRegistry uses a ThreadLocal which prevents receiving and sending on different channels within a transaction
-2013-03-28T19:22:51.000+0000,Polish Reference Documentation
-2013-03-21T20:42:00.000+0000,Tests are not closing Rabbit connections properly
-2013-02-28T11:27:44.000+0000,Update Spring to 3.1.4
-2013-02-06T07:05:37.000+0000,Fix Version in QuickTour Maven Snippet
-2013-01-04T02:26:52.000+0000,"Rabbit namespace little bug, when using reference to queueArgumentsMap"
-2012-12-26T08:43:25.000+0000,Cannot Connect (no server response) prevents container start
-2012-11-19T23:07:01.000+0000,SimpleMessageListenerContainer default task executor - memory leak on webapp redeploy
-2012-11-15T06:01:52.000+0000,AmqpAppender always logs message body with default encoding
-2012-11-13T01:56:26.000+0000,AmqpAppender is causing the application not to shut down
-2012-11-06T12:58:17.000+0000,Fix Race Condition in Test
-2012-11-06T10:17:22.000+0000,Sporadic Test Failures
-2012-10-30T06:18:40.000+0000,Race Condition When Stopping Listener Container
-2012-10-25T13:00:10.000+0000,Listener Container Local Transactions Not Properly Set Up
-2012-10-01T11:52:40.000+0000,Misspelled accessor for messageKeyGenerator in StatefulRetryOperationsInterceptorFactoryBean
-2012-09-19T02:25:18.000+0000,Error import packages In Spring-rabbit.jar 1.1.2 Meta-Inf/Manifest.mf
-2012-09-09T23:47:02.000+0000,Springsource site: page for Spring AMQP on the right panel in the Documentation block has wrong urls
-2012-08-30T05:28:24.000+0000,MDC properties are not correctly handled in AmqpAppender
-2012-08-13T15:03:10.000+0000,Strange behavior in creating queue
-2012-08-13T05:16:34.000+0000,HA Failover Reconnect Broke Normal Reconnect
-2012-08-06T09:51:41.000+0000,ConcurrentModificationException with publish confirms
-2012-07-26T05:53:17.000+0000,MissingIdRetryTests fails if there is no broker running
-2012-07-24T07:50:58.000+0000,Hanging thread when using RabbitTransactionManager with a listener container where channelTransacted=true
-2012-07-18T10:18:53.000+0000,Publisher Confirms with Multiple Listeners Not Distributed Properly
-2012-07-16T06:23:01.000+0000,Remove System.out Call In JsonMessageConverter
-2012-07-13T06:03:55.000+0000,Anonymous reply-queue Doesn't Work with Send/Reply Operations
-2012-07-12T11:46:31.000+0000,Issues with RabbitTemplate Temporary Reply Queues
-2012-06-27T11:54:09.000+0000,Remove POMs from Project Trees After Gradle Migration
-2012-06-19T09:44:51.000+0000,Intermittent Test Failures
-2012-06-11T02:23:38.000+0000,AmqpAppender and log4j synchronization issues resulting in messages loss
-2012-06-08T13:09:15.000+0000,Log4j AmqpAppender does not use the layout
-2012-05-16T07:36:09.000+0000,Create Schema Version for 1.1 stream
-2012-05-16T06:27:44.000+0000,Publisher Returns Cannot be Requested Independently of Publisher Confirms
-2012-05-15T17:34:16.000+0000,More Failing System Tests
-2012-05-12T05:50:39.000+0000,Fix Failing Integration Tests
-2012-05-10T01:44:28.000+0000,Exception when modifying messageProperties in correlation with MarshallingMessageConverter via MessagePostProcessor
-2012-05-06T22:07:01.000+0000,BlockingQueueConsumer doesn't always acknowledge messages when in AUTO mode
-2012-04-24T09:03:04.000+0000,Retry Exponential BackOff Policy Doesn't Back Off
-2012-04-06T08:08:36.000+0000,Too Many Threads Running in SimpleListenerContainer
-2012-03-12T14:07:08.000+0000,Possible deadlock during startup caused by RabbitAdmin#initialize querying the ApplicationContext
-2012-02-29T14:28:58.000+0000,XSD doco for listener container's message-converter attribute is wrong
-2012-02-29T12:45:58.000+0000,XSD doco for binding's key attribute is wrong
-2012-02-22T12:43:05.000+0000,OutboundGateway temporary response channels not timing out after 5 seconds without response
-2012-01-23T11:29:16.000+0000,BlockingQueueConsumer.InternalConsumer does not override handleCancel which is called when consumer is cancelled by broker
-2012-01-11T14:01:29.000+0000,binding element documentation is not correct
-2011-11-15T07:09:57.000+0000,"Race condition in rabbitmq server, need to close channels before closing connection."
-2011-10-10T06:26:35.000+0000,SimpleMessageListenerContainer often stops getting messages from a queue
-2011-09-20T09:35:02.000+0000,Unable to declaring queue arguments with spring-rabbit-1.0.0.RELEASE
-2011-09-30T12:36:19.000+0000,NPE when stopping rabbitmq master in ha mode
-2011-09-23T11:23:51.000+0000,RabbitTemplate/RabbitGatewaySupport incompatible with JDK proxy
-2011-09-21T09:55:06.000+0000,java.lang.ClassNotFoundException: com.rabbitmq.client.impl.LongString
-2011-09-15T07:10:49.000+0000,SimpleMessageListenerContainer should check isRunning() in doStart() method
-2011-09-10T20:24:17.000+0000,CachingConnectionFactory leaks channels when synchronized with a TransactionManager
-2011-08-02T07:14:41.000+0000,"Duplicate ""deleted"" in warning"
-2011-07-28T11:41:56.000+0000,RabbitTemplate's 'reply-to' value used for rpc causes NO_ROUTE errors when server code uses its value as a routing key.
-2011-07-20T13:07:54.000+0000,java.lang.IllegalAccessError trying to produce to a fanout exchange
-2011-07-19T07:53:14.000+0000,Reference guide refers to AbstractRabbitConfiguration
-2011-07-05T13:32:24.000+0000,RabbitAdmin anonymous queue declaration javadocs inconsistent with Queue properties
-2011-05-11T22:48:47.000+0000,spring-rabbit-1.0.0.RC1.jar missing one Import-Package in the MANIFEST.MF
-2011-05-10T05:49:10.000+0000,SimpleMessageListenerContainer should only commit every txSize messages
-2011-05-10T01:58:30.000+0000,The project should not depend on log4j
-2011-04-27T05:23:57.000+0000,AmqpAppender does not die cleanly when webapp shuts down
-2011-04-27T02:00:51.000+0000,Exchange parsers do not handle anonymous queues correctly
-2011-04-26T04:08:33.000+0000,MessageListenerAdapter will fail if the delegate is a proxy
-2011-04-07T13:06:34.000+0000,Out of memory
-2011-04-06T00:46:32.000+0000,SingleConnectionFactory can close the wrong target connection on close
-2011-04-05T07:29:00.000+0000,RabbitAdmin or CachingConnectionFactory should prevent calls to ConnectionListener when physical connection is not opened
-2011-04-04T22:54:24.000+0000,Default number of consumers is 0 on SimpleMessageListenerContainer if afterPropertiesSet() not called
-2011-04-04T11:53:53.000+0000,Samples are missing
-2011-03-28T06:07:36.000+0000,Broker stop then restart: RabbitAdmin fails to re-declare non-durable queues
-2011-03-23T08:32:48.000+0000,Update parsers to be consistent with attirbutes in XSD
-2011-03-23T07:51:21.000+0000,Unreliable lock algorithm in SimpleMessageListenerContainer
-2011-03-22T11:19:26.000+0000,Message.toString() ClasscastException
-2011-03-21T03:43:37.000+0000,RabbitAdmin needs to handle starting up with no broker
-2011-03-15T08:31:54.000+0000,"<listener-container concurrency=""5""/> blows up"
-2011-03-14T08:34:59.000+0000,Add setter for ObjectMapper on JsonMessageConverter
-2011-03-10T10:14:32.000+0000,Tomcat shutdown doesn't wait for consumers in MessageListenerContainer
-2011-02-16T08:57:37.000+0000,AmqpBrokerAdminIntegrationTests failing with new rabbit server (2.3.1)
-2010-12-27T13:26:04.000+0000,spring-amqp app starts before application server
-2010-12-27T13:18:18.000+0000,Runtime exceptions stop listener but leave channel open - provide no output
-2010-12-01T03:19:13.000+0000,java.lang.NullPointerException at org.springframework.amqp.core.Message toString() invocation
-2010-11-12T15:08:41.000+0000,Fix root pom generation in Gradle build
-2010-11-09T06:09:41.000+0000,RabbitTemplate ignores MessageProperties for send(MessageCreator) method
-2010-11-04T09:37:30.000+0000,RabbitTemplate.receive can return null when not transactional
-2010-11-04T08:20:23.000+0000,Message listener container multiple messages per transaction not working
-2010-10-28T15:28:28.000+0000,CachingConnectionFactory should segregate transactional and non-transactional channels
-2010-10-22T12:55:04.000+0000,Provide clearer exception on ACL violation (e.g. new vhost)
-2010-10-22T12:11:54.000+0000,Make RabbitAdmin.deleteQueue() return boolean result
-2010-08-02T14:21:06.000+0000,NullPointerException in Message.toString() method when BasicProperties are sent as null
-2010-07-30T03:13:53.000+0000,bundlor-generated manifest files have ${version} placeholder instead of actual version
-2010-07-26T00:21:13.000+0000,Compile-time dependency upon spring-test in spring-amqp's pom
-2010-07-15T15:49:39.000+0000,hostname property is ignored in ConnectionFactory implementations
+2017-03-29T18:52:24Z,"@RabbitListener's @Exchange provides durable as false, meanwhile AbstractExchange is durable by default"
+2017-03-23T09:55:09Z,AmqpRejectAndDontRequeueException does not stop the retry mechanism when TransactionManager is active
+2017-03-22T07:42:19Z,Wrapped listener to Mockito Spy by RabbitListenerTestHarness do not work when tests are being run from maven build 
+2017-03-16T12:51:54Z,BrokerRunning Rule - Use hostName with isBrokerAndManagementRunning()
+2017-03-15T15:21:58Z,Bind the RoutingConnectionFactory key to SMLC Listener Threads
+2017-03-11T21:08:18Z,Consumer count growing when not configured to do so
+2017-03-11T07:45:27Z,Potential NPE parsing rabbit:listener-container
+2017-03-06T21:25:59Z,Anonymous Queue in @RabbitListener.queuesToDeclare Does Not Work
+2017-02-26T23:05:32Z,ChannelProxy Wrapper Should Not Refresh During Transaction
+2017-02-25T20:42:05Z,ExchangeBuilder Sets Durable to False by Default
+2017-02-25T16:56:09Z,Logback Appender Creates Location Data Unconditionally
+2017-02-14T00:55:40Z,Fix MessagingMessageListenerAdapter.returnExceptions When Method Returns void
+2017-02-05T14:06:15Z,AutorecoveringConnection.consumers leaked when killed a node of rabbitmq cluster
+2017-01-26T14:06:36Z,NPE in RabbitTemplate When Server Does Not Populate CorrelationId
+2017-01-23T20:59:30Z,SimpleMessageListenerContainerIntegration2Tests testDeleteOneQueue fails intermittently
+2017-01-20T15:17:43Z,Bean creation slow
+2017-01-20T13:01:03Z,RabbitListenerEndpointRegistry fails to shutdown if simultaneous with broker
+2017-01-16T21:01:07Z,NPE in RabbitManagementTemplate
+2017-01-12T20:10:39Z,RabbitManagementTemplate Support for Delayed and Internal Exchanges
+2017-01-06T15:48:21Z,AsyncRabbitTemplate Does Not Stop Its Default Task Scheduler
+2017-01-03T18:33:10Z,MessagingMessageListenerAdapter.invokeHandler() should include amqpMessage argument to the ListenerExecutionFailedException
+2016-12-23T14:07:33Z,Add Diagnostics to LogBack Appender
+2016-12-18T11:12:15Z,Fix race condition causing SimpleMessageListenerContainer to drop consumers to zero
+2016-12-08T08:24:32Z,Container does not call rollbackOn
+2016-12-07T21:42:23Z,Fix ImmediateAcknowledgeAmqpException Processing
+2016-12-03T18:07:03Z,Fix Non-Managed DMLC with Spring-Managed Connection Factory
+2016-12-02T02:53:53Z,Pom for spring-rabbit should update spring-amqp dependency.
+2016-11-14T16:56:56Z,AmqpAppenderTests fail with Log4J 2.7
+2016-11-08T15:13:31Z,1.6.4 released with snapshot dependencies
+2016-11-06T12:34:42Z,MessageListenerContainerLifecycleIntegrationTests  testNonTransactionalHighLevel fails intermittently
+2016-10-31T14:53:01Z,@Transactional is not considered in a @RabbitListener
+2016-10-24T21:01:16Z,DMLC: Destroy Default Consumer Monitor on Context Destroy
+2016-10-20T09:22:20Z,SimpleMessageListenerContainerIntegration2Tests testDeleteOneQueue fails intermittently
+2016-10-19T13:13:25Z,NPE with null QueueName in SMLC
+2016-10-18T16:54:13Z,Invalid GenericMessage requeued indefinitely
+2016-10-17T14:54:43Z,SimpleAmqpHeaderMapper Skips Some Headers
+2016-10-17T14:51:53Z,SimpleAmqpHeaderMapper doesn't map properly receivedUserId header
+2016-10-15T00:25:46Z,Unable to refer to the default exchange using @Argument within a @RabbitListener
+2016-10-08T02:53:08Z,RabbitMessagingTemplate doesn't take advantage of RabbitTemplate's registered converters
+2016-09-28T12:43:57Z,Container Fails to Recover
+2016-09-01T21:11:00Z,Don't Stop the Container on NoSuchMethodException
+2016-08-18T15:48:45Z,Non Transactional RabbitTemplate Uses Container Transactional Channel
+2016-07-22T13:35:26Z,CachingConnectionFactory onClose notification
+2016-07-11T12:19:26Z,CachingConnectionFactoryIntegrationTests.hardErrorAndReconnect fails intermittently
+2016-07-05T23:05:47Z,Spring AMQP Consumer pauses after running for sometime
+2016-06-29T21:02:58Z,Concurrency issues with SimpleMessageListenerContainer.addQueueNames
+2016-06-22T07:43:52Z,Fail to find handler method when Spring Devtools restart is enabled (default behavior)
+2016-05-30T13:49:03Z,SimpleMessageListenerContainer does not support @Lazy annotation
+2016-05-26T20:38:35Z,SimpleRetryPolicy: retrayableExceptions not working for java.lang.Error and java.lang.RuntimeException
+2016-05-19T06:24:36Z,IO Platform build fails with NPE in Log4J during compilation
+2016-04-21T07:10:23Z,Deadlock during bean init
+2016-04-15T17:59:37Z,RabbitAdmin Exception when there are beans of type Collection declared with @JobScope 
+2016-04-05T18:24:47Z,sdfdfsdsdfdfsdsdfdfsdsdfdfsdsdfdfsdsdfdfsdsdfdfsdsdfdfsdsdfdfsd
+2016-04-01T13:32:58Z,@RabbitListener with autoStartup=false will never start	
+2016-03-24T08:32:14Z,@RabbitListener creates two listener instances if annotated method is implementing interface method
+2016-03-18T10:03:37Z,CachingConnectionFactory leaks channels when using channelCacheSize & channelCheckoutTimeout settings
+2016-03-04T12:12:23Z,Build still fails Intermittently due to non-thread-safe use of Mockito
+2016-03-01T14:40:58Z,Channel Leakage on Queue Name Too Long Exception
+2016-02-23T17:29:31Z,Make RabbitListenerTestHarness getSpy public
+2016-02-23T17:25:31Z,spring-rabbit-test LatchCountDownAndCallRealMethodAnswer countdown'ed too soon
+2016-02-11T12:32:58Z,custom configuration of ConnectionFactory does not work on CloudFroundry
+2016-02-10T13:31:41Z,"@RabbitHandler causing ""No method found for class [B"""
+2016-02-09T16:04:43Z,Send of message via tx-channel is commited early with (JTA) transaction and TransactionTemplate
+2016-02-09T13:36:45Z,squid:S1854 - Dead stores should be removed
+2016-02-09T01:18:43Z,SimpleAmqpHeaderMapper does not handle org.springframework.util.MimeType
+2016-01-26T21:21:37Z,NPE in RabbitAdmin
+2016-01-25T15:36:22Z,Pending Confirms not nacked if close is detected in logicalClose
+2016-01-19T23:29:19Z,Add mismatchedQueuesFatal to SimpleMessageLIstenerContainer to Detect Mismatched Queue Arguments
+2016-01-13T17:23:50Z,AmqpAppender causes application error when declareExchange=true and no RabbitMQ connection available
+2015-12-18T16:03:10Z,NPE in SMLC (Recoverable)
+2015-11-30T11:21:31Z,Intermittent build failure caused by non-thread-safe use of Mockito
+2015-11-16T19:40:19Z,Typo in the ContentTypeDelegatingMessageConverter method names
+2015-11-14T00:54:00Z,Closing the CachingConnectionFactory at application context close is too abrupt
+2015-10-26T19:10:08Z,"CachingConnectionFactory: Race condition around ""connection"" property"
+2015-10-16T02:03:50Z,Class-level @RabbitListener causes INFO log message about NullPointerException
+2015-10-09T21:33:11Z,@Header and @Payload Annotations Not Recognized on Proxy
+2015-10-09T19:36:49Z,RabbitListenerAnnotationBeanPostProcessor cannot find Class-Level @RabbitListener annotations on beans with @Transactional annotations
+2015-10-08T06:30:41Z,consumer does not reconnect when i limit task executor in SimpleMessageListenerContainer 
+2015-09-15T12:51:58Z,@PreDestroy not honored by @RabbitListener components/ConnectionFactories
+2015-09-03T20:40:54Z,ConcurrentModificationException in PublisherCallbackChannelImpl
+2015-08-14T14:19:03Z,BackPort AMQP-519 and AMQP-496
+2015-08-12T08:24:14Z,Fix Class Tangle
+2015-08-08T10:24:28Z,Shut Down DeferredCloseExecutor in CachingConnectionFactory
+2015-08-06T08:35:04Z,rabbit:listener-container is not using the provided id
+2015-08-06T01:25:34Z,"Setting autoDelete or exclusive to anything, including ""true"" in @Queue without a queue name results in them being disabled"
+2015-07-15T16:05:28Z,Direct Reply-To requires separate connection
+2015-06-28T07:56:30Z,Admin Hang After IllegalArgumentException on declareQueue()
+2015-06-26T13:51:22Z,ConcurrentModificationException on RabbitTemplate.getUnconfirmed()
+2015-06-19T03:02:33Z,Fanout binding is not created due to missing routing key
+2015-06-01T10:14:07Z,Add Docs for ConsumerTagStrategy
+2015-05-26T10:45:19Z,Enable SSL Protocol Selection When Not Using Certificates
+2015-05-12T00:50:49Z,Dynamic Consumer Adjustment Does Not Work when Channel is Transacted
+2015-05-08T08:03:04Z,Some threads are not interrupted when Workers did not finish before shutdownTimeout
+2015-04-21T12:11:56Z,createBareConnection logs an error
+2015-04-09T05:00:16Z,Normal closes are logged as error
+2015-04-07T22:52:56Z,Queue name containing ${random.value} can not be bound to an exchange binding
+2015-04-02T15:04:10Z,NPE encountered when one Rabbit server in HA cluster went down
+2015-03-09T05:13:35Z,Fix javadoc for SimpleMessageListenerContainer's setConcurrentConsumers method
+2015-03-05T04:49:32Z,PRECONDITION_FAILED on two queues with different TTL
+2015-03-02T05:28:36Z,@RabbitListener cannot be a scoped proxy
+2015-02-19T00:51:04Z,Send of message via tx-channel is commited early when external (JTA) transaction is present
+2015-02-18T16:33:00Z,Invalid property documentation in RabbitMQ XSD
+2015-02-06T11:32:26Z,Occasional Log Appender Test Failures
+2015-01-29T06:08:34Z,Early Exit Queue Declaration on a Connection Reset
+2015-01-27T20:16:35Z,Connection Reset on basicQos Should Not Be Fatal
+2015-01-21T02:59:57Z,Thread safety of ErlangTemplate
+2015-01-19T08:55:52Z,RabbitTemplate.convertAndSend is hanging occasionally
+2015-01-06T09:15:04Z,Log4j dependency should be optional
+2015-01-05T09:46:22Z,PublisherCallbackChannelImpl Incompatible with JRockit
+2014-12-11T02:08:07Z,AmqpInvokerServiceExporter: wrap exceptions to the RemoteInvocationResult
+2014-11-27T19:42:03Z,AbstractConnectionFactory.setAddresses(String) should ignore empty string
+2014-11-24T10:08:17Z,Spring-rabbit dependency on log4j should be optional in pom
+2014-10-31T00:44:20Z,ConditionalRejectingErrorHandler.DefaultExceptionStrategy catches only org.springframework.amqp.support.converter.MessageConversionException
+2014-10-21T05:21:17Z,convertAndSend() methods can throw MessageConversionException but that's not documented
+2014-10-10T02:07:28Z,Default MessagePropertiesConverter should convert LongString values nested in lists
+2014-09-01T07:36:16Z,Allow value expressions for messaging listener annotation destinations
+2014-08-12T04:44:40Z,RabbitTemplate Memory Leak with Publisher Confirms/Returns
+2014-07-15T19:30:55Z,Error creating RabbitMQ Connection Factory
+2014-06-05T06:41:04Z,Direct exchange binding default routing key fails on queue name with dot char
+2014-05-26T07:15:39Z,Prefetch count = 0 after passive declare failure in BlockingQueueConsumer
+2014-05-16T13:17:53Z,Restore Listener Exception Logging; Add WARN Log to AmqpRequestAndDontRequeueRecoverer
+2014-05-05T11:45:53Z,Spring AMQP should be an abstraction and should not show underlying details.
+2014-04-19T21:09:30Z,Misleading Javadoc for AmqpAppender
+2014-03-29T23:23:24Z,org.springframework.retry Listed as Optional Maven Dependency
+2014-03-27T06:35:40Z,Possible deadlock condition in org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer#restart
+2014-03-26T13:12:20Z,AmqpRejectAndDontRequeueException kills pub-sub-channel consumer
+2014-03-13T07:35:28Z,Fix NPE in Test Case
+2014-03-08T02:23:06Z,Bindings are not re-established after re-creating anonymous queues
+2014-02-26T03:33:24Z,ConcurrentModificationException on HashMap$HashIterator.nextEntry when SimpleMessageListenerContainer#queuesChanged()
+2014-02-21T07:22:58Z,Memory leak with SimpleMessageListener under certain conditions
+2014-02-04T05:59:40Z,MessageBuilderSupport has wrong visibility
+2014-01-23T05:10:42Z,MessageProperties Change to Support Builder API Breaks User Apps
+2014-01-22T09:43:10Z,AmqpAppender appends throwable information even when layout handles it
+2014-01-22T01:00:04Z,Cannot download spring amqp 1.2.1.RELEASE from springsource repository
+2013-12-19T11:48:49Z,MessageListenerAdaper.invokeListenerMethod - NoSuchMethodException causes endless loop
+2013-12-17T10:02:34Z,Long running publisher's performance are getting down
+2013-12-12T06:16:10Z,"Fix ""Rollback"" Documentation"
+2013-12-10T07:51:04Z,Update Gradle to 1.9; Add testAll Task.
+2013-11-18T09:41:01Z,Wrong RabbitMQ credentials are not considered as fatal error by SimpleMessageListenerContainer
+2013-10-28T11:18:05Z,Container Doesn't Stop Consuming
+2013-09-18T01:38:55Z,Auto creation queue does not have routing key
+2013-09-11T06:35:56Z,Adding multiple listeners inside a single listener-container element is not working
+2013-09-05T18:26:55Z,"When java.lang.Error(e.g.OutOfMemory) occurs, threads do not abort."
+2013-08-30T03:30:01Z,String array can not be converted back from message 
+2013-08-19T19:46:37Z,Manifest files in jars are truncated to one line making them useless for osgi deployments
+2013-08-08T12:34:47Z,CachingConnectionFactory.CachedChannelInvocationHandler channels prematurely closed due to channel cache size comparison being off by 1
+2013-06-28T05:13:51Z,AmqpAppender cannot be used as a root logger appender 
+2013-05-08T12:37:09Z,"Queues are created in passive mode, I  don't see a ""passive"" flag in XML. "
+2013-04-25T07:51:57Z,Don't Reject If Container is Stopping
+2013-04-24T10:11:37Z,ConsumerChannelRegistry uses a ThreadLocal which prevents receiving and sending on different channels within a transaction
+2013-03-28T19:22:51Z,Polish Reference Documentation
+2013-03-21T20:42:00Z,Tests are not closing Rabbit connections properly
+2013-02-28T11:27:44Z,Update Spring to 3.1.4
+2013-02-06T07:05:37Z,Fix Version in QuickTour Maven Snippet
+2013-01-04T02:26:52Z,"Rabbit namespace little bug, when using reference to queueArgumentsMap"
+2012-12-26T08:43:25Z,Cannot Connect (no server response) prevents container start
+2012-11-19T23:07:01Z,SimpleMessageListenerContainer default task executor - memory leak on webapp redeploy
+2012-11-15T06:01:52Z,AmqpAppender always logs message body with default encoding
+2012-11-13T01:56:26Z,AmqpAppender is causing the application not to shut down
+2012-11-06T12:58:17Z,Fix Race Condition in Test
+2012-11-06T10:17:22Z,Sporadic Test Failures
+2012-10-30T06:18:40Z,Race Condition When Stopping Listener Container
+2012-10-25T13:00:10Z,Listener Container Local Transactions Not Properly Set Up
+2012-10-01T11:52:40Z,Misspelled accessor for messageKeyGenerator in StatefulRetryOperationsInterceptorFactoryBean
+2012-09-19T02:25:18Z,Error import packages In Spring-rabbit.jar 1.1.2 Meta-Inf/Manifest.mf
+2012-09-09T23:47:02Z,Springsource site: page for Spring AMQP on the right panel in the Documentation block has wrong urls
+2012-08-30T05:28:24Z,MDC properties are not correctly handled in AmqpAppender
+2012-08-13T15:03:10Z,Strange behavior in creating queue
+2012-08-13T05:16:34Z,HA Failover Reconnect Broke Normal Reconnect
+2012-08-06T09:51:41Z,ConcurrentModificationException with publish confirms
+2012-07-26T05:53:17Z,MissingIdRetryTests fails if there is no broker running
+2012-07-24T07:50:58Z,Hanging thread when using RabbitTransactionManager with a listener container where channelTransacted=true
+2012-07-18T10:18:53Z,Publisher Confirms with Multiple Listeners Not Distributed Properly
+2012-07-16T06:23:01Z,Remove System.out Call In JsonMessageConverter
+2012-07-13T06:03:55Z,Anonymous reply-queue Doesn't Work with Send/Reply Operations
+2012-07-12T11:46:31Z,Issues with RabbitTemplate Temporary Reply Queues
+2012-06-27T11:54:09Z,Remove POMs from Project Trees After Gradle Migration
+2012-06-19T09:44:51Z,Intermittent Test Failures
+2012-06-11T02:23:38Z,AmqpAppender and log4j synchronization issues resulting in messages loss
+2012-06-08T13:09:15Z,Log4j AmqpAppender does not use the layout
+2012-05-16T07:36:09Z,Create Schema Version for 1.1 stream
+2012-05-16T06:27:44Z,Publisher Returns Cannot be Requested Independently of Publisher Confirms
+2012-05-15T17:34:16Z,More Failing System Tests
+2012-05-12T05:50:39Z,Fix Failing Integration Tests
+2012-05-10T01:44:28Z,Exception when modifying messageProperties in correlation with MarshallingMessageConverter via MessagePostProcessor
+2012-05-06T22:07:01Z,BlockingQueueConsumer doesn't always acknowledge messages when in AUTO mode
+2012-04-24T09:03:04Z,Retry Exponential BackOff Policy Doesn't Back Off
+2012-04-06T08:08:36Z,Too Many Threads Running in SimpleListenerContainer
+2012-03-12T14:07:08Z,Possible deadlock during startup caused by RabbitAdmin#initialize querying the ApplicationContext
+2012-02-29T14:28:58Z,XSD doco for listener container's message-converter attribute is wrong
+2012-02-29T12:45:58Z,XSD doco for binding's key attribute is wrong
+2012-02-22T12:43:05Z,OutboundGateway temporary response channels not timing out after 5 seconds without response
+2012-01-23T11:29:16Z,BlockingQueueConsumer.InternalConsumer does not override handleCancel which is called when consumer is cancelled by broker
+2012-01-11T14:01:29Z,binding element documentation is not correct
+2011-11-15T07:09:57Z,"Race condition in rabbitmq server, need to close channels before closing connection."
+2011-10-10T06:26:35Z,SimpleMessageListenerContainer often stops getting messages from a queue
+2011-09-20T09:35:02Z,Unable to declaring queue arguments with spring-rabbit-1.0.0.RELEASE
+2011-09-30T12:36:19Z,NPE when stopping rabbitmq master in ha mode
+2011-09-23T11:23:51Z,RabbitTemplate/RabbitGatewaySupport incompatible with JDK proxy
+2011-09-21T09:55:06Z,java.lang.ClassNotFoundException: com.rabbitmq.client.impl.LongString
+2011-09-15T07:10:49Z,SimpleMessageListenerContainer should check isRunning() in doStart() method
+2011-09-10T20:24:17Z,CachingConnectionFactory leaks channels when synchronized with a TransactionManager
+2011-08-02T07:14:41Z,"Duplicate ""deleted"" in warning"
+2011-07-28T11:41:56Z,RabbitTemplate's 'reply-to' value used for rpc causes NO_ROUTE errors when server code uses its value as a routing key.
+2011-07-20T13:07:54Z,java.lang.IllegalAccessError trying to produce to a fanout exchange
+2011-07-19T07:53:14Z,Reference guide refers to AbstractRabbitConfiguration
+2011-07-05T13:32:24Z,RabbitAdmin anonymous queue declaration javadocs inconsistent with Queue properties
+2011-05-11T22:48:47Z,spring-rabbit-1.0.0.RC1.jar missing one Import-Package in the MANIFEST.MF
+2011-05-10T05:49:10Z,SimpleMessageListenerContainer should only commit every txSize messages
+2011-05-10T01:58:30Z,The project should not depend on log4j
+2011-04-27T05:23:57Z,AmqpAppender does not die cleanly when webapp shuts down
+2011-04-27T02:00:51Z,Exchange parsers do not handle anonymous queues correctly
+2011-04-26T04:08:33Z,MessageListenerAdapter will fail if the delegate is a proxy
+2011-04-07T13:06:34Z,Out of memory
+2011-04-06T00:46:32Z,SingleConnectionFactory can close the wrong target connection on close
+2011-04-05T07:29:00Z,RabbitAdmin or CachingConnectionFactory should prevent calls to ConnectionListener when physical connection is not opened
+2011-04-04T22:54:24Z,Default number of consumers is 0 on SimpleMessageListenerContainer if afterPropertiesSet() not called
+2011-04-04T11:53:53Z,Samples are missing
+2011-03-28T06:07:36Z,Broker stop then restart: RabbitAdmin fails to re-declare non-durable queues
+2011-03-23T08:32:48Z,Update parsers to be consistent with attirbutes in XSD
+2011-03-23T07:51:21Z,Unreliable lock algorithm in SimpleMessageListenerContainer
+2011-03-22T11:19:26Z,Message.toString() ClasscastException
+2011-03-21T03:43:37Z,RabbitAdmin needs to handle starting up with no broker
+2011-03-15T08:31:54Z,"<listener-container concurrency=""5""/> blows up"
+2011-03-14T08:34:59Z,Add setter for ObjectMapper on JsonMessageConverter
+2011-03-10T10:14:32Z,Tomcat shutdown doesn't wait for consumers in MessageListenerContainer
+2011-02-16T08:57:37Z,AmqpBrokerAdminIntegrationTests failing with new rabbit server (2.3.1)
+2010-12-27T13:26:04Z,spring-amqp app starts before application server
+2010-12-27T13:18:18Z,Runtime exceptions stop listener but leave channel open - provide no output
+2010-12-01T03:19:13Z,java.lang.NullPointerException at org.springframework.amqp.core.Message toString() invocation
+2010-11-12T15:08:41Z,Fix root pom generation in Gradle build
+2010-11-09T06:09:41Z,RabbitTemplate ignores MessageProperties for send(MessageCreator) method
+2010-11-04T09:37:30Z,RabbitTemplate.receive can return null when not transactional
+2010-11-04T08:20:23Z,Message listener container multiple messages per transaction not working
+2010-10-28T15:28:28Z,CachingConnectionFactory should segregate transactional and non-transactional channels
+2010-10-22T12:55:04Z,Provide clearer exception on ACL violation (e.g. new vhost)
+2010-10-22T12:11:54Z,Make RabbitAdmin.deleteQueue() return boolean result
+2010-08-02T14:21:06Z,NullPointerException in Message.toString() method when BasicProperties are sent as null
+2010-07-30T03:13:53Z,bundlor-generated manifest files have ${version} placeholder instead of actual version
+2010-07-26T00:21:13Z,Compile-time dependency upon spring-test in spring-amqp's pom
+2010-07-15T15:49:39Z,hostname property is ignored in ConnectionFactory implementations

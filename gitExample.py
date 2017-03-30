@@ -32,7 +32,7 @@ def commits():
         if(int(r.headers['X-RateLimit-Remaining']) == 0):
             print "No more rate.... generate other access_token..."
             exit()
-        
+
         # While not end, continue
         if(len(commits)==0):
             break
@@ -48,7 +48,7 @@ print json.dumps(commits[0])
 with open('gitExample.csv', 'wb') as csvfile:
     fieldnames = ["date", "name_first_line"]
     writer = csv.DictWriter(csvfile, delimiter=' ',
-        quotechar='\'', quoting=csv.QUOTE_MINIMAL,
+        quotechar='"', quoting=csv.QUOTE_MINIMAL,
         fieldnames=fieldnames)
     writer.writeheader()
 

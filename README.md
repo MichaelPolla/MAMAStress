@@ -20,5 +20,5 @@ For github does not need a token there, but if the limit is reached (60 requests
 For JIRA does not need a token.
 
 ## Examples
-`python jiraExample.py`
-`python gitExample.py [access_token]`
+`python jira_retriever.py`
+`python github_retriever.py [access_token]`

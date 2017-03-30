@@ -1,1232 +1,1232 @@
-date name_first_line
-2017-03-29T21:05:36Z "AMQP-733: @Exchange.durable() to true by default"
-2017-03-29T18:01:51Z "AMQP-731: @RabbitListener support custom exchange"
-2017-03-28T19:55:42Z "AMQP-723: Improve Javadocs for Recovery Exceptions"
-2017-03-28T14:14:30Z "GH-589: Make Jackson2JsonMessageConverter robust"
-2017-03-27T13:57:08Z "Downgrade to SF-5.0 M5"
-2017-03-26T01:01:37Z "Fix JIRA link in docs and a couple typos"
-2017-03-23T00:17:16Z "Upgrade to Hop-1.2.0"
-2017-03-20T13:26:37Z "More MessagePropertiesTests: delay, contentType"
-2017-03-17T18:00:14Z "sync access to DMLC.consumers in scheduled task"
-2017-03-16T20:19:52Z "AMQP-728: Fix Logging Dependencies"
-2017-03-16T19:34:38Z "AMQP-728: Make BrokerRunning More Configurable"
-2017-03-16T15:54:03Z "AMQP-727: RoutingConnectionFactory Fixes"
-2017-03-15T15:35:08Z "Improvements for BindingBuilderTests"
-2017-03-15T01:10:55Z "Remove overridden DMLC methods accepting Queue"
-2017-03-14T16:59:28Z "Use controlled atomic for the `isOpen()` stub"
-2017-03-14T16:51:53Z "Use controlled atomic for the `isOpen()` stub"
-2017-03-14T15:29:16Z "AMQP-724: Fix NPE for rabbit:listener-container"
-2017-03-14T14:40:46Z "Fix tearDown method in testing.adoc code example"
-2017-03-14T13:03:38Z "Update JIRA link in contributing guide."
-2017-03-14T01:31:09Z "AMQP-726: Fix for ChannelProxy; Polishing"
-2017-03-13T18:47:18Z "AMQP-726: Always Cancel Auto Recovering Consumers"
-2017-03-13T16:05:49Z "Minor optimization Message.toString()"
-2017-03-08T19:54:50Z "AMQP-722: Support >1 Routing Keys in @QueueBinding"
-2017-03-08T14:36:38Z "Restrict memory usage for tests on Travis"
-2017-03-06T19:43:04Z "Fix Anonymous queues support in RabbitListener"
-2017-03-06T15:54:04Z "Use shared Base64UrlNamingStrategy.DEFAULT"
-2017-03-06T15:21:01Z "AMQP-720: Drop UniquelyNamedQueue"
-2017-03-02T15:10:31Z "AMQP-719: upgrade to Logback 1.1.11"
-2017-03-01T18:54:45Z "Lockback Appender Doc Polishing"
-2017-03-01T15:47:27Z "AMQP-717: RabbitTemplate Invoke Method"
-2017-02-27T22:45:44Z "AMQP-715: Logback AmqpAppender.includeCallerData"
-2017-02-27T20:27:19Z "CheckStyle: JavaDoc"
-2017-02-27T17:02:24Z "AMQP-716: ExchangeBuilder and Durable"
-2017-02-27T16:37:44Z "AMQP-718: Fix Channel Close During Transaction"
-2017-02-23T21:26:16Z "AMQP-714: Improve MessageProperties.toString()"
-2017-02-21T15:41:28Z "Polish BrokerRunning @Rule"
-2017-02-20T17:44:41Z "Fix Test Race Conditions"
-2017-02-20T14:11:10Z "Update Docs to Reflect the 4.1.0 Client"
-2017-02-20T13:57:08Z "AMQP-713: add channel RPC timeout setting"
-2017-02-20T13:47:10Z "Upgrade RabbitMQ Java Client to 4.1.0"
-2017-02-16T00:02:53Z "AMQP-711: Make Transaction Rollback Consistent"
-2017-02-14T18:29:03Z "AMQP-710: Fix Exception Return From Void Method"
-2017-02-07T22:06:03Z "AMQP-709: Disable Auto Recovery By Default"
-2017-02-07T17:41:42Z "Fix asciidoc markup formatting for inline code"
-2017-02-06T22:10:33Z "AMQP-708: Fix Leaked AutoRecovered Channel"
-2017-02-06T18:31:18Z "AMQP-617: Don't Alias Queue and Exchange Name Attr"
-2017-02-02T21:23:03Z "Upgrade to Hop-1.1.1"
-2017-01-31T22:01:34Z "AMQP-706: Improve DefaultClassMapper Documentation"
-2017-01-31T15:20:02Z "AMQP-705: Use Asser.state Supplier Variant"
-2017-01-31T00:34:28Z "AMQP-705: Properly use `Assert` class from SF"
-2017-01-24T20:43:50Z "AMQP-703: Add Connection Name to Cache Properties"
-2017-01-20T20:23:22Z "AMQP-700: ListenerEndpointRegistry: proper stop"
-2017-01-20T19:20:22Z "AMQP-701: @RabbitListener BPP Performance"
-2017-01-20T15:04:30Z "Doc Copyright 2017"
-2017-01-19T16:08:05Z "AMQP-697: Add CorrelationDataPostProcessor"
-2017-01-17T16:49:32Z "AMQP-699: Suppress Stack Trace in RabbitAdmin"
-2017-01-16T21:30:44Z "AMQP-698: Fix NPE in RabbitManagementTemplate"
-2017-01-13T21:15:00Z "AMQP-697: CorrelationAwareMessagePostProcessor"
-2017-01-12T21:38:29Z "AMQP-696: RabbitManagementTemplate Fix"
-2017-01-11T15:00:21Z "Sonar Fixes"
-2017-01-11T14:20:31Z "AMQP-693: Polishing"
-2017-01-10T23:26:38Z "AMQP-693: AsyncRabbitTemplate TaskScheduler Fixes"
-2017-01-09T21:17:26Z "AMQP-694: Upgrade to Mockito 2.5.4"
-2017-01-04T21:13:06Z "[artifactory-release] Next development version"
-2017-01-04T21:13:02Z "[artifactory-release] Release version 2.0.0.M2"
-2017-01-04T19:22:48Z "Prepare for Milestone Release"
-2017-01-03T19:21:29Z "AMQP-692: Fix MessagingMessageLA missed argument"
-2016-12-30T00:30:51Z "Fix CheckStyle ""Whitespace around"" violation"
-2016-12-30T00:24:39Z "DirectReplyToMLContainerTests race condition"
-2016-12-29T23:26:51Z "Various Test Performance Fixes"
-2016-12-29T17:31:56Z "AMQP-675: Fix RabbitConverterFuture race condition"
-2016-12-23T21:10:01Z "Add logging diagnostic to DirectRToMLContTests"
-2016-12-23T19:24:59Z "AMQP-688: Remove Jackson 1 Support"
-2016-12-23T15:15:45Z "AMQP-691: Detect Missing Logback Layout"
-2016-12-21T14:16:10Z "AMQP-690: Fix Remaining Tests"
-2016-12-20T21:23:27Z "AMQP-690: Fix active consumers race condition"
-2016-12-16T21:54:19Z "AMQP-675: RabbitTemplate - Add Typed Returns"
-2016-12-16T18:32:46Z "AMQP-689: Support skipServerCertificateValidation"
-2016-12-14T16:48:02Z "Fix AmqpAppCtxClosedE race condition in the DMLC"
-2016-12-14T16:24:25Z "AMQP-687: Fix Conditional Rollback"
-2016-12-13T16:06:25Z "Proper Fix for 2c0844ae2a19771e16fdb..."
-2016-12-09T17:44:28Z " Add checkStyle to the `testAl` Gradle task"
-2016-12-09T00:18:28Z "One more catch for `AmqpIOException`"
-2016-12-08T22:48:31Z "Catch `AmqpIOException` for stopping container too"
-2016-12-08T21:02:29Z "AMQP-682: DMLC: Fatal Connection Error"
-2016-12-08T20:49:42Z "AMQP-683: Update javadocs to latest versions"
-2016-12-08T20:49:13Z "AMQP-685: Use Supplier variants of Spring-Framework's core Assert utility"
-2016-12-07T16:39:47Z "BrokerRunning Sonar Fixes"
-2016-12-05T15:01:27Z "Fix Another Test Race Condition"
-2016-12-03T20:30:58Z "Fix Sonar Detected Bad instanceof Check"
-2016-12-03T17:19:52Z "Fix testHardErrorAndReconnectAuto Test"
-2016-12-03T16:14:24Z "Test Diagnostics"
-2016-12-02T20:05:09Z "AMQP-678: Move BrokerRunning @Rule to junit Jar"
-2016-12-01T20:37:39Z "AMQP-680: Avoid allocations from Method.getParameterTypes() in MessagingMessageListenerAdapter"
-2016-11-30T15:49:36Z "[artifactory-release] Next development version"
-2016-11-30T15:49:33Z "[artifactory-release] Release version 2.0.0.M1"
-2016-11-30T15:13:41Z "Upgrade to amqp-client 4.0.0 GA"
-2016-11-30T14:48:56Z "DMLC - Doc Polishing"
-2016-11-29T21:51:49Z "Allow RabbitTemplate Subclasses to Access Replies"
-2016-11-29T17:18:19Z "AMQP-676: @RabbitListener Improvements"
-2016-11-28T15:00:58Z "AMQP-677: RabbitConnectionFactory and 4.0 client"
-2016-11-27T22:10:19Z "Additional Fix for Previous Commit"
-2016-11-26T21:20:54Z "Fix Test Race Condition"
-2016-11-23T17:54:56Z "Checkstyle Polishing"
-2016-11-23T17:39:24Z "Add Test Diagnostics; Log Adjuster Improvements"
-2016-11-19T15:05:06Z "Fix Tests"
-2016-11-18T14:24:18Z "Sonar Fixes"
-2016-11-17T19:45:17Z "AMQP-673: 4.0.0.RC2 Client and auto-recovery"
-2016-11-16T22:53:36Z "AMQP-672: SMLC: Support Start with No Queues"
-2016-11-16T21:42:15Z "AMQP-674: Resolve deprecation in `AmqpAppender`"
-2016-11-16T15:26:35Z "chore: primitive long in ActiveObjectCounter.await()"
-2016-11-13T14:53:13Z "Upgrade to Log4J 2.7 and fix compatibility"
-2016-11-07T21:10:46Z "Upgrade to Hop-1.1.0"
-2016-11-07T13:55:15Z "AMQP-668: Increase Test Latch Timeout"
-2016-11-02T13:18:32Z "Reduce Method Complexity After Lambda Conversion"
-2016-11-01T21:10:37Z "BindingBuilder Private ctors Incomplete Fix"
-2016-11-01T20:32:49Z "Avoid Synthetic ctors"
-2016-11-01T14:51:15Z "AMQP-667: Support 'delayed' on `@Exchange`"
-2016-10-31T16:53:00Z "Fix Race in Test"
-2016-10-28T15:40:42Z "Add `this.template.setReceiveTimeout(20000);`"
-2016-10-28T15:27:15Z "RabbitTemplateIntegrationTests polishing"
-2016-10-28T14:59:19Z "Bump Mockito Version and Polish Tests"
-2016-10-28T14:57:32Z "AMQP-660: MessageConversionException for CNFE"
-2016-10-26T13:51:07Z "AMQP-665: DMLC: Shut Down Scheduler"
-2016-10-24T14:15:52Z "Fix New Sonar Issues"
-2016-10-22T16:25:24Z "Add Test Diagnostics"
-2016-10-21T19:26:03Z "RabbitManagementTemplate for CloudFoundry"
-2016-10-21T18:48:30Z "AMQP-655: RabbitTemplate and DirectReply Container"
-2016-10-21T14:36:14Z "Fix javadoc formatting in class EnableRabbit"
-2016-10-20T14:08:36Z "AMQP-663: Fix Race in Container Test"
-2016-10-19T14:29:08Z "AMQP-661: NPE with null Queue Names in Container"
-2016-10-18T16:03:00Z "Update to amqp-client Version 4.0.0.M2"
-2016-10-17T19:13:16Z "AMQP-659: @RabbitListener Annotation Improvements"
-2016-10-17T16:55:53Z "AMQP-657: Fix `receivedUserId` header mapping"
-2016-10-17T15:12:31Z "AMQP-656: Support Empty Strings in Arguments"
-2016-10-14T17:41:18Z "AMQP-616: Direct ReplyTo Container Race Condition"
-2016-10-13T18:40:04Z "AMQP-655: Phase I - RabbitTemplate Lambda Refactor"
-2016-10-12T20:35:10Z "AMQP-529: Remove pre-2.0 Deprecations"
-2016-10-12T20:02:10Z "AMQP-196: Use RabbitOperations in Gateway Support"
-2016-10-12T19:25:04Z "AMQP-616: Support Direct ReplyTo in Async Template"
-2016-10-10T20:50:03Z "AMQP-652: Use Base64 By Default for Anon. Queues"
-2016-10-10T20:35:23Z "AMQP-654: DMLC: Recover from Broker Interruption"
-2016-10-10T19:09:40Z "AMQP-653: Messaging Template Converter User"
-2016-10-07T14:28:31Z "AMQP-650: AsyncRabbitTemplate Refactoring"
-2016-10-06T22:38:33Z "AMQP-631: Fix mocks test for new method in charge"
-2016-10-06T21:31:09Z "AMQP-651: amqp-client Version Minimum 3.6.5"
-2016-10-06T21:09:16Z "AMQP-631: Add `ConnectionNameStrategy` for `CF`"
-2016-10-06T15:55:37Z "Fix Delay Property Setter Name"
-2016-10-05T18:58:19Z "AMQP-640: DirectMLContainer - Docs and XML Parser"
-2016-10-05T18:42:21Z "AMQP-649: RabbitConnectionFactoryBean Improvements"
-2016-10-04T21:10:03Z "AMQP-647: Eliminate MissingMessageidAdvice"
-2016-09-29T20:08:09Z "DMLC: Fix Race in Consumer Cancel"
-2016-09-29T15:39:55Z "AMQP-645: Remove byte[] Correlation Id"
-2016-09-28T13:56:57Z "AMQP-648: Fix Race in handleCancel (SMLC)"
-2016-09-24T14:18:31Z "Fix Bamboo Badge"
-2016-09-23T16:08:17Z "Fix JavaDocs and add missed property"
-2016-09-23T15:57:32Z "AMQP-639: Add DirectRabbitListenerContainerFactory"
-2016-09-22T21:55:11Z "AMQP-636: Queue Declaration and Recovery"
-2016-09-22T13:23:45Z "Fix Race in DMLC Test"
-2016-09-20T19:49:42Z "DMLC - More Diagnostics"
-2016-09-14T22:32:03Z "AMQP-646: Connection/Channel Listener Improvements"
-2016-09-14T22:12:55Z "AMQP-642: DirecMLContainer Transaction Support"
-2016-09-12T18:46:28Z "AMQP-641: DirectMLContainer Add ErrorHandler"
-2016-09-09T21:37:19Z "AMQP-637 Polishing and Diagnostics"
-2016-09-09T21:15:06Z "AMQP-632: Add RabbitTemplate.getUnconfirmedCount"
-2016-09-09T19:18:16Z "AMQP-638 DirectMessageListenerContainer Events"
-2016-09-09T17:33:27Z "DMLC Test Diagnostics"
-2016-09-09T15:19:15Z "AbstractConnectionFactory: remove obsolete remark in javadoc"
-2016-09-09T15:12:26Z "AMQP-637: Fix Shutdown"
-2016-09-09T12:22:56Z "AMQP-637: DirectMLContainer - Add/Remove Queues"
-2016-09-06T22:14:03Z "AMQP-634: DirectMessageListenerContainer"
-2016-09-02T21:56:03Z "Clean Broker After Running Tests"
-2016-09-02T14:42:56Z "AMQP-644: Non-Fatal Exception Stopped Container"
-2016-09-01T21:00:44Z "AMQP-643: Doc Polishing"
-2016-09-01T14:34:17Z "AMQP-643: Java 8 and Lambdas"
-2016-08-30T14:04:13Z "AMQP-633: Fix What's New"
-2016-08-20T15:06:11Z "AMQP-633: Ensure Resources are Closed"
-2016-08-19T19:07:20Z "AMQP-633: Fix Non-Transactional Template Issue"
-2016-08-15T16:03:57Z "AMQP-624: Add SSL Support to Logging Appenders"
-2016-08-11T14:20:46Z "AMQP-630: Migrate to Log4J2, Part II"
-2016-08-10T14:01:41Z "Update Eclipse Code Formatter File"
-2016-07-28T21:52:31Z "AMQP-630: Move dependency from Log4j to Log4j2"
-2016-07-28T19:53:46Z "AMQP-628: Master to 2.0, SF 5.0"
-2016-07-27T19:13:36Z "AMQP-626: Add keystore\truststore type setters"
-2016-07-26T13:01:11Z "AMQP-625: CCF: Fix onClose Notification"
-2016-07-18T17:34:10Z "[artifactory-release] Next development version"
-2016-07-18T17:34:07Z "[artifactory-release] Release version 1.6.1.RELEASE"
-2016-07-18T17:16:27Z "Upgrade `spring-io-plugin` to 0.0.5"
-2016-07-18T15:49:24Z "Some dependencies minor upgrades"
-2016-07-17T10:16:17Z "AMQP-623: Don't eat errors in AbstractAdaptableML"
-2016-07-17T10:12:54Z "AMQP-618: Add `contentType` note into JSON Docs"
-2016-07-17T09:31:52Z "More Sonar"
-2016-07-17T08:34:07Z "More Sonar"
-2016-07-16T07:49:14Z "AMQP-621: Sonar Fix"
-2016-07-15T16:15:24Z "AMQP-621: Fix Consumer.basicCancel Race Condition"
-2016-07-11T10:27:06Z "AMQP-619: Populate Bean CL Into JSON Converters"
-2016-07-10T09:50:24Z "Fix CLA"
-2016-07-10T09:47:47Z "CLA Hook"
-2016-07-08T23:26:23Z "Fix some typos and tabs in Docs"
-2016-07-06T17:54:57Z "More properties for MessageProperties.toString()"
-2016-06-07T03:59:19Z "Fix Travis Badge"
-2016-06-06T23:52:23Z "Add gitter Badge"
-2016-05-31T17:44:46Z "[artifactory-release] Next development version"
-2016-05-31T17:44:44Z "[artifactory-release] Release version 1.6.0.RELEASE"
-2016-05-31T15:51:51Z "Fix JavaDocs for code vulnerability"
-2016-05-31T15:47:14Z "AMQP-614: Polishing and Add Builder for Exchange"
-2016-05-31T14:39:08Z "AMQP-614: Implement Builder for `Queue` Objects"
-2016-05-26T01:24:42Z "AMQP-612: RabbitTemplate UserId Expression"
-2016-05-23T13:59:53Z "RabbitTemplateIntegrationTests: fix timing issue"
-2016-05-19T13:34:26Z "AMQP-611: Upgrade to Log4J2-2.5"
-2016-05-17T20:57:34Z "Fix wrong format in JavaDocs #2"
-2016-05-17T20:48:26Z "Fix wrong format in JavaDocs"
-2016-05-17T20:36:25Z "GH-420: AcknowledgeMode JavaDocs"
-2016-05-11T18:10:09Z "Doc Improvement"
-2016-05-07T13:58:26Z "Sonar Fix"
-2016-05-06T17:55:19Z "[artifactory-release] Next development version"
-2016-05-06T17:55:16Z "[artifactory-release] Release version 1.6.0.RC1"
-2016-05-06T14:41:52Z "AMQP-609: Add 'internal' to @Exhange"
-2016-05-05T18:59:51Z "AMQP-607: Don't Adjust Channel Cache Size"
-2016-05-05T16:20:11Z "AMQP-572: Always commit only in `afterCompletion`"
-2016-05-04T19:24:58Z "Fix `RabbitAdminDeclarationTests` for whitespace"
-2016-05-04T18:57:39Z "AMQP-602: Add `Exchange` `internal` Option"
-2016-05-04T18:53:22Z "AMQP-606: Increase Default Channel Cache Size"
-2016-05-02T21:16:23Z "Upgrade to Gradle 2.13 and Travis optimizations"
-2016-05-02T20:55:37Z "AMQP-605: Expose RabbitMQ ClientProperties"
-2016-05-02T18:23:59Z "AMQP-603: Fix Member variable visibility"
-2016-05-01T17:28:11Z "Reduce resolveArguments Complexity"
-2016-04-30T13:48:03Z "More Refactoring"
-2016-04-29T18:51:50Z "Reduce Method Complexity"
-2016-04-27T20:20:14Z "AMQP-604: @QueueBinding: Support Arguments"
-2016-04-20T18:38:03Z "AMQP-599: Log Appenders - Add addresses Property"
-2016-04-15T19:29:38Z "AMQP-598: Admin: Ignore Scoped and Prototype Beans"
-2016-04-11T15:02:34Z "AMQP-597: Document MetaAnnotations"
-2016-04-07T14:06:26Z "Use Gradle's file() method to resolve file path"
-2016-04-07T14:06:07Z "Fix build task dependencies"
-2016-04-07T07:42:37Z "Fix namespace mapping (META-INF/spring.schemas)"
-2016-04-05T17:16:55Z "checkstyle FinalClass"
-2016-04-01T16:56:41Z "AMQP-595: Fix Auto-Startup for @RabbitListener"
-2016-03-29T16:46:25Z "AMQP-591: Fix Permit Release on Factory Destroy"
-2016-03-24T19:44:07Z "[artifactory-release] Next development version"
-2016-03-24T19:44:03Z "[artifactory-release] Release version 1.6.0.M2"
-2016-03-24T19:01:17Z "Apply `RedundantModifier` checkstyle and fix"
-2016-03-24T19:00:07Z "AMQP-594: Fix for `@RabbitListener` When CGLIB"
-2016-03-23T21:07:06Z "AMQP-592: CCF factory-timeout and connection-limit"
-2016-03-23T16:09:15Z "AMQP-593: Doc Polishing"
-2016-03-23T16:07:12Z "AMQP-591: Fix Channel Cache (with Permits)"
-2016-03-22T15:44:52Z "Get rid of Java 8 usage from core code"
-2016-03-22T15:35:37Z "AMQP-579: @SendTo - Support Runtime SpEL"
-2016-03-21T18:38:04Z "AMQP-583: Fatal @RabbitListener Exceptions"
-2016-03-21T16:32:33Z "AMQP-549: @RabbitListener Inferred Conversion Type"
-2016-03-17T17:16:06Z "AMQP-571: Fix dead stores - squid:S1854"
-2016-03-16T12:52:45Z "Sonar Fix"
-2016-03-15T20:56:10Z "AMQP-590: Java Deserialization White List"
-2016-03-15T17:25:56Z "Enable 'this.' Rule"
-2016-03-14T23:18:03Z "AMQP-589: Inbound Delivery Mode Mapping"
-2016-03-14T13:03:58Z "Fix Test Race Condition"
-2016-03-09T15:53:24Z "AMQP-581: More Cache Stats (High Water Marks)"
-2016-03-09T14:28:36Z "Fix New Sonar Errors"
-2016-03-08T21:03:16Z "Fix Tangles"
-2016-03-07T20:51:16Z "Add `fixHeaders.gradle` and apply the fix"
-2016-03-06T15:14:04Z "AsyncTemplate: Fix Sonar Violation"
-2016-03-05T20:02:11Z "Fix Race Condition in AsyncRabbitTemplateTests"
-2016-03-04T23:13:51Z "Checkstyle Phase II - Fix Java File Headers"
-2016-03-04T22:02:34Z "Checkstyle Phase I - NewLines at EOF"
-2016-03-04T21:14:34Z "AMQP-585: Add receiveTimeout to Async Template"
-2016-03-02T17:18:37Z "AMQP-539: Expose Async Template Message Converter"
-2016-03-02T17:11:46Z "AMQP-539: Expose Async Template Connection Factory"
-2016-02-29T21:58:06Z "AMQP-582: Compatibility with SF-4.3"
-2016-02-27T03:05:48Z "AMQP-580: Add Bean Name to Default Task Executor"
-2016-02-27T03:01:33Z "AMQP-581: Expose Caching CF Cache Statistics"
-2016-02-24T23:11:03Z "Make getSpy method visible to other packages."
-2016-02-24T23:10:39Z "Move CountDown to After Target Method Call"
-2016-02-12T20:04:51Z "[artifactory-release] Next development version"
-2016-02-12T20:04:42Z "[artifactory-release] Release version 1.6.0.M1"
-2016-02-12T18:09:02Z "AMQP-569: Support Delayed Message Exchange Plugin"
-2016-02-12T16:35:11Z "AMQP-547 Fix typo in ContTypeDelegatingMC methods"
-2016-02-12T14:39:25Z "AMQP-570: Fix MimeType in SimpleAmqpHeaderMapper"
-2016-02-12T14:37:44Z "AMQP-574: Document @RabbitListener Conversion"
-2016-02-08T18:41:34Z "AMQP-568: Long LongString Header Handling"
-2016-02-05T22:44:39Z "README Typo"
-2016-02-03T22:03:58Z "AMQP-531: Log4j2 AmqpAppender"
-2016-02-03T21:30:42Z "AMQP-557: @Repeatable @RabbitListener"
-2016-02-02T18:06:00Z "AMQP-548, AMQP-567: Admin Declaration Failures"
-2016-02-02T15:38:35Z "Add Contributor Covenant"
-2016-01-28T15:07:31Z "AMQP-566: Add String Version of CorrelationId"
-2016-01-28T15:03:34Z "Exclude with modules to meet IO requirements"
-2016-01-27T21:54:32Z "AMQP-539: Add AsyncRabbitTemplate"
-2016-01-27T18:33:30Z "AMQP-559: Fix Pre-Java8 Compliance"
-2016-01-27T18:01:44Z "AMQP-559: Remove Lambdas for IO Compat. Build"
-2016-01-26T22:09:37Z "AMQP-565: Fix NPE in RabbitAdmin"
-2016-01-26T22:03:14Z "AMQP-559: @RabbitListener Test Harness"
-2016-01-25T20:15:58Z "AMQP-564: Fix Confirm Callback Nacks"
-2016-01-25T17:24:48Z "AMQP-535: PublisherCallbackChannel Improvements"
-2016-01-25T16:37:01Z "AMQP-563: Support Explicit Temporary Reply Queue"
-2016-01-20T23:21:17Z "AMQP-562: Check for Queue Declaration Mismatches"
-2016-01-19T16:19:14Z "AMQP-537: RabbitTemplate: receive() with Timeout"
-2016-01-15T23:45:09Z "AMPQ-554: Namespace Additions"
-2016-01-15T17:25:01Z "AMQP-561: Log Appender Exchange Declaration"
-2016-01-13T15:03:09Z "Move 3.6 Client Test to Separate Class"
-2016-01-08T15:50:11Z "AMQP-560: Add BrokerRunning to Test; Doc Polish"
-2016-01-07T21:12:48Z "AMQP-560: Idle Container Events"
-2016-01-05T17:12:55Z "Reference Copyright -> 2016"
-2015-12-29T18:17:39Z "Revert SF-4.2.4 API usage"
-2015-12-28T22:36:27Z "AMQP-558: amqp-client 3.6.0"
-2015-12-24T17:04:06Z "SO34454159: Test Showing Proxying a RabbitListener"
-2015-12-23T17:22:11Z spring-schemas
-2015-12-23T17:21:06Z "Master is Now 1.6.x"
-2015-12-23T16:33:14Z "AMQP-558: amqp-client 3.5.7 + 3.6.0 Compatibility"
-2015-12-18T17:13:13Z "AMQP-556: NPE in SMLC After Shutdown Timeout"
-2015-12-12T01:41:34Z "AMQP-555: AnonymousQueue Naming Strategy"
-2015-12-11T19:48:40Z "Fix some race conditions around mocks"
-2015-12-05T16:43:55Z "Code Polishing (Sonar)"
-2015-12-03T22:14:03Z "AMQP-553: Allow CF ThreadFactory Injection"
-2015-12-03T21:48:25Z "AMQP-551: Use doReturn() for Spied Loggers"
-2015-12-01T19:36:33Z "AMQP-552: Support @RabbitListener on Interfaces"
-2015-12-01T19:05:21Z "Test Polishing"
-2015-12-01T18:51:34Z "@EnableRabbitIntegrationTests Improvements"
-2015-11-30T19:58:15Z "AMQP-551: Fix Mockito Usage in Failover Tests"
-2015-11-22T15:27:20Z "Fix Doc Typos"
-2015-11-19T18:38:35Z "Doc Fix and Polishing"
-2015-11-18T15:51:08Z "AMQP-546: Add SmartLifecycle to Caching Conn Fact"
-2015-11-13T19:31:47Z "[artifactory-release] Next development version"
-2015-11-13T19:31:42Z "[artifactory-release] Release version 1.5.2.RELEASE"
-2015-11-13T19:10:28Z "Update Spring and RabbitMQ Client Versions"
-2015-11-13T18:40:51Z "AMQP-479: XA compatibility for RabbitResourceSync"
-2015-11-10T01:12:35Z "AMQP-541: Fix @RabbitListener Proxy Param Match"
-2015-11-02T17:50:33Z "AMQP-544: API to Obtain @RabbitListener ids"
-2015-11-02T16:12:51Z "@RabbitListener Doc Improvement"
-2015-10-19T19:30:01Z "Fix x-expires Test Case"
-2015-10-19T17:14:46Z "AMQP-542: @SendTo with Class Level @RabbitListener"
-2015-10-09T21:39:31Z "AMQP-540: Fix @RabbitHandler on Proxy"
-2015-10-02T15:54:21Z "[artifactory-release] Next development version"
-2015-10-02T15:54:17Z "[artifactory-release] Release version 1.5.1.RELEASE"
-2015-10-02T15:37:59Z "Update RabbitMQ Client to 3.5.5"
-2015-09-11T20:03:28Z "AMQP-532: Fix Pub.Conf. Nacks on close()"
-2015-09-09T16:56:48Z "[artifactory-release] Next development version"
-2015-09-09T16:56:43Z "[artifactory-release] Release version 1.5.0.RELEASE"
-2015-09-09T16:46:17Z "Build: Make proper exclude for IO compatibility"
-2015-09-09T15:46:39Z "AMQP-532: Pub.Conf. Concurrency"
-2015-09-08T20:05:12Z "AMQP-533: @RabbitListener SpEL Multiple Queues"
-2015-09-08T15:37:08Z "AMQP-534: Fix Package Tangle"
-2015-09-04T15:46:16Z "AMQP-525: Fix Single & in if Statement"
-2015-09-03T18:43:25Z "AMQP-525: Blocking receiveAndReply()"
-2015-09-02T00:03:11Z "Remove redundant Parsers field and test around it"
-2015-09-01T23:41:45Z "AMQP-528: `group` attribute on Listener Container"
-2015-09-01T21:14:45Z "AMQP-530: Log4j 1.x Deprecation"
-2015-08-31T19:38:03Z "AMQP-524: Publisher CF Extract Interface"
-2015-08-31T12:44:53Z "AMQP-527: Address: `equals()` and `hashCode()`"
-2015-08-13T23:01:10Z "[artifactory-release] Next development version"
-2015-08-13T23:01:05Z "[artifactory-release] Release version 1.5.0.RC1"
-2015-08-13T20:56:54Z "Update SF, rabbit amqp and http Client Versions"
-2015-08-12T22:55:44Z "AMQP-521: LocalizedQueueConnectionFactory"
-2015-08-12T20:37:22Z "AMQP-523: Fix Class Tangle"
-2015-08-12T13:04:49Z "AMQP-522: Make RabbitAdmin Constants Public"
-2015-08-10T20:32:29Z "AMQP-520: MessageListenerAdapter Method Map"
-2015-08-08T19:36:36Z "AMQP-519: Shut Down Deferred Close Executor"
-2015-08-07T17:27:27Z "AMQP-518: Remove <listener-container/> id Attrib."
-2015-08-07T16:23:33Z "AMQP-517: Add resetConnection()"
-2015-08-06T13:42:01Z "AMQP-516: Fix Auto-Declare Anonymous Queue"
-2015-08-01T13:52:37Z "AMQP-515: More Sonar Fixes"
-2015-07-31T17:15:29Z "AMQP-449: Verify Reply Container Configuration"
-2015-07-29T16:05:15Z "AMQP-515: Eliminate new Sonar Critical Violations"
-2015-07-23T22:01:25Z "AMQP-513: Update to Gradle 2.5"
-2015-07-23T18:36:06Z "AMQP-512: Delete Test Queues; Close Connections"
-2015-07-21T17:28:42Z "AMQP-511: Support SpEL in @SendTo"
-2015-07-08T09:03:12Z "Use the latest version of the Spring IO Plugin"
-2015-06-29T21:02:37Z "AMQP-507: Add AmqpMessageReturnedException"
-2015-06-29T17:11:38Z "AMQP-499: Make WARN Log Configurable"
-2015-06-29T16:28:14Z "AMQP-509: Add Consumer Failure Events"
-2015-06-29T15:55:42Z "AMQP-508: Queue Declaration IllegalArgumentExcept."
-2015-06-26T21:52:29Z "AMQP-506: Publisher Confirms Concurrency"
-2015-06-25T13:12:06Z "AMQP-505: Add setUri() method to ConnectionFactory"
-2015-06-24T19:38:38Z "AMQP-504: Update to RabbitMQ 3.5.3 Client"
-2015-06-24T19:22:22Z "AMQP-503: Add Blocking Receive to RabbitTemplate"
-2015-06-24T19:20:04Z "AMQP-497: Declare Collection<Declarable> elements"
-2015-06-24T16:21:34Z "AMQP-499: Improve Channel Close Logging"
-2015-06-19T18:04:07Z "AMQP-502: Fix Fanout @Binding Declaration"
-2015-06-02T14:32:32Z "AMQP-501: Docs for ConsumerTagStrategy"
-2015-05-29T18:20:49Z "AMQP-500: Configurable SSL Algo, No Properties"
-2015-05-12T09:01:42Z "AMQP-498: Adjust Consumers With ChannelTransacted"
-2015-05-11T18:11:30Z "AMQP-496: CCF: Do Not Connect After AC Close"
-2015-05-07T15:47:36Z "[artifactory-release] Next development version"
-2015-05-07T15:47:32Z "[artifactory-release] Release version 1.5.0.M1"
-2015-05-07T14:26:40Z "What's New Documentation Polishing"
-2015-05-07T13:58:28Z "AMQP-427: Add `BackOff` for Listener Container"
-2015-05-07T11:34:41Z "AMQP-444: Fix Package Tangle"
-2015-05-06T18:15:04Z "Reference Polishing"
-2015-05-06T17:59:38Z "Fix Doc: What's New Header"
-2015-05-06T15:17:41Z "AMQP-495: Remove spring-erlang"
-2015-05-06T13:40:06Z "AMQP-481: Register `@RabbitListener` for `@Lazy`"
-2015-05-01T09:35:25Z "AMQP-494: Extract RoutingConnectionFactory Iface"
-2015-04-30T20:30:09Z "AMQP-444: Multi-Method @RabbitListener"
-2015-04-30T11:13:33Z "AMQP-473: RabbitManagementTemplate"
-2015-04-30T09:37:14Z "AMQP-416: Deprecate id on <listener-container/>"
-2015-04-27T15:48:38Z "AMQP-443: Auto-Declare @RabbitListener Queues"
-2015-04-27T15:44:35Z "AMQP-492: Enhance Timeout Exception (RPC)"
-2015-04-27T15:06:53Z "AMQP-455: Pub. Confirms with Send and Receive"
-2015-04-27T15:03:06Z "AMQP-450: Support Reply Routing via Exchange"
-2015-04-27T14:23:37Z "AMQP-493: Add Consumer Tag Naming Strategy"
-2015-04-23T13:08:33Z "AMQP-139: Expose isTransactional() on Channel"
-2015-04-22T17:33:17Z "AMQP-490: Suppress ERROR on Normal Close"
-2015-04-22T17:17:30Z "AMQP-462: Batching and Compression Docs"
-2015-04-09T16:01:33Z "AMQP-489: Enhanced RepublishMessageRecoverer"
-2015-04-07T09:19:21Z "Fixed 1.5 line in spring.schemas"
-2015-04-03T17:29:32Z "Add ""Real"" Routing Connection Factory Test"
-2015-04-03T16:35:41Z "AMQP-467: INFO Log When Connection is Opened"
-2015-04-03T10:36:47Z "AMQP-487: Fix NPE in the CachingConnectionFactory"
-2015-03-19T21:17:08Z "AMQP-486: Fix Version in QuickStart"
-2015-03-19T07:22:47Z "AMQP-486 Convert from DocBook to AsciiDoc"
-2015-03-17T10:36:23Z "AMQP-485: Fix `SimpleMessageLContainer` JavaDoc"
-2015-03-16T18:54:37Z "AMQP-484: Selectable SSL Algo"
-2015-03-04T19:19:05Z "AMQP-482: Make LongString Limit Configurable"
-2015-02-16T13:53:17Z "AMQP-477: Update to Gradle 2.3"
-2015-02-10T19:26:21Z "AMQP-475: Minor Polishing"
-2015-02-10T09:45:22Z "AMQP-476: Fix Package Tangle"
-2015-02-09T20:42:44Z "AMQP-474:Log Appenders appId Replacement Once Only"
-2015-02-09T08:54:18Z "AMQP-475: Don't Catch Throwable"
-2015-02-06T20:20:21Z "AMQP-474: Fix Log Appenders"
-2015-01-30T21:05:22Z "AMQP-469 Introduce `Connection#sendAndReceiveRPC`"
-2015-01-30T17:17:50Z "AMQP-472: Namespace for Declaration Retries"
-2015-01-30T16:01:27Z "AMQP-472: Recover From Conn. Close During Init"
-2015-01-29T11:06:11Z "Optimization for `DeclarationException`"
-2015-01-28T14:48:09Z "AMQP-470 Make `basicQos` IOException non-fatal"
-2015-01-12T16:09:44Z "AMQP-466: Reinstate and Deprecate Constant"
-2015-01-10T18:37:11Z "AMQP-466: Move Direct reply-to Decoding to Address"
-2015-01-08T19:42:56Z "AMQP-447 Ignore empty string passsed to AbstractConnectionFactory.setAddresses()"
-2015-01-08T19:35:59Z "Add 1.5 Schema"
-2015-01-08T18:09:10Z "Update master to 1.5.0.BUILD-SNAPSHOT"
-2015-01-08T16:04:28Z "[artifactory-release] Next development version"
-2015-01-08T16:04:18Z "[artifactory-release] Release version 1.4.2.RELEASE"
-2015-01-08T15:53:46Z "AMQP-138: Add `What's New` about ContentTypeMC"
-2015-01-08T14:40:29Z "AMQP-138: Add Content-Type Message Converter"
-2015-01-05T19:45:25Z "AMQP-463: Fix Publisher Confirms with JRockit"
-2015-01-05T15:41:45Z "AMQP-457: ListenerContainer Provide Consumer Queue"
-2015-01-05T13:55:18Z "AMQP-459: Add Channel Limit Option to CCF"
-2014-12-26T17:34:20Z "Fix CCF Javadocs For CacheMode.CONNECTION"
-2014-12-23T19:37:53Z "AMQP-458 Fix Typo in `amq.rabbitmq.reply-to`"
-2014-12-20T21:26:30Z "[artifactory-release] Next development version"
-2014-12-20T21:26:20Z "[artifactory-release] Release version 1.4.2.M2"
-2014-12-20T21:15:20Z "XD-2079: Classloader for ContainerDelegate"
-2014-12-18T20:15:45Z "[artifactory-release] Next development version"
-2014-12-18T20:15:33Z "[artifactory-release] Release version 1.4.2.M1"
-2014-12-18T17:41:27Z "AMQP-451: Change Release to Return Collection"
-2014-12-18T15:56:36Z "AMQP-456: Don't ERROR Log For Passive Declare"
-2014-12-17T23:29:42Z "AMQP-453: NPE if no ContentEncoding Property"
-2014-12-17T22:33:57Z "AMQP-453: Support Compression"
-2014-12-12T17:58:00Z "[artifactory-release] Next development version"
-2014-12-12T17:57:48Z "[artifactory-release] Release version 1.4.1.RELEASE"
-2014-12-12T16:19:44Z "AMQP-451: Support Flushing Batch"
-2014-12-11T23:15:06Z "AMQP-451 Override 4 Argument send() (Batching)"
-2014-12-11T19:34:42Z "Dump Default SF to 4.1.3; amqp-client to 3.4.2"
-2014-12-11T17:55:34Z "AMQP-452: PRC: RemoteInvocResult for exceptions"
-2014-12-11T17:16:29Z "AMQP-446 Reduce Logs for Temporary Declarations"
-2014-12-11T11:07:43Z "AMQP-451 Batching RabbitTemplate"
-2014-12-08T17:15:07Z "AMQP-448 Support 3.4.x Direct reply-to"
-2014-12-01T15:22:38Z "AMQP-445: Move build to Java 8"
-2014-11-13T18:15:32Z "Fix Test Timing Issues"
-2014-11-11T14:48:26Z "[artifactory-release] Next development version"
-2014-11-11T14:48:16Z "[artifactory-release] Release version 1.4.0.RELEASE"
-2014-11-11T13:14:51Z "AMQP-437: Update Spring, RabbitMQ Versions"
-2014-11-10T14:36:04Z "AMQP-439: RabbitListener.queues: add SpEL support"
-2014-10-31T10:26:30Z "AMQP-438: Fix `MessagingMessageListenerAdapter`"
-2014-10-23T18:19:18Z "[artifactory-release] Next development version"
-2014-10-23T18:19:07Z "[artifactory-release] Release version 1.4.0.RC1"
-2014-10-23T15:38:44Z "AMQP-411 Document Listener Container Threading"
-2014-10-23T09:00:54Z "AMQP-435 RabbitMQ Client 3.4.x Compatibility"
-2014-10-23T08:40:40Z "AMQP-426 SMLC: Support Routing Connection Factory"
-2014-10-22T21:14:55Z "AMQP-434 Make MessageConv.Ex. an AmqpException"
-2014-10-21T16:09:50Z "AMQP-431: Add `RabbitTemplate.recoveryCallback`"
-2014-10-20T13:12:27Z "AMQP-430 Fix Package Tangle"
-2014-10-17T18:07:33Z "AMQP-432: Properly convert BasicProperties values to and from"
-2014-10-16T13:09:38Z "AMQP-428: Add Logback `AmqpAppender`"
-2014-10-15T17:45:10Z "AMQP-406: Add RoutingCF to the RabbitTemplate"
-2014-10-13T20:38:10Z "AMQP-429: Change `@SendTo` Logic to `Address`"
-2014-10-13T15:12:52Z "AMQP-422 PublisherCallbackChannel: Postpone Close"
-2014-10-08T07:45:40Z "AMQP-425 Add @RabbitListener Documentation"
-2014-10-03T08:10:09Z "AMQP-273: mandatoryExpression for RabbitTemplate"
-2014-10-01T10:04:19Z "AMQP-407 Redeclare AMQP Objects if Missing"
-2014-09-26T13:05:03Z "AMQP-388 Issue basicCancel from container on stop"
-2014-09-26T09:16:29Z "AMQP-391 Expose 'connection-timeout' on Namespace"
-2014-09-04T19:55:21Z "Update Spring Retry to 1.1.1"
-2014-09-04T19:19:28Z "[artifactory-release] Next development version"
-2014-09-04T19:19:25Z "[artifactory-release] Release version 1.4.0.M1"
-2014-09-04T18:57:55Z "AMQP-426 Refactor MessagingMessageListnerAdapter"
-2014-09-04T13:31:12Z "Update to SF 4.1; Fix Javadocs"
-2014-09-03T23:19:33Z "AMQP-351 AMQP-379 Stop Container when Fatal Errors"
-2014-09-03T15:37:28Z "Add RabbitMessagingTemplate"
-2014-09-02T19:30:07Z "AMQP-423, AMQP-399 AmqpAppender Enhancements"
-2014-09-02T16:16:54Z "AMQP-424 PlaceHolder Resolution in @RabbitListener"
-2014-08-27T16:07:43Z "AmqpHeaders: add `PUBLISH_CONFIRM_NACK_CAUSE`"
-2014-08-22T13:59:11Z "Fix spring-schemas"
-2014-08-22T13:50:54Z "AMQP-414: Annotation-driven Endpoints Schema"
-2014-08-21T13:52:06Z "Update master Version to 1.4.0.BUILD-SNAPSHOT"
-2014-08-18T08:07:33Z "AMQP-417 Fix Failing Test"
-2014-08-14T12:30:41Z "AMQP-417 CoExist With AutoRecoveryEnabled"
-2014-08-12T14:08:45Z "AMQP-421: Fix Memory Leak with Publisher Confirms"
-2014-08-11T14:58:34Z "AMQP-414: Rabbit annotation-driven endpoints"
-2014-07-23T05:58:18Z "AMQP-413 Add RabbitConnectionFactoryBean for SSL"
-2014-07-22T16:15:48Z "AMQP-408 channelTransacted=true when txManager"
-2014-07-11T08:03:14Z "AMQP-409 Allow Late Replies to go to a DLQ"
-2014-07-02T14:08:59Z "Fix Occasional Failing Test"
-2014-06-27T17:55:36Z "Update Spring Framework, RabbitMQ Client Versions"
-2014-06-27T16:32:48Z "Fix Test Timing; Reduce Test Log Size"
-2014-06-27T15:07:25Z "AMQP-405: Improve `AbstractRoutingConnectionFactory`"
-2014-06-24T13:17:21Z "AMQP-403 Add Cause to Nack Callback"
-2014-06-23T21:17:11Z "AMQP-402 Fix Error Log on Normal Channel Close"
-2014-06-21T16:29:09Z "AMQP-402 Log When Broker Closes Channel"
-2014-06-20T19:56:37Z "AMQP-400 Add 'missing-queue-fatal' Attribute"
-2014-06-20T17:41:32Z "Master is Now 1.4"
-2014-06-18T22:44:36Z "AMQP-220 Fix Docs Re: Sync Consumer"
-2014-06-18T22:01:54Z "AMQP-398: Fix SpEL for `Queue` bean resolution"
-2014-06-18T21:10:50Z "AMQP-400 Fix Docbook Typo"
-2014-06-18T20:40:45Z "AMQP-400 Optionally Recover From Missing Queue(s)"
-2014-06-18T15:08:30Z "AMQP-397 Explicit 'localhost' For All Tests"
-2014-05-29T17:37:55Z "[artifactory-release] Next development version"
-2014-05-29T17:37:50Z "[artifactory-release] Release version 1.3.4.RELEASE"
-2014-05-29T17:08:50Z "AMQP-396: set QOS even if queueDeclare fails"
-2014-05-29T16:44:41Z "AMQP-395 Restore Exception Logging"
-2014-05-16T20:32:18Z "AMQP-395 Log Warn When Retries Exhausted"
-2014-05-14T13:26:47Z "[artifactory-release] Next development version"
-2014-05-14T13:26:43Z "[artifactory-release] Release version 1.3.3.RELEASE"
-2014-05-14T11:26:22Z "Add the Spring IO plugin"
-2014-05-13T15:45:44Z "AMQP-392 Update to spring-retry 1.1.0"
-2014-05-10T07:22:17Z "AMQP-394 Support Rabbit 3.3.x Client"
-2014-04-30T12:46:22Z "Fix iAnother Typo in Routing CF Docbook"
-2014-04-30T12:36:50Z "Fix Typo in Routing CF Docbook"
-2014-04-24T20:43:00Z "[artifactory-release] Next development version"
-2014-04-24T20:42:56Z "[artifactory-release] Release version 1.3.2.RELEASE"
-2014-04-21T18:52:18Z "AMQP-390 Add ConditionalRejectingErrorHandler"
-2014-04-02T18:50:14Z "Polish RabbitAdminTests"
-2014-04-02T13:30:58Z "Remove overlapping test dependencies"
-2014-03-31T22:27:17Z "Prevent Travis from Emitting ANSI CTRL Chars"
-2014-03-31T21:06:27Z "Rename .travis.yml"
-2014-03-31T19:39:04Z "Add travis.yml"
-2014-03-30T14:29:00Z "[artifactory-release] Next development version"
-2014-03-30T14:28:55Z "[artifactory-release] Release version 1.3.1.RELEASE"
-2014-03-30T14:15:04Z "AMQP-387 Fix spring-retry Dependency"
-2014-03-29T19:54:04Z "Fix Dockbook Typo"
-2014-03-29T18:57:32Z "Docbook Polish"
-2014-03-27T21:16:13Z "[artifactory-release] Next development version"
-2014-03-27T21:16:09Z "[artifactory-release] Release version 1.3.0.RELEASE"
-2014-03-27T13:20:15Z "Add Bamboo Build Status to README"
-2014-03-26T21:36:00Z "AMQP-385 ErrorHandler and AmqpRejectAndDontRequeue"
-2014-03-23T14:12:53Z "Fix Test Timing Problem"
-2014-03-13T14:39:19Z "AMQP-384 Fix Test"
-2014-03-12T13:16:53Z "Upgrade Jackson 2 to 2.3.2 version"
-2014-03-09T15:41:41Z "AMQP-383 Polishing - Conditional Declaration"
-2014-03-08T16:21:27Z "AMQP-383 Fix Auto-Delete Queue Redeclaration"
-2014-03-07T16:49:54Z "[artifactory-release] Next development version"
-2014-03-07T16:49:47Z "[artifactory-release] Release version 1.3.0.RC1"
-2014-03-05T23:19:45Z "AMQP-382 Update Rabbit Client to 3.2.4"
-2014-03-04T14:01:14Z "AMQP-381 Add Retry to RabbitTemplate"
-2014-03-03T09:15:27Z "AMQP-360 Update Versions; Align with SI/SF 4"
-2014-03-03T09:10:45Z "AMQP-205 Retry Interceptor Builder API"
-2014-02-27T16:34:59Z "AMQP-378 Support Bulk Queue Changes"
-2014-02-27T16:29:25Z "AMQP-375 Doc Fixes"
-2014-02-26T16:29:42Z "Add Explict spring-context Dep. to spring-rabbit"
-2014-02-26T16:26:19Z "AMQP-377: SMLC: Fix Consumers Map Race Condition"
-2014-02-15T14:18:26Z "AMQP-374 Add BrokerRunning Rule to Test"
-2014-02-09T19:14:51Z "AMQP-374 Test and Doc Example for Request Reply"
-2014-02-09T18:57:43Z "AMQP-316 Support Exclusive Consumer"
-2014-02-08T14:53:29Z "AMQP-373 Support Listen on auto-delete Queues"
-2014-02-07T16:51:55Z "AMQP-312/372 Listener Container Queue Improvements"
-2014-02-05T19:35:12Z "AMQP-357 Documentation About Client Thread Pool"
-2014-02-04T21:07:02Z "Update Reference Copyright (2014)"
-2014-02-04T14:05:14Z "AMQP-371 Fix Visibility of MessageBuilderSupport"
-2014-01-30T21:40:47Z "[artifactory-release] Next development version"
-2014-01-30T21:40:42Z "[artifactory-release] Release version 1.3.0.M2"
-2014-01-30T21:06:03Z "AMQP-369: Fix AmqpAdmin-Declarable Class Tangle"
-2014-01-30T20:18:45Z "AMQP-370 Add Rule to Container Test"
-2014-01-30T19:55:21Z "AMQP-358: Cache CachedConnection's First Channel"
-2014-01-29T18:01:23Z "AMQP-368 Support Variable Spring Versions"
-2014-01-28T16:30:02Z "AMQP-367: Add `removeConnectionListener`"
-2014-01-27T17:12:47Z "AMQP-366 StackTrace for ConsumerCancelledException"
-2014-01-27T08:23:44Z "AMQP-365 Fix Test Race Condition; Polish Shutdown"
-2014-01-24T19:31:20Z "AMQP-363: Fix `ignoresThrowable` for AmqpAppender"
-2014-01-23T15:57:23Z "AMQP-364 Revert Long MesageProperties to long"
-2014-01-15T20:01:10Z "AMQP-361 Fix Javadocs for JDK8"
-2014-01-14T17:47:47Z "AMQP-359: Reset amqp-log4j to default after test"
-2014-01-14T16:43:10Z "master: Build: -Dlog4j.debug=true to check on CI"
-2014-01-13T17:54:03Z "AMQP-356 Reduce Test Log Levels"
-2014-01-10T19:12:07Z "AMQP-306 Doc Fixes"
-2014-01-10T17:43:33Z "[artifactory-release] Next development version"
-2014-01-10T17:43:28Z "[artifactory-release] Release version 1.3.0.M1"
-2014-01-10T15:59:56Z "Polishing What's New in 1.3 Section"
-2014-01-10T12:11:09Z "AMQP-116 Add Paragraph on Tracer"
-2014-01-10T12:09:56Z "AMQP-39 Add AMQP MessageBuilder"
-2014-01-09T16:27:45Z "AMQP-45: Add Routing ConnectionFactory"
-2014-01-08T15:48:42Z "AMQP-162 Fix ExchangeParser for binding-arguments"
-2014-01-06T17:13:21Z "AMQP-353: Remove Deprecate API"
-2014-01-06T17:10:54Z "AMQP-77 Support Multiple Connections with CCF"
-2014-01-05T20:11:59Z "AMQP-72 Fix Race Condition in New Test"
-2014-01-05T18:58:37Z "AMQP-72: Add AmqpTemplate#receiveAndReply Methods"
-2014-01-04T15:23:15Z "AMQP-355 Fix Race Condition in Tests"
-2014-01-03T16:34:58Z "AMQP-230: DirectExchange: Allow Omit `key` Attr"
-2013-12-22T17:24:56Z "AMQP-347 Fix Connection Shutdown Test"
-2013-12-21T17:41:14Z "AMQP-347-2: Remove aborted=true on ShutdownSignal"
-2013-12-19T19:07:37Z "AMQP-346 Polish Docs - Message Rejection"
-2013-12-19T18:02:10Z "AMQP-347: Restore Logs for Non-Normal Shutdown"
-2013-12-19T17:30:17Z "AMQP-350 1.3 Schema"
-2013-12-19T16:59:17Z "AMQP-345: Allow Broker Queue Name Generation"
-2013-12-19T16:57:03Z "AMQP-347: SMLC: Catch ShutdownSignalException"
-2013-12-19T14:58:24Z "AMQP-348 Support Consumer Arguments"
-2013-12-10T17:17:16Z "AMQP-343: Upgrade Gradle and `testAll` task"
-2013-12-10T17:02:01Z "AMQP-344 Use Spring Stylesheet For JDK 7 Javadocs"
-2013-12-10T15:07:42Z "AMQP-342: Fix Listener Integration Tests"
-2013-12-06T11:17:26Z "AMQP-306 Dynamic Consumers"
-2013-12-02T22:13:02Z "AMQP-337 Emit Closed Event on All Closes"
-2013-12-02T20:15:59Z "AMQP-340 Fatal on RabbitMQ Authentication Failure"
-2013-12-02T15:31:57Z "AMQP-341: Add logic for System 'line.separator'"
-2013-11-27T19:12:12Z "INT-334 Doc for Spring Retry 1.0.3"
-2013-11-01T17:45:29Z "AMQP-339 Support Build with SPR 4.0.0"
-2013-10-30T10:45:49Z "AMQP-338 Fix Listener Container Stop"
-2013-10-02T22:42:40Z "Add TestUtils from SI"
-2013-09-27T19:33:34Z "AMQP-241 Add package-info Files; Use SPR css"
-2013-09-26T20:23:29Z "AMQP-336 Rule to Skip Long Integration Tests"
-2013-09-26T10:17:29Z "AMQP-335: Add checkTestConfigs Gradle task"
-2013-09-25T19:05:39Z "AMQP-290 Fix Exch. and Queue Argument refs"
-2013-09-20T15:38:04Z "AMQP-332 Fix Multiple Listeners with Id"
-2013-09-13T08:27:55Z "AMQP-330: fix JavaTypeMapper JsonArray conversion"
-2013-09-06T14:14:37Z "AMQP-331 Fixed Threads do abord."
-2013-08-24T12:56:56Z "Add Confirms/Returns Subsections to ToC"
-2013-08-17T03:10:24Z "Update Developer List"
-2013-07-12T18:22:00Z "[artifactory-release] Next development version"
-2013-07-12T17:41:45Z "[artifactory-release] Release version 1.2.0.RELEASE"
-2013-07-12T16:38:05Z "AMQP-326 Update Rabbit Client to 3.1.3"
-2013-07-10T14:32:17Z "Merge pull request #111 from garyrussell/AMQP-327"
-2013-07-09T16:09:58Z "AMQP-327 Fix Stack Overflow in log4j AmqpAppender"
-2013-06-20T15:39:25Z "Revert to 1.2.0.BUILD-SNAPSHOT"
-2013-06-20T15:31:03Z "[artifactory-release] Release version 1.2.0.RC1"
-2013-06-20T14:22:18Z "Merge pull request #110 from garyrussell/AMQP-325"
-2013-06-20T13:48:37Z "AMQP-325 JavaDoc HotFix Gradle Plugin"
-2013-06-19T19:55:17Z "Merge pull request #109 from ghillert/AMQP-324"
-2013-06-19T19:49:13Z "AMQP-324 - Fix Broken Links in Docs"
-2013-06-19T19:27:37Z "AMQP-102 Fix Race Condition in txSize Test"
-2013-06-19T18:33:59Z "Merge pull request #108 from garyrussell/AMQP-317"
-2013-06-19T18:05:38Z "AMQP-317 Fix Copyright, Logo"
-2013-06-19T15:18:18Z "Merge pull request #106 from garyrussell/AMQP-286"
-2013-06-19T15:17:48Z "AMQP-286 Conditional Declaration (Queues etc)"
-2013-06-19T13:46:48Z "Merge Pull request #107 from garyrussell-AMQP-323"
-2013-06-19T13:43:29Z "AMQP-323 Fix Broken Mock Tests"
-2013-06-19T13:43:28Z "AMQP-323 Polishing - PR Comments"
-2013-06-19T13:43:28Z "AMQP-323 Prevent Hang When No Close Response"
-2013-06-18T16:44:29Z "Merge pull request #104 garyrussell-AMQP-62"
-2013-06-18T16:32:38Z "AMQP-62 Configure requestedHeartBeat Property"
-2013-06-18T16:13:41Z "Merge Pull request #105 from garyrussell-AMQP-321"
-2013-06-18T16:04:44Z "Merge pull request #102 from garyrussell/AMQP-102"
-2013-06-18T16:03:17Z "AMQP-102 Verify Timeout and txSize Work Together"
-2013-06-18T15:55:11Z "AMQP-321 Update RabbitMQ Client to 3.1.1"
-2013-06-18T15:25:57Z "Merge pull request #100 from garyrussell/AMQP-319"
-2013-06-18T15:23:39Z "AMQP-319 Don't Suppress Listener Stack Traces"
-2013-06-18T14:52:42Z "Merge pull request #99 from garyrussell/AMQP-320"
-2013-06-18T14:51:38Z "AMQP-320 Improve Reply Container Docs"
-2013-06-18T04:34:46Z "Merge pull request #101 from garyrussell/AMQP-314"
-2013-06-18T04:28:55Z "AMQP-314 Fix Package Tangle"
-2013-06-18T04:23:45Z "Merge pull request #103 from garyrussell/AMQP-292"
-2013-06-18T04:22:13Z "AMQP-292 Make Message Serializable"
-2013-06-17T15:10:04Z "Merge pull request #96 from garyrussell/AMQP-310"
-2013-06-17T14:54:16Z "AMQP-310 Don't Reject on a Container Stopping Ex."
-2013-06-17T14:31:02Z "AMQP-289 More Doc Polish"
-2013-06-14T12:39:14Z "AMQP-308 Fix Javadoc Issue"
-2013-05-31T20:49:14Z "Merge pull request #98 from gregturn/AMQP-315"
-2013-05-31T20:27:29Z "Add constructor call to support delegate and method name"
-2013-05-29T16:47:23Z "AMQP-313 - Upgrade build to use SonarRunner Plugin"
-2013-04-29T18:09:00Z "Merge pull request #94 from davidbilge/AMQP-308"
-2013-04-29T18:07:09Z "AMQP-308 Add Spring Remoting over AMQP"
-2013-04-25T02:29:32Z "Merge pull request #95 from garyrussell/AMQP-309"
-2013-04-25T02:27:30Z "AMQP-309 Fix Listener Channel Issue"
-2013-04-01T14:51:43Z "Revert Version to 1.2.0.BUILD-SNAPSHOT"
-2013-04-01T14:12:42Z "[artifactory-release] Release version 1.2.0.M1"
-2013-03-29T22:20:51Z "AMQP-303 Reinstate public Modifier"
-2013-03-29T18:17:30Z "Merge pull request #84 from garyrussell/AMQP-271"
-2013-03-29T18:14:58Z "AMQP-271 Allow Use of Standard CorrelationId Prop"
-2013-03-29T17:53:19Z "Merge pull request #92 from ghillert/AMQP-305"
-2013-03-29T17:50:20Z "AMQP-305 - Polish Reference Documentation"
-2013-03-29T17:40:45Z "Merge pull request #91 from ghillert/AMQP-303"
-2013-03-26T22:00:24Z "AMQP-303 - Improve Rules Compliance (Sonar)"
-2013-03-26T13:56:35Z "Merge pull request #90 from ghillert/AMQP-302"
-2013-03-26T13:55:25Z "AMQP-302 - Remove Warnings During Build with JDK7"
-2013-03-25T17:21:34Z "Merge pull request #89 from ghillert/AMQP-304"
-2013-03-25T17:19:43Z "AMQP-304 Close Rabbit Connections in Tests"
-2013-03-22T20:49:04Z "AMQP-300 Add Jackson 2.x to What's New"
-2013-03-22T20:40:21Z "Merge pull request #88 from aspan/AMQP-300"
-2013-03-22T20:39:03Z "AMQP-300 Add Jackson2 Message Converter"
-2013-03-21T21:02:33Z "AMQP-266 Fix Failing Tests"
-2013-03-21T18:41:55Z "Merge pull request #85 from garyrussell/AMQP-266"
-2013-03-21T18:40:18Z "AMQP-301 Remove Spring 3.1 Deprecations"
-2013-03-21T18:37:36Z "AMQP-266/296/297 Allow Admin to Continue After Err"
-2013-03-21T17:37:15Z "Merge pull request #87 from garyrussell/AMQP-294"
-2013-03-21T17:35:04Z "AMQP-294 Remove Class and Package Tangles"
-2013-03-20T22:04:44Z "Merge pull request #83 from garyrussell/AMQP-289"
-2013-03-20T22:02:34Z "AMQP-289 Documentation Fixes"
-2013-03-20T20:22:59Z "Merge pull request #86 from garyrussell/AMQP-298"
-2013-03-08T19:32:05Z "AMQP-298 What's New Documentation"
-2013-03-06T23:15:16Z "AMQP-283 Bump Rabbit Client to 3.0.3"
-2013-03-04T21:39:09Z "Update Reference Manual Copyright (2013)"
-2013-03-04T21:21:36Z "Merge pull request #82 from garyrussell/AMQP-282"
-2013-03-04T19:24:58Z "AMQP-282 Log4j Appender - Configurable Charset"
-2013-03-02T20:57:35Z "Merge pull request #81 from garyrussell/AMQP-281"
-2013-03-02T20:56:24Z "AMQP-281 Shut Down Timer in AMQP Appender"
-2013-03-02T20:49:39Z "Merge pull request #80 from garyrussell/AMQP-295"
-2013-03-02T20:49:10Z "AMQP-295 Fix Version in QuickStart"
-2013-01-29T17:41:08Z "Merge pull request #79 from ghillert/AMQP-293"
-2013-01-29T16:18:15Z "AMQP-293 - Upgrade Gradle Wrapper to 1.4"
-2013-01-04T21:29:46Z "Merge pull request #78 from garyrussell/AMQP-287"
-2013-01-04T20:52:54Z "AMQP-283/284 Upgrade to RabbitMQ 3.0.0"
-2012-11-27T19:36:54Z "AMQP-278 White Space Violations"
-2012-11-06T21:39:21Z "AMQP-280 Fix Test Case Race Condition"
-2012-11-06T18:33:42Z "Merge pull request #75 from garyrussell/AMQP-276+7"
-2012-11-06T12:59:28Z "AMQP-277 Add DefaultType to DefaultClassMapper"
-2012-11-06T12:31:53Z "AMQP-276 Rename spring-amqp-core to spring-amqp"
-2012-11-05T22:10:40Z "Merge pull request #72 from garyrussell/AMQP-274"
-2012-11-05T22:08:22Z "AMQP-274 Local Transaction Issues"
-2012-11-05T21:17:36Z "AMQP-275 Reduce StopStart Test Size"
-2012-11-05T19:14:56Z "Merge pull request #73 from garyrussell/AMQP-275a"
-2012-11-05T19:10:35Z "AMQP-275 Physically Close Channel on Listener Stop"
-2012-11-01T15:57:13Z "Merge pull request #74 from garyrussell/AMQP-240a"
-2012-10-31T21:41:32Z "AMQP-240 Minor Doc Correction"
-2012-10-31T21:14:46Z "Merge pull request #70 from garyrussell/AMQP-240"
-2012-10-31T21:12:04Z "AMQP-240 Reference Docs for Confirms and Returns"
-2012-10-30T15:21:15Z "Merge pull request #71 from garyrussell/AMQP-272"
-2012-10-24T22:21:27Z "AMQP-272 Fix Typo In Method Name"
-2012-10-24T17:28:08Z "Merge pull request #69 from garyrussell/AMQP-268"
-2012-08-30T16:08:38Z "AMQP-268 Fix Appender MDC Properties"
-2012-08-22T17:43:05Z "Merge pull request #64 from garyrussell/AMQP-256"
-2012-08-22T17:39:38Z "AMQP-256 Add channel-transacted to SLC Namespace"
-2012-08-22T17:31:59Z "Merge pull request #66 from garyrussell/AMQP-262"
-2012-08-22T17:30:31Z "AMQP-262 ConcurrentExecutionException"
-2012-08-22T16:02:04Z "Merge pull request #67 from garyrussell/AMQP-260"
-2012-08-22T15:57:39Z "AMQP-260 Bind Channel With Local Transaction"
-2012-07-26T13:09:43Z "Merge pull request #65 from dsyer/AMQP-261"
-2012-07-26T12:54:19Z "AMQP-261: add brokerRunning @Rule to integration test"
-2012-07-19T22:24:00Z "Merge pull request #63 from garyrussell/AMQP-252"
-2012-07-19T22:10:13Z "AMQP-252 Remove System.out Call in Json Converter"
-2012-07-19T21:59:01Z "Merge pull request #61 from garyrussell/AMQP-255"
-2012-07-19T21:58:21Z "AMQP-255 Fix Multi Confirm with > 1 Listener"
-2012-07-19T20:33:27Z "Merge pull request #62 from garyrussell/AMQP-254"
-2012-07-19T19:24:25Z "AMQP-254 Add MessageId Advice"
-2012-07-19T18:01:31Z "Merge pull request #50 from garyrussell/AMQP-249"
-2012-07-19T18:00:36Z "AMQP-249 Fix Hanging Thread/Unacked Messages"
-2012-07-18T19:35:54Z "Merge pull request #58 from jbrisbin/master"
-2012-07-18T19:34:41Z "AMQP-242, AMQP-243: Appender Fixes"
-2012-07-18T16:12:42Z "Merge pull request #52 from garyrussell/AMQP-250"
-2012-07-18T16:11:46Z "AMQP-250 Template reply-queue Could Not be Anon."
-2012-07-18T16:06:11Z "Merge pull request #55 from garyrussell/AMQP-251"
-2012-07-18T16:05:23Z "AMQP-251 Update RabbitMQ Client to 2.8.4"
-2012-07-18T15:46:12Z "Merge pull request #57 from garyrussell/AMQP-190"
-2012-07-18T15:45:13Z "AMQP-190 Memory Leak With Tx and RabbitTemplate"
-2012-07-18T00:24:04Z "Merge pull request #59 from garyrussell/AMQP-253"
-2012-07-18T00:23:22Z "AMQP-253 Add Id Generation Option to AMQP Appender"
-2012-07-12T20:25:16Z "Set Version to 1.2.0.BUILD-SNAPSHOT"
-2012-07-03T16:29:04Z "Merge pull request #49 from garyrussell/AMQP-248"
-2012-07-03T16:20:46Z "AMQP-248 Require Java 6 for 1.2.x"
-2012-07-03T15:40:58Z "Merge pull request #48 from garyrussell/AMQP-247"
-2012-07-03T15:13:12Z "AMQP-247 Queue ID/Name Documentation"
-2012-06-27T19:35:14Z "Merge pull request #47 from ghillert/AMQP-246"
-2012-06-27T19:33:10Z "AMQP-246 - Remove old POMs"
-2012-06-19T15:11:20Z "Merge pull request #42 from ghillert/AMQP-83"
-2012-06-19T15:09:34Z "AMQP-83 - Add Gradle Support"
-2012-05-31T15:40:23Z "[maven-release-plugin] prepare for next development iteration"
-2012-05-31T13:51:42Z "[maven-release-plugin] prepare release 1.1.1.RELEASE"
-2012-05-31T13:51:08Z "Update git co-ordinates"
-2012-05-30T17:32:18Z "Merge pull request #45 from garyrussell/AMQP-204"
-2012-05-30T16:43:14Z "AMQP-204 Fix Typo in Class Comment"
-2012-05-30T16:29:42Z "Merge pull request #43 from garyrussell/AMQP-239"
-2012-05-30T16:27:49Z "AMQP-239 DLE/DLQ Documentation"
-2012-05-30T15:25:25Z "Merge pull request #44 from garyrussell/AMQP-238"
-2012-05-30T15:06:42Z "AMQP-238 SF Version 3.0.5 -> 3.0.7"
-2012-05-30T03:16:53Z "Merge pull request #41 from garyrussell/AMQP-198"
-2012-05-30T03:14:24Z "AMQP-198 Document Mixed Queue Arg Types"
-2012-05-30T03:08:18Z "Merge pull request #40 from garyrussell/AMQP-237"
-2012-05-30T03:06:53Z "AMQP-237 Remove JavaDoc Warnings"
-2012-05-24T14:48:09Z "Merge pull request #39 from garyrussell/AMQP-236"
-2012-05-24T14:47:19Z "AMQP-236 Remove DOS Newlines"
-2012-05-24T14:46:19Z "Merge pull request #38 from garyrussell/AMQP-232"
-2012-05-22T11:35:48Z "AMQP-232 Failing Tests (Timeout)"
-2012-05-18T18:43:31Z "Merge pull request #36 from garyrussell/AMQP-234"
-2012-05-18T18:42:11Z "AMQP-234 Create 1.1 Schema"
-2012-05-18T18:35:09Z "Merge pull request #37 from garyrussell/AMQP-232"
-2012-05-18T13:23:32Z "AMQP-232 Fix Failing Integration Tests"
-2012-05-16T15:31:44Z "Merge pull request #35 from garyrussell/AMQP-233"
-2012-05-16T15:30:50Z "AMQP-233 Allow Returns without Confirms"
-2012-05-16T00:56:18Z "Merge pull request #34 from garyrussell/AMQP-232"
-2012-05-16T00:41:26Z "AMQP-232 Wait for Shutdown"
-2012-05-14T16:35:11Z "Merge pull request #33 from garyrussell/AMQP-231"
-2012-05-14T16:34:28Z "AMQP-231 Failing Integration Tests"
-2012-05-11T17:08:20Z "[maven-release-plugin] prepare for next development iteration"
-2012-05-11T17:03:23Z "[maven-release-plugin] prepare release 1.1.0.RELEASE"
-2012-05-11T16:16:21Z "Merge pull request #32 from garyrussell/AMQP-226"
-2012-05-11T16:10:29Z "AMQP-226 Bump Spring Retry Version to 1.0.1"
-2012-05-11T12:15:11Z "Merge pull request #31 from ghillert/AMQP-193"
-2012-05-11T03:43:20Z "AMQP-193 - Add RabbitTransactionManager to RefDoc"
-2012-05-10T20:38:41Z "Merge pull request #30 from olegz/AMQP-207"
-2012-05-10T20:37:39Z "AMQP-207 XSD Documentation"
-2012-05-10T18:11:01Z "Merge pull request #14 from SamNelson/AMQP-202"
-2012-05-10T18:07:45Z "passing basic tests"
-2012-05-10T17:56:49Z "Merge pull request #28 from ghillert/AMQP-228"
-2012-05-10T17:55:57Z "AMQP-228 - Doc - Fix Incorrect Code Samples"
-2012-05-10T17:52:59Z "Merge pull request #29 from garyrussell/AMQP-201"
-2012-05-10T17:51:44Z "AMQP-201 Exchange-to-Exchange Binding"
-2012-05-10T17:50:12Z "Merge pull request #27 from garyrussell/AMQP-215"
-2012-05-10T17:48:56Z "AMQP-215 Federated Exchange Support"
-2012-05-10T17:44:55Z "Merge pull request #19 from garyrussell/AMQP-219"
-2012-05-10T17:44:07Z "AMQP-219 RabbitTemplate Conversion With Message"
-2012-05-10T17:41:56Z "Merge pull request #26 from garyrussell/AMQP-213"
-2012-05-10T15:59:28Z "AMQP-213 Publisher Confirms/Returns"
-2012-05-10T14:49:43Z "Merge pull request #24 from garyrussell/AMQP-206c"
-2012-05-10T14:48:38Z "AMQP-206 Support Rabbit HA"
-2012-05-10T14:41:20Z "Merge pull request #25 from garyrussell/AMQP-225"
-2012-05-10T14:40:09Z "AMQP-225 Add Support for External Executor"
-2012-05-10T13:02:55Z "Merge pull request #18 from edscriven/master"
-2012-05-10T13:00:09Z "AMQP-208 Polishing"
-2012-05-10T12:59:30Z "AMQP-208 Default Exchange and Bindings"
-2012-04-09T17:51:37Z "Merge pull request #21 from garyrussell/AMQP-221"
-2012-04-09T17:50:27Z "AMQP-221 Support Dead Letter Queues"
-2012-04-09T17:46:21Z "Merge pull request #23 from garyrussell/AMQP-223"
-2012-04-09T17:45:04Z "AMQP-223 Fix Consumer Thread Management"
-2012-04-09T16:55:31Z "Merge pull request #16 from garyrussell/AMQP-195"
-2012-04-09T16:54:32Z "AMQP-195 Update AMQP Client to 2.7.1"
-2012-04-06T17:05:15Z "Merge pull request #22 from jamescarr/AMQP-222"
-2012-04-06T17:03:32Z "AMQP-222 Configure Content Type When Marshalling"
-2012-03-23T14:16:49Z "Merge pull request #15 from jamescarr/AMQP-200"
-2012-03-23T14:11:44Z "AMQP-200 changes log messages from debug to warn"
-2011-11-15T13:20:06Z "Add stupid m2e config for STS 2.8"
-2011-09-11T16:05:54Z "AMQP-190: prevent channel leak in RabbitTemplate with external transaction"
-2011-08-24T17:33:04Z "Add info to poms for Central release"
-2011-08-24T17:32:40Z "Move assertion out of finally block"
-2011-08-24T16:24:42Z "Tweaks for release to central + copyright notice"
-2011-08-24T16:24:07Z "Tweak release notes"
-2011-08-24T14:05:49Z "[maven-release-plugin] prepare for next development iteration"
-2011-08-24T14:05:34Z "[maven-release-plugin] prepare release 1.0.0.RELEASE"
-2011-08-23T15:17:53Z "typos in README"
-2011-08-23T15:13:38Z "more doc polishing"
-2011-08-23T14:19:26Z "polished docs"
-2011-08-23T13:48:41Z "updated docs now that SingleConnectionFactory is in src/test only"
-2011-08-23T13:03:47Z "moved SingleConnectionFactory to src/test"
-2011-08-23T07:38:17Z "Bump spring-retry to 1.0.0.RELEASE"
-2011-08-22T22:10:39Z "minor changes in docs"
-2011-08-22T21:47:14Z "minor javadoc correction"
-2011-08-22T21:41:42Z "AMQP-189 Exchanges are now durable by default"
-2011-08-19T21:53:20Z "Update docs for 1.0.0"
-2011-08-19T19:08:54Z "Add Javadocs for RabbitTemplate"
-2011-08-09T15:36:46Z "AMQP-187 added integration tests for new template methods"
-2011-08-09T15:06:36Z "AMQP-187 added convertSendAndReceive methods that accept a MessagePostProcessor callback"
-2011-08-09T13:49:26Z "[maven-release-plugin] prepare for next development iteration"
-2011-08-09T13:49:09Z "[maven-release-plugin] prepare release 1.0.0.RC3"
-2011-08-09T13:41:39Z "Tidy up fatal error message in for failed listener restart"
-2011-08-09T12:06:52Z "AMQP-186: add placeholder support to container parser"
-2011-08-09T08:00:45Z "AMQP-186: enable placeholders in some corners of XSD"
-2011-08-05T02:12:14Z "avoiding potential NPE in setReplyToAddress()"
-2011-08-02T15:46:57Z "AMQP-183: fix big introduced in MessageProperties"
-2011-08-02T14:27:18Z "AMQP-185 fixed typo in warning message"
-2011-07-30T10:22:15Z "AMQP-183: make replyTo property in MessageProperties literal, and supply Address variants for those who like the URL convention"
-2011-07-28T08:12:11Z "Add integration test for message post processor in RabbitTemplate"
-2011-07-26T12:45:26Z "AMQP-183: tweak synchronized block to try and avoid race where channel is closed before it is used"
-2011-07-26T12:35:17Z "AMQP-174: Prepare POM for release"
-2011-07-21T15:11:08Z "AMQP-183: Fix channel isOpen() to use target directly in proxy"
-2011-07-21T12:42:34Z "AMQP-181: remove reference to old base class config"
-2011-07-12T11:50:26Z "AMQP-174: updates to poms for 1.0.0"
-2011-07-12T11:45:36Z "AMQP-37: added release-process.md"
-2011-07-12T10:09:51Z "AMQP-142: added content to quick start"
-2011-07-12T09:40:54Z "AMQP-178: make named queue durable by default"
-2011-07-12T09:40:54Z "AMQP-177: fix template.mf to generate bundles depending on rabbit 2.5"
-2011-07-11T21:04:49Z "AMQP-176 replaced Spring-WS footer with Spring AMQP"
-2011-07-05T20:34:31Z "AMQP-179: fix Queue constructor call"
-2011-06-27T11:51:48Z "AMQP-175: Upgrade to rabbit 2.5.0"
-2011-06-26T11:41:37Z "[maven-release-plugin] prepare for next development iteration"
-2011-06-26T11:41:24Z "[maven-release-plugin] prepare release 1.0.0.RC2"
-2011-06-15T09:31:30Z "Remove some duplication between RabbitUtils and ConnectionFactoryUtils"
-2011-06-04T09:23:20Z "AMQP-171: fix recovery on connection close - need to clear delivery tags more carefully"
-2011-06-03T16:34:30Z "AMQP-172: move ChannelListener to base class connection factory"
-2011-06-02T11:08:39Z "AMQP-172, AMQP-171: fix bug introduced by earlier commit (consumer not clearing its tags), and refactor connection factory implementations"
-2011-06-02T06:05:58Z "AMQP-172: add ChannelListener to CachingConnectionFactory"
-2011-06-01T20:12:10Z "AMQP-173 added setters for the MessagePropertiesConverter strategy on RabbitTemplate as well as SimpleMessageListenerContainer"
-2011-06-01T19:43:11Z "AMQP-173 added MessagePropertiesConverter strategy and DefaultMessagePropertiesConverter implementation"
-2011-06-01T14:12:01Z "AMQP-171: move some of commit/rollback responsibility to the consumer"
-2011-06-01T14:10:11Z "Add slight delay to try and avoid integration test failures"
-2011-06-01T14:09:49Z "Add central profile for GA releases"
-2011-05-31T16:32:16Z "minor typo: requires -> required"
-2011-05-27T21:00:23Z "converting header values that are not supported types in the underlying write operations"
-2011-05-27T18:15:37Z "AMQP-170 AMQP headers of LongString type are now converted to a java.lang.String if 1024 bytes or smaller, else the header value will be the DataInputStream retrieved from that LongString instance"
-2011-05-12T10:20:54Z "AMQP-169: Add explicit import for spring jmx"
-2011-05-11T12:34:56Z "AMQP-168: fix txSize efficiency (committing too frequently) and retry (not committing on recovery)"
-2011-05-11T12:34:41Z "Build: switch docbook generatiom phase to speed up local install"
-2011-05-10T13:22:22Z "Use basicNack instead of basicReject"
-2011-05-10T08:26:04Z "Revert BrokerTestUtils to not use tracer"
-2011-05-10T08:19:15Z "AMQP-166: add better connection recovery in CachingCOnnectionFactory"
-2011-05-04T12:51:11Z "Fix links in Javadocs"
-2011-05-04T12:48:32Z "Tidy up recovery in SMLC"
-2011-05-04T12:48:27Z "Remove references to MessageCreator in user guide"
-2011-04-27T12:42:59Z "AMQP-165: explicitly destory connection factory in Log4j Appender"
-2011-04-27T10:40:47Z "AMQP-164: add integration for bindings in XML"
-2011-04-27T09:33:22Z "AMQP-164: fixed parsers"
-2011-04-27T09:07:31Z "AMQP-163: add tests for message listener adapter"
-2011-04-24T04:31:04Z "Added validation for null values."
-2011-04-20T17:10:33Z "AMQP-160: adjust binding parser so values can be externalized"
-2011-04-20T17:00:22Z "AMQP-156: remove connectionTimeout from AmqpAppender"
-2011-04-19T17:53:54Z "updated binding parser logic to accomodate refactored generic Binding class"
-2011-04-18T16:25:18Z "Comment over new replyTimeout use"
-2011-04-18T16:11:38Z "AMQP-156: Changed connectionTimeout to replyTimeout to more accurately describe its function. Also added a call to set this value on the RabbitTemplate instance."
-2011-04-18T15:29:17Z "AMQP-160: CustomExchange concrete type"
-2011-04-18T15:24:36Z "AMQP-160, AMQP-161: Custom exchanges and exchange bindings"
-2011-04-18T15:20:06Z "Modify Binding to support more generic contracts"
-2011-04-18T15:04:43Z "AMQP-149: count down latch before waiting for re-connect."
-2011-04-18T08:41:48Z "AMQP-143: from->bind"
-2011-04-17T07:24:22Z "AMQP-157: add boolean flags to log4j appender"
-2011-04-17T07:08:33Z "Add extra integration test for vhost"
-2011-04-08T12:34:56Z "AMQP-155: add throwable"
-2011-04-06T12:20:21Z "AMQP-150: add extra call to listener"
-2011-04-06T12:19:58Z "AMQP-147: added <rabbit:template/> and <rabbit:connection-factory/> (the latter is more useful)"
-2011-04-06T10:25:29Z "AMQP-150: fix some internals of connection factories so the RabbitAdmin behaves correctly"
-2011-04-06T08:12:35Z "AMQP-151: Ensure Connection.close() is called on the right target connection"
-2011-04-06T07:30:22Z "AMQP-148: simplify lazy initialization of SMLC"
-2011-04-05T17:24:32Z "AMQP-148: lazy initialization of SMLC"
-2011-04-05T08:10:25Z "AMQP-145: fix docos refs to samples"
-2011-04-05T07:46:11Z "Add tests for default listener container configuration"
-2011-04-01T07:25:47Z "Fix retry declaration in manifest"
-2011-03-31T20:15:18Z "Add integration test for TTL, plus extra constructors for connection factories"
-2011-03-31T18:38:31Z "updated template.mf to include explicit org.springframework.erlang version range and also increased upper bound of com.rabbitmq version range to 3.0.0 (non-inclusive)"
-2011-03-31T15:11:22Z "[maven-release-plugin] prepare for next development iteration"
-2011-03-31T15:11:10Z "[maven-release-plugin] prepare release 1.0.0.RC1"
-2011-03-31T14:39:21Z "AMQP-140: re-organise, move BrokerAdmin and fix integration tests"
-2011-03-31T14:01:44Z "AMQP-32 fixing javadoc warnings"
-2011-03-31T13:59:46Z "AMQP-32 fixing javadoc warnings"
-2011-03-31T13:57:12Z "AMQP-32 fixing javadoc warnings"
-2011-03-31T13:49:34Z "AMQP-32 fixing javadoc warnings"
-2011-03-31T13:46:34Z "AMQP-32 fixing javadoc warnings"
-2011-03-31T13:30:19Z "AMQP-141: create base class for converters"
-2011-03-31T13:29:50Z "Tidy up some TODOs"
-2011-03-31T12:27:04Z "FIx build issues for RC1"
-2011-03-31T12:06:50Z "Segregate broker-integration from integration profile, so the tests can pass once before RC1"
-2011-03-31T11:40:05Z "Re-org assembly filesets and re-use README.md"
-2011-03-31T11:27:51Z "AMQP-117: brush up docs with namespace examples"
-2011-03-31T08:38:38Z "AMQP-137: Align logger test and appender internals with project norms"
-2011-03-31T08:34:48Z "AMQP-137: Added AMQP Log4J appender to spring-rabbit"
-2011-03-29T16:38:23Z "AMQP-128 removed 'recoverAsync' method from RabbitBrokerOperations (interface) and RabbitBrokerAdmin (implementation)"
-2011-03-28T20:48:10Z "AMQP-107 added tests for concurrent consumers"
-2011-03-28T20:40:15Z "AMQP-107 added test for queue names in addition to queue instances"
-2011-03-28T19:49:44Z "AMQP-107 added test for multiple queues with SimpleMessageListenerContainer"
-2011-03-28T17:17:08Z "AMQP-136: move txSelect() to Connection impl"
-2011-03-28T17:17:08Z "Javadocs and extra integration test"
-2011-03-28T17:04:09Z "AMQP-133 added test for 'advice-chain' attribute in the <listener-container> element"
-2011-03-28T14:50:01Z "AMQP-133 added the 'advice-chain' attribute to the <listener-container> element in the XSD"
-2011-03-28T14:43:16Z "AMQP-133 added support in listener-container parser class for 'advice-chain' attribute"
-2011-03-28T14:19:51Z "INT-136: Weaken checks for concurrent initialization"
-2011-03-28T12:50:15Z "AMQP-131: remove config base classes - they really were adding no value (copied to samples)"
-2011-03-28T11:06:45Z "AMQP-103, AMQP-126: add tests for re-declaration and fix bug exposed in tx handling"
-2011-03-28T07:47:58Z "Move README to correct place"
-2011-03-28T07:30:41Z "AMQP-134: revert to vanilla logging"
-2011-03-25T18:29:06Z "AMQP-132: Add retry configuration conveniences and abstractions"
-2011-03-25T13:19:04Z "Tidy up dependencies"
-2011-03-25T12:34:48Z "AMQP-103: extend integration tests"
-2011-03-25T12:25:32Z "Remove reference to Java 6 constructor"
-2011-03-25T12:25:32Z "AMQP-103: added integration test for declarative retry"
-2011-03-25T12:25:32Z "AMQP-130: always wait for listeners to attempt to start before container decides it has started"
-2011-03-25T12:25:32Z "AMQP-120: add setter for ObjectMapper"
-2011-03-24T19:19:06Z "AMQP-54 fixed typos in code samples"
-2011-03-23T18:09:06Z "Knock off some trivial TODOs"
-2011-03-23T17:47:53Z "AMQP-129: allow client RuntimeExceptions to propagate in RabbitTemplate"
-2011-03-23T17:16:12Z "AMQP-127: align parsers and XSD and defaults in domain"
-2011-03-23T14:52:26Z "AMQP-125: add custom lock manager and tests"
-2011-03-22T21:57:57Z "AMQP-124: comment out syserr in test"
-2011-03-22T21:57:28Z "AMQP-124: make Message.toString() more informative if byte[] body"
-2011-03-22T18:29:25Z "AMQP-124: make Message.toString() more robust"
-2011-03-22T17:49:23Z "AMQP-105: Added bundlor config to fail on warnings and fixed problems with existing templates"
-2011-03-22T17:28:48Z "AMQP-111: add AnonymousQueue and a load of changes to namespace to support it"
-2011-03-22T15:13:41Z "AMQP-123: Support for String[] queueNames in MLC"
-2011-03-22T13:55:22Z "Add -P integration profile for tests involving broker"
-2011-03-22T13:17:17Z "Remove cycle by co-locating RabbitAccessor with its utilities"
-2011-03-22T12:39:59Z "AMQP-122: defer declarations until first use of Connection"
-2011-03-22T10:17:16Z "Add BROKER_INTEGRATION_TEST system property for broker tests"
-2011-03-22T08:34:44Z "AMQP-122: Add ConnectionListener"
-2011-03-19T08:56:25Z "AMQP-104: tidy up distro and remove samples"
-2011-03-15T15:33:06Z "AMQP-121: change concurrency attribute parsing"
-2011-03-14T17:49:12Z "AMQP-118: removed template constructor from RabbitAdmin"
-2011-03-14T16:48:47Z "AMQP-114: tweak concurrency protection in consumer startup detection"
-2011-03-14T16:41:04Z "AMQP-114: rethrow ListenerStartupFatalException if any detected on startup"
-2011-03-14T14:39:57Z "AMQP-113, AMQP-112: backoff and sleep when listener container fails to connect"
-2011-03-14T12:00:13Z "AMQP-109: catch and log exception during stop"
-2011-03-14T08:34:38Z "AMQP-110: remove rabbit- prefix from some attributes"
-2011-03-14T06:05:44Z "AMQP-110 - Renamed <rabbit:rabbit-admin/>  to <rabbit:admin/>"
-2011-03-13T15:34:11Z "Change default fallback behaviour of MLC if caching connections"
-2011-03-12T09:41:19Z "AMQP-106 Added namespace support for rabbit-admin."
-2011-03-12T09:37:15Z Ignores
-2011-03-11T18:19:21Z "Moved samples to separate repo"
-2011-03-08T15:49:24Z "Update Eclipse meta data for stocks sample"
-2011-03-08T15:49:21Z "Update samples poms to point to M3"
-2011-03-08T15:49:17Z "Fix SimpleMessageListenerContainer to set concurrentConsumers for a SingleConnectionFactory"
-2011-03-08T08:59:30Z "Fix releaseType for .ZIP upload"
-2011-03-07T14:32:32Z "Rename confusing test method"
-2011-03-07T11:07:23Z "[maven-release-plugin] prepare for next development iteration"
-2011-03-07T11:07:14Z "[maven-release-plugin] prepare release 1.0.0.M3"
-2011-03-07T10:36:48Z "Fix container startup to not initialize connection until start()"
-2011-03-07T10:26:07Z "Add section to docs"
-2011-03-03T22:30:04Z "AMQP-16 added namespace support for 'listener-container'"
-2011-03-03T18:40:04Z "AMQP-19 added send-and-receive methods to AmqpTemplate and RabbitTemplate"
-2011-03-01T09:05:08Z "AMQP-101: unignore tests"
-2011-03-01T08:58:14Z "AMQP-101 Added tests-cases to test ErrorHandler invokations from listener container."
-2011-03-01T08:15:55Z "Convert namespace test from integration to unit test"
-2011-02-28T21:09:00Z "Attempt to fix build with broken hamcrest dependency"
-2011-02-24T17:42:34Z "AMQP-44: refactor SimpleMessageListenerContainer to use Advice for transactions - opens up possibility to apply retry advice"
-2011-02-23T17:47:51Z "AMQP-99: add moduleAdapter to RabbitBrokerAdmin (module%function->module%function) top adapt to older versions of the RPC server"
-2011-02-23T14:35:55Z "AMQP-44: implement some basic re-connect logic mainly to support async use cases"
-2011-02-21T10:11:15Z "Re-organise broker admin integration tests"
-2011-02-21T10:10:33Z "AMQP-100: Add AcknowledgeMode to complement channelTransacted (boolean)"
-2011-02-17T21:23:08Z "[AMQP-99] AmqpBrokerAdminIntegrationTests failing with new rabbit server (2.3.1)"
-2011-02-17T21:01:35Z "Updating .gitignore for idea"
-2011-02-15T16:09:45Z "AMQP-75: Add test for prefetch and container lifecycle"
-2011-02-15T15:47:47Z "AMQP-75: fix graceful shutdown when transactional"
-2011-02-11T11:16:05Z "AMQP-65: delete ops return boolean"
-2011-02-10T17:31:29Z "AMQP-55: fix typo"
-2011-02-04T15:59:21Z "AMQP-10: Add more features to broker admin to allow customization of runtime for UN*X"
-2011-02-04T15:56:46Z "Upgrade to rabbit client 2.3.0 (still works with 2.1.0 broker)"
-2011-02-03T15:38:43Z "Fix formatting in README"
-2011-02-03T15:35:49Z "AMQP-60: strip down XSD and implement parsers for basic bindings"
-2011-02-03T09:48:18Z "AMQP-95: suppress compiler warnings"
-2011-02-03T09:43:36Z "AMQP-95: add @author tags"
-2011-02-03T09:43:18Z "AMQP-95: changed ClassMapper interface to use MessageProperties to increse flexibility"
-2011-01-28T17:29:25Z "AMQP-97: add cookie in constructor"
-2011-01-24T16:23:30Z "AMQP-96: use default hostname if none provided"
-2011-01-24T12:46:38Z "AMQP-59: remove line from pom"
-2011-01-11T14:33:33Z "AMQP-59: Merge admin project"
-2011-01-07T13:12:00Z "Add extra tests for Json converter"
-2010-12-24T09:44:28Z "[maven-release-plugin] prepare for next development iteration"
-2010-12-24T09:44:16Z "[maven-release-plugin] prepare release 1.0.0.M2"
-2010-12-24T09:42:32Z "Remove error in javadoc config (Maven version problem?)"
-2010-12-24T09:40:17Z "Remove snapshot dependency"
-2010-12-24T09:35:35Z "fix scm links in POM"
-2010-12-22T13:34:08Z "Add author tag"
-2010-12-22T13:30:37Z "AMQP-10: check UN*X broker admin"
-2010-12-22T13:30:15Z "Add TX docs for M2 release"
-2010-12-22T12:06:46Z "Add tx section"
-2010-12-22T11:11:32Z "AMQP-68: un-ignore test"
-2010-12-22T11:11:30Z "AMQP-68: add transactional flag for channel creation"
-2010-12-22T11:11:23Z "AMQP-68: Introduce new Connection interface"
-2010-12-13T16:24:01Z "Tidy up dependencies"
-2010-12-13T15:37:32Z "AMQP-80: clarify test inputs"
-2010-12-13T15:31:41Z "Add ignores"
-2010-12-08T16:34:47Z "Add integration test for fanout"
-2010-12-08T16:34:28Z "Add note about rebase"
-2010-11-30T10:42:19Z "Add code convention housekeeping guidleines"
-2010-11-29T11:31:54Z "Fixed forum link"
-2010-11-28T12:02:35Z "Add committer agreement link"
-2010-11-17T16:47:52Z "Added a space in pom to test a change"
-2010-11-17T15:57:46Z "Add simple readme"
-2010-11-16T09:57:56Z "AMQP-68: Add @Ignored tests for mixed tx/notx"
-2010-11-16T09:56:46Z "Tweak BrokerRunning so that static use isn't prevented"
-2010-11-15T12:25:18Z "AMQP-49: add first cut of RabbitTransactionManager"
-2010-11-11T15:58:37Z "AMQP-33: fix manifests"
-2010-11-11T14:19:41Z "Add integration test for non-default exchange"
-2010-11-11T13:58:23Z "Consolidate test set up code in the BrokerRunning rule"
-2010-11-11T10:38:34Z "AMQP-36: added scm to pom"
-2010-11-11T10:27:33Z "AMQP-81: add serializer message converter"
-2010-11-11T10:27:28Z "AMQP-63: add classloader and codebaseUrl to SimpleMessageConverter"
-2010-11-11T09:13:00Z "AMQP-76: removed flags for mandatory* in RabbitTemplate"
-2010-11-11T09:03:56Z "AMQP-73: add integration test"
-2010-11-10T21:42:11Z "AMQP-69, AMQP-73, AMQP-61: some big changes to transaction handling"
-2010-11-10T20:38:20Z "Work around compiler bug"
-2010-11-08T10:47:54Z "Add local version of multicast main, and tidy up integration tests"
-2010-11-05T13:44:59Z "AMQP-67: add additional higher scale test for listener and fix bug"
-2010-11-04T18:14:49Z "AMQP-74: add retry to test to avoid issues with async operations"
-2010-11-04T17:00:42Z "AMQP-74: Add more integration tests for RabbitTemplate"
-2010-11-01T19:05:18Z "Fix broker integration tests so erlang process is closed"
-2010-11-01T18:17:32Z "AMQP-64: fix re-delivery problem caused by misuse of basicReject"
-2010-11-01T17:20:02Z "AMQP-64: tweak integration test.  Found problem with rollback in listener."
-2010-10-31T18:02:23Z "AMQP-70: add integration test for send and receive"
-2010-10-29T17:06:58Z "AMPQP-67: Add async support for rollback"
-2010-10-22T18:37:35Z "AMQP-43: fix refresh of target channel after exception (also fixes integration test failure when broker is first started)"
-2010-09-30T15:59:16Z "More fix for Java 5 + tweak dependencies"
-2010-09-30T15:54:00Z "Add missing file"
-2010-09-30T15:27:07Z "Fix for Java 5 + tweak dependencies"
-2010-09-29T16:14:21Z "Fix integration tests for Windows"
-2010-09-29T16:05:52Z "Update deps in samples"
-2010-09-29T16:00:25Z "Fix jcl dependency"
-2010-09-29T15:03:06Z "Add logger to unit test"
-2010-09-29T14:37:44Z "Merge branch 'master' of git.springsource.org:spring-amqp/spring-amqp"
-2010-09-29T14:34:52Z "RabbitBrokerAdmin now uses SingleConnectionFactory"
-2010-09-29T12:36:04Z "AMQP-61: add TX synch support and some integration tests"
-2010-09-27T22:36:30Z "Merge branch 'master' of git.springsource.org:spring-amqp/spring-amqp"
-2010-09-27T22:36:01Z "add missing files for AMQP-58 (Support for caching of OtpConnections)"
-2010-09-27T19:22:21Z "Merge branch 'master' of git.springsource.org:spring-amqp/spring-amqp"
-2010-09-27T19:07:02Z "AMQP-58 - Support for caching of OtpConnections"
-2010-09-27T16:36:08Z "Some improvements to the admin module:"
-2010-09-06T14:49:22Z "Merge branch 'master' of git.springsource.org:spring-amqp/spring-amqp"
-2010-09-06T14:46:39Z "Copy in javadocs from JInterface regarding use of node names."
-2010-09-06T14:46:05Z "Add an assert to template.executeAndConvertRpc using absolute value function available in erlang."
-2010-08-27T17:25:03Z "AMQP-57 updated Rabbit client version from 1.8.1 to 2.0.0. This required one change in RabbitTemplate due to a change in the Channel.basicConsume() method we were using"
-2010-08-13T20:18:48Z "AMQP-40 MessageProperties is now a class instead of an interface. Removed the RabbitMessageProperties implementation. Now, the mapping between Rabbit's BasicProperties, Envelope, etc. and our MessageProperties is handled in two RabbitUtils methods: extractBasicProperties(..) and createMessageProperties(..)"
-2010-08-11T21:45:32Z "AMQP-23 updated binding builder for more fluent style when working with Headers Exchanges"
-2010-08-09T22:03:30Z "AMQP-23 added matchingAll(map), matchingAny(map), matchingAll(String... keys), and matchingAny(String... keys) methods, but still considering more 'fluent' method names"
-2010-08-09T20:06:23Z "AMQP-23 added support for HeadersExchange"
-2010-08-09T19:28:25Z "AMQP-51 replaced ExchangeType enum with ExchangeTypes abstract class defining String-based constants for the standard Exchange type names"
-2010-08-09T17:57:07Z "AMQP-46, AMQP-30 RabbitAdmin now declares all Exchanges, Queues, and Bindings that have been defined in the same ApplicationContext as the RabbitAdmin itself"
-2010-08-06T17:54:58Z "Merge branch 'master' of git.springsource.org:spring-amqp/spring-amqp"
-2010-08-06T17:54:27Z "added comment to declareQueue method in RabbitAdmin"
-2010-08-06T14:19:40Z "Clean up new JavaDoc warnings"
-2010-08-06T01:25:17Z "AMQP-41 removed MessageCreator interface, AmqpTemplate methods take the Message object now instead"
-2010-08-06T01:00:27Z "AMQP-19 added the 'convertSendAndReceive' method"
-2010-08-06T00:38:14Z "AMQP-19 now returning null Address if 'replyTo' property is null in  RabbitMessageProperties"
-2010-08-04T22:06:31Z "adjusted Address class and reply-to logic in MessageListenerAdapter"
-2010-08-03T23:30:12Z "added null check for setting of correlationId property"
-2010-08-03T23:28:39Z "updates to Address parsing"
-2010-08-03T13:55:59Z "AMQP-38 checking for null before converting deliveryMode to int"
-2010-08-02T21:52:30Z "AMQP-38 modified toString on Message to always return at least the toString() result of the body itself as long as the body is not null"
-2010-08-02T21:08:52Z "AMQP-38 avoiding NPE in Message's getBodyContentAsString() method"
-2010-08-02T17:50:36Z "AMQP-21 removed no-arg constructor for RabbitAdmin. Either RabbitTemplate or ConnectionFactory must be provided via constructor (no longer a need to implement InitializingBean to validate either)."
-2010-08-02T16:51:39Z "AMQP-29 junit dependency overrides 'test' with 'compile' scope in the spring-rabbit-admin pom"
-2010-08-02T16:47:50Z "AMQP-29 spring-test overrides 'test' with 'compile' scope in the spring-rabbit-admin pom"
-2010-08-02T16:43:39Z "AMQP-29 spring-test and junit dependencies are now declared with 'test' scope in the parent pom"
-2010-08-02T14:14:14Z "AMQP-34 added setVirtualHost method to SingleConnectionFactory"
-2010-07-30T08:23:43Z "ChannelAwareMessageListener is no longer generic"
-2010-07-29T21:21:19Z "Eliminate commented method from ExecuteWatchdog"
-2010-07-29T21:19:46Z "Eliminate javadoc warnings"
-2010-07-29T17:19:23Z "Remove unnecessary casts"
-2010-07-29T16:51:42Z "Ignore unchecked cast in test"
-2010-07-29T16:51:09Z "Remove dead code and unused imports"
-2010-07-29T16:50:09Z "Fix 'raw type' warnings. No significant API changes."
-2010-07-29T15:14:38Z "Suppress serialization warnings"
-2010-07-19T19:53:21Z "add snapshot repositories back into parent and sample poms"
-2010-07-18T16:38:00Z "maven now specifies classpath for ant s3 task"
-2010-07-18T16:10:57Z "polishing antrun s3 task integration post-redeployment of M1 dist zips"
-2010-07-18T14:07:57Z "quick hardcoded impl for getting AMQP and AMQPNET milestones up on the community page"
-2010-07-18T13:11:56Z "whitespace in pom"
-2010-07-18T13:08:34Z "updated .gitignore, removed unnecessary .gitignores in child directories"
-2010-07-18T13:08:05Z "stubbed out maven-antrun-plugin and ant buildfile for doing s3 uploads"
-2010-07-18T12:37:18Z "removed root .project file"
-2010-07-17T20:47:53Z "AMQP-28 added groups to javadoc configuration"
-2010-07-16T19:48:52Z "reverted version from M1 to BUILD-SNAPSHOT"
-2010-07-16T18:42:44Z "added milestone repository all around"
-2010-07-16T18:20:13Z "s/springsource.org/springframework.org on maven repos"
-2010-07-16T18:07:05Z "Incremented POM versions to 1.0.0.M1"
-2010-07-16T17:49:17Z "updated version for stocks sample pom"
-2010-07-16T17:35:01Z "replaced spring-amqp-core with spring-amqp in samples"
-2010-07-16T17:10:19Z "whitespace polish in docbook sources"
-2010-07-16T17:01:13Z "doc updates, formatting, etc."
-2010-07-16T16:40:35Z "changed 'Project' to 'Distribution'"
-2010-07-16T16:38:37Z "minor update with JMX"
-2010-07-16T16:36:40Z "Merge branch 'master' of git.springsource.org:spring-amqp/spring-amqp"
-2010-07-16T16:36:24Z "update erlang docs"
-2010-07-16T16:11:24Z "updated repository definitions; added missing 'doc-files' directory to fix broken javadoc L&F"
-2010-07-16T16:00:31Z "fixed line wrapping in si-amqp chapter"
-2010-07-16T15:58:16Z "fixed line wrapping in samples chapter"
-2010-07-16T15:56:05Z "fixed line wrapping in amqp chapter"
-2010-07-16T15:38:48Z "replaced 'spring-amqp-core' with 'spring-amqp' in the reference manual and also fixed a few typos"
-2010-07-16T15:32:35Z "Merge branch 'master' of git.springsource.org:spring-amqp/spring-amqp"
-2010-07-16T15:32:25Z "updated distribution.xml for spring-amqp-core to spring-amqp change"
-2010-07-16T15:24:57Z "Merge branch 'master' of git.springsource.org:spring-amqp/spring-amqp"
-2010-07-16T15:24:21Z "eagerly create rabbitTemplate in RabbitAdmin constructor."
-2010-07-16T15:18:15Z "replaced 'Integration' with 'AMQP' in the notice.txt"
-2010-07-16T15:13:37Z "Merge branch 'master' of git.springsource.org:spring-amqp/spring-amqp"
-2010-07-16T15:10:38Z "changed spring-amqp-core artifactId to just spring-amqp, the 'top' level is now spring-amqp-dist"
-2010-07-16T15:09:01Z "fix typo"
-2010-07-16T15:07:21Z "java docs"
-2010-07-16T14:43:03Z "AMQP-27 updated template.mf RabbitMQ client version range minimum to 1.8.1"
-2010-07-16T14:39:09Z "AMQP-26 removed the 'otp' package"
-2010-07-16T14:27:25Z "AMQP-26 renamed 'spring-otp' to 'spring-erlang'"
-2010-07-16T05:48:24Z "added some content to readme.txt for the M1 release"
-2010-07-16T05:22:20Z "AMQP-25 added a setter for 'port' on SingleConnectionFactory"
-2010-07-16T05:17:04Z "Renamed getHostName() to getHost() and getPortNumber() to getPort() on ConnectionFactory. Those are the same method names as defined on the underlying Rabbit ConnectionFactory"
-2010-07-16T04:50:25Z "AMQP-24 refactored management of hostname property in SingleConnectionFactory"
-2010-07-16T04:23:25Z "avoiding declaration of Queues whose name starts with 'amq.' (e.g. generated Queues)"
-2010-07-16T04:08:24Z "commented out the 'quick tour' section of the reference manual for now"
-2010-07-16T03:55:55Z "AMQP-1 added walk-thru of stock trading sample"
-2010-07-16T02:28:55Z "renamed RabbitConfiguration to HelloWorldConfiguration in the sync helloworld sample"
-2010-07-15T21:50:38Z "Merge branch 'master' of git.springsource.org:spring-amqp/spring-amqp"
-2010-07-15T21:49:37Z "add declareQueue to AmqpAdmin interface"
-2010-07-15T20:23:54Z "AMQP-1 added 'async' Hello World walk through"
-2010-07-15T19:33:39Z "AMQP-1 completed 'sync' Hello World content"
-2010-07-15T18:23:16Z "AMQP-1 started samples docs (hello world)"
-2010-07-15T14:54:28Z "added brief preface content to ref doc"
-2010-07-14T22:12:43Z "AMQP-22 adding some basic material to the 'other resources' section of the reference manual"
-2010-07-14T21:21:30Z "added some brief documentation on the Spring Integration channel adapters for AMQP"
-2010-07-14T20:39:06Z "AMQP-10 started to add support for non-Windows OS on startNode"
-2010-07-14T20:20:44Z "xml well-formed typo"
-2010-07-14T20:17:42Z "added some coverage of Message to the reference manual"
-2010-07-14T20:06:36Z "Merge branch 'master' of git.springsource.org:spring-amqp/spring-amqp"
-2010-07-14T20:05:24Z "Change use of RabbitTemplate to AmqpTemplate."
-2010-07-14T19:39:13Z "removed some non-idiomatic binding options from Binding (constructors) and added reference manual material for Exchange, Queue, and Binding"
-2010-07-14T17:41:39Z "AMQP-20, AMQP-17: upgraded to RabbitMQ 1.8.1 client. Also added a bit to the 'AMQP Abstractions' section of the reference manual"
-2010-07-14T15:03:21Z "Merge branch 'master' of git.springsource.org:spring-amqp/spring-amqp"
-2010-07-14T15:02:09Z "fix javadoc comments."
-2010-07-12T22:15:11Z "AMQP-18 added some documentation for ConnectionFactory"
-2010-07-12T19:14:28Z formatting
-2010-07-12T18:35:03Z "removed site.xml files from samples"
-2010-07-12T18:02:20Z "AMQP-14, AMQP-15 added documentation"
-2010-07-12T15:22:20Z "added comment about 'experimental' to the CachingConnectionFactory"
-2010-07-12T14:59:05Z "replaced CachingConnectionFactory with SingleConnectionFactory for tests and samples"
-2010-07-10T00:05:52Z "AMQP-13 refactored BindingBuilder return types with inner classes to limit available methods"
-2010-07-09T23:26:33Z "added Exchange interface"
-2010-07-09T23:25:24Z "added Exchange interface"
-2010-07-09T23:14:50Z formatting
-2010-07-09T23:13:38Z formatting
-2010-07-09T23:03:23Z formatting
-2010-07-09T22:55:41Z "renamed queue generating method in base config to 'generatedQueue'"
-2010-07-09T22:40:19Z "removed an @Override annotation"
-2010-07-09T22:39:38Z "adding async example to helloworld sample"
-2010-07-09T20:40:07Z "AMQP-12 added Exchanges, Queues, and Bindings in a lifecycle callback rather than at configuration time"
-2010-07-08T21:57:50Z "AMQP-9 removed 'default' from names of template properties"
-2010-07-08T20:46:42Z "removing @Override annotations for Java 1.5 compatibility"
-2010-07-08T20:37:19Z "AMQP-4 removed the 'passive' property on our Queue definition object"
-2010-07-08T18:49:21Z "removed @Override annotations from RabbitAdmin methods (for 1.5 compatibility)"
-2010-07-08T18:17:04Z "added exclusion for *IntegrationTests"
-2010-07-08T18:07:11Z "AMQP-2 Added SingleConnectionFactory implementation. CachingConnectionFactory now extends it."
-2010-07-08T17:44:52Z "AMQP-2 Added SingleConnectionFactory implementation. CachingConnectionFactory now extends it."
-2010-07-08T17:38:44Z "Merge branch 'master' of git.springsource.org:spring-amqp/spring-amqp"
-2010-07-08T17:37:38Z "rename to have 'Integration' in the class name to avoid running with current maven test runner."
-2010-07-08T17:33:56Z "rename to have 'Integration' in the class name to avoid running with current maven test runner."
-2010-07-08T06:03:07Z "RabbitBrokerAdmin now returns a list of QueueInfo objects instead of a map of maps."
-2010-07-08T02:23:42Z "fix build"
-2010-07-08T02:05:33Z "Add @ManagedOpertion to RabbitAdmin methods"
-2010-07-08T00:56:17Z "AMQP-8 Provide consistent configuration and usage of vhosts in RabbitBrokerAdmin"
-2010-07-08T00:34:43Z "AMQP-6 Implement AmqpAdmin interface with RabbitAdmin implementation"
-2010-07-07T22:56:42Z "new amqp admin interface"
-2010-07-07T22:54:23Z "commiting changes."
-2010-07-07T22:48:42Z "add constructors"
-2010-07-07T22:47:25Z "remove use of passive, add some constructors."
-2010-07-07T22:44:44Z "Add new admin interface and implementation"
-2010-07-07T22:43:46Z "comment changes"
-2010-07-07T22:43:03Z "remove a constructor and use of passive"
-2010-07-06T19:44:27Z "AMQP-3 upgraded to RabbitMQ 1.8.0 Java client"
-2010-07-03T16:38:07Z "added cglib to dependencies for helloworld demo"
-2010-07-02T22:19:39Z "ignoring some integration tests so that build server testing won't fail"
-2010-07-02T22:14:09Z "moved the PojoHandler class into the spring-rabbit-admin project since that's where it's used"
-2010-07-02T22:06:17Z "created TestConstants local to spring-rabbit-admin since it cannot depend on test code from spring-rabbit"
-2010-07-02T21:47:15Z "removed dependency on class defined in the test branch of spring-amqp-core from spring-rabbit test code"
-2010-07-02T18:36:46Z "updated .classpath files to exclude missing directories and moved helloworld sample's src/test/resources to src/main/resources"
-2010-07-02T18:00:25Z "removed src/main/resources from .classpath since it does not exist in project"
-2010-07-02T14:18:09Z "adding .gitignore files"
-2010-07-02T14:04:59Z "added .gitignore"
-2010-06-30T02:54:34Z "test commit using egit"
-2010-06-30T02:16:39Z "initial commit"
+date;name_first_line
+2017-03-29T21:05:36Z;AMQP-733: @Exchange.durable() to true by default
+2017-03-29T18:01:51Z;AMQP-731: @RabbitListener support custom exchange
+2017-03-28T19:55:42Z;AMQP-723: Improve Javadocs for Recovery Exceptions
+2017-03-28T14:14:30Z;GH-589: Make Jackson2JsonMessageConverter robust
+2017-03-27T13:57:08Z;Downgrade to SF-5.0 M5
+2017-03-26T01:01:37Z;Fix JIRA link in docs and a couple typos
+2017-03-23T00:17:16Z;Upgrade to Hop-1.2.0
+2017-03-20T13:26:37Z;More MessagePropertiesTests: delay, contentType
+2017-03-17T18:00:14Z;sync access to DMLC.consumers in scheduled task
+2017-03-16T20:19:52Z;AMQP-728: Fix Logging Dependencies
+2017-03-16T19:34:38Z;AMQP-728: Make BrokerRunning More Configurable
+2017-03-16T15:54:03Z;AMQP-727: RoutingConnectionFactory Fixes
+2017-03-15T15:35:08Z;Improvements for BindingBuilderTests
+2017-03-15T01:10:55Z;Remove overridden DMLC methods accepting Queue
+2017-03-14T16:59:28Z;Use controlled atomic for the `isOpen()` stub
+2017-03-14T16:51:53Z;Use controlled atomic for the `isOpen()` stub
+2017-03-14T15:29:16Z;AMQP-724: Fix NPE for rabbit:listener-container
+2017-03-14T14:40:46Z;Fix tearDown method in testing.adoc code example
+2017-03-14T13:03:38Z;Update JIRA link in contributing guide.
+2017-03-14T01:31:09Z;"AMQP-726: Fix for ChannelProxy; Polishing"
+2017-03-13T18:47:18Z;AMQP-726: Always Cancel Auto Recovering Consumers
+2017-03-13T16:05:49Z;Minor optimization Message.toString()
+2017-03-08T19:54:50Z;AMQP-722: Support >1 Routing Keys in @QueueBinding
+2017-03-08T14:36:38Z;Restrict memory usage for tests on Travis
+2017-03-06T19:43:04Z;Fix Anonymous queues support in RabbitListener
+2017-03-06T15:54:04Z;Use shared Base64UrlNamingStrategy.DEFAULT
+2017-03-06T15:21:01Z;AMQP-720: Drop UniquelyNamedQueue
+2017-03-02T15:10:31Z;AMQP-719: upgrade to Logback 1.1.11
+2017-03-01T18:54:45Z;Lockback Appender Doc Polishing
+2017-03-01T15:47:27Z;AMQP-717: RabbitTemplate Invoke Method
+2017-02-27T22:45:44Z;AMQP-715: Logback AmqpAppender.includeCallerData
+2017-02-27T20:27:19Z;CheckStyle: JavaDoc
+2017-02-27T17:02:24Z;AMQP-716: ExchangeBuilder and Durable
+2017-02-27T16:37:44Z;AMQP-718: Fix Channel Close During Transaction
+2017-02-23T21:26:16Z;AMQP-714: Improve MessageProperties.toString()
+2017-02-21T15:41:28Z;Polish BrokerRunning @Rule
+2017-02-20T17:44:41Z;Fix Test Race Conditions
+2017-02-20T14:11:10Z;Update Docs to Reflect the 4.1.0 Client
+2017-02-20T13:57:08Z;AMQP-713: add channel RPC timeout setting
+2017-02-20T13:47:10Z;Upgrade RabbitMQ Java Client to 4.1.0
+2017-02-16T00:02:53Z;AMQP-711: Make Transaction Rollback Consistent
+2017-02-14T18:29:03Z;AMQP-710: Fix Exception Return From Void Method
+2017-02-07T22:06:03Z;AMQP-709: Disable Auto Recovery By Default
+2017-02-07T17:41:42Z;Fix asciidoc markup formatting for inline code
+2017-02-06T22:10:33Z;AMQP-708: Fix Leaked AutoRecovered Channel
+2017-02-06T18:31:18Z;AMQP-617: Don't Alias Queue and Exchange Name Attr
+2017-02-02T21:23:03Z;Upgrade to Hop-1.1.1
+2017-01-31T22:01:34Z;AMQP-706: Improve DefaultClassMapper Documentation
+2017-01-31T15:20:02Z;AMQP-705: Use Asser.state Supplier Variant
+2017-01-31T00:34:28Z;AMQP-705: Properly use `Assert` class from SF
+2017-01-24T20:43:50Z;AMQP-703: Add Connection Name to Cache Properties
+2017-01-20T20:23:22Z;AMQP-700: ListenerEndpointRegistry: proper stop
+2017-01-20T19:20:22Z;AMQP-701: @RabbitListener BPP Performance
+2017-01-20T15:04:30Z;Doc Copyright 2017
+2017-01-19T16:08:05Z;AMQP-697: Add CorrelationDataPostProcessor
+2017-01-17T16:49:32Z;AMQP-699: Suppress Stack Trace in RabbitAdmin
+2017-01-16T21:30:44Z;AMQP-698: Fix NPE in RabbitManagementTemplate
+2017-01-13T21:15:00Z;AMQP-697: CorrelationAwareMessagePostProcessor
+2017-01-12T21:38:29Z;AMQP-696: RabbitManagementTemplate Fix
+2017-01-11T15:00:21Z;Sonar Fixes
+2017-01-11T14:20:31Z;AMQP-693: Polishing
+2017-01-10T23:26:38Z;AMQP-693: AsyncRabbitTemplate TaskScheduler Fixes
+2017-01-09T21:17:26Z;AMQP-694: Upgrade to Mockito 2.5.4
+2017-01-04T21:13:06Z;[artifactory-release] Next development version
+2017-01-04T21:13:02Z;[artifactory-release] Release version 2.0.0.M2
+2017-01-04T19:22:48Z;Prepare for Milestone Release
+2017-01-03T19:21:29Z;AMQP-692: Fix MessagingMessageLA missed argument
+2016-12-30T00:30:51Z;"Fix CheckStyle ""Whitespace around"" violation"
+2016-12-30T00:24:39Z;DirectReplyToMLContainerTests race condition
+2016-12-29T23:26:51Z;Various Test Performance Fixes
+2016-12-29T17:31:56Z;AMQP-675: Fix RabbitConverterFuture race condition
+2016-12-23T21:10:01Z;Add logging diagnostic to DirectRToMLContTests
+2016-12-23T19:24:59Z;AMQP-688: Remove Jackson 1 Support
+2016-12-23T15:15:45Z;AMQP-691: Detect Missing Logback Layout
+2016-12-21T14:16:10Z;AMQP-690: Fix Remaining Tests
+2016-12-20T21:23:27Z;AMQP-690: Fix active consumers race condition
+2016-12-16T21:54:19Z;AMQP-675: RabbitTemplate - Add Typed Returns
+2016-12-16T18:32:46Z;AMQP-689: Support skipServerCertificateValidation
+2016-12-14T16:48:02Z;Fix AmqpAppCtxClosedE race condition in the DMLC
+2016-12-14T16:24:25Z;AMQP-687: Fix Conditional Rollback
+2016-12-13T16:06:25Z;Proper Fix for 2c0844ae2a19771e16fdb...
+2016-12-09T17:44:28Z; Add checkStyle to the `testAl` Gradle task
+2016-12-09T00:18:28Z;One more catch for `AmqpIOException`
+2016-12-08T22:48:31Z;Catch `AmqpIOException` for stopping container too
+2016-12-08T21:02:29Z;AMQP-682: DMLC: Fatal Connection Error
+2016-12-08T20:49:42Z;AMQP-683: Update javadocs to latest versions
+2016-12-08T20:49:13Z;AMQP-685: Use Supplier variants of Spring-Framework's core Assert utility
+2016-12-07T16:39:47Z;BrokerRunning Sonar Fixes
+2016-12-05T15:01:27Z;Fix Another Test Race Condition
+2016-12-03T20:30:58Z;Fix Sonar Detected Bad instanceof Check
+2016-12-03T17:19:52Z;Fix testHardErrorAndReconnectAuto Test
+2016-12-03T16:14:24Z;Test Diagnostics
+2016-12-02T20:05:09Z;AMQP-678: Move BrokerRunning @Rule to junit Jar
+2016-12-01T20:37:39Z;AMQP-680: Avoid allocations from Method.getParameterTypes() in MessagingMessageListenerAdapter
+2016-11-30T15:49:36Z;[artifactory-release] Next development version
+2016-11-30T15:49:33Z;[artifactory-release] Release version 2.0.0.M1
+2016-11-30T15:13:41Z;Upgrade to amqp-client 4.0.0 GA
+2016-11-30T14:48:56Z;DMLC - Doc Polishing
+2016-11-29T21:51:49Z;Allow RabbitTemplate Subclasses to Access Replies
+2016-11-29T17:18:19Z;AMQP-676: @RabbitListener Improvements
+2016-11-28T15:00:58Z;AMQP-677: RabbitConnectionFactory and 4.0 client
+2016-11-27T22:10:19Z;Additional Fix for Previous Commit
+2016-11-26T21:20:54Z;Fix Test Race Condition
+2016-11-23T17:54:56Z;Checkstyle Polishing
+2016-11-23T17:39:24Z;"Add Test Diagnostics; Log Adjuster Improvements"
+2016-11-19T15:05:06Z;Fix Tests
+2016-11-18T14:24:18Z;Sonar Fixes
+2016-11-17T19:45:17Z;AMQP-673: 4.0.0.RC2 Client and auto-recovery
+2016-11-16T22:53:36Z;AMQP-672: SMLC: Support Start with No Queues
+2016-11-16T21:42:15Z;AMQP-674: Resolve deprecation in `AmqpAppender`
+2016-11-16T15:26:35Z;chore: primitive long in ActiveObjectCounter.await()
+2016-11-13T14:53:13Z;Upgrade to Log4J 2.7 and fix compatibility
+2016-11-07T21:10:46Z;Upgrade to Hop-1.1.0
+2016-11-07T13:55:15Z;AMQP-668: Increase Test Latch Timeout
+2016-11-02T13:18:32Z;Reduce Method Complexity After Lambda Conversion
+2016-11-01T21:10:37Z;BindingBuilder Private ctors Incomplete Fix
+2016-11-01T20:32:49Z;Avoid Synthetic ctors
+2016-11-01T14:51:15Z;AMQP-667: Support 'delayed' on `@Exchange`
+2016-10-31T16:53:00Z;Fix Race in Test
+2016-10-28T15:40:42Z;"Add `this.template.setReceiveTimeout(20000);`"
+2016-10-28T15:27:15Z;RabbitTemplateIntegrationTests polishing
+2016-10-28T14:59:19Z;Bump Mockito Version and Polish Tests
+2016-10-28T14:57:32Z;AMQP-660: MessageConversionException for CNFE
+2016-10-26T13:51:07Z;AMQP-665: DMLC: Shut Down Scheduler
+2016-10-24T14:15:52Z;Fix New Sonar Issues
+2016-10-22T16:25:24Z;Add Test Diagnostics
+2016-10-21T19:26:03Z;RabbitManagementTemplate for CloudFoundry
+2016-10-21T18:48:30Z;AMQP-655: RabbitTemplate and DirectReply Container
+2016-10-21T14:36:14Z;Fix javadoc formatting in class EnableRabbit
+2016-10-20T14:08:36Z;AMQP-663: Fix Race in Container Test
+2016-10-19T14:29:08Z;AMQP-661: NPE with null Queue Names in Container
+2016-10-18T16:03:00Z;Update to amqp-client Version 4.0.0.M2
+2016-10-17T19:13:16Z;AMQP-659: @RabbitListener Annotation Improvements
+2016-10-17T16:55:53Z;AMQP-657: Fix `receivedUserId` header mapping
+2016-10-17T15:12:31Z;AMQP-656: Support Empty Strings in Arguments
+2016-10-14T17:41:18Z;AMQP-616: Direct ReplyTo Container Race Condition
+2016-10-13T18:40:04Z;AMQP-655: Phase I - RabbitTemplate Lambda Refactor
+2016-10-12T20:35:10Z;AMQP-529: Remove pre-2.0 Deprecations
+2016-10-12T20:02:10Z;AMQP-196: Use RabbitOperations in Gateway Support
+2016-10-12T19:25:04Z;AMQP-616: Support Direct ReplyTo in Async Template
+2016-10-10T20:50:03Z;AMQP-652: Use Base64 By Default for Anon. Queues
+2016-10-10T20:35:23Z;AMQP-654: DMLC: Recover from Broker Interruption
+2016-10-10T19:09:40Z;AMQP-653: Messaging Template Converter User
+2016-10-07T14:28:31Z;AMQP-650: AsyncRabbitTemplate Refactoring
+2016-10-06T22:38:33Z;AMQP-631: Fix mocks test for new method in charge
+2016-10-06T21:31:09Z;AMQP-651: amqp-client Version Minimum 3.6.5
+2016-10-06T21:09:16Z;AMQP-631: Add `ConnectionNameStrategy` for `CF`
+2016-10-06T15:55:37Z;Fix Delay Property Setter Name
+2016-10-05T18:58:19Z;AMQP-640: DirectMLContainer - Docs and XML Parser
+2016-10-05T18:42:21Z;AMQP-649: RabbitConnectionFactoryBean Improvements
+2016-10-04T21:10:03Z;AMQP-647: Eliminate MissingMessageidAdvice
+2016-09-29T20:08:09Z;DMLC: Fix Race in Consumer Cancel
+2016-09-29T15:39:55Z;AMQP-645: Remove byte[] Correlation Id
+2016-09-28T13:56:57Z;AMQP-648: Fix Race in handleCancel (SMLC)
+2016-09-24T14:18:31Z;Fix Bamboo Badge
+2016-09-23T16:08:17Z;Fix JavaDocs and add missed property
+2016-09-23T15:57:32Z;AMQP-639: Add DirectRabbitListenerContainerFactory
+2016-09-22T21:55:11Z;AMQP-636: Queue Declaration and Recovery
+2016-09-22T13:23:45Z;Fix Race in DMLC Test
+2016-09-20T19:49:42Z;DMLC - More Diagnostics
+2016-09-14T22:32:03Z;AMQP-646: Connection/Channel Listener Improvements
+2016-09-14T22:12:55Z;AMQP-642: DirecMLContainer Transaction Support
+2016-09-12T18:46:28Z;AMQP-641: DirectMLContainer Add ErrorHandler
+2016-09-09T21:37:19Z;AMQP-637 Polishing and Diagnostics
+2016-09-09T21:15:06Z;AMQP-632: Add RabbitTemplate.getUnconfirmedCount
+2016-09-09T19:18:16Z;AMQP-638 DirectMessageListenerContainer Events
+2016-09-09T17:33:27Z;DMLC Test Diagnostics
+2016-09-09T15:19:15Z;AbstractConnectionFactory: remove obsolete remark in javadoc
+2016-09-09T15:12:26Z;AMQP-637: Fix Shutdown
+2016-09-09T12:22:56Z;AMQP-637: DirectMLContainer - Add/Remove Queues
+2016-09-06T22:14:03Z;AMQP-634: DirectMessageListenerContainer
+2016-09-02T21:56:03Z;Clean Broker After Running Tests
+2016-09-02T14:42:56Z;AMQP-644: Non-Fatal Exception Stopped Container
+2016-09-01T21:00:44Z;AMQP-643: Doc Polishing
+2016-09-01T14:34:17Z;AMQP-643: Java 8 and Lambdas
+2016-08-30T14:04:13Z;AMQP-633: Fix What's New
+2016-08-20T15:06:11Z;AMQP-633: Ensure Resources are Closed
+2016-08-19T19:07:20Z;AMQP-633: Fix Non-Transactional Template Issue
+2016-08-15T16:03:57Z;AMQP-624: Add SSL Support to Logging Appenders
+2016-08-11T14:20:46Z;AMQP-630: Migrate to Log4J2, Part II
+2016-08-10T14:01:41Z;Update Eclipse Code Formatter File
+2016-07-28T21:52:31Z;AMQP-630: Move dependency from Log4j to Log4j2
+2016-07-28T19:53:46Z;AMQP-628: Master to 2.0, SF 5.0
+2016-07-27T19:13:36Z;AMQP-626: Add keystore\truststore type setters
+2016-07-26T13:01:11Z;AMQP-625: CCF: Fix onClose Notification
+2016-07-18T17:34:10Z;[artifactory-release] Next development version
+2016-07-18T17:34:07Z;[artifactory-release] Release version 1.6.1.RELEASE
+2016-07-18T17:16:27Z;Upgrade `spring-io-plugin` to 0.0.5
+2016-07-18T15:49:24Z;Some dependencies minor upgrades
+2016-07-17T10:16:17Z;AMQP-623: Don't eat errors in AbstractAdaptableML
+2016-07-17T10:12:54Z;AMQP-618: Add `contentType` note into JSON Docs
+2016-07-17T09:31:52Z;More Sonar
+2016-07-17T08:34:07Z;More Sonar
+2016-07-16T07:49:14Z;AMQP-621: Sonar Fix
+2016-07-15T16:15:24Z;AMQP-621: Fix Consumer.basicCancel Race Condition
+2016-07-11T10:27:06Z;AMQP-619: Populate Bean CL Into JSON Converters
+2016-07-10T09:50:24Z;Fix CLA
+2016-07-10T09:47:47Z;CLA Hook
+2016-07-08T23:26:23Z;Fix some typos and tabs in Docs
+2016-07-06T17:54:57Z;More properties for MessageProperties.toString()
+2016-06-07T03:59:19Z;Fix Travis Badge
+2016-06-06T23:52:23Z;Add gitter Badge
+2016-05-31T17:44:46Z;[artifactory-release] Next development version
+2016-05-31T17:44:44Z;[artifactory-release] Release version 1.6.0.RELEASE
+2016-05-31T15:51:51Z;Fix JavaDocs for code vulnerability
+2016-05-31T15:47:14Z;AMQP-614: Polishing and Add Builder for Exchange
+2016-05-31T14:39:08Z;AMQP-614: Implement Builder for `Queue` Objects
+2016-05-26T01:24:42Z;AMQP-612: RabbitTemplate UserId Expression
+2016-05-23T13:59:53Z;RabbitTemplateIntegrationTests: fix timing issue
+2016-05-19T13:34:26Z;AMQP-611: Upgrade to Log4J2-2.5
+2016-05-17T20:57:34Z;Fix wrong format in JavaDocs #2
+2016-05-17T20:48:26Z;Fix wrong format in JavaDocs
+2016-05-17T20:36:25Z;GH-420: AcknowledgeMode JavaDocs
+2016-05-11T18:10:09Z;Doc Improvement
+2016-05-07T13:58:26Z;Sonar Fix
+2016-05-06T17:55:19Z;[artifactory-release] Next development version
+2016-05-06T17:55:16Z;[artifactory-release] Release version 1.6.0.RC1
+2016-05-06T14:41:52Z;AMQP-609: Add 'internal' to @Exhange
+2016-05-05T18:59:51Z;AMQP-607: Don't Adjust Channel Cache Size
+2016-05-05T16:20:11Z;AMQP-572: Always commit only in `afterCompletion`
+2016-05-04T19:24:58Z;Fix `RabbitAdminDeclarationTests` for whitespace
+2016-05-04T18:57:39Z;AMQP-602: Add `Exchange` `internal` Option
+2016-05-04T18:53:22Z;AMQP-606: Increase Default Channel Cache Size
+2016-05-02T21:16:23Z;Upgrade to Gradle 2.13 and Travis optimizations
+2016-05-02T20:55:37Z;AMQP-605: Expose RabbitMQ ClientProperties
+2016-05-02T18:23:59Z;AMQP-603: Fix Member variable visibility
+2016-05-01T17:28:11Z;Reduce resolveArguments Complexity
+2016-04-30T13:48:03Z;More Refactoring
+2016-04-29T18:51:50Z;Reduce Method Complexity
+2016-04-27T20:20:14Z;AMQP-604: @QueueBinding: Support Arguments
+2016-04-20T18:38:03Z;AMQP-599: Log Appenders - Add addresses Property
+2016-04-15T19:29:38Z;AMQP-598: Admin: Ignore Scoped and Prototype Beans
+2016-04-11T15:02:34Z;AMQP-597: Document MetaAnnotations
+2016-04-07T14:06:26Z;Use Gradle's file() method to resolve file path
+2016-04-07T14:06:07Z;Fix build task dependencies
+2016-04-07T07:42:37Z;Fix namespace mapping (META-INF/spring.schemas)
+2016-04-05T17:16:55Z;checkstyle FinalClass
+2016-04-01T16:56:41Z;AMQP-595: Fix Auto-Startup for @RabbitListener
+2016-03-29T16:46:25Z;AMQP-591: Fix Permit Release on Factory Destroy
+2016-03-24T19:44:07Z;[artifactory-release] Next development version
+2016-03-24T19:44:03Z;[artifactory-release] Release version 1.6.0.M2
+2016-03-24T19:01:17Z;Apply `RedundantModifier` checkstyle and fix
+2016-03-24T19:00:07Z;AMQP-594: Fix for `@RabbitListener` When CGLIB
+2016-03-23T21:07:06Z;AMQP-592: CCF factory-timeout and connection-limit
+2016-03-23T16:09:15Z;AMQP-593: Doc Polishing
+2016-03-23T16:07:12Z;AMQP-591: Fix Channel Cache (with Permits)
+2016-03-22T15:44:52Z;Get rid of Java 8 usage from core code
+2016-03-22T15:35:37Z;AMQP-579: @SendTo - Support Runtime SpEL
+2016-03-21T18:38:04Z;AMQP-583: Fatal @RabbitListener Exceptions
+2016-03-21T16:32:33Z;AMQP-549: @RabbitListener Inferred Conversion Type
+2016-03-17T17:16:06Z;AMQP-571: Fix dead stores - squid:S1854
+2016-03-16T12:52:45Z;Sonar Fix
+2016-03-15T20:56:10Z;AMQP-590: Java Deserialization White List
+2016-03-15T17:25:56Z;Enable 'this.' Rule
+2016-03-14T23:18:03Z;AMQP-589: Inbound Delivery Mode Mapping
+2016-03-14T13:03:58Z;Fix Test Race Condition
+2016-03-09T15:53:24Z;AMQP-581: More Cache Stats (High Water Marks)
+2016-03-09T14:28:36Z;Fix New Sonar Errors
+2016-03-08T21:03:16Z;Fix Tangles
+2016-03-07T20:51:16Z;Add `fixHeaders.gradle` and apply the fix
+2016-03-06T15:14:04Z;AsyncTemplate: Fix Sonar Violation
+2016-03-05T20:02:11Z;Fix Race Condition in AsyncRabbitTemplateTests
+2016-03-04T23:13:51Z;Checkstyle Phase II - Fix Java File Headers
+2016-03-04T22:02:34Z;Checkstyle Phase I - NewLines at EOF
+2016-03-04T21:14:34Z;AMQP-585: Add receiveTimeout to Async Template
+2016-03-02T17:18:37Z;AMQP-539: Expose Async Template Message Converter
+2016-03-02T17:11:46Z;AMQP-539: Expose Async Template Connection Factory
+2016-02-29T21:58:06Z;AMQP-582: Compatibility with SF-4.3
+2016-02-27T03:05:48Z;AMQP-580: Add Bean Name to Default Task Executor
+2016-02-27T03:01:33Z;AMQP-581: Expose Caching CF Cache Statistics
+2016-02-24T23:11:03Z;Make getSpy method visible to other packages.
+2016-02-24T23:10:39Z;Move CountDown to After Target Method Call
+2016-02-12T20:04:51Z;[artifactory-release] Next development version
+2016-02-12T20:04:42Z;[artifactory-release] Release version 1.6.0.M1
+2016-02-12T18:09:02Z;AMQP-569: Support Delayed Message Exchange Plugin
+2016-02-12T16:35:11Z;AMQP-547 Fix typo in ContTypeDelegatingMC methods
+2016-02-12T14:39:25Z;AMQP-570: Fix MimeType in SimpleAmqpHeaderMapper
+2016-02-12T14:37:44Z;AMQP-574: Document @RabbitListener Conversion
+2016-02-08T18:41:34Z;AMQP-568: Long LongString Header Handling
+2016-02-05T22:44:39Z;README Typo
+2016-02-03T22:03:58Z;AMQP-531: Log4j2 AmqpAppender
+2016-02-03T21:30:42Z;AMQP-557: @Repeatable @RabbitListener
+2016-02-02T18:06:00Z;AMQP-548, AMQP-567: Admin Declaration Failures
+2016-02-02T15:38:35Z;Add Contributor Covenant
+2016-01-28T15:07:31Z;AMQP-566: Add String Version of CorrelationId
+2016-01-28T15:03:34Z;Exclude with modules to meet IO requirements
+2016-01-27T21:54:32Z;AMQP-539: Add AsyncRabbitTemplate
+2016-01-27T18:33:30Z;AMQP-559: Fix Pre-Java8 Compliance
+2016-01-27T18:01:44Z;AMQP-559: Remove Lambdas for IO Compat. Build
+2016-01-26T22:09:37Z;AMQP-565: Fix NPE in RabbitAdmin
+2016-01-26T22:03:14Z;AMQP-559: @RabbitListener Test Harness
+2016-01-25T20:15:58Z;AMQP-564: Fix Confirm Callback Nacks
+2016-01-25T17:24:48Z;AMQP-535: PublisherCallbackChannel Improvements
+2016-01-25T16:37:01Z;AMQP-563: Support Explicit Temporary Reply Queue
+2016-01-20T23:21:17Z;AMQP-562: Check for Queue Declaration Mismatches
+2016-01-19T16:19:14Z;AMQP-537: RabbitTemplate: receive() with Timeout
+2016-01-15T23:45:09Z;AMPQ-554: Namespace Additions
+2016-01-15T17:25:01Z;AMQP-561: Log Appender Exchange Declaration
+2016-01-13T15:03:09Z;Move 3.6 Client Test to Separate Class
+2016-01-08T15:50:11Z;"AMQP-560: Add BrokerRunning to Test; Doc Polish"
+2016-01-07T21:12:48Z;AMQP-560: Idle Container Events
+2016-01-05T17:12:55Z;Reference Copyright -> 2016
+2015-12-29T18:17:39Z;Revert SF-4.2.4 API usage
+2015-12-28T22:36:27Z;AMQP-558: amqp-client 3.6.0
+2015-12-24T17:04:06Z;SO34454159: Test Showing Proxying a RabbitListener
+2015-12-23T17:22:11Z;spring-schemas
+2015-12-23T17:21:06Z;Master is Now 1.6.x
+2015-12-23T16:33:14Z;AMQP-558: amqp-client 3.5.7 + 3.6.0 Compatibility
+2015-12-18T17:13:13Z;AMQP-556: NPE in SMLC After Shutdown Timeout
+2015-12-12T01:41:34Z;AMQP-555: AnonymousQueue Naming Strategy
+2015-12-11T19:48:40Z;Fix some race conditions around mocks
+2015-12-05T16:43:55Z;Code Polishing (Sonar)
+2015-12-03T22:14:03Z;AMQP-553: Allow CF ThreadFactory Injection
+2015-12-03T21:48:25Z;AMQP-551: Use doReturn() for Spied Loggers
+2015-12-01T19:36:33Z;AMQP-552: Support @RabbitListener on Interfaces
+2015-12-01T19:05:21Z;Test Polishing
+2015-12-01T18:51:34Z;@EnableRabbitIntegrationTests Improvements
+2015-11-30T19:58:15Z;AMQP-551: Fix Mockito Usage in Failover Tests
+2015-11-22T15:27:20Z;Fix Doc Typos
+2015-11-19T18:38:35Z;Doc Fix and Polishing
+2015-11-18T15:51:08Z;AMQP-546: Add SmartLifecycle to Caching Conn Fact
+2015-11-13T19:31:47Z;[artifactory-release] Next development version
+2015-11-13T19:31:42Z;[artifactory-release] Release version 1.5.2.RELEASE
+2015-11-13T19:10:28Z;Update Spring and RabbitMQ Client Versions
+2015-11-13T18:40:51Z;AMQP-479: XA compatibility for RabbitResourceSync
+2015-11-10T01:12:35Z;AMQP-541: Fix @RabbitListener Proxy Param Match
+2015-11-02T17:50:33Z;AMQP-544: API to Obtain @RabbitListener ids
+2015-11-02T16:12:51Z;@RabbitListener Doc Improvement
+2015-10-19T19:30:01Z;Fix x-expires Test Case
+2015-10-19T17:14:46Z;AMQP-542: @SendTo with Class Level @RabbitListener
+2015-10-09T21:39:31Z;AMQP-540: Fix @RabbitHandler on Proxy
+2015-10-02T15:54:21Z;[artifactory-release] Next development version
+2015-10-02T15:54:17Z;[artifactory-release] Release version 1.5.1.RELEASE
+2015-10-02T15:37:59Z;Update RabbitMQ Client to 3.5.5
+2015-09-11T20:03:28Z;AMQP-532: Fix Pub.Conf. Nacks on close()
+2015-09-09T16:56:48Z;[artifactory-release] Next development version
+2015-09-09T16:56:43Z;[artifactory-release] Release version 1.5.0.RELEASE
+2015-09-09T16:46:17Z;Build: Make proper exclude for IO compatibility
+2015-09-09T15:46:39Z;AMQP-532: Pub.Conf. Concurrency
+2015-09-08T20:05:12Z;AMQP-533: @RabbitListener SpEL Multiple Queues
+2015-09-08T15:37:08Z;AMQP-534: Fix Package Tangle
+2015-09-04T15:46:16Z;AMQP-525: Fix Single & in if Statement
+2015-09-03T18:43:25Z;AMQP-525: Blocking receiveAndReply()
+2015-09-02T00:03:11Z;Remove redundant Parsers field and test around it
+2015-09-01T23:41:45Z;AMQP-528: `group` attribute on Listener Container
+2015-09-01T21:14:45Z;AMQP-530: Log4j 1.x Deprecation
+2015-08-31T19:38:03Z;AMQP-524: Publisher CF Extract Interface
+2015-08-31T12:44:53Z;AMQP-527: Address: `equals()` and `hashCode()`
+2015-08-13T23:01:10Z;[artifactory-release] Next development version
+2015-08-13T23:01:05Z;[artifactory-release] Release version 1.5.0.RC1
+2015-08-13T20:56:54Z;Update SF, rabbit amqp and http Client Versions
+2015-08-12T22:55:44Z;AMQP-521: LocalizedQueueConnectionFactory
+2015-08-12T20:37:22Z;AMQP-523: Fix Class Tangle
+2015-08-12T13:04:49Z;AMQP-522: Make RabbitAdmin Constants Public
+2015-08-10T20:32:29Z;AMQP-520: MessageListenerAdapter Method Map
+2015-08-08T19:36:36Z;AMQP-519: Shut Down Deferred Close Executor
+2015-08-07T17:27:27Z;AMQP-518: Remove <listener-container/> id Attrib.
+2015-08-07T16:23:33Z;AMQP-517: Add resetConnection()
+2015-08-06T13:42:01Z;AMQP-516: Fix Auto-Declare Anonymous Queue
+2015-08-01T13:52:37Z;AMQP-515: More Sonar Fixes
+2015-07-31T17:15:29Z;AMQP-449: Verify Reply Container Configuration
+2015-07-29T16:05:15Z;AMQP-515: Eliminate new Sonar Critical Violations
+2015-07-23T22:01:25Z;AMQP-513: Update to Gradle 2.5
+2015-07-23T18:36:06Z;"AMQP-512: Delete Test Queues; Close Connections"
+2015-07-21T17:28:42Z;AMQP-511: Support SpEL in @SendTo
+2015-07-08T09:03:12Z;Use the latest version of the Spring IO Plugin
+2015-06-29T21:02:37Z;AMQP-507: Add AmqpMessageReturnedException
+2015-06-29T17:11:38Z;AMQP-499: Make WARN Log Configurable
+2015-06-29T16:28:14Z;AMQP-509: Add Consumer Failure Events
+2015-06-29T15:55:42Z;AMQP-508: Queue Declaration IllegalArgumentExcept.
+2015-06-26T21:52:29Z;AMQP-506: Publisher Confirms Concurrency
+2015-06-25T13:12:06Z;AMQP-505: Add setUri() method to ConnectionFactory
+2015-06-24T19:38:38Z;AMQP-504: Update to RabbitMQ 3.5.3 Client
+2015-06-24T19:22:22Z;AMQP-503: Add Blocking Receive to RabbitTemplate
+2015-06-24T19:20:04Z;AMQP-497: Declare Collection<Declarable> elements
+2015-06-24T16:21:34Z;AMQP-499: Improve Channel Close Logging
+2015-06-19T18:04:07Z;AMQP-502: Fix Fanout @Binding Declaration
+2015-06-02T14:32:32Z;AMQP-501: Docs for ConsumerTagStrategy
+2015-05-29T18:20:49Z;AMQP-500: Configurable SSL Algo, No Properties
+2015-05-12T09:01:42Z;AMQP-498: Adjust Consumers With ChannelTransacted
+2015-05-11T18:11:30Z;AMQP-496: CCF: Do Not Connect After AC Close
+2015-05-07T15:47:36Z;[artifactory-release] Next development version
+2015-05-07T15:47:32Z;[artifactory-release] Release version 1.5.0.M1
+2015-05-07T14:26:40Z;What's New Documentation Polishing
+2015-05-07T13:58:28Z;AMQP-427: Add `BackOff` for Listener Container
+2015-05-07T11:34:41Z;AMQP-444: Fix Package Tangle
+2015-05-06T18:15:04Z;Reference Polishing
+2015-05-06T17:59:38Z;Fix Doc: What's New Header
+2015-05-06T15:17:41Z;AMQP-495: Remove spring-erlang
+2015-05-06T13:40:06Z;AMQP-481: Register `@RabbitListener` for `@Lazy`
+2015-05-01T09:35:25Z;AMQP-494: Extract RoutingConnectionFactory Iface
+2015-04-30T20:30:09Z;AMQP-444: Multi-Method @RabbitListener
+2015-04-30T11:13:33Z;AMQP-473: RabbitManagementTemplate
+2015-04-30T09:37:14Z;AMQP-416: Deprecate id on <listener-container/>
+2015-04-27T15:48:38Z;AMQP-443: Auto-Declare @RabbitListener Queues
+2015-04-27T15:44:35Z;AMQP-492: Enhance Timeout Exception (RPC)
+2015-04-27T15:06:53Z;AMQP-455: Pub. Confirms with Send and Receive
+2015-04-27T15:03:06Z;AMQP-450: Support Reply Routing via Exchange
+2015-04-27T14:23:37Z;AMQP-493: Add Consumer Tag Naming Strategy
+2015-04-23T13:08:33Z;AMQP-139: Expose isTransactional() on Channel
+2015-04-22T17:33:17Z;AMQP-490: Suppress ERROR on Normal Close
+2015-04-22T17:17:30Z;AMQP-462: Batching and Compression Docs
+2015-04-09T16:01:33Z;AMQP-489: Enhanced RepublishMessageRecoverer
+2015-04-07T09:19:21Z;Fixed 1.5 line in spring.schemas
+2015-04-03T17:29:32Z;"Add ""Real"" Routing Connection Factory Test"
+2015-04-03T16:35:41Z;AMQP-467: INFO Log When Connection is Opened
+2015-04-03T10:36:47Z;AMQP-487: Fix NPE in the CachingConnectionFactory
+2015-03-19T21:17:08Z;AMQP-486: Fix Version in QuickStart
+2015-03-19T07:22:47Z;AMQP-486 Convert from DocBook to AsciiDoc
+2015-03-17T10:36:23Z;AMQP-485: Fix `SimpleMessageLContainer` JavaDoc
+2015-03-16T18:54:37Z;AMQP-484: Selectable SSL Algo
+2015-03-04T19:19:05Z;AMQP-482: Make LongString Limit Configurable
+2015-02-16T13:53:17Z;AMQP-477: Update to Gradle 2.3
+2015-02-10T19:26:21Z;AMQP-475: Minor Polishing
+2015-02-10T09:45:22Z;AMQP-476: Fix Package Tangle
+2015-02-09T20:42:44Z;AMQP-474:Log Appenders appId Replacement Once Only
+2015-02-09T08:54:18Z;AMQP-475: Don't Catch Throwable
+2015-02-06T20:20:21Z;AMQP-474: Fix Log Appenders
+2015-01-30T21:05:22Z;AMQP-469 Introduce `Connection#sendAndReceiveRPC`
+2015-01-30T17:17:50Z;AMQP-472: Namespace for Declaration Retries
+2015-01-30T16:01:27Z;AMQP-472: Recover From Conn. Close During Init
+2015-01-29T11:06:11Z;Optimization for `DeclarationException`
+2015-01-28T14:48:09Z;AMQP-470 Make `basicQos` IOException non-fatal
+2015-01-12T16:09:44Z;AMQP-466: Reinstate and Deprecate Constant
+2015-01-10T18:37:11Z;AMQP-466: Move Direct reply-to Decoding to Address
+2015-01-08T19:42:56Z;AMQP-447 Ignore empty string passsed to AbstractConnectionFactory.setAddresses()
+2015-01-08T19:35:59Z;Add 1.5 Schema
+2015-01-08T18:09:10Z;Update master to 1.5.0.BUILD-SNAPSHOT
+2015-01-08T16:04:28Z;[artifactory-release] Next development version
+2015-01-08T16:04:18Z;[artifactory-release] Release version 1.4.2.RELEASE
+2015-01-08T15:53:46Z;AMQP-138: Add `What's New` about ContentTypeMC
+2015-01-08T14:40:29Z;AMQP-138: Add Content-Type Message Converter
+2015-01-05T19:45:25Z;AMQP-463: Fix Publisher Confirms with JRockit
+2015-01-05T15:41:45Z;AMQP-457: ListenerContainer Provide Consumer Queue
+2015-01-05T13:55:18Z;AMQP-459: Add Channel Limit Option to CCF
+2014-12-26T17:34:20Z;Fix CCF Javadocs For CacheMode.CONNECTION
+2014-12-23T19:37:53Z;AMQP-458 Fix Typo in `amq.rabbitmq.reply-to`
+2014-12-20T21:26:30Z;[artifactory-release] Next development version
+2014-12-20T21:26:20Z;[artifactory-release] Release version 1.4.2.M2
+2014-12-20T21:15:20Z;XD-2079: Classloader for ContainerDelegate
+2014-12-18T20:15:45Z;[artifactory-release] Next development version
+2014-12-18T20:15:33Z;[artifactory-release] Release version 1.4.2.M1
+2014-12-18T17:41:27Z;AMQP-451: Change Release to Return Collection
+2014-12-18T15:56:36Z;AMQP-456: Don't ERROR Log For Passive Declare
+2014-12-17T23:29:42Z;AMQP-453: NPE if no ContentEncoding Property
+2014-12-17T22:33:57Z;AMQP-453: Support Compression
+2014-12-12T17:58:00Z;[artifactory-release] Next development version
+2014-12-12T17:57:48Z;[artifactory-release] Release version 1.4.1.RELEASE
+2014-12-12T16:19:44Z;AMQP-451: Support Flushing Batch
+2014-12-11T23:15:06Z;AMQP-451 Override 4 Argument send() (Batching)
+2014-12-11T19:34:42Z;"Dump Default SF to 4.1.3; amqp-client to 3.4.2"
+2014-12-11T17:55:34Z;AMQP-452: PRC: RemoteInvocResult for exceptions
+2014-12-11T17:16:29Z;AMQP-446 Reduce Logs for Temporary Declarations
+2014-12-11T11:07:43Z;AMQP-451 Batching RabbitTemplate
+2014-12-08T17:15:07Z;AMQP-448 Support 3.4.x Direct reply-to
+2014-12-01T15:22:38Z;AMQP-445: Move build to Java 8
+2014-11-13T18:15:32Z;Fix Test Timing Issues
+2014-11-11T14:48:26Z;[artifactory-release] Next development version
+2014-11-11T14:48:16Z;[artifactory-release] Release version 1.4.0.RELEASE
+2014-11-11T13:14:51Z;AMQP-437: Update Spring, RabbitMQ Versions
+2014-11-10T14:36:04Z;AMQP-439: RabbitListener.queues: add SpEL support
+2014-10-31T10:26:30Z;AMQP-438: Fix `MessagingMessageListenerAdapter`
+2014-10-23T18:19:18Z;[artifactory-release] Next development version
+2014-10-23T18:19:07Z;[artifactory-release] Release version 1.4.0.RC1
+2014-10-23T15:38:44Z;AMQP-411 Document Listener Container Threading
+2014-10-23T09:00:54Z;AMQP-435 RabbitMQ Client 3.4.x Compatibility
+2014-10-23T08:40:40Z;AMQP-426 SMLC: Support Routing Connection Factory
+2014-10-22T21:14:55Z;AMQP-434 Make MessageConv.Ex. an AmqpException
+2014-10-21T16:09:50Z;AMQP-431: Add `RabbitTemplate.recoveryCallback`
+2014-10-20T13:12:27Z;AMQP-430 Fix Package Tangle
+2014-10-17T18:07:33Z;AMQP-432: Properly convert BasicProperties values to and from
+2014-10-16T13:09:38Z;AMQP-428: Add Logback `AmqpAppender`
+2014-10-15T17:45:10Z;AMQP-406: Add RoutingCF to the RabbitTemplate
+2014-10-13T20:38:10Z;AMQP-429: Change `@SendTo` Logic to `Address`
+2014-10-13T15:12:52Z;AMQP-422 PublisherCallbackChannel: Postpone Close
+2014-10-08T07:45:40Z;AMQP-425 Add @RabbitListener Documentation
+2014-10-03T08:10:09Z;AMQP-273: mandatoryExpression for RabbitTemplate
+2014-10-01T10:04:19Z;AMQP-407 Redeclare AMQP Objects if Missing
+2014-09-26T13:05:03Z;AMQP-388 Issue basicCancel from container on stop
+2014-09-26T09:16:29Z;AMQP-391 Expose 'connection-timeout' on Namespace
+2014-09-04T19:55:21Z;Update Spring Retry to 1.1.1
+2014-09-04T19:19:28Z;[artifactory-release] Next development version
+2014-09-04T19:19:25Z;[artifactory-release] Release version 1.4.0.M1
+2014-09-04T18:57:55Z;AMQP-426 Refactor MessagingMessageListnerAdapter
+2014-09-04T13:31:12Z;"Update to SF 4.1; Fix Javadocs"
+2014-09-03T23:19:33Z;AMQP-351 AMQP-379 Stop Container when Fatal Errors
+2014-09-03T15:37:28Z;Add RabbitMessagingTemplate
+2014-09-02T19:30:07Z;AMQP-423, AMQP-399 AmqpAppender Enhancements
+2014-09-02T16:16:54Z;AMQP-424 PlaceHolder Resolution in @RabbitListener
+2014-08-27T16:07:43Z;AmqpHeaders: add `PUBLISH_CONFIRM_NACK_CAUSE`
+2014-08-22T13:59:11Z;Fix spring-schemas
+2014-08-22T13:50:54Z;AMQP-414: Annotation-driven Endpoints Schema
+2014-08-21T13:52:06Z;Update master Version to 1.4.0.BUILD-SNAPSHOT
+2014-08-18T08:07:33Z;AMQP-417 Fix Failing Test
+2014-08-14T12:30:41Z;AMQP-417 CoExist With AutoRecoveryEnabled
+2014-08-12T14:08:45Z;AMQP-421: Fix Memory Leak with Publisher Confirms
+2014-08-11T14:58:34Z;AMQP-414: Rabbit annotation-driven endpoints
+2014-07-23T05:58:18Z;AMQP-413 Add RabbitConnectionFactoryBean for SSL
+2014-07-22T16:15:48Z;AMQP-408 channelTransacted=true when txManager
+2014-07-11T08:03:14Z;AMQP-409 Allow Late Replies to go to a DLQ
+2014-07-02T14:08:59Z;Fix Occasional Failing Test
+2014-06-27T17:55:36Z;Update Spring Framework, RabbitMQ Client Versions
+2014-06-27T16:32:48Z;"Fix Test Timing; Reduce Test Log Size"
+2014-06-27T15:07:25Z;AMQP-405: Improve `AbstractRoutingConnectionFactory`
+2014-06-24T13:17:21Z;AMQP-403 Add Cause to Nack Callback
+2014-06-23T21:17:11Z;AMQP-402 Fix Error Log on Normal Channel Close
+2014-06-21T16:29:09Z;AMQP-402 Log When Broker Closes Channel
+2014-06-20T19:56:37Z;AMQP-400 Add 'missing-queue-fatal' Attribute
+2014-06-20T17:41:32Z;Master is Now 1.4
+2014-06-18T22:44:36Z;AMQP-220 Fix Docs Re: Sync Consumer
+2014-06-18T22:01:54Z;AMQP-398: Fix SpEL for `Queue` bean resolution
+2014-06-18T21:10:50Z;AMQP-400 Fix Docbook Typo
+2014-06-18T20:40:45Z;AMQP-400 Optionally Recover From Missing Queue(s)
+2014-06-18T15:08:30Z;AMQP-397 Explicit 'localhost' For All Tests
+2014-05-29T17:37:55Z;[artifactory-release] Next development version
+2014-05-29T17:37:50Z;[artifactory-release] Release version 1.3.4.RELEASE
+2014-05-29T17:08:50Z;AMQP-396: set QOS even if queueDeclare fails
+2014-05-29T16:44:41Z;AMQP-395 Restore Exception Logging
+2014-05-16T20:32:18Z;AMQP-395 Log Warn When Retries Exhausted
+2014-05-14T13:26:47Z;[artifactory-release] Next development version
+2014-05-14T13:26:43Z;[artifactory-release] Release version 1.3.3.RELEASE
+2014-05-14T11:26:22Z;Add the Spring IO plugin
+2014-05-13T15:45:44Z;AMQP-392 Update to spring-retry 1.1.0
+2014-05-10T07:22:17Z;AMQP-394 Support Rabbit 3.3.x Client
+2014-04-30T12:46:22Z;Fix iAnother Typo in Routing CF Docbook
+2014-04-30T12:36:50Z;Fix Typo in Routing CF Docbook
+2014-04-24T20:43:00Z;[artifactory-release] Next development version
+2014-04-24T20:42:56Z;[artifactory-release] Release version 1.3.2.RELEASE
+2014-04-21T18:52:18Z;AMQP-390 Add ConditionalRejectingErrorHandler
+2014-04-02T18:50:14Z;Polish RabbitAdminTests
+2014-04-02T13:30:58Z;Remove overlapping test dependencies
+2014-03-31T22:27:17Z;Prevent Travis from Emitting ANSI CTRL Chars
+2014-03-31T21:06:27Z;Rename .travis.yml
+2014-03-31T19:39:04Z;Add travis.yml
+2014-03-30T14:29:00Z;[artifactory-release] Next development version
+2014-03-30T14:28:55Z;[artifactory-release] Release version 1.3.1.RELEASE
+2014-03-30T14:15:04Z;AMQP-387 Fix spring-retry Dependency
+2014-03-29T19:54:04Z;Fix Dockbook Typo
+2014-03-29T18:57:32Z;Docbook Polish
+2014-03-27T21:16:13Z;[artifactory-release] Next development version
+2014-03-27T21:16:09Z;[artifactory-release] Release version 1.3.0.RELEASE
+2014-03-27T13:20:15Z;Add Bamboo Build Status to README
+2014-03-26T21:36:00Z;AMQP-385 ErrorHandler and AmqpRejectAndDontRequeue
+2014-03-23T14:12:53Z;Fix Test Timing Problem
+2014-03-13T14:39:19Z;AMQP-384 Fix Test
+2014-03-12T13:16:53Z;Upgrade Jackson 2 to 2.3.2 version
+2014-03-09T15:41:41Z;AMQP-383 Polishing - Conditional Declaration
+2014-03-08T16:21:27Z;AMQP-383 Fix Auto-Delete Queue Redeclaration
+2014-03-07T16:49:54Z;[artifactory-release] Next development version
+2014-03-07T16:49:47Z;[artifactory-release] Release version 1.3.0.RC1
+2014-03-05T23:19:45Z;AMQP-382 Update Rabbit Client to 3.2.4
+2014-03-04T14:01:14Z;AMQP-381 Add Retry to RabbitTemplate
+2014-03-03T09:15:27Z;"AMQP-360 Update Versions; Align with SI/SF 4"
+2014-03-03T09:10:45Z;AMQP-205 Retry Interceptor Builder API
+2014-02-27T16:34:59Z;AMQP-378 Support Bulk Queue Changes
+2014-02-27T16:29:25Z;AMQP-375 Doc Fixes
+2014-02-26T16:29:42Z;Add Explict spring-context Dep. to spring-rabbit
+2014-02-26T16:26:19Z;AMQP-377: SMLC: Fix Consumers Map Race Condition
+2014-02-15T14:18:26Z;AMQP-374 Add BrokerRunning Rule to Test
+2014-02-09T19:14:51Z;AMQP-374 Test and Doc Example for Request Reply
+2014-02-09T18:57:43Z;AMQP-316 Support Exclusive Consumer
+2014-02-08T14:53:29Z;AMQP-373 Support Listen on auto-delete Queues
+2014-02-07T16:51:55Z;AMQP-312/372 Listener Container Queue Improvements
+2014-02-05T19:35:12Z;AMQP-357 Documentation About Client Thread Pool
+2014-02-04T21:07:02Z;Update Reference Copyright (2014)
+2014-02-04T14:05:14Z;AMQP-371 Fix Visibility of MessageBuilderSupport
+2014-01-30T21:40:47Z;[artifactory-release] Next development version
+2014-01-30T21:40:42Z;[artifactory-release] Release version 1.3.0.M2
+2014-01-30T21:06:03Z;AMQP-369: Fix AmqpAdmin-Declarable Class Tangle
+2014-01-30T20:18:45Z;AMQP-370 Add Rule to Container Test
+2014-01-30T19:55:21Z;AMQP-358: Cache CachedConnection's First Channel
+2014-01-29T18:01:23Z;AMQP-368 Support Variable Spring Versions
+2014-01-28T16:30:02Z;AMQP-367: Add `removeConnectionListener`
+2014-01-27T17:12:47Z;AMQP-366 StackTrace for ConsumerCancelledException
+2014-01-27T08:23:44Z;"AMQP-365 Fix Test Race Condition; Polish Shutdown"
+2014-01-24T19:31:20Z;AMQP-363: Fix `ignoresThrowable` for AmqpAppender
+2014-01-23T15:57:23Z;AMQP-364 Revert Long MesageProperties to long
+2014-01-15T20:01:10Z;AMQP-361 Fix Javadocs for JDK8
+2014-01-14T17:47:47Z;AMQP-359: Reset amqp-log4j to default after test
+2014-01-14T16:43:10Z;master: Build: -Dlog4j.debug=true to check on CI
+2014-01-13T17:54:03Z;AMQP-356 Reduce Test Log Levels
+2014-01-10T19:12:07Z;AMQP-306 Doc Fixes
+2014-01-10T17:43:33Z;[artifactory-release] Next development version
+2014-01-10T17:43:28Z;[artifactory-release] Release version 1.3.0.M1
+2014-01-10T15:59:56Z;Polishing What's New in 1.3 Section
+2014-01-10T12:11:09Z;AMQP-116 Add Paragraph on Tracer
+2014-01-10T12:09:56Z;AMQP-39 Add AMQP MessageBuilder
+2014-01-09T16:27:45Z;AMQP-45: Add Routing ConnectionFactory
+2014-01-08T15:48:42Z;AMQP-162 Fix ExchangeParser for binding-arguments
+2014-01-06T17:13:21Z;AMQP-353: Remove Deprecate API
+2014-01-06T17:10:54Z;AMQP-77 Support Multiple Connections with CCF
+2014-01-05T20:11:59Z;AMQP-72 Fix Race Condition in New Test
+2014-01-05T18:58:37Z;AMQP-72: Add AmqpTemplate#receiveAndReply Methods
+2014-01-04T15:23:15Z;AMQP-355 Fix Race Condition in Tests
+2014-01-03T16:34:58Z;AMQP-230: DirectExchange: Allow Omit `key` Attr
+2013-12-22T17:24:56Z;AMQP-347 Fix Connection Shutdown Test
+2013-12-21T17:41:14Z;AMQP-347-2: Remove aborted=true on ShutdownSignal
+2013-12-19T19:07:37Z;AMQP-346 Polish Docs - Message Rejection
+2013-12-19T18:02:10Z;AMQP-347: Restore Logs for Non-Normal Shutdown
+2013-12-19T17:30:17Z;AMQP-350 1.3 Schema
+2013-12-19T16:59:17Z;AMQP-345: Allow Broker Queue Name Generation
+2013-12-19T16:57:03Z;AMQP-347: SMLC: Catch ShutdownSignalException
+2013-12-19T14:58:24Z;AMQP-348 Support Consumer Arguments
+2013-12-10T17:17:16Z;AMQP-343: Upgrade Gradle and `testAll` task
+2013-12-10T17:02:01Z;AMQP-344 Use Spring Stylesheet For JDK 7 Javadocs
+2013-12-10T15:07:42Z;AMQP-342: Fix Listener Integration Tests
+2013-12-06T11:17:26Z;AMQP-306 Dynamic Consumers
+2013-12-02T22:13:02Z;AMQP-337 Emit Closed Event on All Closes
+2013-12-02T20:15:59Z;AMQP-340 Fatal on RabbitMQ Authentication Failure
+2013-12-02T15:31:57Z;AMQP-341: Add logic for System 'line.separator'
+2013-11-27T19:12:12Z;INT-334 Doc for Spring Retry 1.0.3
+2013-11-01T17:45:29Z;AMQP-339 Support Build with SPR 4.0.0
+2013-10-30T10:45:49Z;AMQP-338 Fix Listener Container Stop
+2013-10-02T22:42:40Z;Add TestUtils from SI
+2013-09-27T19:33:34Z;"AMQP-241 Add package-info Files; Use SPR css"
+2013-09-26T20:23:29Z;AMQP-336 Rule to Skip Long Integration Tests
+2013-09-26T10:17:29Z;AMQP-335: Add checkTestConfigs Gradle task
+2013-09-25T19:05:39Z;AMQP-290 Fix Exch. and Queue Argument refs
+2013-09-20T15:38:04Z;AMQP-332 Fix Multiple Listeners with Id
+2013-09-13T08:27:55Z;AMQP-330: fix JavaTypeMapper JsonArray conversion
+2013-09-06T14:14:37Z;AMQP-331 Fixed Threads do abord.
+2013-08-24T12:56:56Z;Add Confirms/Returns Subsections to ToC
+2013-08-17T03:10:24Z;Update Developer List
+2013-07-12T18:22:00Z;[artifactory-release] Next development version
+2013-07-12T17:41:45Z;[artifactory-release] Release version 1.2.0.RELEASE
+2013-07-12T16:38:05Z;AMQP-326 Update Rabbit Client to 3.1.3
+2013-07-10T14:32:17Z;Merge pull request #111 from garyrussell/AMQP-327
+2013-07-09T16:09:58Z;AMQP-327 Fix Stack Overflow in log4j AmqpAppender
+2013-06-20T15:39:25Z;Revert to 1.2.0.BUILD-SNAPSHOT
+2013-06-20T15:31:03Z;[artifactory-release] Release version 1.2.0.RC1
+2013-06-20T14:22:18Z;Merge pull request #110 from garyrussell/AMQP-325
+2013-06-20T13:48:37Z;AMQP-325 JavaDoc HotFix Gradle Plugin
+2013-06-19T19:55:17Z;Merge pull request #109 from ghillert/AMQP-324
+2013-06-19T19:49:13Z;AMQP-324 - Fix Broken Links in Docs
+2013-06-19T19:27:37Z;AMQP-102 Fix Race Condition in txSize Test
+2013-06-19T18:33:59Z;Merge pull request #108 from garyrussell/AMQP-317
+2013-06-19T18:05:38Z;AMQP-317 Fix Copyright, Logo
+2013-06-19T15:18:18Z;Merge pull request #106 from garyrussell/AMQP-286
+2013-06-19T15:17:48Z;AMQP-286 Conditional Declaration (Queues etc)
+2013-06-19T13:46:48Z;Merge Pull request #107 from garyrussell-AMQP-323
+2013-06-19T13:43:29Z;AMQP-323 Fix Broken Mock Tests
+2013-06-19T13:43:28Z;AMQP-323 Polishing - PR Comments
+2013-06-19T13:43:28Z;AMQP-323 Prevent Hang When No Close Response
+2013-06-18T16:44:29Z;Merge pull request #104 garyrussell-AMQP-62
+2013-06-18T16:32:38Z;AMQP-62 Configure requestedHeartBeat Property
+2013-06-18T16:13:41Z;Merge Pull request #105 from garyrussell-AMQP-321
+2013-06-18T16:04:44Z;Merge pull request #102 from garyrussell/AMQP-102
+2013-06-18T16:03:17Z;AMQP-102 Verify Timeout and txSize Work Together
+2013-06-18T15:55:11Z;AMQP-321 Update RabbitMQ Client to 3.1.1
+2013-06-18T15:25:57Z;Merge pull request #100 from garyrussell/AMQP-319
+2013-06-18T15:23:39Z;AMQP-319 Don't Suppress Listener Stack Traces
+2013-06-18T14:52:42Z;Merge pull request #99 from garyrussell/AMQP-320
+2013-06-18T14:51:38Z;AMQP-320 Improve Reply Container Docs
+2013-06-18T04:34:46Z;Merge pull request #101 from garyrussell/AMQP-314
+2013-06-18T04:28:55Z;AMQP-314 Fix Package Tangle
+2013-06-18T04:23:45Z;Merge pull request #103 from garyrussell/AMQP-292
+2013-06-18T04:22:13Z;AMQP-292 Make Message Serializable
+2013-06-17T15:10:04Z;Merge pull request #96 from garyrussell/AMQP-310
+2013-06-17T14:54:16Z;AMQP-310 Don't Reject on a Container Stopping Ex.
+2013-06-17T14:31:02Z;AMQP-289 More Doc Polish
+2013-06-14T12:39:14Z;AMQP-308 Fix Javadoc Issue
+2013-05-31T20:49:14Z;Merge pull request #98 from gregturn/AMQP-315
+2013-05-31T20:27:29Z;Add constructor call to support delegate and method name
+2013-05-29T16:47:23Z;AMQP-313 - Upgrade build to use SonarRunner Plugin
+2013-04-29T18:09:00Z;Merge pull request #94 from davidbilge/AMQP-308
+2013-04-29T18:07:09Z;AMQP-308 Add Spring Remoting over AMQP
+2013-04-25T02:29:32Z;Merge pull request #95 from garyrussell/AMQP-309
+2013-04-25T02:27:30Z;AMQP-309 Fix Listener Channel Issue
+2013-04-01T14:51:43Z;Revert Version to 1.2.0.BUILD-SNAPSHOT
+2013-04-01T14:12:42Z;[artifactory-release] Release version 1.2.0.M1
+2013-03-29T22:20:51Z;AMQP-303 Reinstate public Modifier
+2013-03-29T18:17:30Z;Merge pull request #84 from garyrussell/AMQP-271
+2013-03-29T18:14:58Z;AMQP-271 Allow Use of Standard CorrelationId Prop
+2013-03-29T17:53:19Z;Merge pull request #92 from ghillert/AMQP-305
+2013-03-29T17:50:20Z;AMQP-305 - Polish Reference Documentation
+2013-03-29T17:40:45Z;Merge pull request #91 from ghillert/AMQP-303
+2013-03-26T22:00:24Z;AMQP-303 - Improve Rules Compliance (Sonar)
+2013-03-26T13:56:35Z;Merge pull request #90 from ghillert/AMQP-302
+2013-03-26T13:55:25Z;AMQP-302 - Remove Warnings During Build with JDK7
+2013-03-25T17:21:34Z;Merge pull request #89 from ghillert/AMQP-304
+2013-03-25T17:19:43Z;AMQP-304 Close Rabbit Connections in Tests
+2013-03-22T20:49:04Z;AMQP-300 Add Jackson 2.x to What's New
+2013-03-22T20:40:21Z;Merge pull request #88 from aspan/AMQP-300
+2013-03-22T20:39:03Z;AMQP-300 Add Jackson2 Message Converter
+2013-03-21T21:02:33Z;AMQP-266 Fix Failing Tests
+2013-03-21T18:41:55Z;Merge pull request #85 from garyrussell/AMQP-266
+2013-03-21T18:40:18Z;AMQP-301 Remove Spring 3.1 Deprecations
+2013-03-21T18:37:36Z;AMQP-266/296/297 Allow Admin to Continue After Err
+2013-03-21T17:37:15Z;Merge pull request #87 from garyrussell/AMQP-294
+2013-03-21T17:35:04Z;AMQP-294 Remove Class and Package Tangles
+2013-03-20T22:04:44Z;Merge pull request #83 from garyrussell/AMQP-289
+2013-03-20T22:02:34Z;AMQP-289 Documentation Fixes
+2013-03-20T20:22:59Z;Merge pull request #86 from garyrussell/AMQP-298
+2013-03-08T19:32:05Z;AMQP-298 What's New Documentation
+2013-03-06T23:15:16Z;AMQP-283 Bump Rabbit Client to 3.0.3
+2013-03-04T21:39:09Z;Update Reference Manual Copyright (2013)
+2013-03-04T21:21:36Z;Merge pull request #82 from garyrussell/AMQP-282
+2013-03-04T19:24:58Z;AMQP-282 Log4j Appender - Configurable Charset
+2013-03-02T20:57:35Z;Merge pull request #81 from garyrussell/AMQP-281
+2013-03-02T20:56:24Z;AMQP-281 Shut Down Timer in AMQP Appender
+2013-03-02T20:49:39Z;Merge pull request #80 from garyrussell/AMQP-295
+2013-03-02T20:49:10Z;AMQP-295 Fix Version in QuickStart
+2013-01-29T17:41:08Z;Merge pull request #79 from ghillert/AMQP-293
+2013-01-29T16:18:15Z;AMQP-293 - Upgrade Gradle Wrapper to 1.4
+2013-01-04T21:29:46Z;Merge pull request #78 from garyrussell/AMQP-287
+2013-01-04T20:52:54Z;AMQP-283/284 Upgrade to RabbitMQ 3.0.0
+2012-11-27T19:36:54Z;AMQP-278 White Space Violations
+2012-11-06T21:39:21Z;AMQP-280 Fix Test Case Race Condition
+2012-11-06T18:33:42Z;Merge pull request #75 from garyrussell/AMQP-276+7
+2012-11-06T12:59:28Z;AMQP-277 Add DefaultType to DefaultClassMapper
+2012-11-06T12:31:53Z;AMQP-276 Rename spring-amqp-core to spring-amqp
+2012-11-05T22:10:40Z;Merge pull request #72 from garyrussell/AMQP-274
+2012-11-05T22:08:22Z;AMQP-274 Local Transaction Issues
+2012-11-05T21:17:36Z;AMQP-275 Reduce StopStart Test Size
+2012-11-05T19:14:56Z;Merge pull request #73 from garyrussell/AMQP-275a
+2012-11-05T19:10:35Z;AMQP-275 Physically Close Channel on Listener Stop
+2012-11-01T15:57:13Z;Merge pull request #74 from garyrussell/AMQP-240a
+2012-10-31T21:41:32Z;AMQP-240 Minor Doc Correction
+2012-10-31T21:14:46Z;Merge pull request #70 from garyrussell/AMQP-240
+2012-10-31T21:12:04Z;AMQP-240 Reference Docs for Confirms and Returns
+2012-10-30T15:21:15Z;Merge pull request #71 from garyrussell/AMQP-272
+2012-10-24T22:21:27Z;AMQP-272 Fix Typo In Method Name
+2012-10-24T17:28:08Z;Merge pull request #69 from garyrussell/AMQP-268
+2012-08-30T16:08:38Z;AMQP-268 Fix Appender MDC Properties
+2012-08-22T17:43:05Z;Merge pull request #64 from garyrussell/AMQP-256
+2012-08-22T17:39:38Z;AMQP-256 Add channel-transacted to SLC Namespace
+2012-08-22T17:31:59Z;Merge pull request #66 from garyrussell/AMQP-262
+2012-08-22T17:30:31Z;AMQP-262 ConcurrentExecutionException
+2012-08-22T16:02:04Z;Merge pull request #67 from garyrussell/AMQP-260
+2012-08-22T15:57:39Z;AMQP-260 Bind Channel With Local Transaction
+2012-07-26T13:09:43Z;Merge pull request #65 from dsyer/AMQP-261
+2012-07-26T12:54:19Z;AMQP-261: add brokerRunning @Rule to integration test
+2012-07-19T22:24:00Z;Merge pull request #63 from garyrussell/AMQP-252
+2012-07-19T22:10:13Z;AMQP-252 Remove System.out Call in Json Converter
+2012-07-19T21:59:01Z;Merge pull request #61 from garyrussell/AMQP-255
+2012-07-19T21:58:21Z;AMQP-255 Fix Multi Confirm with > 1 Listener
+2012-07-19T20:33:27Z;Merge pull request #62 from garyrussell/AMQP-254
+2012-07-19T19:24:25Z;AMQP-254 Add MessageId Advice
+2012-07-19T18:01:31Z;Merge pull request #50 from garyrussell/AMQP-249
+2012-07-19T18:00:36Z;AMQP-249 Fix Hanging Thread/Unacked Messages
+2012-07-18T19:35:54Z;Merge pull request #58 from jbrisbin/master
+2012-07-18T19:34:41Z;AMQP-242, AMQP-243: Appender Fixes
+2012-07-18T16:12:42Z;Merge pull request #52 from garyrussell/AMQP-250
+2012-07-18T16:11:46Z;AMQP-250 Template reply-queue Could Not be Anon.
+2012-07-18T16:06:11Z;Merge pull request #55 from garyrussell/AMQP-251
+2012-07-18T16:05:23Z;AMQP-251 Update RabbitMQ Client to 2.8.4
+2012-07-18T15:46:12Z;Merge pull request #57 from garyrussell/AMQP-190
+2012-07-18T15:45:13Z;AMQP-190 Memory Leak With Tx and RabbitTemplate
+2012-07-18T00:24:04Z;Merge pull request #59 from garyrussell/AMQP-253
+2012-07-18T00:23:22Z;AMQP-253 Add Id Generation Option to AMQP Appender
+2012-07-12T20:25:16Z;Set Version to 1.2.0.BUILD-SNAPSHOT
+2012-07-03T16:29:04Z;Merge pull request #49 from garyrussell/AMQP-248
+2012-07-03T16:20:46Z;AMQP-248 Require Java 6 for 1.2.x
+2012-07-03T15:40:58Z;Merge pull request #48 from garyrussell/AMQP-247
+2012-07-03T15:13:12Z;AMQP-247 Queue ID/Name Documentation
+2012-06-27T19:35:14Z;Merge pull request #47 from ghillert/AMQP-246
+2012-06-27T19:33:10Z;AMQP-246 - Remove old POMs
+2012-06-19T15:11:20Z;Merge pull request #42 from ghillert/AMQP-83
+2012-06-19T15:09:34Z;AMQP-83 - Add Gradle Support
+2012-05-31T15:40:23Z;[maven-release-plugin] prepare for next development iteration
+2012-05-31T13:51:42Z;[maven-release-plugin] prepare release 1.1.1.RELEASE
+2012-05-31T13:51:08Z;Update git co-ordinates
+2012-05-30T17:32:18Z;Merge pull request #45 from garyrussell/AMQP-204
+2012-05-30T16:43:14Z;AMQP-204 Fix Typo in Class Comment
+2012-05-30T16:29:42Z;Merge pull request #43 from garyrussell/AMQP-239
+2012-05-30T16:27:49Z;AMQP-239 DLE/DLQ Documentation
+2012-05-30T15:25:25Z;Merge pull request #44 from garyrussell/AMQP-238
+2012-05-30T15:06:42Z;AMQP-238 SF Version 3.0.5 -> 3.0.7
+2012-05-30T03:16:53Z;Merge pull request #41 from garyrussell/AMQP-198
+2012-05-30T03:14:24Z;AMQP-198 Document Mixed Queue Arg Types
+2012-05-30T03:08:18Z;Merge pull request #40 from garyrussell/AMQP-237
+2012-05-30T03:06:53Z;AMQP-237 Remove JavaDoc Warnings
+2012-05-24T14:48:09Z;Merge pull request #39 from garyrussell/AMQP-236
+2012-05-24T14:47:19Z;AMQP-236 Remove DOS Newlines
+2012-05-24T14:46:19Z;Merge pull request #38 from garyrussell/AMQP-232
+2012-05-22T11:35:48Z;AMQP-232 Failing Tests (Timeout)
+2012-05-18T18:43:31Z;Merge pull request #36 from garyrussell/AMQP-234
+2012-05-18T18:42:11Z;AMQP-234 Create 1.1 Schema
+2012-05-18T18:35:09Z;Merge pull request #37 from garyrussell/AMQP-232
+2012-05-18T13:23:32Z;AMQP-232 Fix Failing Integration Tests
+2012-05-16T15:31:44Z;Merge pull request #35 from garyrussell/AMQP-233
+2012-05-16T15:30:50Z;AMQP-233 Allow Returns without Confirms
+2012-05-16T00:56:18Z;Merge pull request #34 from garyrussell/AMQP-232
+2012-05-16T00:41:26Z;AMQP-232 Wait for Shutdown
+2012-05-14T16:35:11Z;Merge pull request #33 from garyrussell/AMQP-231
+2012-05-14T16:34:28Z;AMQP-231 Failing Integration Tests
+2012-05-11T17:08:20Z;[maven-release-plugin] prepare for next development iteration
+2012-05-11T17:03:23Z;[maven-release-plugin] prepare release 1.1.0.RELEASE
+2012-05-11T16:16:21Z;Merge pull request #32 from garyrussell/AMQP-226
+2012-05-11T16:10:29Z;AMQP-226 Bump Spring Retry Version to 1.0.1
+2012-05-11T12:15:11Z;Merge pull request #31 from ghillert/AMQP-193
+2012-05-11T03:43:20Z;AMQP-193 - Add RabbitTransactionManager to RefDoc
+2012-05-10T20:38:41Z;Merge pull request #30 from olegz/AMQP-207
+2012-05-10T20:37:39Z;AMQP-207 XSD Documentation
+2012-05-10T18:11:01Z;Merge pull request #14 from SamNelson/AMQP-202
+2012-05-10T18:07:45Z;passing basic tests
+2012-05-10T17:56:49Z;Merge pull request #28 from ghillert/AMQP-228
+2012-05-10T17:55:57Z;AMQP-228 - Doc - Fix Incorrect Code Samples
+2012-05-10T17:52:59Z;Merge pull request #29 from garyrussell/AMQP-201
+2012-05-10T17:51:44Z;AMQP-201 Exchange-to-Exchange Binding
+2012-05-10T17:50:12Z;Merge pull request #27 from garyrussell/AMQP-215
+2012-05-10T17:48:56Z;AMQP-215 Federated Exchange Support
+2012-05-10T17:44:55Z;Merge pull request #19 from garyrussell/AMQP-219
+2012-05-10T17:44:07Z;AMQP-219 RabbitTemplate Conversion With Message
+2012-05-10T17:41:56Z;Merge pull request #26 from garyrussell/AMQP-213
+2012-05-10T15:59:28Z;AMQP-213 Publisher Confirms/Returns
+2012-05-10T14:49:43Z;Merge pull request #24 from garyrussell/AMQP-206c
+2012-05-10T14:48:38Z;AMQP-206 Support Rabbit HA
+2012-05-10T14:41:20Z;Merge pull request #25 from garyrussell/AMQP-225
+2012-05-10T14:40:09Z;AMQP-225 Add Support for External Executor
+2012-05-10T13:02:55Z;Merge pull request #18 from edscriven/master
+2012-05-10T13:00:09Z;AMQP-208 Polishing
+2012-05-10T12:59:30Z;AMQP-208 Default Exchange and Bindings
+2012-04-09T17:51:37Z;Merge pull request #21 from garyrussell/AMQP-221
+2012-04-09T17:50:27Z;AMQP-221 Support Dead Letter Queues
+2012-04-09T17:46:21Z;Merge pull request #23 from garyrussell/AMQP-223
+2012-04-09T17:45:04Z;AMQP-223 Fix Consumer Thread Management
+2012-04-09T16:55:31Z;Merge pull request #16 from garyrussell/AMQP-195
+2012-04-09T16:54:32Z;AMQP-195 Update AMQP Client to 2.7.1
+2012-04-06T17:05:15Z;Merge pull request #22 from jamescarr/AMQP-222
+2012-04-06T17:03:32Z;AMQP-222 Configure Content Type When Marshalling
+2012-03-23T14:16:49Z;Merge pull request #15 from jamescarr/AMQP-200
+2012-03-23T14:11:44Z;AMQP-200 changes log messages from debug to warn
+2011-11-15T13:20:06Z;Add stupid m2e config for STS 2.8
+2011-09-11T16:05:54Z;AMQP-190: prevent channel leak in RabbitTemplate with external transaction
+2011-08-24T17:33:04Z;Add info to poms for Central release
+2011-08-24T17:32:40Z;Move assertion out of finally block
+2011-08-24T16:24:42Z;Tweaks for release to central + copyright notice
+2011-08-24T16:24:07Z;Tweak release notes
+2011-08-24T14:05:49Z;[maven-release-plugin] prepare for next development iteration
+2011-08-24T14:05:34Z;[maven-release-plugin] prepare release 1.0.0.RELEASE
+2011-08-23T15:17:53Z;typos in README
+2011-08-23T15:13:38Z;more doc polishing
+2011-08-23T14:19:26Z;polished docs
+2011-08-23T13:48:41Z;updated docs now that SingleConnectionFactory is in src/test only
+2011-08-23T13:03:47Z;moved SingleConnectionFactory to src/test
+2011-08-23T07:38:17Z;Bump spring-retry to 1.0.0.RELEASE
+2011-08-22T22:10:39Z;minor changes in docs
+2011-08-22T21:47:14Z;minor javadoc correction
+2011-08-22T21:41:42Z;AMQP-189 Exchanges are now durable by default
+2011-08-19T21:53:20Z;Update docs for 1.0.0
+2011-08-19T19:08:54Z;Add Javadocs for RabbitTemplate
+2011-08-09T15:36:46Z;AMQP-187 added integration tests for new template methods
+2011-08-09T15:06:36Z;AMQP-187 added convertSendAndReceive methods that accept a MessagePostProcessor callback
+2011-08-09T13:49:26Z;[maven-release-plugin] prepare for next development iteration
+2011-08-09T13:49:09Z;[maven-release-plugin] prepare release 1.0.0.RC3
+2011-08-09T13:41:39Z;Tidy up fatal error message in for failed listener restart
+2011-08-09T12:06:52Z;AMQP-186: add placeholder support to container parser
+2011-08-09T08:00:45Z;AMQP-186: enable placeholders in some corners of XSD
+2011-08-05T02:12:14Z;avoiding potential NPE in setReplyToAddress()
+2011-08-02T15:46:57Z;AMQP-183: fix big introduced in MessageProperties
+2011-08-02T14:27:18Z;AMQP-185 fixed typo in warning message
+2011-07-30T10:22:15Z;AMQP-183: make replyTo property in MessageProperties literal, and supply Address variants for those who like the URL convention
+2011-07-28T08:12:11Z;Add integration test for message post processor in RabbitTemplate
+2011-07-26T12:45:26Z;AMQP-183: tweak synchronized block to try and avoid race where channel is closed before it is used
+2011-07-26T12:35:17Z;AMQP-174: Prepare POM for release
+2011-07-21T15:11:08Z;AMQP-183: Fix channel isOpen() to use target directly in proxy
+2011-07-21T12:42:34Z;AMQP-181: remove reference to old base class config
+2011-07-12T11:50:26Z;AMQP-174: updates to poms for 1.0.0
+2011-07-12T11:45:36Z;AMQP-37: added release-process.md
+2011-07-12T10:09:51Z;AMQP-142: added content to quick start
+2011-07-12T09:40:54Z;AMQP-178: make named queue durable by default
+2011-07-12T09:40:54Z;AMQP-177: fix template.mf to generate bundles depending on rabbit 2.5
+2011-07-11T21:04:49Z;AMQP-176 replaced Spring-WS footer with Spring AMQP
+2011-07-05T20:34:31Z;AMQP-179: fix Queue constructor call
+2011-06-27T11:51:48Z;AMQP-175: Upgrade to rabbit 2.5.0
+2011-06-26T11:41:37Z;[maven-release-plugin] prepare for next development iteration
+2011-06-26T11:41:24Z;[maven-release-plugin] prepare release 1.0.0.RC2
+2011-06-15T09:31:30Z;Remove some duplication between RabbitUtils and ConnectionFactoryUtils
+2011-06-04T09:23:20Z;AMQP-171: fix recovery on connection close - need to clear delivery tags more carefully
+2011-06-03T16:34:30Z;AMQP-172: move ChannelListener to base class connection factory
+2011-06-02T11:08:39Z;AMQP-172, AMQP-171: fix bug introduced by earlier commit (consumer not clearing its tags), and refactor connection factory implementations
+2011-06-02T06:05:58Z;AMQP-172: add ChannelListener to CachingConnectionFactory
+2011-06-01T20:12:10Z;AMQP-173 added setters for the MessagePropertiesConverter strategy on RabbitTemplate as well as SimpleMessageListenerContainer
+2011-06-01T19:43:11Z;AMQP-173 added MessagePropertiesConverter strategy and DefaultMessagePropertiesConverter implementation
+2011-06-01T14:12:01Z;AMQP-171: move some of commit/rollback responsibility to the consumer
+2011-06-01T14:10:11Z;Add slight delay to try and avoid integration test failures
+2011-06-01T14:09:49Z;Add central profile for GA releases
+2011-05-31T16:32:16Z;minor typo: requires -> required
+2011-05-27T21:00:23Z;converting header values that are not supported types in the underlying write operations
+2011-05-27T18:15:37Z;AMQP-170 AMQP headers of LongString type are now converted to a java.lang.String if 1024 bytes or smaller, else the header value will be the DataInputStream retrieved from that LongString instance
+2011-05-12T10:20:54Z;AMQP-169: Add explicit import for spring jmx
+2011-05-11T12:34:56Z;AMQP-168: fix txSize efficiency (committing too frequently) and retry (not committing on recovery)
+2011-05-11T12:34:41Z;Build: switch docbook generatiom phase to speed up local install
+2011-05-10T13:22:22Z;Use basicNack instead of basicReject
+2011-05-10T08:26:04Z;Revert BrokerTestUtils to not use tracer
+2011-05-10T08:19:15Z;AMQP-166: add better connection recovery in CachingCOnnectionFactory
+2011-05-04T12:51:11Z;Fix links in Javadocs
+2011-05-04T12:48:32Z;Tidy up recovery in SMLC
+2011-05-04T12:48:27Z;Remove references to MessageCreator in user guide
+2011-04-27T12:42:59Z;AMQP-165: explicitly destory connection factory in Log4j Appender
+2011-04-27T10:40:47Z;AMQP-164: add integration for bindings in XML
+2011-04-27T09:33:22Z;AMQP-164: fixed parsers
+2011-04-27T09:07:31Z;AMQP-163: add tests for message listener adapter
+2011-04-24T04:31:04Z;Added validation for null values.
+2011-04-20T17:10:33Z;AMQP-160: adjust binding parser so values can be externalized
+2011-04-20T17:00:22Z;AMQP-156: remove connectionTimeout from AmqpAppender
+2011-04-19T17:53:54Z;updated binding parser logic to accomodate refactored generic Binding class
+2011-04-18T16:25:18Z;Comment over new replyTimeout use
+2011-04-18T16:11:38Z;AMQP-156: Changed connectionTimeout to replyTimeout to more accurately describe its function. Also added a call to set this value on the RabbitTemplate instance.
+2011-04-18T15:29:17Z;AMQP-160: CustomExchange concrete type
+2011-04-18T15:24:36Z;AMQP-160, AMQP-161: Custom exchanges and exchange bindings
+2011-04-18T15:20:06Z;Modify Binding to support more generic contracts
+2011-04-18T15:04:43Z;AMQP-149: count down latch before waiting for re-connect.
+2011-04-18T08:41:48Z;AMQP-143: from->bind
+2011-04-17T07:24:22Z;AMQP-157: add boolean flags to log4j appender
+2011-04-17T07:08:33Z;Add extra integration test for vhost
+2011-04-08T12:34:56Z;AMQP-155: add throwable
+2011-04-06T12:20:21Z;AMQP-150: add extra call to listener
+2011-04-06T12:19:58Z;AMQP-147: added <rabbit:template/> and <rabbit:connection-factory/> (the latter is more useful)
+2011-04-06T10:25:29Z;AMQP-150: fix some internals of connection factories so the RabbitAdmin behaves correctly
+2011-04-06T08:12:35Z;AMQP-151: Ensure Connection.close() is called on the right target connection
+2011-04-06T07:30:22Z;AMQP-148: simplify lazy initialization of SMLC
+2011-04-05T17:24:32Z;AMQP-148: lazy initialization of SMLC
+2011-04-05T08:10:25Z;AMQP-145: fix docos refs to samples
+2011-04-05T07:46:11Z;Add tests for default listener container configuration
+2011-04-01T07:25:47Z;Fix retry declaration in manifest
+2011-03-31T20:15:18Z;Add integration test for TTL, plus extra constructors for connection factories
+2011-03-31T18:38:31Z;updated template.mf to include explicit org.springframework.erlang version range and also increased upper bound of com.rabbitmq version range to 3.0.0 (non-inclusive)
+2011-03-31T15:11:22Z;[maven-release-plugin] prepare for next development iteration
+2011-03-31T15:11:10Z;[maven-release-plugin] prepare release 1.0.0.RC1
+2011-03-31T14:39:21Z;AMQP-140: re-organise, move BrokerAdmin and fix integration tests
+2011-03-31T14:01:44Z;AMQP-32 fixing javadoc warnings
+2011-03-31T13:59:46Z;AMQP-32 fixing javadoc warnings
+2011-03-31T13:57:12Z;AMQP-32 fixing javadoc warnings
+2011-03-31T13:49:34Z;AMQP-32 fixing javadoc warnings
+2011-03-31T13:46:34Z;AMQP-32 fixing javadoc warnings
+2011-03-31T13:30:19Z;AMQP-141: create base class for converters
+2011-03-31T13:29:50Z;Tidy up some TODOs
+2011-03-31T12:27:04Z;FIx build issues for RC1
+2011-03-31T12:06:50Z;Segregate broker-integration from integration profile, so the tests can pass once before RC1
+2011-03-31T11:40:05Z;Re-org assembly filesets and re-use README.md
+2011-03-31T11:27:51Z;AMQP-117: brush up docs with namespace examples
+2011-03-31T08:38:38Z;AMQP-137: Align logger test and appender internals with project norms
+2011-03-31T08:34:48Z;AMQP-137: Added AMQP Log4J appender to spring-rabbit
+2011-03-29T16:38:23Z;AMQP-128 removed 'recoverAsync' method from RabbitBrokerOperations (interface) and RabbitBrokerAdmin (implementation)
+2011-03-28T20:48:10Z;AMQP-107 added tests for concurrent consumers
+2011-03-28T20:40:15Z;AMQP-107 added test for queue names in addition to queue instances
+2011-03-28T19:49:44Z;AMQP-107 added test for multiple queues with SimpleMessageListenerContainer
+2011-03-28T17:17:08Z;AMQP-136: move txSelect() to Connection impl
+2011-03-28T17:17:08Z;Javadocs and extra integration test
+2011-03-28T17:04:09Z;AMQP-133 added test for 'advice-chain' attribute in the <listener-container> element
+2011-03-28T14:50:01Z;AMQP-133 added the 'advice-chain' attribute to the <listener-container> element in the XSD
+2011-03-28T14:43:16Z;AMQP-133 added support in listener-container parser class for 'advice-chain' attribute
+2011-03-28T14:19:51Z;INT-136: Weaken checks for concurrent initialization
+2011-03-28T12:50:15Z;AMQP-131: remove config base classes - they really were adding no value (copied to samples)
+2011-03-28T11:06:45Z;AMQP-103, AMQP-126: add tests for re-declaration and fix bug exposed in tx handling
+2011-03-28T07:47:58Z;Move README to correct place
+2011-03-28T07:30:41Z;AMQP-134: revert to vanilla logging
+2011-03-25T18:29:06Z;AMQP-132: Add retry configuration conveniences and abstractions
+2011-03-25T13:19:04Z;Tidy up dependencies
+2011-03-25T12:34:48Z;AMQP-103: extend integration tests
+2011-03-25T12:25:32Z;Remove reference to Java 6 constructor
+2011-03-25T12:25:32Z;AMQP-103: added integration test for declarative retry
+2011-03-25T12:25:32Z;AMQP-130: always wait for listeners to attempt to start before container decides it has started
+2011-03-25T12:25:32Z;AMQP-120: add setter for ObjectMapper
+2011-03-24T19:19:06Z;AMQP-54 fixed typos in code samples
+2011-03-23T18:09:06Z;Knock off some trivial TODOs
+2011-03-23T17:47:53Z;AMQP-129: allow client RuntimeExceptions to propagate in RabbitTemplate
+2011-03-23T17:16:12Z;AMQP-127: align parsers and XSD and defaults in domain
+2011-03-23T14:52:26Z;AMQP-125: add custom lock manager and tests
+2011-03-22T21:57:57Z;AMQP-124: comment out syserr in test
+2011-03-22T21:57:28Z;AMQP-124: make Message.toString() more informative if byte[] body
+2011-03-22T18:29:25Z;AMQP-124: make Message.toString() more robust
+2011-03-22T17:49:23Z;AMQP-105: Added bundlor config to fail on warnings and fixed problems with existing templates
+2011-03-22T17:28:48Z;AMQP-111: add AnonymousQueue and a load of changes to namespace to support it
+2011-03-22T15:13:41Z;AMQP-123: Support for String[] queueNames in MLC
+2011-03-22T13:55:22Z;Add -P integration profile for tests involving broker
+2011-03-22T13:17:17Z;Remove cycle by co-locating RabbitAccessor with its utilities
+2011-03-22T12:39:59Z;AMQP-122: defer declarations until first use of Connection
+2011-03-22T10:17:16Z;Add BROKER_INTEGRATION_TEST system property for broker tests
+2011-03-22T08:34:44Z;AMQP-122: Add ConnectionListener
+2011-03-19T08:56:25Z;AMQP-104: tidy up distro and remove samples
+2011-03-15T15:33:06Z;AMQP-121: change concurrency attribute parsing
+2011-03-14T17:49:12Z;AMQP-118: removed template constructor from RabbitAdmin
+2011-03-14T16:48:47Z;AMQP-114: tweak concurrency protection in consumer startup detection
+2011-03-14T16:41:04Z;AMQP-114: rethrow ListenerStartupFatalException if any detected on startup
+2011-03-14T14:39:57Z;AMQP-113, AMQP-112: backoff and sleep when listener container fails to connect
+2011-03-14T12:00:13Z;AMQP-109: catch and log exception during stop
+2011-03-14T08:34:38Z;AMQP-110: remove rabbit- prefix from some attributes
+2011-03-14T06:05:44Z;AMQP-110 - Renamed <rabbit:rabbit-admin/>  to <rabbit:admin/>
+2011-03-13T15:34:11Z;Change default fallback behaviour of MLC if caching connections
+2011-03-12T09:41:19Z;AMQP-106 Added namespace support for rabbit-admin.
+2011-03-12T09:37:15Z;Ignores
+2011-03-11T18:19:21Z;Moved samples to separate repo
+2011-03-08T15:49:24Z;Update Eclipse meta data for stocks sample
+2011-03-08T15:49:21Z;Update samples poms to point to M3
+2011-03-08T15:49:17Z;Fix SimpleMessageListenerContainer to set concurrentConsumers for a SingleConnectionFactory
+2011-03-08T08:59:30Z;Fix releaseType for .ZIP upload
+2011-03-07T14:32:32Z;Rename confusing test method
+2011-03-07T11:07:23Z;[maven-release-plugin] prepare for next development iteration
+2011-03-07T11:07:14Z;[maven-release-plugin] prepare release 1.0.0.M3
+2011-03-07T10:36:48Z;Fix container startup to not initialize connection until start()
+2011-03-07T10:26:07Z;Add section to docs
+2011-03-03T22:30:04Z;AMQP-16 added namespace support for 'listener-container'
+2011-03-03T18:40:04Z;AMQP-19 added send-and-receive methods to AmqpTemplate and RabbitTemplate
+2011-03-01T09:05:08Z;AMQP-101: unignore tests
+2011-03-01T08:58:14Z;AMQP-101 Added tests-cases to test ErrorHandler invokations from listener container.
+2011-03-01T08:15:55Z;Convert namespace test from integration to unit test
+2011-02-28T21:09:00Z;Attempt to fix build with broken hamcrest dependency
+2011-02-24T17:42:34Z;AMQP-44: refactor SimpleMessageListenerContainer to use Advice for transactions - opens up possibility to apply retry advice
+2011-02-23T17:47:51Z;AMQP-99: add moduleAdapter to RabbitBrokerAdmin (module%function->module%function) top adapt to older versions of the RPC server
+2011-02-23T14:35:55Z;AMQP-44: implement some basic re-connect logic mainly to support async use cases
+2011-02-21T10:11:15Z;Re-organise broker admin integration tests
+2011-02-21T10:10:33Z;AMQP-100: Add AcknowledgeMode to complement channelTransacted (boolean)
+2011-02-17T21:23:08Z;[AMQP-99] AmqpBrokerAdminIntegrationTests failing with new rabbit server (2.3.1)
+2011-02-17T21:01:35Z;Updating .gitignore for idea
+2011-02-15T16:09:45Z;AMQP-75: Add test for prefetch and container lifecycle
+2011-02-15T15:47:47Z;AMQP-75: fix graceful shutdown when transactional
+2011-02-11T11:16:05Z;AMQP-65: delete ops return boolean
+2011-02-10T17:31:29Z;AMQP-55: fix typo
+2011-02-04T15:59:21Z;AMQP-10: Add more features to broker admin to allow customization of runtime for UN*X
+2011-02-04T15:56:46Z;Upgrade to rabbit client 2.3.0 (still works with 2.1.0 broker)
+2011-02-03T15:38:43Z;Fix formatting in README
+2011-02-03T15:35:49Z;AMQP-60: strip down XSD and implement parsers for basic bindings
+2011-02-03T09:48:18Z;AMQP-95: suppress compiler warnings
+2011-02-03T09:43:36Z;AMQP-95: add @author tags
+2011-02-03T09:43:18Z;AMQP-95: changed ClassMapper interface to use MessageProperties to increse flexibility
+2011-01-28T17:29:25Z;AMQP-97: add cookie in constructor
+2011-01-24T16:23:30Z;AMQP-96: use default hostname if none provided
+2011-01-24T12:46:38Z;AMQP-59: remove line from pom
+2011-01-11T14:33:33Z;AMQP-59: Merge admin project
+2011-01-07T13:12:00Z;Add extra tests for Json converter
+2010-12-24T09:44:28Z;[maven-release-plugin] prepare for next development iteration
+2010-12-24T09:44:16Z;[maven-release-plugin] prepare release 1.0.0.M2
+2010-12-24T09:42:32Z;Remove error in javadoc config (Maven version problem?)
+2010-12-24T09:40:17Z;Remove snapshot dependency
+2010-12-24T09:35:35Z;fix scm links in POM
+2010-12-22T13:34:08Z;Add author tag
+2010-12-22T13:30:37Z;AMQP-10: check UN*X broker admin
+2010-12-22T13:30:15Z;Add TX docs for M2 release
+2010-12-22T12:06:46Z;Add tx section
+2010-12-22T11:11:32Z;AMQP-68: un-ignore test
+2010-12-22T11:11:30Z;AMQP-68: add transactional flag for channel creation
+2010-12-22T11:11:23Z;AMQP-68: Introduce new Connection interface
+2010-12-13T16:24:01Z;Tidy up dependencies
+2010-12-13T15:37:32Z;AMQP-80: clarify test inputs
+2010-12-13T15:31:41Z;Add ignores
+2010-12-08T16:34:47Z;Add integration test for fanout
+2010-12-08T16:34:28Z;Add note about rebase
+2010-11-30T10:42:19Z;Add code convention housekeeping guidleines
+2010-11-29T11:31:54Z;Fixed forum link
+2010-11-28T12:02:35Z;Add committer agreement link
+2010-11-17T16:47:52Z;Added a space in pom to test a change
+2010-11-17T15:57:46Z;Add simple readme
+2010-11-16T09:57:56Z;AMQP-68: Add @Ignored tests for mixed tx/notx
+2010-11-16T09:56:46Z;Tweak BrokerRunning so that static use isn't prevented
+2010-11-15T12:25:18Z;AMQP-49: add first cut of RabbitTransactionManager
+2010-11-11T15:58:37Z;AMQP-33: fix manifests
+2010-11-11T14:19:41Z;Add integration test for non-default exchange
+2010-11-11T13:58:23Z;Consolidate test set up code in the BrokerRunning rule
+2010-11-11T10:38:34Z;AMQP-36: added scm to pom
+2010-11-11T10:27:33Z;AMQP-81: add serializer message converter
+2010-11-11T10:27:28Z;AMQP-63: add classloader and codebaseUrl to SimpleMessageConverter
+2010-11-11T09:13:00Z;AMQP-76: removed flags for mandatory* in RabbitTemplate
+2010-11-11T09:03:56Z;AMQP-73: add integration test
+2010-11-10T21:42:11Z;AMQP-69, AMQP-73, AMQP-61: some big changes to transaction handling
+2010-11-10T20:38:20Z;Work around compiler bug
+2010-11-08T10:47:54Z;Add local version of multicast main, and tidy up integration tests
+2010-11-05T13:44:59Z;AMQP-67: add additional higher scale test for listener and fix bug
+2010-11-04T18:14:49Z;AMQP-74: add retry to test to avoid issues with async operations
+2010-11-04T17:00:42Z;AMQP-74: Add more integration tests for RabbitTemplate
+2010-11-01T19:05:18Z;Fix broker integration tests so erlang process is closed
+2010-11-01T18:17:32Z;AMQP-64: fix re-delivery problem caused by misuse of basicReject
+2010-11-01T17:20:02Z;AMQP-64: tweak integration test.  Found problem with rollback in listener.
+2010-10-31T18:02:23Z;AMQP-70: add integration test for send and receive
+2010-10-29T17:06:58Z;AMPQP-67: Add async support for rollback
+2010-10-22T18:37:35Z;AMQP-43: fix refresh of target channel after exception (also fixes integration test failure when broker is first started)
+2010-09-30T15:59:16Z;More fix for Java 5 + tweak dependencies
+2010-09-30T15:54:00Z;Add missing file
+2010-09-30T15:27:07Z;Fix for Java 5 + tweak dependencies
+2010-09-29T16:14:21Z;Fix integration tests for Windows
+2010-09-29T16:05:52Z;Update deps in samples
+2010-09-29T16:00:25Z;Fix jcl dependency
+2010-09-29T15:03:06Z;Add logger to unit test
+2010-09-29T14:37:44Z;Merge branch 'master' of git.springsource.org:spring-amqp/spring-amqp
+2010-09-29T14:34:52Z;RabbitBrokerAdmin now uses SingleConnectionFactory
+2010-09-29T12:36:04Z;AMQP-61: add TX synch support and some integration tests
+2010-09-27T22:36:30Z;Merge branch 'master' of git.springsource.org:spring-amqp/spring-amqp
+2010-09-27T22:36:01Z;add missing files for AMQP-58 (Support for caching of OtpConnections)
+2010-09-27T19:22:21Z;Merge branch 'master' of git.springsource.org:spring-amqp/spring-amqp
+2010-09-27T19:07:02Z;AMQP-58 - Support for caching of OtpConnections
+2010-09-27T16:36:08Z;Some improvements to the admin module:
+2010-09-06T14:49:22Z;Merge branch 'master' of git.springsource.org:spring-amqp/spring-amqp
+2010-09-06T14:46:39Z;Copy in javadocs from JInterface regarding use of node names.
+2010-09-06T14:46:05Z;Add an assert to template.executeAndConvertRpc using absolute value function available in erlang.
+2010-08-27T17:25:03Z;AMQP-57 updated Rabbit client version from 1.8.1 to 2.0.0. This required one change in RabbitTemplate due to a change in the Channel.basicConsume() method we were using
+2010-08-13T20:18:48Z;AMQP-40 MessageProperties is now a class instead of an interface. Removed the RabbitMessageProperties implementation. Now, the mapping between Rabbit's BasicProperties, Envelope, etc. and our MessageProperties is handled in two RabbitUtils methods: extractBasicProperties(..) and createMessageProperties(..)
+2010-08-11T21:45:32Z;AMQP-23 updated binding builder for more fluent style when working with Headers Exchanges
+2010-08-09T22:03:30Z;AMQP-23 added matchingAll(map), matchingAny(map), matchingAll(String... keys), and matchingAny(String... keys) methods, but still considering more 'fluent' method names
+2010-08-09T20:06:23Z;AMQP-23 added support for HeadersExchange
+2010-08-09T19:28:25Z;AMQP-51 replaced ExchangeType enum with ExchangeTypes abstract class defining String-based constants for the standard Exchange type names
+2010-08-09T17:57:07Z;AMQP-46, AMQP-30 RabbitAdmin now declares all Exchanges, Queues, and Bindings that have been defined in the same ApplicationContext as the RabbitAdmin itself
+2010-08-06T17:54:58Z;Merge branch 'master' of git.springsource.org:spring-amqp/spring-amqp
+2010-08-06T17:54:27Z;added comment to declareQueue method in RabbitAdmin
+2010-08-06T14:19:40Z;Clean up new JavaDoc warnings
+2010-08-06T01:25:17Z;AMQP-41 removed MessageCreator interface, AmqpTemplate methods take the Message object now instead
+2010-08-06T01:00:27Z;AMQP-19 added the 'convertSendAndReceive' method
+2010-08-06T00:38:14Z;AMQP-19 now returning null Address if 'replyTo' property is null in  RabbitMessageProperties
+2010-08-04T22:06:31Z;adjusted Address class and reply-to logic in MessageListenerAdapter
+2010-08-03T23:30:12Z;added null check for setting of correlationId property
+2010-08-03T23:28:39Z;updates to Address parsing
+2010-08-03T13:55:59Z;AMQP-38 checking for null before converting deliveryMode to int
+2010-08-02T21:52:30Z;AMQP-38 modified toString on Message to always return at least the toString() result of the body itself as long as the body is not null
+2010-08-02T21:08:52Z;AMQP-38 avoiding NPE in Message's getBodyContentAsString() method
+2010-08-02T17:50:36Z;AMQP-21 removed no-arg constructor for RabbitAdmin. Either RabbitTemplate or ConnectionFactory must be provided via constructor (no longer a need to implement InitializingBean to validate either).
+2010-08-02T16:51:39Z;AMQP-29 junit dependency overrides 'test' with 'compile' scope in the spring-rabbit-admin pom
+2010-08-02T16:47:50Z;AMQP-29 spring-test overrides 'test' with 'compile' scope in the spring-rabbit-admin pom
+2010-08-02T16:43:39Z;AMQP-29 spring-test and junit dependencies are now declared with 'test' scope in the parent pom
+2010-08-02T14:14:14Z;AMQP-34 added setVirtualHost method to SingleConnectionFactory
+2010-07-30T08:23:43Z;ChannelAwareMessageListener is no longer generic
+2010-07-29T21:21:19Z;Eliminate commented method from ExecuteWatchdog
+2010-07-29T21:19:46Z;Eliminate javadoc warnings
+2010-07-29T17:19:23Z;Remove unnecessary casts
+2010-07-29T16:51:42Z;Ignore unchecked cast in test
+2010-07-29T16:51:09Z;Remove dead code and unused imports
+2010-07-29T16:50:09Z;Fix 'raw type' warnings. No significant API changes.
+2010-07-29T15:14:38Z;Suppress serialization warnings
+2010-07-19T19:53:21Z;add snapshot repositories back into parent and sample poms
+2010-07-18T16:38:00Z;maven now specifies classpath for ant s3 task
+2010-07-18T16:10:57Z;polishing antrun s3 task integration post-redeployment of M1 dist zips
+2010-07-18T14:07:57Z;quick hardcoded impl for getting AMQP and AMQPNET milestones up on the community page
+2010-07-18T13:11:56Z;whitespace in pom
+2010-07-18T13:08:34Z;updated .gitignore, removed unnecessary .gitignores in child directories
+2010-07-18T13:08:05Z;stubbed out maven-antrun-plugin and ant buildfile for doing s3 uploads
+2010-07-18T12:37:18Z;removed root .project file
+2010-07-17T20:47:53Z;AMQP-28 added groups to javadoc configuration
+2010-07-16T19:48:52Z;reverted version from M1 to BUILD-SNAPSHOT
+2010-07-16T18:42:44Z;added milestone repository all around
+2010-07-16T18:20:13Z;s/springsource.org/springframework.org on maven repos
+2010-07-16T18:07:05Z;Incremented POM versions to 1.0.0.M1
+2010-07-16T17:49:17Z;updated version for stocks sample pom
+2010-07-16T17:35:01Z;replaced spring-amqp-core with spring-amqp in samples
+2010-07-16T17:10:19Z;whitespace polish in docbook sources
+2010-07-16T17:01:13Z;doc updates, formatting, etc.
+2010-07-16T16:40:35Z;changed 'Project' to 'Distribution'
+2010-07-16T16:38:37Z;minor update with JMX
+2010-07-16T16:36:40Z;Merge branch 'master' of git.springsource.org:spring-amqp/spring-amqp
+2010-07-16T16:36:24Z;update erlang docs
+2010-07-16T16:11:24Z;"updated repository definitions; added missing 'doc-files' directory to fix broken javadoc L&F"
+2010-07-16T16:00:31Z;fixed line wrapping in si-amqp chapter
+2010-07-16T15:58:16Z;fixed line wrapping in samples chapter
+2010-07-16T15:56:05Z;fixed line wrapping in amqp chapter
+2010-07-16T15:38:48Z;replaced 'spring-amqp-core' with 'spring-amqp' in the reference manual and also fixed a few typos
+2010-07-16T15:32:35Z;Merge branch 'master' of git.springsource.org:spring-amqp/spring-amqp
+2010-07-16T15:32:25Z;updated distribution.xml for spring-amqp-core to spring-amqp change
+2010-07-16T15:24:57Z;Merge branch 'master' of git.springsource.org:spring-amqp/spring-amqp
+2010-07-16T15:24:21Z;eagerly create rabbitTemplate in RabbitAdmin constructor.
+2010-07-16T15:18:15Z;replaced 'Integration' with 'AMQP' in the notice.txt
+2010-07-16T15:13:37Z;Merge branch 'master' of git.springsource.org:spring-amqp/spring-amqp
+2010-07-16T15:10:38Z;changed spring-amqp-core artifactId to just spring-amqp, the 'top' level is now spring-amqp-dist
+2010-07-16T15:09:01Z;fix typo
+2010-07-16T15:07:21Z;java docs
+2010-07-16T14:43:03Z;AMQP-27 updated template.mf RabbitMQ client version range minimum to 1.8.1
+2010-07-16T14:39:09Z;AMQP-26 removed the 'otp' package
+2010-07-16T14:27:25Z;AMQP-26 renamed 'spring-otp' to 'spring-erlang'
+2010-07-16T05:48:24Z;added some content to readme.txt for the M1 release
+2010-07-16T05:22:20Z;AMQP-25 added a setter for 'port' on SingleConnectionFactory
+2010-07-16T05:17:04Z;Renamed getHostName() to getHost() and getPortNumber() to getPort() on ConnectionFactory. Those are the same method names as defined on the underlying Rabbit ConnectionFactory
+2010-07-16T04:50:25Z;AMQP-24 refactored management of hostname property in SingleConnectionFactory
+2010-07-16T04:23:25Z;avoiding declaration of Queues whose name starts with 'amq.' (e.g. generated Queues)
+2010-07-16T04:08:24Z;commented out the 'quick tour' section of the reference manual for now
+2010-07-16T03:55:55Z;AMQP-1 added walk-thru of stock trading sample
+2010-07-16T02:28:55Z;renamed RabbitConfiguration to HelloWorldConfiguration in the sync helloworld sample
+2010-07-15T21:50:38Z;Merge branch 'master' of git.springsource.org:spring-amqp/spring-amqp
+2010-07-15T21:49:37Z;add declareQueue to AmqpAdmin interface
+2010-07-15T20:23:54Z;AMQP-1 added 'async' Hello World walk through
+2010-07-15T19:33:39Z;AMQP-1 completed 'sync' Hello World content
+2010-07-15T18:23:16Z;AMQP-1 started samples docs (hello world)
+2010-07-15T14:54:28Z;added brief preface content to ref doc
+2010-07-14T22:12:43Z;AMQP-22 adding some basic material to the 'other resources' section of the reference manual
+2010-07-14T21:21:30Z;added some brief documentation on the Spring Integration channel adapters for AMQP
+2010-07-14T20:39:06Z;AMQP-10 started to add support for non-Windows OS on startNode
+2010-07-14T20:20:44Z;xml well-formed typo
+2010-07-14T20:17:42Z;added some coverage of Message to the reference manual
+2010-07-14T20:06:36Z;Merge branch 'master' of git.springsource.org:spring-amqp/spring-amqp
+2010-07-14T20:05:24Z;Change use of RabbitTemplate to AmqpTemplate.
+2010-07-14T19:39:13Z;removed some non-idiomatic binding options from Binding (constructors) and added reference manual material for Exchange, Queue, and Binding
+2010-07-14T17:41:39Z;AMQP-20, AMQP-17: upgraded to RabbitMQ 1.8.1 client. Also added a bit to the 'AMQP Abstractions' section of the reference manual
+2010-07-14T15:03:21Z;Merge branch 'master' of git.springsource.org:spring-amqp/spring-amqp
+2010-07-14T15:02:09Z;fix javadoc comments.
+2010-07-12T22:15:11Z;AMQP-18 added some documentation for ConnectionFactory
+2010-07-12T19:14:28Z;formatting
+2010-07-12T18:35:03Z;removed site.xml files from samples
+2010-07-12T18:02:20Z;AMQP-14, AMQP-15 added documentation
+2010-07-12T15:22:20Z;added comment about 'experimental' to the CachingConnectionFactory
+2010-07-12T14:59:05Z;replaced CachingConnectionFactory with SingleConnectionFactory for tests and samples
+2010-07-10T00:05:52Z;AMQP-13 refactored BindingBuilder return types with inner classes to limit available methods
+2010-07-09T23:26:33Z;added Exchange interface
+2010-07-09T23:25:24Z;added Exchange interface
+2010-07-09T23:14:50Z;formatting
+2010-07-09T23:13:38Z;formatting
+2010-07-09T23:03:23Z;formatting
+2010-07-09T22:55:41Z;renamed queue generating method in base config to 'generatedQueue'
+2010-07-09T22:40:19Z;removed an @Override annotation
+2010-07-09T22:39:38Z;adding async example to helloworld sample
+2010-07-09T20:40:07Z;AMQP-12 added Exchanges, Queues, and Bindings in a lifecycle callback rather than at configuration time
+2010-07-08T21:57:50Z;AMQP-9 removed 'default' from names of template properties
+2010-07-08T20:46:42Z;removing @Override annotations for Java 1.5 compatibility
+2010-07-08T20:37:19Z;AMQP-4 removed the 'passive' property on our Queue definition object
+2010-07-08T18:49:21Z;removed @Override annotations from RabbitAdmin methods (for 1.5 compatibility)
+2010-07-08T18:17:04Z;added exclusion for *IntegrationTests
+2010-07-08T18:07:11Z;AMQP-2 Added SingleConnectionFactory implementation. CachingConnectionFactory now extends it.
+2010-07-08T17:44:52Z;AMQP-2 Added SingleConnectionFactory implementation. CachingConnectionFactory now extends it.
+2010-07-08T17:38:44Z;Merge branch 'master' of git.springsource.org:spring-amqp/spring-amqp
+2010-07-08T17:37:38Z;rename to have 'Integration' in the class name to avoid running with current maven test runner.
+2010-07-08T17:33:56Z;rename to have 'Integration' in the class name to avoid running with current maven test runner.
+2010-07-08T06:03:07Z;RabbitBrokerAdmin now returns a list of QueueInfo objects instead of a map of maps.
+2010-07-08T02:23:42Z;fix build
+2010-07-08T02:05:33Z;Add @ManagedOpertion to RabbitAdmin methods
+2010-07-08T00:56:17Z;AMQP-8 Provide consistent configuration and usage of vhosts in RabbitBrokerAdmin
+2010-07-08T00:34:43Z;AMQP-6 Implement AmqpAdmin interface with RabbitAdmin implementation
+2010-07-07T22:56:42Z;new amqp admin interface
+2010-07-07T22:54:23Z;commiting changes.
+2010-07-07T22:48:42Z;add constructors
+2010-07-07T22:47:25Z;remove use of passive, add some constructors.
+2010-07-07T22:44:44Z;Add new admin interface and implementation
+2010-07-07T22:43:46Z;comment changes
+2010-07-07T22:43:03Z;remove a constructor and use of passive
+2010-07-06T19:44:27Z;AMQP-3 upgraded to RabbitMQ 1.8.0 Java client
+2010-07-03T16:38:07Z;added cglib to dependencies for helloworld demo
+2010-07-02T22:19:39Z;ignoring some integration tests so that build server testing won't fail
+2010-07-02T22:14:09Z;moved the PojoHandler class into the spring-rabbit-admin project since that's where it's used
+2010-07-02T22:06:17Z;created TestConstants local to spring-rabbit-admin since it cannot depend on test code from spring-rabbit
+2010-07-02T21:47:15Z;removed dependency on class defined in the test branch of spring-amqp-core from spring-rabbit test code
+2010-07-02T18:36:46Z;updated .classpath files to exclude missing directories and moved helloworld sample's src/test/resources to src/main/resources
+2010-07-02T18:00:25Z;removed src/main/resources from .classpath since it does not exist in project
+2010-07-02T14:18:09Z;adding .gitignore files
+2010-07-02T14:04:59Z;added .gitignore
+2010-06-30T02:54:34Z;test commit using egit
+2010-06-30T02:16:39Z;initial commit

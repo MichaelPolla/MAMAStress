@@ -47,8 +47,7 @@ print str(len(commits))
 print json.dumps(commits[0])
 with open('gitExample.csv', 'wb') as csvfile:
     fieldnames = ["date", "name_first_line"]
-    writer = csv.DictWriter(csvfile, delimiter=';',
-        quotechar='"', quoting=csv.QUOTE_MINIMAL,
+    writer = csv.DictWriter(csvfile,
         fieldnames=fieldnames)
     writer.writeheader()
 

@@ -15,9 +15,20 @@ project = jira.project(PROJECT_KEY)
 print "Get versions..."
 components = jira.project_components(project)
 versions = jira.project_versions(project)
-for version in versions:
-    if(hasattr(version, 'releaseDate')):
-        print version.name + " : \t"+version.releaseDate + " " + str(version.released)
+
+with open('jira_versions.csv', 'wb') as csvfile:
+    fieldnames = ["name", "release_date", "released"]
+    writer = csv.DictWriter(csvfile,
+        fieldnames=fieldnames)
+    writer.writeheader()
+
+    for version in versions:
+        if(hasattr(version, 'releaseDate')):
+            writer.writerow({ \
+                "name" : version.name, \
+                "release_date" : version.releaseDate, \
+                "released" : int(version.released)
+            })
 
 # Get issues
 print "Get issues..."

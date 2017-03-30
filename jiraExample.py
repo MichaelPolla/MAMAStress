@@ -16,7 +16,7 @@ print "Get versions..."
 components = jira.project_components(project)
 versions = jira.project_versions(project)
 
-with open('jira_versions.csv', 'wb') as csvfile:
+with open('csv_data/jira_versions.csv', 'wb') as csvfile:
     fieldnames = ["name", "release_date", "released"]
     writer = csv.DictWriter(csvfile,
         fieldnames=fieldnames)
@@ -35,7 +35,7 @@ print "Get issues..."
 issues = jira.search_issues("project="+PROJECT_KEY,maxResults=50000)
 
 # Write in csv
-with open('jira_issues_bugs.csv', 'wb') as csvfile:
+with open('csv_data/jira_issues_bugs.csv', 'wb') as csvfile:
     fieldnames = ["date", "summary"]
     writer = csv.DictWriter(csvfile,
         fieldnames=fieldnames)

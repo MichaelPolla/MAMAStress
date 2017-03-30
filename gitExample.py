@@ -45,7 +45,7 @@ commits = commits()
 # Get date of last commit
 print str(len(commits))
 print json.dumps(commits[0])
-with open('gitExample.csv', 'wb') as csvfile:
+with open('csv_data/github_commits.csv', 'wb') as csvfile:
     fieldnames = ["date", "name_first_line"]
     writer = csv.DictWriter(csvfile,
         fieldnames=fieldnames)

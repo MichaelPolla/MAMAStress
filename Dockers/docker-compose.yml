@@ -4,7 +4,7 @@ services:
     build: ./github_retriever_docker
     image: github_retriever_app
     environment:
-      - token=4a5506ffc502f12a6b392bba68b6be17e3c340fa
+      - token=${TOKEN}
     volumes:
       - ./csv_data:/usr/src/app/csv_data
   jira_retriever_docker:

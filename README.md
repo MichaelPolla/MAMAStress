@@ -20,9 +20,9 @@ For github does not need a token there, but if the limit is reached (60 requests
 For JIRA does not need a token.
 
 ## Build and Run all services
-In directory Dockers, make this commands:
+In directory Dockers, make this commands in this order:
 
-`export TOKEN=yourgithubtoken`
+`$ export TOKEN=yourgithubtoken`
 
 `$ docker-compose up`
 

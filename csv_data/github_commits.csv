@@ -1,4 +1,11 @@
 date,name_first_line
+2017-04-07T19:37:15Z,AMQP-735: Fix concurrency in RabbitListenerAnnBPP
+2017-04-04T16:20:06Z,[artifactory-release] Next development version
+2017-04-04T16:20:01Z,[artifactory-release] Release version 2.0.0.M3
+2017-04-04T14:11:49Z,AMQP-670: Broker-less @RabbitListener Testing
+2017-04-03T17:39:53Z,AMQP-725: Suppress WARN Log for Normal Cancel
+2017-04-03T15:05:17Z,micro-optimization: use parseBoolean()
+2017-03-30T16:43:02Z,@Queue.durable() default true
 2017-03-29T21:05:36Z,AMQP-733: @Exchange.durable() to true by default
 2017-03-29T18:01:51Z,AMQP-731: @RabbitListener support custom exchange
 2017-03-28T19:55:42Z,AMQP-723: Improve Javadocs for Recovery Exceptions

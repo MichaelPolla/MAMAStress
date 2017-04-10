@@ -1,0 +1,13 @@
+version: '2'
+services:
+  github_retriever_docker:
+    image: github_retriever_app
+    environment:
+      - token=${token}
+    volumes:
+      - ./csv_data:/usr/src/app/csv_data
+  jira_retriever_docker:
+    image: jira_retriever_app
+    volumes:
+      - ./csv_data:/usr/src/app/csv_data
+

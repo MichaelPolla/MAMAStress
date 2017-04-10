@@ -1,4 +1,6 @@
 date,summary
+2017-04-05T16:40:02Z,Race condition in RabbitListenerAnnotationBeanPostProcessor 
+2017-03-31T16:47:24Z,CorrelationIdString Not Mapped Properly
 2017-03-29T18:52:24Z,"@RabbitListener's @Exchange provides durable as false, meanwhile AbstractExchange is durable by default"
 2017-03-23T09:55:09Z,AmqpRejectAndDontRequeueException does not stop the retry mechanism when TransactionManager is active
 2017-03-22T07:42:19Z,Wrapped listener to Mockito Spy by RabbitListenerTestHarness do not work when tests are being run from maven build 

@@ -21,9 +21,8 @@ For JIRA does not need a token.
 
 ## Build and Run all services
 In directory Dockers, make this command:
-```docker-compose up
-$ docker-compose up
-```
+`$ docker-compose up`
+
 
 ## Examples
 `python jira_retriever.py`

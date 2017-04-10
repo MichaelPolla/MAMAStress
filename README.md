@@ -12,15 +12,15 @@ The best JIRA/GitHub software to get the stress of the team when the deadline ap
 `pip install jira`
 
 ## Tokens
-For github does not need a token there, but if the limit is reached (60 requests), we can generate a code to have more requests :
-1. go to https://github.com/settings/tokens
-2. generate token
-3. copy token and pass as arguments
-
-For JIRA does not need a token.
+Github : under 60 requests, no token is required. To be able to make more requests, generate a token :
+1. Go to https://github.com/settings/tokens
+2. Generate token
+3. Copy token and pass it as argument  
+  
+JIRA : no token required.
 
 ## Build and Run all services
-In directory Dockers, make this commands in this order:
+In directory Dockers, make these commands in this order:
 
 `$ export TOKEN=yourgithubtoken`
 

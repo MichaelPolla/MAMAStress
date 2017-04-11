@@ -56,3 +56,10 @@ with open('csv_data/github_commits.csv', 'wb') as csvfile:
             "date" : commit['commit']['committer']['date'], \
             "name_first_line" : commit['commit']['message'].split('\n', 1)[0]
         })
+
+
+# Open a file
+fo = open("csv_data/github_retriever.txt", "wb")
+
+# Close opend file
+fo.close()

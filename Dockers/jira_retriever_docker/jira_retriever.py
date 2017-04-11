@@ -48,3 +48,8 @@ with open('csv_data/jira_issues_bugs.csv', 'wb') as csvfile:
                 "date" : issue.fields.created.replace(".000+0000", "Z"), \
                 "summary" : issue.fields.summary
             })
+# Open a file
+fo = open("csv_data/jira_retriever.txt", "wb")
+
+# Close opend file
+fo.close()

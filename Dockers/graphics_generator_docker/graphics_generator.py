@@ -1,5 +1,5 @@
 import matplotlib
-# Force matplotlib to not use any Xwindows backend. To fix 
+# Force matplotlib to not use any Xwindows backend. To fix
 #     _tkinter.TclError: no display name and no $DISPLAY environment variable
 matplotlib.use('Agg')
 
@@ -8,6 +8,15 @@ import matplotlib.cm as cm
 import pandas as pd
 import datetime
 from collections import OrderedDict
+import os
+
+while os.path.exists('./csv_data/github_retriever.txt')!= True:
+	pass
+while os.path.exists('./csv_data/jira_retriever.txt')!= True:
+	pass
+os.remove('./csv_data/github_retriever.txt')
+os.remove('./csv_data/jira_retriever.txt')
+
 
 plt.style.use('seaborn-notebook')
 

@@ -6,6 +6,7 @@ services:
     environment:
       - token=${TOKEN}
       - repo=${GITHUB_REPO}
+      - DATA_PATH=./csv_data/${JIRA_PROJECT}/
     volumes:
       - ./csv_data:/usr/src/app/csv_data
   jira_retriever_service:
@@ -16,8 +17,11 @@ services:
     environment:
       - project=${JIRA_PROJECT}
       - server=${JIRA_SERVER}
+      - DATA_PATH=./csv_data/${JIRA_PROJECT}/
   graphics_generator_service:
     build: ./graphics_generator_docker
     image: graphics_generator_app
+    environment:
+      - DATA_PATH=./csv_data/${JIRA_PROJECT}/
     volumes:
       - ./csv_data:/usr/src/app/csv_data

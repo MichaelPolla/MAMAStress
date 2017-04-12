@@ -1,2 +1,2 @@
 FROM python:2-onbuild
-CMD python github_retriever.py $token $repo
+CMD python github_retriever.py $token $repo $DATA_PATH

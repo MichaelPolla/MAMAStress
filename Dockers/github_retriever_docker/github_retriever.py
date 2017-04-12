@@ -2,15 +2,25 @@ import requests
 import json
 import sys
 import csv
+import os
 
 GITHUB_OWNER_REPO = "spring-projects/spring-amqp"
 
 access_token = None
+
+PATH = 'csv_data/'
+
 if(len(sys.argv) > 1):
     access_token = sys.argv[1]
 
 if(len(sys.argv) > 2):
     GITHUB_OWNER_REPO = sys.argv[2]
+
+if(len(sys.argv) > 3):
+	PATH=sys.argv[3]
+
+if not os.path.exists(PATH):
+	os.makedirs(PATH)
 
 GITHUB_OWNER_REPO_API = "https://api.github.com/repos/"+GITHUB_OWNER_REPO
 
@@ -50,7 +60,7 @@ commits = commits()
 # Get date of last commit
 print str(len(commits))
 print json.dumps(commits[0])
-with open('csv_data/github_commits.csv', 'wb') as csvfile:
+with open(PATH+'github_commits.csv', 'wb') as csvfile:
     fieldnames = ["date", "name_first_line"]
     writer = csv.DictWriter(csvfile,
         fieldnames=fieldnames)
@@ -64,7 +74,7 @@ with open('csv_data/github_commits.csv', 'wb') as csvfile:
 
 
 # Open a file
-fo = open("csv_data/github_retriever.txt", "wb")
+fo = open(PATH+"github_retriever.txt", "wb")
 
 # Close opend file
 fo.close()

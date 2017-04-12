@@ -1,20 +1,28 @@
 from jira import JIRA
 import re
 import csv
+import sys
+import os
 
 PROJECT_KEY="AMQP"
 
-options = {
-    'server': 'https://jira.spring.io'}
+options = {'server': 'https://jira.spring.io'}
+
+PATH = 'csv_data/'
 
 if(len(sys.argv) > 1):
 	PROJECT_KEY=sys.argv[1]
 
 if(len(sys.argv) > 2):
-    options.server = sys.argv[2]
+    options['server'] = sys.argv[2]
 
+if(len(sys.argv) > 3):
+	PATH=sys.argv[3]
 
 jira = JIRA(options)
+
+if not os.path.exists(PATH):
+	os.makedirs(PATH)
 
 # Get project
 project = jira.project(PROJECT_KEY)
@@ -24,7 +32,7 @@ print "Get versions..."
 components = jira.project_components(project)
 versions = jira.project_versions(project)
 
-with open('csv_data/jira_versions.csv', 'wb') as csvfile:
+with open(PATH+'jira_versions.csv', 'wb') as csvfile:
     fieldnames = ["name", "release_date", "released"]
     writer = csv.DictWriter(csvfile,
         fieldnames=fieldnames)
@@ -43,7 +51,7 @@ print "Get issues..."
 issues = jira.search_issues("project="+PROJECT_KEY,maxResults=50000)
 
 # Write in csv
-with open('csv_data/jira_issues_bugs.csv', 'wb') as csvfile:
+with open(PATH+'jira_issues_bugs.csv', 'wb') as csvfile:
     fieldnames = ["date", "summary"]
     writer = csv.DictWriter(csvfile,
         fieldnames=fieldnames)
@@ -57,7 +65,7 @@ with open('csv_data/jira_issues_bugs.csv', 'wb') as csvfile:
                 "summary" : issue.fields.summary
             })
 # Open a file
-fo = open("csv_data/jira_retriever.txt", "wb")
+fo = open(PATH+"jira_retriever.txt", "wb")
 
 # Close opend file
 fo.close()

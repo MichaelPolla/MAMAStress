@@ -7,23 +7,31 @@ import matplotlib.pyplot as plt
 import matplotlib.cm as cm
 import pandas as pd
 import datetime
+import sys
 from collections import OrderedDict
 import os
 
+PATH = 'csv_data/'
+if(len(sys.argv) > 1):
+	PATH=sys.argv[1]
+
+if not os.path.exists(PATH):
+	os.makedirs(PATH)
+
 # Wait for other docker container
-while os.path.exists('./csv_data/github_retriever.txt')!= True:
+while os.path.exists(PATH+'github_retriever.txt')!= True:
 	pass
-while os.path.exists('./csv_data/jira_retriever.txt')!= True:
+while os.path.exists(PATH+'jira_retriever.txt')!= True:
 	pass
-os.remove('./csv_data/github_retriever.txt')
-os.remove('./csv_data/jira_retriever.txt')
+os.remove(PATH+'github_retriever.txt')
+os.remove(PATH+'jira_retriever.txt')
 
 plt.style.use('seaborn-notebook')
 
 # Get data
-commits = pd.read_csv('./csv_data/github_commits.csv', sep=',', parse_dates=['date'])
-issues = pd.read_csv('./csv_data/jira_issues_bugs.csv', sep=',', parse_dates=['date'])
-versions = pd.read_csv('./csv_data/jira_versions.csv', sep=',', parse_dates=['release_date'])
+commits = pd.read_csv(PATH+'github_commits.csv', sep=',', parse_dates=['date'])
+issues = pd.read_csv(PATH+'jira_issues_bugs.csv', sep=',', parse_dates=['date'])
+versions = pd.read_csv(PATH+'jira_versions.csv', sep=',', parse_dates=['release_date'])
 
 
 def generateFig(byFreq, filename, figurename, dateBegin=None, dateEnd=None, realDate=None):
@@ -93,9 +101,9 @@ def generateFig(byFreq, filename, figurename, dateBegin=None, dateEnd=None, real
   plt.savefig(filename)
 
 # Generate general graphics
-generateFig('1d', './csv_data/all_day.png', "Par jour")
-generateFig('7d', './csv_data/all_week.png', "Par semaine")
-generateFig('1M', './csv_data/all_month.png', "Par mois")
+generateFig('1d', PATH+'all_day.png', "Par jour")
+generateFig('7d', PATH+'all_week.png', "Par semaine")
+generateFig('1M', PATH+'all_month.png', "Par mois")
 
 # Generate graphics foreach release
 for i in versions.index :
@@ -106,4 +114,4 @@ for i in versions.index :
     beginDate = date - datetime.timedelta(days=14)
     print name + " from:"+str(beginDate) + " to:" + str(date)
     dateEnd = date + datetime.timedelta(days=14)
-    generateFig('1d', './csv_data/' + name+'.png', name, beginDate, dateEnd, date)
+    generateFig('1d', PATH+'' + name+'.png', name, beginDate, dateEnd, date)

@@ -1,0 +1,347 @@
+date,summary
+2017-04-11T21:49:57Z,org.springframework.jdbc.datasource.init.ScriptUtils#splitSqlScript cannot deal with semicolons in stored procedures
+2017-04-11T21:21:12Z,Eclispe Neon does not display spring project after Install spring IDE from market place
+2017-04-11T11:28:25Z,"AbstractGenericHttpMessageConverter.canWrite(Type, Class, MediaType) doesn't call canWrite(Class, MediaType) anymore"
+2017-04-11T08:31:09Z,"UnknownHostException not accepted as ""resource not found"" anymore"
+2017-04-11T08:23:04Z,Wrong @ControllerAdvice annottated exception handler choosen for @RestControroller
+2017-04-10T14:20:42Z,ForwardedHeaderFilter.ForwardedHeaderRequestWrapper does not preserve ;
+2017-04-10T09:09:51Z,null-property property from application.yml is mapped to empty String
+2017-04-07T18:56:42Z,ForwardedHeaderRequestWrapper should return a new StringBuffer instance on each invocation of the getRequestURL method
+2017-04-07T18:54:27Z,ForwardedHeaderFilter.ForwardedHeaderRequestWrapper does not preserve encoding of requestURI
+2017-04-06T19:04:52Z,NPE thrown by WriteResultPublisher$State$2.publishComplete caused by a thread-safety issue
+2017-04-05T13:14:10Z,Use ServerCodecConfigurer in HandlerStrategies
+2017-04-05T12:18:14Z,SimpleBrokerMessageHandler SubscriptionRegistry DestinationCache doesn't honour unique subscriptionId
+2017-04-04T18:24:01Z,ISE is thrown when the client disconnects while the server is still sending the response
+2017-04-04T15:21:08Z,UrlResource getFilename should not contain query parameters
+2017-04-04T13:42:49Z,Awkward binary incompatibility in ResponseBodyEmitterReturnValueHandler
+2017-04-03T22:51:33Z,SettableListenableFuture setException is inconsistent with callbacks under race
+2017-04-03T05:32:57Z,Unable to set Content-Type in error page handler on WebSphere 9
+2017-03-30T12:07:35Z,Caching of cache meta data causes classes to not be unloadable as when factory is closed this data is not removed
+2017-03-29T14:38:42Z,responseReason is null
+2017-03-28T11:06:04Z,NPE thrown by AbstractListenerWriteFlushProcessor.cancel
+2016-08-09T09:48:24Z,JDBCTemplate queryForObject returning an empty list with null values
+2015-04-24T11:41:41Z,HHH000008 if using Hibernate 4.3.7.Final
+2016-10-09T20:11:48Z,JdbcTemplate.queryForRowSet does not work in case of nested SELECT clause on MySQL
+2017-03-25T19:50:04Z,Spring classes and application proxies not collected after closing context
+2017-03-23T13:43:27Z,NullPointerException can happen in HttpRequestMethodNotSupportedException.getSupportedHttpMethods()
+2017-03-23T12:36:15Z,TransactionAwareDataSourceProxy.unwrap returns the proxy itself
+2017-03-22T21:15:38Z,CharSequenceEncoder should support all media types
+2017-03-22T10:20:19Z,VersionResourceResolver does not delegate path resolution to the chain
+2017-03-22T10:08:54Z,BeanValidations Error Out on Getters that return an Optional<>
+2017-03-21T11:55:33Z,Regression: CssLinkResourceTransformer is now incompatible with relative links
+2017-03-20T15:16:20Z,Generic type is not used sometimes
+2017-03-17T20:56:14Z,ResourceRegionHttpMessageWriter should not use the response content-type
+2017-03-17T20:47:45Z,Content-type resolution issue in EncoderHttpMessageWriter
+2017-03-17T15:09:12Z,StringToCollectionConverter splits string by comma
+2017-03-16T15:08:24Z,Autowired for collection work incorrect
+2017-03-11T19:59:18Z,Undertow ZeroCopyHttpOutputMessage exception
+2017-03-09T20:54:17Z,Spring - JdbcTemplate - query with CTE and enumerated rows
+2017-03-09T15:12:19Z,"HEAD response has ""Content-Length: 0"" for @RestController @GetMapping methods"
+2017-03-09T07:49:23Z,Hibernate Envers listeners fail because EntityManager is closed too early when using JPA/JTA/Hibernate 5.2.8/Envers
+2017-03-08T18:13:28Z,PathMatchingResourcePatternResolver fails to work under Tomcat 8.0.41 with unpackWARs=false
+2017-03-08T16:37:13Z,Make formatter value configurable through Spring EL/Property PlaceHolder
+2017-03-08T11:11:17Z,Load Time Weaving not working after upgrading Tomcat from 7.0.60 to 7.0.70
+2017-03-07T20:42:39Z,UriComponentsBuilder fromHttpRequest breaks with relative URIs
+2017-03-07T18:31:16Z,java.lang.IllegalArgumentException: No enum constant org.springframework.messaging.simp.stomp.StompCommand.SUBSCRIBE
+2017-03-04T14:20:32Z,@ExceptionHandler is not invoked for GET requests
+2017-03-03T22:34:52Z,ContentNegotiationStrategy.resolveMediaTypes should process all strategies before returning
+2017-03-03T21:21:39Z,SimpleMetadataReader fails to read meta-annotations with non-loadable attribute classes
+2017-03-02T22:41:40Z,Spring WebFlux using Kotlin with RouterDsl nested mappings not matching
+2017-03-02T13:22:09Z,WebFlux SSE controller does not detect disconnected client
+2017-03-02T10:55:26Z,BeanCurrentlyInCreationException with no circular reference
+2017-03-02T10:44:53Z,Unable to resolve persistence unit root URL with LocalContainerEntityManagerFactoryBean
+2017-03-01T17:46:39Z,When using ParsingPathMatcher in MVC user should not have to also explicitly set suffix matching
+2017-03-01T15:33:16Z,DateTimeFormat does not recognise ISO8601 formatted strings
+2017-02-28T11:07:14Z,connection timeout is not working with rest template -- InterceptingClientHttpRequestFactory
+2017-02-24T15:27:52Z,@MessageMapping does not work with Spring Security and MVC
+2017-02-24T10:15:19Z,Cannot receive message sometimes with SimpleBrokerMessageHandler
+2017-02-23T08:10:05Z,http://repo.spring.io hangs
+2017-02-22T17:26:02Z,ConfigurationProperties fails to bind a map with a value of an empty map
+2017-02-21T15:45:35Z,@Configuration processing fails to handle AbstractFactoryBean.getObject() calls
+2017-02-21T06:47:39Z,LocaleChangeInterceptor not working before I login
+2017-02-20T14:06:03Z,@Retryable won't work as expected with exclude
+2017-02-17T15:42:15Z,OpenTracing: Embedded Boot `/error` invoked after processing in filter
+2017-02-17T09:11:49Z,PathPatternParser matches root path against path variable
+2017-02-16T21:49:43Z,Mulltimap update bug
+2017-02-16T15:48:20Z,"HEAD response has ""Content-Length: 0"" for @RestController @GetMapping methods"
+2017-02-15T22:10:38Z,StringIndexOutOfBoundsException in PathPattern.extractPathWithinPattern
+2017-02-14T13:07:05Z,Different handling in PathEditor in Servlet Context for existing and non-existing paths
+2017-02-14T08:51:47Z,RestTemplate with MockMvcClientHttpRequestFactory double encodes URIs
+2017-02-10T21:59:36Z,PathPatternParser#parse method failed with java.lang.IndexOutOfBoundsException
+2017-02-10T14:10:50Z,UriComponentsBuilder does not correctly preserve or encode query strings
+2017-02-09T17:17:41Z,"URLEncoding error in combination with DeferredResult and ""%25"" character in PathVariable"
+2017-02-09T13:31:49Z,RestTemplate with Netty produces two Content-Length headers
+2017-02-09T09:03:18Z,Spring Formatters are not being registered when some class extends WebSecurityConfigurerAdapter
+2017-02-08T13:27:05Z,"MockHttpServletRequest.protocol default should be ""HTTP/1.1"", not ""http"""
+2017-02-08T00:24:22Z,DispatcherServlet's multipart request parsing fails during Jetty error dispatch
+2017-02-05T18:05:38Z,ClassNotFoundException occurs when run my SpringCore program
+2017-02-04T20:28:01Z,Bean dependencies resolved with custom ObjectFactory are null in autowired constructors
+2017-02-03T12:30:47Z,Memory leak in AbstractAutoProxyCreator for custom initializeBean calls
+2017-02-02T09:30:34Z,SettableListenableFuture may be successfully set with failureCallback executed and success callback ignored
+2017-02-01T22:24:10Z,MockHttpServletRequest.getReader() returns null in case of no content
+2017-02-01T16:09:59Z,Principal check in ServletRequestMethodArgumentResolver can result in type mismatches
+2017-01-31T15:34:43Z,HTTP Response should not contain both Transfer-Encoding and Content-Length headers
+2017-01-29T16:04:04Z,SettableListenableFuture may be both set and canceled successfully
+2017-01-28T12:38:05Z,RestTemplate drops trailing / from request URI
+2017-01-27T10:52:16Z,AntPathMatcher does not match more specific path when there is an static path fragment given
+2017-01-26T21:11:15Z,Spring does not clean up db connection registered in afterCompletion callback
+2017-01-26T19:51:08Z,SpelCompiler VerifyError - Incompatible argument to function
+2017-01-25T14:55:16Z,If backing Cache is down @CacheResult does not seamlessly call method (in contrast to @Cacheable)
+2017-01-24T23:57:48Z,InvocableHandlerMethod should call GenericTypeResolver with getBeanType() and only once
+2017-01-24T18:40:10Z,More specific RequestMapping is suddenly ignored when adding produces attribute
+2017-01-24T17:16:25Z,@Primary annotation on ProxyFactoryBean
+2017-01-23T13:53:06Z,HiddenHttpMethodFilter may disturb error rendering when handling malformed multipart request
+2017-01-20T13:01:05Z,ProxyTransactionManagementConfiguration enableTx NPE
+2017-01-19T13:54:32Z,InterceptingClientHttpRequest replaces headers set in request factory instead of merging them
+2017-01-19T08:00:45Z,Spring loaded runtime exception
+2017-01-18T13:35:34Z,"Reactive web client Exception, with reactor-netty"
+2017-01-18T12:37:08Z,Collection autowiring does not resolve field-level type variable against containing class
+2017-01-17T22:50:38Z,Different behavior for @ResponseBody annotation between 4.2.5 and 4.3.5
+2017-01-17T21:38:12Z,"XmlExpectationsHelper.assertXmlEqual missing ""regardless of order"" case"
+2017-01-17T08:29:29Z,ShallowEtagHeaderFilter won't set ETag for DeferredResult in Undertow 
+2017-01-17T02:39:08Z,HeaderMethodArgumentResolver doesn't resolve Optional.empty() for non-existing header
+2017-01-16T21:18:09Z,@EventListener not working on @Service class
+2017-01-16T13:28:02Z,SimpleApplicationEventMulticaster should not rely on ClassCastException having a message
+2017-01-14T18:33:46Z,@RequestParam injects a raw undecoded string for reactive HTTP requests
+2017-01-12T14:10:16Z,Reactive RedirectView throws exception if no RequestDataValueProcessor is present
+2017-01-11T17:25:00Z,Cache Control set at resource handler being trumped by spring security on 304 response
+2017-01-10T18:42:13Z,Modification in AbstractAutowireCapableBeanFactory to prevent stackoverflow errors causes context not to load.
+2017-01-10T13:53:27Z,Incorrect resolution of ResolvableAttributes when MessageSourceSupport#alwaysUseMessageFormat is true
+2017-01-09T16:54:01Z,Can't autowire BiMap: container resolves non-matching Map of value beans
+2017-01-09T12:58:04Z,Non-JSON response 
+2017-01-09T10:49:46Z,Fix error handling in Jackson2JsonDecoder
+2017-01-08T08:32:07Z,Internal spring boot bug if wildfly libs is used
+2017-01-07T10:15:57Z,Spring Web Reactive + Netty hangs on Windows when sending JSON
+2017-01-06T16:15:43Z,Discovery of websocket RequestUpgradeStrategy fails
+2017-01-05T15:33:53Z,Silent Fail When Using Incorrect Username In Bootstrap.yml Config
+2017-01-04T15:51:27Z,Spring Security SAML has a logout based race condition
+2017-01-04T09:30:31Z,Wrong path to RequestUpgradeStrategies in HandshakeWebSocketService
+2017-01-03T14:39:08Z,DefaultRedirectStrategy.sendRedirect with relative URL and ForwardedHeaderFilter add contextpath to URL twice
+2017-01-03T14:26:01Z,HttpHeaders.keySet() is no longer case-insensitive
+2017-01-03T14:11:39Z,SseEmitter - Response already closed
+2017-01-03T13:45:18Z,Cannot configure Jackson used in ReactiveWeb
+2017-01-03T09:56:35Z,ServerHttpRequest getURI doesn't return the port the application is running on
+2017-01-02T11:54:28Z,Spring validation crashes with Hibernate Validation 5 style list constraint violations
+2017-01-01T09:40:52Z,WebClient mixes up state from separate requests 
+2017-01-01T04:19:26Z,No way to convert ClientResponse to a Mono<Collection<Thing>>
+2017-01-01T04:06:04Z,Redirect from controller can't resolve view
+2016-12-30T09:18:17Z,"url path variable works incorrectly for string starting/ending with ""."""
+2016-12-29T23:23:21Z,Session attributes not saved when ModelAndView returned for redirect
+2016-12-29T13:48:10Z,Error in RestTemplate when setting the same HTTP header through ClientHttpRequestInterceptor and HttpEntity
+2016-12-27T15:38:11Z,Annotated method argument matching performance issue
+2016-12-26T20:01:42Z,AutoProxyRegistrar throws NullPointer on @kotlin.Metadata Annotation
+2016-12-24T08:50:47Z,Spring MVC 4.3.5's Jackson auto-configuration breaks against Jackson 2.3.3 on the classpath
+2016-12-22T19:13:37Z,Validator Configuration Mismatch between JavaConfig and XML
+2016-12-22T14:27:16Z,Regression with poolTargetSource and scoped proxy
+2016-12-22T09:19:31Z,Constant error 416 for a byte-range request with content type application/octet-stream
+2016-12-19T12:12:14Z,MBeanExporter fails against null beans
+2016-12-19T02:25:13Z,ConcurrentModificationException in AbstractRequestExpectationManager
+2016-12-16T18:08:40Z,LinkedCaseInsensitiveMap does not properly support Java 8's merge() and compute() methods
+2016-12-15T14:41:03Z,RequestHeader annotation does not work if it's put on an interface
+2016-12-15T01:13:15Z,BridgeMethodResolver.findBridgedMethod() return wrong method with interface
+2016-12-14T16:59:48Z,Pointcut evaluation fails against AbstractHandlerMethodMapping$MappingRegistry with AspectJ 1.8.10
+2016-12-14T14:30:48Z,Validation of existing transactions with transaction synchronization turned off not working (?)
+2016-12-14T12:58:22Z,JsonObjectDecoder throws ArrayIndexOutOfBoundsException: -1 with valid input
+2016-12-12T21:53:44Z,@JsonIgnoreProperties(ignoreUnknown=false) is not working in Spring 4.2.8 and upper version
+2016-12-08T23:49:09Z,Bad Content-Type for static resources in Spring Web Reactive
+2016-12-08T20:53:55Z,Behaviour of field injection for List dependencies that are produced and consumed by the same configuration class has changed in 4.3.5 snapshots
+2016-12-06T03:56:31Z,using ParallelComputer to test spring test cases got error
+2016-12-05T14:06:02Z,ServletRequestBindingException should be wrapped as JSON response body
+2016-12-05T09:21:33Z,Concurrency problem in DeferredResult: potential double execution of handleResult
+2016-12-03T17:01:34Z,Exception accessing static resources in Spring Web Reactive with Netty
+2016-12-02T07:54:09Z,Spring websocket client cannot connecting on some computers
+2016-12-01T22:46:27Z,ImportAware.setImportMetadata not invoked if import inherited from superclass with negative condition
+2016-12-01T14:30:58Z,List-to-String conversion exception does not refer to element type
+2016-12-01T04:55:56Z,lazy-init beans cause ClassNotFoundException
+2016-12-01T01:54:00Z,spring or shiro jsonp(AbstractJsonpResponseBodyAdvice) bug
+2016-11-30T20:16:28Z,Self reference fallback in 4.3 is not meant to apply to collection elements
+2016-11-30T18:15:31Z,"Spring-Actuator prevents Beans of class ""CounterService"" from being found "
+2016-11-26T20:15:57Z,Startup performance differences between Spring Boot versions and main class vs jar file formats
+2016-11-24T17:38:50Z,@Scheduled on AWS EC2 does not work
+2016-11-24T00:59:50Z,Suboptimal performance of Jetty in Spring Web Reactive compared to Tomcat or Undertow
+2016-11-24T00:46:46Z,Large performance impact when using SSE in Spring Web Reactive
+2016-11-23T21:22:35Z,NPE is thrown while writing the response
+2016-11-23T11:05:34Z,RestTemplate's getSupportedMediaTypes method drop messageconverter mediatype character set information
+2016-11-23T02:19:00Z,May spring need update to take account of Oracle's fix for CVE-2016-3427.
+2016-11-22T14:56:14Z,PathMatchingResourcePatternResolver provides duplicate resources with relative URL
+2016-11-22T09:44:33Z,Cron Expression validation
+2016-11-21T22:26:27Z,Class loading issues due to thread context classloader hierarchy (Spring Web Reactive + Tomcat)
+2016-11-21T21:30:36Z,NPE in LoadTimeWeavingConfiguration: loadTimeWeaver() called too early
+2016-11-21T17:17:38Z,ConversionService performance regression
+2016-11-17T11:20:06Z,AbstractSockJsSession deadlock when tomcat WsSession is closing
+2016-11-14T21:52:14Z,ExceptionHandlerExceptionResolver should not log propagated exceptions at warn level
+2016-11-14T11:10:21Z,Make andRoute() a drop-in replacement for and(route())
+2016-11-13T20:22:55Z,"Early ""Constructor Injection"" beans ignore @Transactional silently when  using @EnableTransactionManagement"
+2016-11-11T20:15:44Z,component-scan for .groovy files does not work on JDK 9
+2016-11-11T14:07:41Z,sse breaks with indenting serializer
+2016-11-10T10:33:05Z,WebClient ArrayIndexOutOfBoundsException
+2016-11-09T17:12:35Z,TemplateInputException MVC spring-boot-starter-parent
+2016-11-09T16:18:17Z,Injecting bean in configurable class using load-time weaving broken when referenced on scoped-proxy class
+2016-11-09T15:41:41Z,Content-based versions are not inserted into resource URLs in an error page
+2016-11-09T10:54:28Z,Netty4ClientHttpRequestFactory should use SSL if port is 443 or scheme is https
+2016-11-08T13:28:11Z,Execute getBeansWithAnnotation when bean has a @RefreshScope annotation returns unexpected number of results
+2016-11-08T03:34:25Z,Spring context initializtion failed
+2016-11-03T17:48:36Z,Spring Data REST is Not Activated for Reactive Web
+2016-11-03T17:38:31Z,Returning Mono<ResponseEntity<?>> causes NPE
+2016-11-03T16:13:40Z,Wrong HandlerResultHandler select when dealing with exceptions
+2016-11-03T03:59:42Z,The 500 error occur when receive a indexed parameter equal or greater than autoGrowCollectionLimit
+2016-11-02T18:05:33Z,Invoking method (having @Bean) on Autowired parent class is calling subclass method
+2016-11-02T12:59:46Z,NoSuchMethodError when using AnnotatedElementAdapter with Java 7
+2016-11-02T04:50:54Z,[spring-web-reactive] NPE in RequestMappingHandlerAdapter at Startup
+2016-11-01T10:32:20Z,ObjectMapper used by Jackson2JsonDecoder doesn't pick up jackson-parameter-names module
+2016-10-31T12:24:29Z,SpEL: Compiled OpNE should favor equals() to !=
+2016-10-29T11:31:55Z,RestTemplate POST and PUT don't work with Netty4ClientHttpRequestFactory
+2016-10-28T09:23:59Z,JsonObjectDecoder fails to decode some splitted source
+2016-10-26T18:30:20Z,Can't return JSON view from RequestMappings with Trailing Slashes
+2016-10-26T17:57:16Z,Allow @Cacheable method to return java.util.Optional variant of cached value with @Cacheable(sync=true)
+2016-10-26T14:26:05Z,ResourceHttpRequestHandler no longer works as prototype bean
+2016-10-26T13:39:04Z,NPE PropertyOrFieldReference$AccessorLValue due to concurrency issue
+2016-10-26T10:56:55Z,LiveBeansView#unregister should not rely on ApplicationContext#getApplicationName
+2016-10-26T02:19:09Z,SimpleApplicationEventMulticaster should not generally suppress ClassCastException
+2016-10-21T20:59:52Z,JpaTransactionManager is not passing on constraint violations with Hibernate 5.2
+2016-10-21T12:47:24Z,Spring MVC binding of email influences other fields too
+2016-10-21T10:46:45Z,No bean of type ConfigurableEnvironment in AbstractTestNGSpringContextTests
+2016-10-21T09:47:26Z,SockJs heartbeat causes deadlock with XHR polling
+2016-10-20T12:32:47Z,UriComponentBuilder doesn't work with encoded HTTP URL having '+'.
+2016-10-19T15:25:03Z,Regression: ETag and Last-Modified headers are removed in non-safe methods that return 200 OK
+2016-10-19T10:37:33Z,StringHttpMessageConverter should use its default charset
+2016-10-14T17:10:08Z,simp allows glob subscription to receive another user messages
+2016-10-14T09:27:27Z,Spring Mvc Annotations in argument of a method (like @Path) annotated with @RequestMapping are not supported when you create a @RestController via an Interface
+2016-10-13T11:25:08Z,SubProtocolWebSocketHandler should check session status before adding to map
+2016-10-13T09:31:13Z,Hot publishing to an event stream not working
+2016-10-12T13:29:06Z,Cache annotation lookup in 4.3 finds more annotations than in 4.2
+2016-10-10T16:25:31Z,ModelAndView's setStatus does not work for @ExceptionHandler methods
+2016-10-10T15:30:56Z,Possible bug about close resources when exists many ActiveProfilesResolver
+2016-10-10T15:20:30Z,Fix HttpRequest#getURI() with Netty based engines
+2016-10-10T12:13:14Z,Access-Control-Allow-Methods contains duplicate HTTP methods
+2016-10-09T22:22:35Z,Spring MVC Test & AOP & Rest: Around advice is not executed how is expected for rest controller (just for invalid data)
+2016-10-07T12:45:15Z,wrong scheduling targets on using cron pattern */n
+2016-10-06T13:58:12Z,java.io.IOException: Stream is closed (HttpOutputStreamImpl)
+2016-10-06T07:13:28Z,@CacheConfig(cacheNames) broken when used on interface
+2016-10-05T15:57:30Z,SpringValidatorAdapter's ResolvableAttribute is not serializable
+2016-10-04T08:29:55Z,Application destination prefix filter out SubscribeMapping
+2016-10-03T08:12:49Z,Reactive controller event stream crashes after 30 seconds
+2016-10-01T21:10:31Z,CssLinkResourceTransformer should not transform gzipped CSS files
+2016-10-01T06:19:16Z,Flux<ServerSentEvent> looses messages when using a Processor from another Thread
+2016-09-29T20:36:38Z,Spring @RequestMapping javadoc wrong (String)
+2016-09-29T17:19:36Z,Spring @PostConstruct init/sequence weirdness
+2016-09-29T09:28:04Z,ETag header is removed from PUT/POST/PATCH responses
+2016-09-29T08:32:54Z,SingleConnectionFactory only works with JMS 2.0
+2016-09-28T21:34:36Z,MessageHeaders doesn't use serialization properly
+2016-09-28T21:07:33Z,AntPathMatcher.isPattern returns false if pattern contains variable
+2016-09-28T19:01:24Z,Content negotiation conflict with Data REST Repository
+2016-09-28T09:46:12Z,IPv6 + Origin header + X-Forwarded-Host header gives NumberFormatException (Safari10 / CORS)
+2016-09-28T01:49:56Z,Spring MVC Flash attributes not working with reverse proxy
+2016-09-27T21:38:41Z,SpEL varargs string arguments containing commas
+2016-09-27T10:54:02Z,Spring Websocket is leaking ThreadPoolExecutor queue tasks 
+2016-09-26T10:02:16Z,DefaultPersistenceUnitManager may configure a persistence unit root URL that does not point to a file or directory
+2016-09-26T06:53:21Z,Error while serializing ServerSentEvent
+2016-09-24T09:02:09Z,"Access to generic list throws java.lang.IndexOutOfBoundsException: Index: 0, Size: 0"
+2016-09-22T22:05:31Z,@ComponentScan ignores @Order on @Configuration classes
+2016-09-21T16:38:02Z,Not implemented EQUALS methods cause OOM while using AOP
+2016-09-19T22:51:36Z,Exception during initialisaton of resource handling at WebReactiveConfiguration
+2016-09-19T14:34:59Z,websocket - subscribers not notified
+2016-09-19T09:11:02Z,cve-2016-5007
+2016-09-16T22:40:33Z,java.lang.NoClassDefFoundError: org/springframework/core/enums/LabeledEnum
+2016-09-15T16:53:52Z,exception during websocket client close
+2016-09-15T13:33:51Z,Possible Bug: MappingJackson2XmlHttpMessageConverter does not share same ObjectMapper than MappingJackson2HttpMessageConverter
+2016-09-15T10:55:06Z,Refreshable Groovy scripts failing on refresh
+2016-09-15T10:53:03Z,StringUtils.parseLocaleString(): does not parse locale string in java 7 for Serbian (Latin)
+2016-09-14T22:33:56Z,exception during websocket server shutdown
+2016-09-14T10:40:51Z,Reactive path matching does not consider servlet context path
+2016-09-13T14:51:24Z,Deadlock sending SSE events
+2016-09-13T12:54:22Z,one beanfactory can not have more than one TransactionManager  when low memory
+2016-09-13T06:48:04Z,Springmvc+mybatis project use @transaction not roll back with Spring JavaConfig
+2016-09-13T01:09:40Z,NPE during websocket disconnect
+2016-09-12T20:04:44Z,Classloader leak with cglib proxies and spring-retry
+2016-09-12T19:23:07Z,Mockito fails to verify the second time on the proxied bean
+2016-09-12T14:26:40Z,Failed to start bean 'webSocketHandlerMapping'; nested exception is java.lang.IllegalStateException: Unable to initialize Jetty WebSocketServerFactory with latest spring and jetty vesions
+2016-09-12T14:03:15Z,Frequent messages via Websocket are sent unreliably
+2016-09-08T19:48:30Z,HibernateExceptionTranslator translating to InvalidDataAccessApiUsageException when using vanilla Hibernate
+2016-09-08T09:32:04Z,@PathVariable will cut off the last point
+2016-09-07T17:02:28Z,Spring 4.3.2 HibernateTemplate#findByNamedQuery isn't compatible with Hibernate 5.0
+2016-09-07T04:07:38Z,DispatcherServlet changes response locale when dispatching to DefaultServlet
+2016-09-03T10:34:15Z,Performance regression when scheduling is enabled and context contains URL beans
+2016-09-02T21:00:53Z,Handle ResponseEntity with null bodies
+2016-09-02T10:51:48Z,TypeConverterSupport does not propagate custom exceptions anymore
+2016-09-01T14:40:08Z,Broken FallbackObjectToStringConverter
+2016-08-31T10:34:54Z,ResolvableType for a raw type is not assignable to generic types of the same class
+2016-08-31T10:07:36Z,Number of Beans in a Config class breaks injection
+2016-08-28T07:39:19Z,Unable to make ajax POST call for uploading file
+2016-08-26T11:35:36Z,Third concurrent request hangs forever with HttpClient and maxConnPerRoute=2
+2016-08-26T09:07:47Z,Potential AsyncConfigurer bug or mis-interpreted/missing documentation
+2016-08-24T18:24:19Z,Fix assertions in StompHeaderAccessor
+2016-08-24T15:06:25Z,@Profile  don't work. 
+2016-08-24T13:52:10Z,Since 4.2.6 Spring MVC view resolution occasionally hangs under load
+2016-08-24T07:27:00Z,Reactive controllers don't fully support returning org.reactivestreams.Publisher. It fails when calling s.onNext() multiple times.
+2016-08-24T00:07:35Z,Static resource served with wrong Content-Type and ERR_CONTENT_LENGTH_MISMATCH  error
+2016-08-23T15:51:17Z,Inconsistent handling of ResponseStatusExceptions
+2016-08-23T10:28:22Z,Missing MessageMethodArgumentResolver default constructor
+2016-08-19T19:50:10Z,Transaction manager cache fails to repopulate when multiple transaction managers defined
+2016-08-19T12:54:11Z,Child spring app context refresh causes app micro downtime during which the app server responds with error 404
+2016-08-19T10:16:47Z,OutOfMemoryError caused by nested UnsatisfiedDependencyExceptions
+2016-08-19T07:12:11Z,Could not change message selector at runtime
+2016-08-18T23:40:17Z,Invalid WARN when returning a BeanDefinitionRegistryPostProcessor from within a @Configuration class
+2016-08-18T15:07:45Z,Environment variables as properties stopped working after disabling XML validation
+2016-08-18T03:46:12Z,`WebMvcConfigurer#extendHandlerExceptionResolvers` is not invoked
+2016-08-17T16:28:00Z,CssLinkResourceTransformer is incompatible with ContentVersionStrategy when using Caching
+2016-08-17T16:13:29Z,VersionResourceResolver-  Bug when CssLinkResourceTransformer handling relative links
+2016-08-17T15:06:40Z,NoSuchBeanDefinitionException message shows internal array class names
+2016-08-17T13:38:40Z,ReactorHttpClientConnector ignores SSL support
+2016-08-17T13:33:37Z,Reactive response extractor does not invoke error handler
+2016-08-15T19:20:33Z,CronSequenceGenerator.next() is not implemented as documented
+2016-08-14T09:06:10Z,Encoding of flux data is incorrect
+2016-08-13T01:38:28Z,HtmlUnitRequestBuilder corrupts the parent RequestBuilder
+2016-08-11T21:50:12Z,NoSuchElementException when receiving a HTTP 401 with WebClient
+2016-08-11T07:44:25Z,'Invalid column type' exception generated when writing a Boolean data member to Oracle database 
+2016-08-10T11:29:52Z,Let users control reactive SSE stream completion
+2016-08-10T10:51:12Z,When favorPathExtension is false ResourceHttpRequestHandler serves resources with different content type in 4.3 compared to 4.2
+2016-08-10T07:52:52Z,Spring boot failing to start up while using experimental spring reactive 5.0
+2016-08-09T14:50:42Z,Calling Validator.forExecutables throws an AbstractMethodError when using LocalValidatorFactoryBean and Hibernate Validator 5.2
+2016-08-09T11:59:55Z,Spring HATEOAS implementation of VndErrors.VndError#logRef is not optional
+2016-08-09T00:37:43Z,A RequestParam collections not being parsed properly
+2016-08-08T14:09:26Z,StompSubProtocolHandler responds with ERROR (Session closed.) on DISCONNECT when using SimpleBrokerMessageHandler
+2016-08-08T03:29:26Z,spring boot 1.4 support with hibernate 5.2.1
+2016-08-05T23:41:44Z,SockJS heartbeat is causing  application send Message to fail similar to (SPR-14356)
+2016-08-04T11:34:32Z,Forward leads to garbled output
+2016-08-02T13:40:10Z,ArrayIndexOutOfBoundsException in MethodBasedEvaluationContext
+2016-08-02T11:37:48Z,Reactive controller methods annotated with @PathVariable aren't invoked
+2016-08-01T19:37:48Z,StackOverflowError for advisor search against factory-bean reference to FactoryBean
+2016-07-31T13:05:02Z,Default connection release mode inconsistent with Hibernate 5.1.1
+2016-07-29T15:22:13Z,mvc Parameter annotations are not inherited
+2016-07-28T17:46:06Z,Both value and name attribute in AnnotationMetadata
+2016-07-28T14:11:42Z,StackOverflowError at AbstractJackson2HttpMessageConverter.resolveVariable
+2016-07-27T11:56:22Z,Do not fail with a circular @Import error caused by an @ComponentScan
+2016-07-25T19:36:40Z,Transaction manager bean in TransactionInterceptor retained after JUnit test class completes
+2016-07-25T01:40:20Z,LinkedCaseInsensitiveMap doesn't override HashMap.clone()
+2016-07-21T11:43:02Z,ResourcePatternUtils.getResourcePatternResolver does not accept null arg
+2016-07-21T11:36:35Z,SingleConnectionFactory stops connection on every stop/close on connection proxy
+2016-07-20T13:41:57Z,ClassUtils.getConstructorIfAvailable doesn't respect inner classes
+2016-07-20T13:28:56Z,Inherited Controller @RequestMapping does not work
+2016-07-20T11:00:19Z,Pointcut using @target causes unexpected proxy creation
+2016-07-20T03:31:56Z,"Use apache httpclient send request with header(content-type=application/x-protobuf) wihout Authorization header to visit LDAP protect resource, should not return 406 not acceptable"
+2016-07-19T17:29:15Z, Nested @Async annotations can block indefinitely
+2016-07-19T07:58:31Z,No processor claimed any of these annotations
+2016-07-18T20:34:20Z,CronSequenceGenerator.next() returns incorrect time
+2016-07-18T15:20:14Z,Mis-proxying of Mockito mock and poor diagnostics for type mismatch on proxy injection
+2016-07-18T13:59:56Z,ReactorClientHttpConnector assumes that URI.port is valid
+2016-07-17T19:52:01Z,NPE while try to use abstract beans with optional properties
+2016-07-15T21:23:59Z,"AbstractAdaptableMessageListener should not ""eat"" exceptions in the onMessage()"
+2016-07-15T17:20:01Z,Regression: character set in ContentResultMatchers.contentType(MediaType) is taken into accounts.
+2016-07-15T06:50:39Z,Jackson 2.6.x -> 2.7 deserialize generic fails when calling Spring controller
+2016-07-14T21:27:55Z,MessageHeaderAccessor doesn't remove headers if they are null
+2016-07-14T19:24:12Z,Misleading exception message for invalid MethodParameter instance
+2016-07-14T18:24:45Z,Ineffective synchronization in StandardTypeConverter constructor
+2016-07-14T18:17:33Z,Incorrect output from spring:message if using parameterized strings containing single quotes
+2016-07-14T15:17:14Z,SpEL evaluator cannot convert LocalDate to String
+2016-07-14T15:15:11Z,CronSequenceGenerator causes StackOverflowError with reversed range values
+2016-07-14T10:56:31Z,MultipartResolutionDelegate in Servlet 2.5 environments not working correctly
+2016-07-12T23:32:32Z,Flush exception translation not working anymore with Hibernate 5.2
+2016-07-12T18:46:18Z,MethodBasedEvaluationContext.lazyLoadArguments() execution fails for empty variable arguments call
+2016-07-11T14:38:37Z,Problem when DeferredResult set before controller's method returns it
+2016-07-10T13:51:13Z,Regression: TestContextManager no longer tracks after-class exception with log level lower than WARN
+2016-07-09T04:25:33Z,Hibernate bootstrap fails for Hibernate 5.1 and Spring 4.2.6
+2016-07-08T17:34:21Z,NoOpCacheManager and @Cacheable(sync=true)
+2016-07-08T16:44:42Z,SSE: Terminating chunk not sent using tomcat >= 8.0.35
+2016-07-07T17:43:58Z,UriTemplate and restTemplate don't url encode the Hash-sign (#)
+2016-07-06T22:02:46Z,MethodParameter should not be equal to SynthesizingMethodParameter

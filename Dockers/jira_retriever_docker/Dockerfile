@@ -1,3 +1,3 @@
 FROM python:2-onbuild
 RUN pip install jira
-CMD python jira_retriever.py 
+CMD python jira_retriever.py $project $server

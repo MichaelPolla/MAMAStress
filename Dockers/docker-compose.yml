@@ -5,6 +5,7 @@ services:
     image: github_retriever_app
     environment:
       - token=${TOKEN}
+      - repo=${GITHUB_REPO}
     volumes:
       - ./csv_data:/usr/src/app/csv_data
   jira_retriever_service:
@@ -12,6 +13,9 @@ services:
     image: jira_retriever_app
     volumes:
       - ./csv_data:/usr/src/app/csv_data
+    environment:
+      - project=${JIRA_PROJECT}
+      - server=${JIRA_SERVER}
   graphics_generator_service:
     build: ./graphics_generator_docker
     image: graphics_generator_app

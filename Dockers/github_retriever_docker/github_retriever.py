@@ -4,10 +4,15 @@ import sys
 import csv
 
 GITHUB_OWNER_REPO = "spring-projects/spring-amqp"
-GITHUB_OWNER_REPO_API = "https://api.github.com/repos/"+GITHUB_OWNER_REPO
+
 access_token = None
 if(len(sys.argv) > 1):
     access_token = sys.argv[1]
+
+if(len(sys.argv) > 2):
+    GITHUB_OWNER_REPO = sys.argv[2]
+
+GITHUB_OWNER_REPO_API = "https://api.github.com/repos/"+GITHUB_OWNER_REPO
 
 #Request : https://api.github.com/repos/spring-projects/spring-amqp/commits
 #Doc : https://developer.github.com/v3/repos/commits/

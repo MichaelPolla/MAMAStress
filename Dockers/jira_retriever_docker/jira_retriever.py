@@ -6,6 +6,14 @@ PROJECT_KEY="AMQP"
 
 options = {
     'server': 'https://jira.spring.io'}
+
+if(len(sys.argv) > 1):
+	PROJECT_KEY=sys.argv[1]
+
+if(len(sys.argv) > 2):
+    options.server = sys.argv[2]
+
+
 jira = JIRA(options)
 
 # Get project

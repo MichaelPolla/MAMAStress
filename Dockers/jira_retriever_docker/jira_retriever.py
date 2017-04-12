@@ -1,7 +1,9 @@
+import sys
+reload(sys)
+sys.setdefaultencoding('utf-8')
 from jira import JIRA
 import re
 import csv
-import sys
 import os
 
 PROJECT_KEY="AMQP"

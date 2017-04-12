@@ -1,0 +1,266 @@
+date,summary
+2017-04-11T12:56:07Z,RedisSystemException on searching by 2 indexed fields
+2017-04-03T17:28:43Z,Syntax for map index
+2017-03-22T13:44:32Z,RedisServer.getNumberOtherSentinels() should read num-other-sentinels property
+2017-03-09T10:15:35Z,RedisCache get should return null if cache miss occurs.
+2017-03-06T17:14:19Z,Access to Spring Data Key prefix programmatically
+2017-03-01T11:31:44Z,JedisConnection.scan releases the connection instance to the pool
+2017-02-15T09:45:59Z,JedisCluster exception conversion produces NullPointerException on cache put operation
+2017-02-09T08:11:04Z,Confusing @Transactional example 
+2017-02-09T07:33:14Z,Transactions - read-only operations are also queued 
+2017-01-25T18:17:18Z,NullPointerException with Jedis and sync=true
+2017-01-19T15:36:00Z,Enums with a customized toString method cannot be deserialized from byte[]
+2017-01-16T19:03:55Z,"RedisCache.get(Object, Callable) does not set the TTL on the element"
+2017-01-06T18:39:02Z,Publishing RedisKeyExpiredEvent from other than Repository support causes NullPointerException in RedisKeyValueAdapter
+2017-01-03T18:11:51Z,Cluster set operation with ttl using jedis in spring-data-redis goes through executeCommandOnSingleNode causing topology refresh
+2016-12-20T19:31:45Z,Set method does not return call result
+2016-12-12T08:59:03Z,Allow clients of RedisCache to opt-out of locking behaviour
+2016-12-11T10:34:02Z,RedisCache::waitForLock() cannot be interrupted
+2016-12-02T09:00:03Z,Cannot use user defined types as `id` property.
+2016-11-15T07:40:04Z,A NullPointerException is thrown when listen the key expire event
+2016-11-11T19:41:28Z,Lock expiration
+2016-11-07T17:46:45Z,Null Elements Returned By CrudRepository.findAll() for Expired Keys
+2016-10-16T04:22:52Z,save (update) operation on repository deletes the key and inserts it back
+2016-10-02T05:15:35Z,spring-data-redis - Cannot install in OSGi due import range of slf4j is locked down to 1.7.12 version
+2016-09-16T07:45:17Z,Support caching null values via RedisCache
+2016-09-12T14:56:55Z,NPE when counting keys while invoking findBy(Pageable)
+2016-08-30T12:13:58Z,ScanCursor holds reference to closed/released lettuce connection
+2016-08-24T07:15:47Z,Connection should be released when used with read-only transactions
+2016-08-23T14:09:54Z,Getting NPE when writing valid Query Method without any criteria
+2016-08-09T08:51:29Z,findBy[field] methods always return the same after first call
+2016-08-03T15:59:41Z,Reading back entities fails when no default constructor present.
+2016-07-28T10:12:11Z,RedisCache.putIfAbsent does not set the TTL on the element
+2016-07-20T12:56:31Z,Non-public inner classes causes IllegalAccessException when accessing @TimeToLive methods
+2016-07-18T22:15:53Z,Spring Data Rest Should delegate compatibility checking to Jedis
+2016-07-18T15:41:45Z,Keyspace Events in Redis Cluster get lost
+2016-07-07T09:05:52Z,ScanCursor holds reference to closed/released Jedis connection
+2016-07-05T05:48:33Z,PartialUpdate removes existing indexes.
+2016-06-25T13:20:29Z,Custom Error Handler not getting injected while CacheMode is ASPECTJ
+2016-06-23T09:17:44Z,RedisOperations.getExpire returns zero for negative timeout values
+2016-06-22T07:14:52Z,NOAUTH Authentication required when connecting to Redis Sentinel with LettuceConnectionFactory
+2016-06-14T15:42:24Z,JacksonJsonRedisSerializer#serialize type safety
+2016-06-07T06:45:39Z,Config redis-cluster using spring-data-redis
+2016-06-03T21:43:30Z,spring-data-redis requires spring 4.2.x components
+2016-06-01T08:04:18Z,zUnionStore with Aggregate options is deprecated
+2016-05-19T04:41:30Z,Pipelining doesn't supports time operation
+2016-05-09T03:29:56Z,Current CacheValueAccessor implementation Make null value to empty string
+2016-05-04T15:40:56Z,Handle serializing arrays of primitives
+2016-05-03T12:26:45Z,Redis Repositories with Cluster and lettuce breaks application initialization
+2016-05-03T10:15:06Z,RedisKeyValueAdapter.destroy calls RedisConnectionFactory.destroy 
+2016-04-29T21:14:58Z,Performance issues on save method for entity with @Indexed 
+2016-04-25T21:46:53Z,App fails to start on AWS due to spring-data-redis use of unsupported CONFIG command
+2016-04-22T13:10:45Z,RedisTemplate's default serializer assumes that its ClassLoader can load application types
+2016-04-21T05:06:32Z,executePipelined with RedisCallback uses wrong serializer (RedisTemplate.java)
+2016-04-15T14:44:09Z,java.lang.OutOfMemoryError: unable to create new native thread (use of SimpleAsyncTaskExecutor)
+2016-04-15T05:50:05Z,MappingRedisConverter uses List.sort which requires Java 8.
+2016-04-13T19:56:42Z,Arrays are incorrectly considered Collections
+2016-04-12T06:39:37Z,RedisMessageListener does not receive events correctly in cluster
+2016-04-11T14:59:16Z,"""CollectionLike"" properties are force cast into Collection<?> even though they could be arrays"
+2016-04-11T05:45:41Z,Prevent KeyspaceEventMessageListener from starting when no repository detected
+2016-04-08T16:33:59Z,Navigating a class that extends Map results in the map's value type masking real properties
+2016-04-07T17:08:26Z,Store and retrieve type hints for Object type property values even when those are considered as simple types.
+2016-03-03T14:06:38Z,Update/Add guards in JedisConnetion that (no longer) require casts from long to int when exceeding Integer.MAX_VALUE
+2016-02-26T07:23:22Z,RedisAtomicLong throws a null pointer if key is removed
+2016-02-24T06:38:46Z,RedisCache does not work in cluster.
+2016-02-24T00:51:47Z,Cluster mget not working
+2016-02-09T19:49:35Z,SSCAN: Connection Used After Being Released
+2016-01-28T06:41:51Z,DefaultSetOperations.intersectAndStore don't return operation result
+2016-01-22T04:49:31Z,@CachePut will first committed in the nested transaction
+2016-01-08T09:20:45Z,Out of memory error while getting records from redis
+2015-12-11T03:58:03Z,@TimeToLive does not work on Method
+2015-10-26T19:41:56Z,PubSubResubscribeTests and PubSubTests rely on other tests having already run previously
+2015-09-17T22:21:58Z,SELECT not called with @Caching annotations and Lettuce library
+2015-08-06T23:07:30Z,NullPointerException when saving null values
+2015-07-24T06:38:17Z,"ScanCursor throw "" java.util.NoSuchElementException"""
+2015-07-23T05:42:12Z,RedisCache.putIfAbsent(…) breaks contract defined by org.springframework.cache.Cache
+2015-07-22T10:24:05Z,Listener Container Does Not Set Interrupted Bit
+2015-07-03T05:04:33Z,Broken transactions behaviour
+2015-05-26T06:32:41Z,JedisConnection Jedis changed Argument type
+2015-04-13T11:42:44Z,Redis exceptions under high load
+2015-04-04T17:44:22Z,Jackson2RedisSerializer cannot deserialize ObjectId fields
+2015-04-04T13:58:40Z,Cant have multiple Cache Managers
+2015-04-04T00:07:47Z,json serializer only allows single type
+2015-04-01T08:08:56Z,RedisMessageListenerContainer seems to have race conditions
+2015-03-24T01:14:32Z,Tomcat does not shutdown if listener added
+2015-03-12T07:16:09Z,Using SCAN commands causes issues with Jedis in multi-threaded use
+2015-02-18T12:20:54Z,A transactional RedisCacheManager decorates the cache with the TransactionAwareCacheDecorator twice
+2015-01-23T20:18:40Z,RedisCache zset leak
+2014-11-24T08:34:01Z,Scripts don't try EVAL after EVALSHA fails
+2014-11-12T12:34:17Z,Jackson2JsonRedisSerializer should allow to customise the JavaType for deserialization via getJavaType()
+2014-09-18T08:40:37Z,RedisCacheManager doesn't allow to fallback to NoOpCache if connection to Redis is broken
+2014-09-11T06:31:27Z,DefaultScriptExecutor always runs script twice if Exception is thrown
+2014-09-03T07:29:29Z,JedisPool doesn't recover i redis-server is restarted while the application is running
+2014-08-09T12:51:38Z,MessageListener method should only be invoked once per message
+2014-07-29T13:29:46Z,EvalSha returns incorrect result
+2014-07-29T02:33:33Z,@Transactional Using multiple connections
+2014-07-22T18:30:57Z,RedisCacheManager should not instantiate caches in setCacheNames()
+2014-07-17T02:18:06Z,SrpConverters wraps unknown exceptions in RedisSystemException instead of returning null
+2014-07-15T04:22:18Z,RedisConnectionFactory translates exceptions too aggressively
+2014-06-17T09:16:24Z,Cannot increment RedisAtomicInteger
+2014-05-28T01:21:27Z,Lock of RedisCache is not safe
+2014-05-20T01:24:07Z,DecoratingStringHashMapper breaks RetwisJ sample
+2014-05-15T06:15:57Z,RedisConnectionUtils: inconsistency with connection open() and close()
+2014-04-30T08:53:31Z,Unneeded jcl-over-slf4j dependency
+2014-04-22T15:10:14Z,Converting all exceptions to Jedis Exception 
+2014-04-21T20:09:31Z,ZSetOperations.TypedTuple will throw ClassCastException during sorting
+2014-03-25T01:57:13Z,Avoid NPE in append() in case of pipelining or/and multi/exec calls.
+2014-03-20T16:59:34Z,RedisTemplate.expire() overflow
+2014-03-17T23:26:09Z,LettuceTemplate.execute should read and convert entire response.
+2014-03-12T04:57:56Z,RedisCacheManager.loadCaches overrides already defined cache names in afterPropertiesSet().
+2014-01-23T00:21:41Z,Shutdown the client when DefaultLettucePool is destroyed
+2014-01-13T10:59:14Z,Fix generics in DecoratingStringHashMapper to be Java 8 compatible
+2013-12-19T18:36:43Z,RedisCacheManager‘s getCache method does not match the logical of CompositeCacheManager
+2013-11-26T05:40:59Z,Prevent excessive Thread creation in unit tests
+2013-08-16T15:09:57Z,SrpConnection does not throw wrapped Exception on connection failure
+2013-08-15T11:16:24Z,MessageListenerAdapter extractMessage does not return message body when serializer is null
+2013-08-04T14:54:05Z,Lettuce eval and evalsha suppress Exceptions with ReturnType Multi
+2013-07-29T17:39:06Z,Fix NPE in SRP sort when alpha is not set
+2013-07-24T16:04:54Z,NPE calling DefaultZSetOperations methods that return Tuple set in tx or pipeline
+2013-07-23T14:46:48Z,Individual syntax errors on Lettuce transactions are not reported
+2013-07-22T12:12:28Z,Lettuce should not allow calling watch() inside a transaction
+2013-07-18T15:09:24Z,Lettuce setBit and setRange execute twice in pipeline
+2013-07-18T09:54:27Z,Lettuce and SRP closePipeline should return List of tx results and strip individual op results
+2013-07-16T12:12:09Z,StringRedisConnection not passed to RedisCallbacks executed through StringRedisTemplate
+2013-07-15T18:00:56Z,Closing a pooled RJC connection does not reset selected database to 0
+2013-07-15T17:34:25Z,Exception calling SRP select in a transaction
+2013-07-15T17:09:26Z,RJC isQueueing() always returns false
+2013-07-15T14:13:53Z,NPEs on Jedis exec/closePipeline that includes move
+2013-07-15T13:18:39Z,SRP and Lettuce NullPointerExceptions calling sort with null sortParams
+2013-07-11T16:21:38Z,DefaultStringRedisConnection not passing begin/end to bitCount method
+2013-07-11T10:25:39Z,RedisCache throws IlegalMonitorStateException when get/put performed while clearing
+2013-07-11T07:18:14Z,jedis connection pool can not release connection
+2013-05-28T13:23:06Z,Lettuce exec without multi times out waiting for a reply instead of throwing Exception
+2013-05-28T13:11:12Z,Infinite loop renaming a non-existent Collection when using Lettuce
+2013-05-16T06:36:15Z,multiSetIfAbsent should return code
+2013-05-13T00:58:50Z,"rightPop(100, MILLISECONDS) translates to ""BRPOP key, 0"""
+2013-05-06T09:46:19Z,Make JacksonJsonRedisSerializer NOT depend on a specific domain object class
+2013-04-12T19:46:01Z,SRP ClassCastException when exec() returns an ErrorReply in Redis 2.6
+2013-04-12T19:37:39Z,JRedis StringIndexOutOfBoundsException in info() method in Redis 2.6
+2013-04-12T15:21:37Z,Canceling RMLC SubscriptionTask immediately after start can leave connection open
+2013-04-11T15:00:02Z,"SRP discard does not clear txReplies, results in inconsistent results on next tx exec"
+2013-04-11T14:52:09Z,SRP exec throws TransactionFailedException instead of returning null if watched value modified
+2013-04-09T16:55:40Z,zRevRangeByScore methods fail due to incorrect parameter ordering
+2013-04-08T13:41:32Z,Intermittent corrupted input/output streams subscribing to both patterns and channels in RMLC
+2013-04-04T10:52:41Z,Messages not received after adding a message listener to both channel and pattern before container start
+2013-04-02T16:39:31Z,NPEs or incorrect results in several ops within a Lettuce transaction
+2013-04-02T15:40:25Z,RJC continues to use pipeline after closed
+2013-04-02T15:40:01Z,Jedis continues to use pipeline after closed
+2013-04-02T15:38:03Z,Syntax error in pipelined RJC op causes SocketTimeouts on subsequent calls
+2013-04-01T16:23:01Z,Jedis persist does not execute as part of a transaction
+2013-04-01T16:20:21Z,Jedis brPop executes twice in a transaction
+2013-04-01T13:54:24Z,JedisConnection execute does not return correct results
+2013-03-31T11:03:37Z,SRP continues to use pipeline after closed
+2013-03-30T20:44:56Z,SRP bRPopLPush ClassCastException
+2013-03-30T11:20:07Z,Jredis closes connections on Exception but doesn't remove them from the pool or reconnect them
+2013-03-30T11:16:09Z,NPE on JedisConnection ops leaves connections in pool with OutputStreams containing incomplete data
+2013-03-30T10:43:16Z,Syntax error on SRP zRangeByScore/zRevRangeByScore methods when using offset and count
+2013-03-30T10:15:55Z,Sharing RjcConnectionFactory between runs of RjcConnIntTest and RjcConnPipeIntTest results in SocketTimeout
+2013-03-30T10:00:50Z,RJC base64 decoding of results in closePipeline() is incorrect for Redis ops like ping and info
+2013-03-30T09:52:45Z,Wrong number of args on RJC brPop and blPop when pipelining
+2013-03-30T09:40:19Z,Syntax error on RJC zUnionStore
+2013-03-29T20:14:42Z,Connection methods should not wrap UnsupportedOperationException in RedisSystemException
+2013-03-29T13:48:00Z,Lettuce closePipeline hangs with discarded transaction
+2013-03-29T13:00:09Z,Jedis ClassCastExceptions closing a pipeline after tx exec
+2013-03-29T10:12:34Z,SRP zCount/zInterStore methods execute synchronously when pipelining
+2013-03-29T10:08:16Z,Jedis dbSize/flush ops execute synchronously while pipelining
+2013-03-29T09:46:22Z,Lettuce zCount/zInterStore methods execute synchronously when pipelining
+2013-03-29T09:42:30Z,Lettuce exec while pipelining returns a non-null value
+2013-03-29T09:36:22Z,NPE in DefaultStringRedisConnection deserializing a null Map
+2013-03-29T09:27:09Z,RJC zRevRangeWithScores returns incorrect results
+2013-03-21T18:15:53Z,JedisConnection does not properly discard a transaction
+2013-03-21T17:49:36Z,Jredis sort does not store results under given key
+2013-03-21T17:30:52Z,"RJC string ops (sort, strlen, getrange) return incorrect results due to base64 value encoding"
+2013-03-21T17:18:47Z,RJC keys method does not work with patterns due to base64 key encoding
+2013-03-21T17:04:39Z,Upgrade SRP to fix getConfig
+2013-03-21T12:37:46Z,Jedis dependency is not optional
+2013-03-21T12:25:01Z,SRP sort not working due to NPE/syntax errors
+2013-03-21T11:07:24Z,Jredis keys method does not work with patterns due to base64 key encoding
+2013-03-20T15:02:24Z,"SRP brpop/blpop fails with ""ERR wrong number of arguments for 'brpop' command"""
+2013-03-20T15:00:26Z,NPE on LettuceConnection blpop/brpop timeout
+2013-03-14T10:44:41Z,SubscriptionTask doesn't release JedisConnection and causing future SubscriptionTasks to block
+2013-03-12T15:46:14Z,SrpConnection.exec() does not return the results of the commands executed in the tx
+2013-03-12T11:25:08Z,RedisAtomicInteger/AtomicLong.compareAndSet returns true with Lettuce even if value modified by other thread
+2013-03-11T17:52:07Z,RjcConnection incr/decr ops throw Exception
+2013-03-06T17:33:13Z,Messages not received when using RjcConnection.psubscribe (pattern subscribe)
+2013-03-05T11:32:29Z,Pipeline functionality does not return array of return values
+2013-03-05T11:28:56Z,Backward compatibility broken in 1.0.4 with 'convertAndSend' method
+2013-02-22T05:07:11Z,spring-data-redis: hash increment treats long values as int
+2013-01-30T09:51:18Z,update Redis example - retwisj
+2013-01-30T07:51:00Z,SrpConnection on hGetAll fails with ClassCastException by (byte[]) BulkReply
+2012-11-17T19:19:44Z,SpringTemplate does not close certain connections resulting in leaks
+2012-11-05T23:33:07Z,compareAndSet doesn't seem to be atomic
+2012-08-08T19:46:01Z,NPE when using pipelines
+2012-07-19T10:17:21Z,Pub-Sub: channel is not passed correctly to a POJO message listener 
+2012-06-29T07:10:12Z,slf4j-log4j and log4j artifacts have wrong dependency scope
+2012-06-18T02:55:14Z,Wrong pipeline processing in JedisConnection
+2012-06-13T01:48:28Z,"MessageListener will be invoked twice in MessageListenerAdapter#onMessage(Message, byte[])"
+2012-05-03T18:02:48Z,JedisConnection.setBit() always throws an InvalidDataAccessApiUsageException
+2012-04-12T10:03:59Z,Increment works wrong for value ops
+2012-04-12T07:38:18Z,NPE in pipelined hGet of non-existing key
+2012-04-06T13:21:49Z,Caching of ValueOpertions leads to that changes of serializer have no effect.
+2012-04-06T03:26:30Z,DefaultBoundZSetOperations.intersectAndStore
+2012-03-26T23:55:34Z,invoke the template.opsForSet().randomMember(Object key) method throw exception
+2012-03-05T09:41:31Z,JedisUtils shouldn't wrap unknow Exception
+2012-01-05T04:36:32Z,Mixed lifecycle in RedisMessageListenerContainer
+2011-11-28T09:40:49Z,org.apache.commons.beanutils should be an optional dependency in manifest
+2011-11-01T04:05:13Z,"In RedisTemplate class,expireAt has a bug"
+2011-10-24T20:27:29Z,RedisCacheManager throw UnsupportedOperationException
+2011-08-06T02:37:59Z,Example configuration in 4.7.2 Receiving/Subscribing for messages
+2011-07-22T07:30:35Z,"<redis:collection/> breaks for type=""PROPERTIES"" because defaults are not initialized"
+2011-07-04T11:33:44Z,1.0.0.BUILD-SNAPSHOT failure with Maven 3.0.2
+2011-05-12T12:10:57Z,Documentation says there are no samples available but there are
+2011-04-05T06:11:40Z,JRedisConnectionFactory fails to initialize if Redis is not running
+2011-03-17T03:40:03Z,improve subscription pubsub
+2011-03-16T16:23:32Z,Improve JacksonHashMapper to avoid suppressing unchecked warnings
+2011-04-19T05:57:04Z,"RedisConnectionFactory implementations: add method getDatabase, fix JavaDoc for setDatabase"
+2010-12-03T10:01:33Z,add SORT support for Redis operations
+2011-07-01T04:52:58Z,upgrade to Jedis 2.0.0
+2011-01-21T08:51:48Z,add property editors to allow transparent injection of RedisTemplate as operations view
+2011-01-14T09:23:56Z,fix message publication in Jedis (once the driver supports byte[])
+2011-03-14T01:37:29Z,add db index to connection factories
+2010-12-03T10:59:26Z,implement Dequeue through RedisList
+2011-03-15T09:14:02Z,"Add ""key operation"" methods to KeyBound and *Operations interfaces"
+2010-12-06T01:50:15Z,implement BlockingDeque in RedisList
+2011-01-13T11:21:21Z,lenient behaviour for null values
+2011-03-08T03:28:27Z,"DefaultSortParameters ""builder"" methods should return DefaultSortParameters to be usefull"
+2011-04-20T09:26:50Z,simplify pubsub namespace
+2011-07-01T06:15:44Z,migrate build system to Gradle
+2011-03-17T11:41:16Z,finish up BoundKeyOperaitons #move and #renameIfAbsent behaviour 
+2010-12-03T10:59:06Z,implement BlockingQueue through RedisList
+2011-03-14T13:31:14Z,Change argument and return type of ValueOperations.multiGet to List
+2011-03-15T05:49:47Z,"Add a method that provides a ""pipelined connection"" context"
+2011-06-13T13:39:48Z,Review DSM matrix and remove package cycles if found.
+2011-01-25T01:53:41Z,Json serializer
+2010-12-08T13:32:55Z,add Admin operations
+2010-12-08T13:35:18Z,add support for remote server control operations
+2011-01-23T04:28:31Z,pool parameter of spring data
+2011-03-15T23:27:14Z,add support for RJC client
+2011-01-21T06:15:45Z,add pipelining support
+2010-12-06T09:53:29Z,add updates of expirations in RedisTemplate
+2011-01-10T08:15:02Z,add support for pub/sub in Redis
+2011-05-11T23:42:23Z,support consistent hashing for redis
+2011-05-22T00:36:54Z,Currently BoundZSetOperations does not support zrangeByScoreWithScores or zrangeByScoreWithScores
+2011-03-18T10:11:32Z,expose serializers to RedisCallback
+2011-03-09T11:26:45Z,Improve pipeline usage on RedisTemplate
+2011-03-04T10:02:37Z,add support for SORT/GET pattern
+2011-04-05T06:28:13Z,Add PropertiesFactoryBean
+2011-01-20T03:43:39Z,add dedicated String callback
+2010-12-08T13:33:19Z,add support for persistence operations
+2010-12-03T10:04:21Z,capped collections
+2011-03-01T05:44:21Z,add basic mapping of objects to hash
+2011-03-14T13:20:50Z,Allow database indizes > 16
+2011-04-08T17:24:27Z,Using JedisConnectionFactory without setting a shardinfo yields a NullPointerException
+2011-01-21T19:24:40Z,not reconnect redis server
+2011-04-19T10:44:31Z,atomic counters increment can fail
+2011-04-05T07:19:19Z,Spring Redis should not require Jackson
+2011-03-08T08:44:05Z,RedisAtomicLong to perform operation getAndIncrement
+2011-04-13T09:20:32Z,JedisConnection may fail to select database
+2010-12-15T02:12:39Z,HGETALL not supported in HashOperations interface
+2011-03-17T17:02:08Z,HashOperations not being autowired
+2011-03-16T16:13:32Z,"HashOperations delete, get, hasKey using Object instead of HK"
+2011-04-05T05:42:23Z,Spring Data Redis depends on both Jedis and JRedis
+2011-02-11T02:01:30Z,Deserialization is not null safe
+2011-04-07T01:18:06Z,Thorough review of dependencies.
+2011-04-13T01:15:22Z,ClassCastException when invoking RedisTemplate.keys()
+2011-04-05T05:38:58Z,Missing source jars in Maven repository
+2010-12-17T10:23:02Z,Connections obtained from pool are never returned

@@ -1,0 +1,1400 @@
+date,name_first_line
+2017-04-10T12:50:15Z,DATAREDIS-597 - Updated changelog.
+2017-04-04T20:08:19Z,DATAREDIS-573 - After release cleanups.
+2017-04-04T20:08:16Z,DATAREDIS-573 - Prepare next development iteration.
+2017-04-04T19:12:35Z,DATAREDIS-573 - Release version 2.0 M2 (Kay).
+2017-04-04T19:12:02Z,DATAREDIS-573 - Prepare 2.0 M2 (Kay).
+2017-04-04T19:11:59Z,DATAREDIS-573 - Updated changelog.
+2017-04-03T16:32:48Z,DATAREDIS-602 - Polishing.
+2017-04-03T16:30:48Z,DATAREDIS-602 - Provide Reactive Redis Template.
+2017-03-31T09:11:11Z,DATAREDIS-618 - Polishing.
+2017-03-31T08:58:43Z,DATAREDIS-618 - Read number of sentinels via RedisServer from num-other-sentinels.
+2017-03-24T09:14:31Z,DATAREDIS-595 - Adapt to API changes after Mockito 2.7 upgrade.
+2017-03-24T09:14:23Z,DATAREDIS-595 - Adapt to API changes in Spring Data Commons.
+2017-03-24T09:14:06Z,DATAREDIS-595 - Integrate DATACMNS Java 8 upgrade.
+2017-03-13T08:47:58Z,DATAREDIS-617 - Polishing.
+2017-03-13T08:47:44Z,DATAREDIS-617 - Remove dependency to org.codehaus.jackson.
+2017-03-03T13:37:23Z,DATAREDIS-606 - Follow along cache contract not allowing misuse of put null value as cache evict strategy.
+2017-03-02T10:11:06Z,DATAREDIS-598 - Updated changelog.
+2017-02-01T14:04:27Z,DATAREDIS-599 - Remove references to single-argument assertion methods of Spring.
+2017-01-26T11:12:38Z,DATAREDIS-586 - Updated changelog.
+2017-01-26T11:12:10Z,DATAREDIS-587 - Updated changelog.
+2017-01-23T07:37:09Z,"DATAREDIS-594 - Update ""what’s new"" section in reference documentation."
+2017-01-20T10:30:47Z,DATAREDIS-593 - Use Enum.name() to represent enum values.
+2017-01-20T09:22:11Z,DATAREDIS-592 - Simplify test code in RedisCacheUnitTests.
+2017-01-20T09:21:53Z,DATAREDIS-592 - Consider expiry timeout in synchronized RedisCache mode.
+2017-01-13T10:50:20Z,DATAREDIS-591 - Update project documentation with the CLA tool integration.
+2017-01-13T09:29:55Z,DATAREDIS-564 - Polishing.
+2017-01-13T09:29:44Z,DATAREDIS-564 - Delegate expire(…) to pExpire if timeout exceeds Integer.MAX_VALUE.
+2017-01-12T14:01:59Z,DATAREDIS-589 -  Polishing.
+2017-01-12T13:52:59Z,DATAREDIS-589 - Move secondary index cleanup to MappingExpirationListener.
+2017-01-12T13:52:59Z,DATAREDIS-532 - Enhance JavaDoc and convert links to Redis documentation.
+2017-01-12T13:52:53Z,DATAREDIS-563 - Migrate ticket references in test code to Spring Framework style.
+2016-12-21T18:35:43Z,DATAREDIS-566 - Updated changelog.
+2016-12-21T17:43:08Z,DATAREDIS-541 - Updated changelog.
+2016-12-16T10:24:18Z,DATAREDIS-584 - Use newer Java 8 on Travis CI.
+2016-12-15T15:24:34Z,DATAREDIS-583 - Adapt API in RedisRepositoryFactoryBean.
+2016-12-05T16:08:29Z,DATAREDIS-579 - Register RedisRepositoryFactory in spring.factories.
+2016-12-01T08:01:45Z,DATAREDIS-552 - Polishing.
+2016-12-01T08:01:45Z,DATAREDIS-552 - Support client name configuration for JedisConnectionFactory.
+2016-11-23T09:59:11Z,DATAREDIS-568 - After release cleanups.
+2016-11-23T09:59:09Z,DATAREDIS-568 - Prepare next development iteration.
+2016-11-23T09:35:49Z,DATAREDIS-568 - Release version 2.0 M1 (Kay).
+2016-11-23T09:35:09Z,DATAREDIS-568 - Prepare 2.0 M1 (Kay).
+2016-11-23T09:35:05Z,DATAREDIS-568 - Updated changelog.
+2016-11-23T09:33:20Z,DATAREDIS-568 - Re-added release profile.
+2016-11-17T19:17:10Z,DATAREDIS-525 - Polishing.
+2016-11-17T19:17:05Z,DATAREDIS-525 - Upgrade to lettuce 5.0.0.Beta1.
+2016-11-17T19:10:03Z,DATAREDIS-525 - Add support for ReactiveRedisConnection & ReactiveRedisClusterConnection.
+2016-11-07T14:34:12Z,DATAREDIS-567 - Remove Support for SRP and JRedis.
+2016-11-07T14:34:09Z,DATAREDIS-569 - Prepare 2.0 development.
+2016-11-03T17:56:49Z,DATAREDIS-557 - Updated changelog.
+2016-10-12T14:34:13Z,DATAREDIS-528 - Polishing.
+2016-10-12T13:45:38Z,DATAREDIS-528 - Upgrade to Lettuce 4.2.2.
+2016-10-12T13:07:13Z,DATAREDIS-553 - Polishing.
+2016-10-12T13:07:09Z,DATAREDIS-553 - Support caching null values via RedisCache using callable.
+2016-10-12T13:06:59Z,DATAREDIS-553 - Support caching null values via RedisCache.
+2016-10-07T09:31:14Z,DATAREDIS-542 - Polishing.
+2016-10-07T09:30:50Z,DATAREDIS-542 - Fix key expiration for RedisCache.putIfAbsent.
+2016-10-05T07:24:45Z,DATAREDIS-558 - Use version range for SLF4J in OSGi manifest template.
+2016-09-29T12:42:12Z,DATAREDIS-555 - Updated changelog.
+2016-09-29T09:42:11Z,DATAREDIS-556 - Updated changelog.
+2016-09-21T06:09:10Z,DATAREDIS-554 - Updated changelog.
+2016-09-21T06:09:06Z,DATAREDIS-522 - Updated changelog.
+2016-09-13T13:43:28Z,DATAREDIS-533 - Polishing.
+2016-09-13T13:43:28Z,DATAREDIS-533 - Add support for geo indexes.
+2016-09-13T08:10:23Z,DATAREDIS-551 - Polishing.
+2016-09-13T08:10:16Z,DATAREDIS-551 - Fix pageable query execution when derived criteria is empty.
+2016-09-12T12:53:07Z,DATAREDIS-547 - Polishing.
+2016-09-12T12:52:51Z,DATAREDIS-547 - Fix query execution when derived criteria is empty.
+2016-09-05T09:24:00Z,DATAREDIS-531 - Polishing.
+2016-09-05T09:23:40Z,DATAREDIS-531 - Scan commands should use a dedicated bound connection.
+2016-08-30T11:00:52Z,DATAREDIS-548 - Polishing.
+2016-08-30T11:00:31Z,DATAREDIS-548 - Release connection after command execution in read-only transactions.
+2016-08-22T08:51:58Z,DATAREDIS-539 - Replace call to deprecated addCache in RedisCacheManager.
+2016-07-27T12:32:38Z,DATAREDIS-487 - After release cleanups.
+2016-07-27T12:32:36Z,DATAREDIS-487 - Prepare next development iteration.
+2016-07-27T11:52:13Z,DATAREDIS-487 - Release version 1.8 M1 (Ingalls).
+2016-07-27T11:51:38Z,DATAREDIS-487 - Prepare 1.8 M1 (Ingalls).
+2016-07-27T11:51:35Z,DATAREDIS-487 - Updated changelog.
+2016-07-26T13:48:21Z,DATAREDIS-506 - Polishing.
+2016-07-26T13:48:15Z,DATAREDIS-506 - Reformat test and add ticket references.
+2016-07-26T13:48:03Z,DATAREDIS-506 - Upgrade to Jedis 2.9.0.
+2016-07-26T13:22:40Z,DATAREDIS-540 - Assert compatibility with Spring 5.
+2016-07-25T12:46:51Z,DATAREDIS-537 - Polishing.
+2016-07-25T12:13:25Z,DATAREDIS-537 - Add support for Redis Cluster and SSL.
+2016-07-20T06:55:36Z,DATAREDIS-536 - Integrate version badge from spring.io.
+2016-07-13T06:51:48Z,DATAREDIS-523 - Polishing.
+2016-07-13T06:51:16Z,DATAREDIS-523 - Read back TTL into property.
+2016-07-08T06:50:56Z,DATAREDIS-526 - Allow using ttl and pttl with TimeUnit on connection-level.
+2016-07-08T06:50:53Z,DATAREDIS-526 - Polishing.
+2016-07-08T06:50:30Z,DATAREDIS-526 - Fix getExpire return value.
+2016-07-06T12:34:29Z,DATAREDIS-530 - Fix PartialUpdate removing existing indexes.
+2016-07-06T12:16:18Z,DATAREDIS-524 - Polishing.
+2016-07-06T12:16:08Z,DATAREDIS-524 - Use password to connect Redis nodes using Sentinel.
+2016-06-17T11:07:31Z,DATAREDIS-505 - Polishing.
+2016-06-17T11:07:20Z,DATAREDIS-505 - Allow configuration of Redis Keyspace events config value.
+2016-06-17T07:35:57Z,DATAREDIS-500 - Polishing.
+2016-06-17T07:35:57Z,DATAREDIS-500 - Use Hash Key and Hash Value serializers in RedisTemplate executePipelined(…).
+2016-06-15T12:31:49Z,DATAREDIS-488 - Updated changelog.
+2016-06-14T14:56:47Z,DATAREDIS-510 - Fix caching of null values.
+2016-06-07T06:29:00Z,DATAREDIS-516 - Update required Spring framework version in reference documentation.
+2016-06-02T07:33:19Z,DATAREDIS-513 - Fix RedisServerCommands.time() failure when in pipeline mode.
+2016-05-27T07:36:38Z,DATAREDIS-514 - Unify geoRadius capitalization.
+2016-05-25T14:36:46Z,DATAREDIS-471 - Polishing.
+2016-05-25T14:36:46Z,DATAREDIS-471 - Add support for partial updates.
+2016-05-25T14:36:35Z,DATAREDIS-491 - Polishing.
+2016-05-25T13:25:05Z,DATAREDIS-491 - Add configuration option to tune KeyspaceEventMessageListener usage.
+2016-05-24T07:33:55Z,DATAREDIS-512 - Skip repository index update checks on insert.
+2016-05-23T05:07:50Z,DATAREDIS-438 - Polishing.
+2016-05-18T14:04:45Z,DATAREDIS-438 - Add support for geo commands.
+2016-05-13T12:35:27Z,DATAREDIS-469 - Polishing.
+2016-05-13T12:34:55Z,DATAREDIS-469 - Throw DataRetrievalFailureException for atomic numbers when key is removed.
+2016-05-13T10:50:49Z,DATAREDIS-423 - Polishing.
+2016-05-13T10:49:46Z,DATAREDIS-423 - Add support for Jackson2 based HashMapper.
+2016-05-09T13:13:32Z,DATAREDIS-509 - Polishing.
+2016-05-09T12:59:39Z,DATAREDIS-509 - Fix handling of primitive arrays in MappingRedisConverter.
+2016-05-04T06:37:16Z,DATAREDIS-507 - Polishing.
+2016-05-04T06:36:31Z,DATAREDIS-507 - Do not destroy RedisConnectionFactory in RedisKeyValueAdapter.destroy.
+2016-05-02T07:07:10Z,DATAREDIS-503 - Polishing.
+2016-05-02T07:06:28Z,DATAREDIS-503 - Add HashMapper implementation based on MappingRedisConverter.
+2016-04-26T13:12:11Z,DATAREDIS-501 - Use application context ClassLoader as default for JdkSerializationRedisSerializer in RedisTemplate.
+2016-04-15T09:09:36Z,DATAREDIS-489 - Add type hints for Object types.
+2016-04-15T09:09:13Z,DATAREDIS-492 - Polishing.
+2016-04-15T09:09:13Z,DATAREDIS-492 - Handle serializing arrays and collections.
+2016-04-15T09:08:33Z,DATAREDIS-498 - Favor Collections.sort over List.sort which requires Java 8.
+2016-04-06T21:14:27Z,DATAREDIS-486 - Updated changelog.
+2016-04-06T14:37:03Z,DATAREDIS-484 - After release cleanups.
+2016-04-06T14:37:00Z,DATAREDIS-484 - Prepare next development iteration.
+2016-04-06T14:35:59Z,DATAREDIS-484 - Release version 1.7 GA (Hopper).
+2016-04-06T14:34:46Z,DATAREDIS-484 - Prepare 1.7 GA (Hopper).
+2016-04-06T14:34:41Z,DATAREDIS-484 - Updated changelog.
+2016-04-05T12:18:47Z,DATAREDIS-485 - Point to the appropriate Jira project.
+2016-04-05T07:19:53Z,DATAREDIS-485 - Add pull request template.
+2016-03-29T08:30:55Z,DATAREDIS-444 - Polishing.
+2016-03-29T07:25:57Z,DATAREDIS-444 - Return result of delete in DefaultHashOperation.
+2016-03-24T13:49:58Z,DATAREDIS-482 - Provide meaningful exception messages in MappingRedisConverter.
+2016-03-22T10:06:10Z,DATAREDIS-480 - Polishing.
+2016-03-22T10:00:13Z,DATAREDIS-480 - Add support for all lettuce SSL options.
+2016-03-18T10:16:08Z,DATAREDIS-475 - After release cleanups.
+2016-03-18T10:15:51Z,DATAREDIS-475 - Prepare next development iteration.
+2016-03-18T10:15:00Z,DATAREDIS-475 - Release version 1.7 RC1 (Hopper).
+2016-03-18T10:06:58Z,DATAREDIS-475 - Prepare 1.7 RC1 (Hopper).
+2016-03-18T10:06:55Z,DATAREDIS-475 - Updated changelog.
+2016-03-17T13:16:08Z,DATAREDIS-427 - Polishing.
+2016-03-17T13:15:46Z,DATAREDIS-427 - Allow construction of customized JdkSerializationRedisSerializer.
+2016-03-16T08:37:12Z,DATAREDIS-479 - Polishing.
+2016-03-15T13:32:37Z,DATAREDIS-479 - Upgrade to jedis to 2.8.1.
+2016-03-15T08:17:37Z,DATAREDIS-476 - Polishing.
+2016-03-15T08:17:37Z,DATAREDIS-476 - Add SSL support to LettuceConnectionFactory.
+2016-03-15T07:15:07Z,DATAREDIS-478 - Upgrade to lettuce 3.4.2.Final.
+2016-03-14T09:41:58Z,"DATAREDIS-425 - Preserve item order in list, update documentation."
+2016-03-14T09:41:23Z,DATAREDIS-425 - Adapted to changes in Spring Data KeyValue APIs.
+2016-03-14T09:40:31Z,DATAREDIS-425 - Adapted to changes in Spring Data KeyValue APIs.
+2016-03-14T09:39:50Z,"DATAREDIS-425 - Add JSR-310 support, CDI extension and Update reference documentation."
+2016-03-14T09:38:52Z,DATAREDIS-425 - CRUD operation and index resolution refinements.
+2016-03-14T09:38:20Z,DATAREDIS-425 - Add SpelIndexResolver
+2016-03-14T09:38:12Z,DATAREDIS-425 - Support distinct indexName
+2016-03-14T09:37:53Z,DATAREDIS-425 - Add Support for basic CRUD and finder Operations backed by Hashes and Sets.
+2016-03-04T13:19:41Z,DATAREDIS-472 - Add guards to JedisConnection before casting long to int.
+2016-03-04T12:26:05Z,DATAREDIS-472 - Remove guards on pExpire & pSetEx in JedisConnection for values exceeding Integer.MAX_VALUE.
+2016-03-04T12:18:37Z,DATAREDIS-474 - Fix spelling / format in reference documentation.
+2016-02-26T08:07:07Z,DATAREDIS-468 - Polishing.
+2016-02-26T08:07:02Z,DATAREDIS-468 - Guard multi/exec bocks in RedisCache to allow usage with cluster.
+2016-02-26T07:46:05Z,DATAREDIS-467 - Fix cluster multi key commands.
+2016-02-23T13:27:25Z,DATAREDIS-459 - Updated changelog.
+2016-02-18T06:41:23Z,DATAREDIS-462 - Polishing.
+2016-02-17T16:26:20Z,DATAREDIS-462 - Support lettuce ClientResources.
+2016-02-17T16:26:20Z,DATAREDIS-465 - Guard lettuce client shutdown during ConnectionFactory.destroy.
+2016-02-17T16:26:20Z,DATAREDIS-463 - Prevent tests cleanup from failing.
+2016-02-17T14:26:46Z,DATAREDIS-463 - Improve test synchronization.
+2016-02-17T09:00:16Z,DATAREDIS-415 - Polishing.
+2016-02-17T08:59:36Z,DATAREDIS-415 - Handle InterruptedException correctly in RedisMessageListenerContainer.
+2016-02-16T14:20:54Z,DATAREDIS-464 - Enhance JavaDoc on RedisStringCommands and StringRedisConnection.
+2016-02-16T14:14:26Z,DATAREDIS-316 - Polishing.
+2016-02-16T14:14:14Z,"DATAREDIS-316 - Add EX/PX, NX/XX options to SET command."
+2016-02-12T14:43:57Z,DATAREDIS-447 - After release cleanups.
+2016-02-12T14:43:39Z,DATAREDIS-447 - Prepare next development iteration.
+2016-02-12T14:42:47Z,DATAREDIS-447 - Release version 1.7 M1 (Hopper).
+2016-02-12T14:36:20Z,DATAREDIS-447 - Prepare 1.7 M1 (Hopper).
+2016-02-12T14:36:15Z,DATAREDIS-447 - Updated changelog.
+2016-02-12T08:50:18Z,DATAREDIS-461 - Deprecate support for org.codehaus.jackson based Serializers and Mappers.
+2016-02-12T08:43:46Z,DATAREDIS-460 - Remove .project file.
+2016-02-11T13:55:10Z,DATAREDIS-458 - Upgrade to lettuce 3.4.1.Final.
+2016-02-10T13:59:26Z,DATAREDIS-452 - Polishing.
+2016-02-10T13:57:51Z,DATAREDIS-452 - Improve thread synchronization in RedisCacheTest.testCacheGetSynchronized.
+2016-02-10T12:42:12Z,DATAREDIS-457 - Fix typo in reference documentation.
+2016-02-10T12:34:36Z,DATAREDIS-456 - Fix misleading log message created by RedisMessageListenerContainer.
+2016-02-10T12:07:47Z,DATAREDIS-455 - Increase expire time in RedisTemplateTests.
+2016-02-10T10:09:00Z,DATAREDIS-407 - Polishing.
+2016-02-10T10:08:51Z,DATAREDIS-407 - Add zRangeByLex to ZSetOperations.
+2016-02-09T14:40:38Z,DATAREDIS-315 - Remove timeout/password from RedisClusterConfiguration.
+2016-02-09T14:40:38Z,DATAREDIS-315 - Support password protected Redis Cluster.
+2016-02-09T14:40:33Z,DATAREDIS-315 - Support Redis 3.2 CLUSTER NODES output format.
+2016-02-09T14:38:52Z,DATAREDIS-315 - Polishing.
+2016-02-09T13:53:33Z,DATAREDIS-315 - Add initial support for redis cluster (jedis/lettuce).
+2016-02-09T13:53:31Z,DATAREDIS-315 - Update Makefile to spin up cluster.
+2016-02-09T13:53:28Z,DATAREDIS-315 - Bump driver lib versions (jedis/lettuce).
+2016-02-04T18:36:09Z,DATAREDIS-419 - Remove Gradle build files. Activate Maven build.
+2016-02-04T08:13:42Z,DATAREDIS-443 - Add Support for Spring 4.3 synchronized mode to RedisCache.
+2016-02-03T10:17:07Z,DATAREDIS-405 - Deprecate support for jredis and srp.
+2016-02-02T09:18:40Z,DATAREDIS-449 - Added code of conduct.
+2016-01-29T19:09:21Z,DATAREDIS-419 - Move project build to Maven.
+2016-01-28T06:59:32Z,DATAREDIS-448 - Fix DefaultSetOperations.intersectAndStore not returning command result.
+2015-12-18T09:58:57Z,DATAREDIS-441 - Updated changelog.
+2015-11-16T07:56:09Z,DATAREDIS-436 - Updated changelog.
+2015-11-15T12:37:24Z,DATAREDIS-431 - Autoselect database configured in LettuceConnectionFactory.
+2015-10-27T08:30:32Z,DATAREDIS-435 - Fix potential NPE in RedisTestProfileValueSource.
+2015-10-16T09:31:36Z,DATAREDIS-417 - Fix ScanCursor throwing NoSuchElementException for empty scan result.
+2015-10-16T09:31:28Z,DATAREDIS-417 - Add failing tests for ScanCursor throwing NoSuchElementException.
+2015-10-14T12:01:26Z,DATAREDIS-434 - Updated changelog.
+2015-09-01T10:11:03Z,DATAREDIS-429 - After release cleanups.
+2015-09-01T09:32:19Z,DATAREDIS-429 - Prepare next development iteration.
+2015-09-01T09:32:17Z,DATAREDIS-429 - Release version 1.6.0.RELEASE (Gosling GA).
+2015-09-01T07:44:22Z,DATAREDIS-429 - Prepare 1.6.0.RELEASE (Gosling GA).
+2015-09-01T07:44:18Z,DATAREDIS-429 - Updated changelog.
+2015-09-01T05:43:34Z,DATAREDIS-430 - Upgrade Jackson2 to 2.6.1
+2015-09-01T05:43:24Z,DATAREDIS-424 - Update Reference Documentation.
+2015-08-31T12:19:39Z,DATAREDIS-421 - Fix NPE when using HashMapper implementations.
+2015-08-31T12:09:22Z,DATAREDIS-392 - Add Gerneric Jackson2 RedisSerializer.
+2015-08-28T05:50:55Z,DATAREDIS-426 - Upgrade to lettuce 3.3.
+2015-08-04T12:09:23Z,DATAREDIS-420 - After release cleanups.
+2015-08-04T11:27:29Z,DATAREDIS-420 - Prepare next development iteration.
+2015-08-04T11:27:26Z,DATAREDIS-420 - Release version 1.6.0.RC1 (Gosling RC1).
+2015-08-04T11:02:49Z,DATAREDIS-420 - Prepare 1.6.0.RC1 (Gosling RC1).
+2015-08-04T09:48:38Z,DATAREDIS-420 - Updated changelog.
+2015-08-04T08:12:39Z,DATAREDIS-348 - Polishing.
+2015-08-04T08:12:39Z,DATAREDIS-348 - Switch to mp911de/lettuce 3.0.
+2015-07-28T14:44:01Z,DATAREDIS-418 - Updated changelog.
+2015-07-28T12:18:26Z,DATAREDIS-414 - Serialization now occurs after pooled connection was released.
+2015-07-28T11:42:10Z,DATAREDIS-416 - RedisCache.putIfAbsent(…) now returns null for first addition.
+2015-07-22T12:39:30Z,"DATAREDIS-412 - Assert compatibility with Jedis 2.7.1, 2.7.2 and 2.7.3."
+2015-07-09T17:10:13Z,DATAREDIS-401 - RedisCacheManager should operate on RedisOperations.
+2015-07-08T11:03:45Z,DATAREDIS-413 - Use the latest version of the Spring IO Plugin
+2015-07-01T08:03:13Z,DATAREDIS-408 - Updated changelog.
+2015-07-01T05:49:54Z,DATAREDIS-409 - Updated changelog.
+2015-06-30T12:29:45Z,DATAREDIS-410 - Updated changelog.
+2015-06-16T07:38:54Z,DATAREDIS-402 - RedisCache should not expire known keys in case ttl of element is not set.
+2015-06-02T13:56:37Z,DATAREDIS-403 - Fixed configuration of JavaDoc task.
+2015-06-02T10:04:08Z,DATAREDIS-400 - After release cleanups.
+2015-06-02T08:42:04Z,DATAREDIS-400 - Prepare next development iteration.
+2015-06-02T08:42:02Z,DATAREDIS-400 - Release version 1.6.0.M1 (Gosling M1).
+2015-06-02T06:54:51Z,DATAREDIS-400 - Prepare 1.6.0.M1 (Gosling M1).
+2015-06-02T06:25:04Z,DATAREDIS-400 - Updated changelog.
+2015-05-22T16:59:54Z,DATAREDIS-352 - Enhance range options for ZSET.
+2015-05-22T13:16:08Z,DATAREDIS-352 - Enhance range options for ZSET.
+2015-05-19T11:26:33Z,DATAREDIS-396 - Update Jedis driver to version 2.7.2.
+2015-04-13T12:15:10Z,DATAREDIS-378 - Add support for ZRANGEBYLEX.
+2015-04-13T11:48:22Z,DATAREDIS-393 - Upgrade to Spring Version 4.1.6.
+2015-04-13T10:58:54Z,DATAREDIS-332 - @Transactional operation should use the same connection.
+2015-03-30T10:14:33Z,DATAREDIS-388 - Upgrade to Jedis 2.7.
+2015-03-23T13:04:26Z,DATAREDIS-385 - After release cleanups.
+2015-03-23T13:04:16Z,DATAREDIS-385 - Prepare next development iteration.
+2015-03-23T12:46:24Z,DATAREDIS-385 - Release version 1.5.0.RELEASE.
+2015-03-23T11:44:56Z,DATAREDIS-385 - Prepare 1.5.0.RELEASE (Fowler GA).
+2015-03-23T11:04:11Z,DATAREDIS-385 - Updated changelog.
+2015-03-19T10:41:57Z,DATAREDIS-374 - Adapt JedisConnectionFactory for changes in Jedis 2.7.
+2015-03-18T12:28:19Z,DATAREDIS-384 - Remove Java6 build for Travis-CI.
+2015-03-18T12:10:10Z,DATAREDIS-383 - Improve JavaDoc of RedisCacheManager.
+2015-03-16T12:43:35Z,DATAREDIS-379 - Update reference documentation.
+2015-03-11T14:02:34Z,DATAREDIS-380 - Use Redis 2.8.19 for tests.
+2015-03-11T13:03:59Z,DATAREDIS-377 - After release cleanups.
+2015-03-11T13:03:52Z,DATAREDIS-377 -  Prepare next development iteration.
+2015-03-05T16:18:03Z,DATAREDIS-377 - Release version 1.5.0.RC1.
+2015-03-05T15:33:27Z,DATAREDIS-377 - Prepare 1.5.0.RC1 (Fowler RC1).
+2015-03-05T14:54:40Z,DATAREDIS-377 - Updated changelog.
+2015-03-04T16:28:32Z,DATAREDIS-375 - Avoid repeatedly decorating a cache.
+2015-02-16T14:16:09Z,DATAREDIS-372 - Allow easier RedisSentinelConfiguration setup.
+2015-02-05T09:12:47Z,DATAREDIS-371 - Upgrade Spring to 4.0.9.RELEASE.
+2015-02-05T07:32:50Z,DATAREDIS-369 - Avoid resource leak in RedisCache.
+2015-02-05T07:32:36Z,DATAREDIS-369 - Avoid resource leak in RedisCache.
+2015-02-02T13:54:05Z,DATAREDIS-328 - RedisCacheManager should not instantiate caches in setCacheNames().
+2015-01-28T19:54:43Z,DATAREDIS-366 - Updated changelog.
+2015-01-28T09:15:17Z,DATAREDIS-365 - Updated changelog.
+2015-01-19T13:04:00Z,DATAREDIS-364 - Open-up API in RedisCacheManager for easier extensibility.
+2015-01-08T11:26:23Z,DATAREDIS-363 - Upgrade to jedis 2.6.2.
+2014-12-03T07:19:30Z,DATAREDIS-361 - Read html resources for docs zip from asciidoctor output dir.
+2014-12-01T12:37:35Z,DATAREDIS-360 - After release cleanups.
+2014-12-01T12:14:16Z,DATAREDIS-360 - Prepare next development iteration.
+2014-12-01T12:14:09Z,DATAREDIS-360 - Release version 1.5.0.M1 (Fowler M1).
+2014-12-01T10:33:27Z,DATAREDIS-360 - Prepare 1.5.0.M1 (Fowler M1).
+2014-12-01T10:33:23Z,DATAREDIS-360 - Updated changelog.
+2014-11-28T11:21:53Z,DATAREDIS-353 - Updated changelog.
+2014-11-28T09:10:01Z,DATAREDIS-356 - Check NonTransientDataAccessException for NOSCRIPT error.
+2014-11-28T09:10:01Z,DATAREDIS-359 -  Fix redis javadoc generation.
+2014-11-27T22:11:44Z,DATAREDIS-359 -  Fix redis javadoc generation.
+2014-11-27T21:03:24Z,DATAREDIS-358 - Precise version resolution within RedisTestProfileValueSource.
+2014-11-27T13:26:12Z,DATAREDIS-354 - Made JavaType lookup configurable for Jackson RedisSerializers.
+2014-11-26T14:59:11Z,DATAREDIS-308 - Add support for HyperLogLog.
+2014-11-19T08:37:41Z,DATAREDIS-355 - Upgrade to jedis 2.6.1.
+2014-11-17T12:13:08Z,DATAREDIS-288 - Polishing.
+2014-11-17T12:03:13Z,DATAREDIS-288 - Improved support for collection parameters in ListOperations.
+2014-10-29T10:53:03Z,DATAREDIS-106 - Support for open interval for scores for sorted sets.
+2014-10-24T17:24:56Z,DATAREDIS-347 - Fix unintended duplicate script execution.
+2014-10-23T06:44:00Z,DATAREDIS-351 - Update build to latest redis version.
+2014-10-09T14:13:27Z,DATAREDIS-334 - Add binary alternative for RedisScriptingCommands.evalSha.
+2014-09-30T08:28:53Z,DATAREDIS-197 - Expose bit-related ops via ValueOperations.
+2014-09-29T14:51:52Z,DATAREDIS-350 - Upgrade to Jedis 2.6.0.
+2014-09-05T12:39:23Z,DATAREDIS-345 - After release cleanups.
+2014-09-05T10:24:23Z,DATAREDIS-345 - Prepare next development iteration.
+2014-09-05T10:24:14Z,DATAREDIS-345 - Release version 1.4.0.RELEASE (Evans GA).
+2014-09-05T09:35:34Z,DATAREDIS-345 - Prepare 1.4.0.RELEASE (Evans GA).
+2014-09-05T07:23:50Z,DATAREDIS-345 - Updated changelog.
+2014-09-05T06:16:46Z,DATAREDIS-339 - Updated changelog.
+2014-09-04T13:04:08Z,DATAREDIS-346 - Update Spring Version to 4.0.7.
+2014-09-04T13:02:19Z,DATAREDIS-344 - Assert RedisCache works with Spring 4.1.
+2014-09-04T12:02:36Z,DATAREDIS-340 - Polish performance improvement of zAdd using jedis.
+2014-09-04T12:00:21Z,DATAREDIS-340 - Improve performance of zAdd elements when using jedis.
+2014-09-04T06:44:47Z,DATAREDIS-336 - Polished Asciidoctor setup.
+2014-09-04T06:44:47Z,DATAREDIS-336 - Use Spring Data Build CSS and fix resources zip content.
+2014-09-04T06:44:47Z,DATAREDIS-336 - Improvements to reference documentation build.
+2014-09-04T06:44:47Z,DATAREDIS-336 - Copy styles to output dir.
+2014-09-04T06:44:47Z,DATAREDIS-336 - Fine tune build process and formatting.
+2014-09-04T06:44:47Z,DATAREDIS-336 - Move to Asciidoctor for reference documentation.
+2014-09-04T06:44:47Z,DATAREDIS-336 - Removed old docbook reference documentation.
+2014-08-13T14:29:32Z,DATAREDIS-338 - After release cleanups.
+2014-08-13T14:26:45Z,DATAREDIS-338 - Prepare next development iteration.
+2014-08-13T14:26:41Z,DATAREDIS-338 - Release version 1.4.0.RC1 (Evans RC1)
+2014-08-13T13:05:22Z,DATAREDIS-338 - Prepare 1.4.0.RC1 (Evans RC1).
+2014-08-13T13:05:17Z,DATAREDIS-338 - Updated changelog.
+2014-08-13T09:04:24Z,DATAREDIS-331 - Updated changelog.
+2014-08-13T06:53:49Z,DATAREDIS-337 - Improve handling of overridden methods in MessageListenerAdapter.
+2014-08-11T07:48:40Z,DATAREDIS-335 - Upgrade to jedis 2.5.2.
+2014-08-11T07:12:12Z,DATAREDIS-330 - Add support for SENTINEL commands.
+2014-08-05T07:00:15Z,DATAREDIS-324 - Add Redis Sentinel support.
+2014-07-31T05:14:47Z,DATAREDIS-333 - Use binary version of Jedis.evalsha()
+2014-07-23T12:09:19Z,DATAREDIS-327 - Improve exception handling for all supported clients.
+2014-07-10T18:40:44Z,DATAREDIS-322 - After release cleanups.
+2014-07-10T18:16:47Z,DATAREDIS-322 - Prepare next development iteration.
+2014-07-10T18:16:43Z,DATAREDIS-322 - Release version 1.4.0.M1.
+2014-07-10T15:14:50Z,DATAREDIS-322 - Prepare 1.4.0.M1 (Evans M1).
+2014-07-10T15:14:44Z,DATAREDIS-322 - Updated changelog.
+2014-07-10T15:11:43Z,DATAREDIS-320 - Updated changelog.
+2014-07-10T08:48:19Z,DATAREDIS-321 - Adapt to Spring 4 upgrade.
+2014-07-09T19:30:42Z,DATAREDIS-323 - Remove links to forum.spring.io.
+2014-06-30T07:40:15Z,DATAREDIS-310 - Eagerly serialise key and value in RedisCache.
+2014-06-30T06:13:26Z,DATAREDIS-317 - Report inappropriate RedisTemplate more eagerly in RedisAtomic wrappers.
+2014-06-17T08:18:28Z,DATAREDIS-314 - Add SCAN commands to Collection types.
+2014-06-12T06:20:31Z,"DATAREDIS-313 - Overhaul SCAN, HSCAN, SSCAN, ZSCAN operations."
+2014-06-10T14:10:28Z,"DATAREDIS-313 - Overhaul SCAN, HSCAN, SSCAN, ZSCAN operations."
+2014-06-05T23:15:26Z,DATAREDIS-306 - Add support for ZSCAN.
+2014-06-03T10:01:59Z,DATAREDIS-312 - Add travis-ci configuration.
+2014-06-03T09:50:55Z,DATAREDIS-305 - Add support for HSCAN.
+2014-06-02T06:27:43Z,DATAREDIS-296 - Upgrade jedis to recent version.
+2014-05-28T16:24:37Z,DATAREDIS-309 - Refactor test profiles to support more than 2 versions.
+2014-05-28T12:34:18Z,DATAREDIS-304 - Add support for SSCAN command.
+2014-05-28T09:53:52Z,DATAREDIS-311 - Add test summary output to the build.
+2014-05-23T12:07:11Z,DATAREDIS-290 - Add support for SCAN command.
+2014-05-21T12:00:45Z,DATAREDIS-307 - Add missing reference documentation for managed transactions.
+2014-05-20T17:43:57Z,DATAREDIS-301 - After release cleanups.
+2014-05-20T16:49:51Z,DATAREDIS-301 - Prepare next development iteration.
+2014-05-20T16:49:41Z,DATAREDIS-301 - Release version 1.3.0.RELEASE.
+2014-05-20T14:26:45Z,DATAREDIS-301 - Prepare 1.3 GA.
+2014-05-20T14:26:39Z,DATAREDIS-301 - Updated changelog.
+2014-05-20T13:00:50Z,DATAREDIS-303 - Upgrade to Spring 3.2.9.
+2014-05-20T09:32:24Z,DATAREDIS-302 - Undo breaking change in DecoratingStringHashMapper.
+2014-05-19T07:59:06Z,DATAREDIS-299 - Assert compatibility with Spring IO.
+2014-05-16T12:22:06Z,DATAREDIS-300 - Fix inconsistency with connection open() and close().
+2014-05-05T11:03:43Z,DATAREDIS-292 - Updated change log for 1.3.0 M1.
+2014-05-02T13:46:50Z,DATAREDIS-297 - After release cleanups.
+2014-05-02T13:15:29Z,DATAREDIS-297 - Prepare next development iteration.
+2014-05-02T13:15:26Z,DATAREDIS-297 - Release version 1.3.0.RC1.
+2014-05-02T12:56:33Z,DATAREDIS-298 - Remove not needed jcl-over-slf4j compile dependency.
+2014-05-02T12:41:27Z,DATAREDIS-297 - Prepared 1.3.0.RC1.
+2014-05-02T12:41:00Z,DATAREDIS-297 - Updated changelog.
+2014-04-30T14:38:55Z,DATAREDIS-297 - Improve changelog to make sure we can automate additions.
+2014-04-29T11:23:20Z,DATAREDIS-226 - Syntax exceptions using lettuce should be reported immediately.
+2014-04-25T11:53:36Z,DATAREDIS-73 - Add support for spring managed transactions.
+2014-04-25T11:12:18Z,DATAREDIS-294 - TypedTuple should allow sorting using java sort().
+2014-04-11T09:02:31Z,"DATAREDIS-293 - JedisConnection, allow bulk addition with same score."
+2014-03-31T12:40:24Z,DATAREDIS-292 - Prepare next development iteration.
+2014-03-31T12:40:22Z,DATAREDIS-292 - Release version 1.3.0.M1.
+2014-03-31T11:39:27Z,DATAREDIS-292 - Prepare release 1.3.0 M1.
+2014-03-26T13:00:16Z,DATAREDIS-289 - Avoid NPE in DefaultValueOperations#append() in case of pipelining or/and multi/exec calls.
+2014-03-26T12:22:55Z,DATAREDIS-284 - Add support for zCard to ZSetOperations.
+2014-03-26T12:15:33Z,DATAREDIS-277 - Add support for 'SLAVEOF'.
+2014-03-26T11:54:38Z,DATAREDIS-287 - 'setBit' should return boolean value.
+2014-03-26T11:42:09Z,DATAREDIS-268 - Add support for 'CLIENT LIST'.
+2014-03-26T11:05:28Z,DATAREDIS-270 - Add support for 'CLIENT GETNAME'.
+2014-03-26T10:44:01Z,DATAREDIS-269 - Add support for 'CLIENT SETNAME'.
+2014-03-26T10:33:35Z,DATAREDIS-267 - Add support for 'CLIENT KILL'.
+2014-03-24T10:29:53Z,DATAREDIS-286 - Avoid overflow in JedisConnection#expire / #pexpire.
+2014-03-24T10:28:40Z,DATAREDIS-286 - Avoid overflow in JedisConnection#expire / #pexpire.
+2014-03-20T12:07:05Z,DATAREDIS-261 - Upgrade to commons-pool2.
+2014-03-20T11:49:41Z,DATAREDIS-184 - Add support for 'SAVE/NOSAVE' to shutdown.
+2014-03-20T11:36:09Z,DATAREDIS-271 - Add support for 'pSetEx'.
+2014-03-19T10:26:19Z,DATAREDIS-285 - LettuceConnection.execute should fully read response.
+2014-03-13T05:33:37Z,DATAREDIS-283 - RedisCacheManager.loadCaches overrides already defined cache names in afterPropertiesSet().
+2014-03-10T08:00:01Z,DATAREDIS-275 - Rename RedisServerCommands.bgWriteAof to bgReWriteAof.
+2014-03-03T13:48:34Z,DATAREDIS-256 - Prepare next development iteration.
+2014-03-03T13:36:06Z,DATAREDIS-282 - PubSubResubscribeTests should use jedis without pool.
+2014-03-03T09:31:09Z,DATAREDIS-256 - Prepare 1.2 GA Release.
+2014-02-27T12:54:14Z,DATAREDIS-279 - Update documentation
+2014-02-19T11:36:35Z,DATAREDIS-262 - Prepare next development iteration.
+2014-02-19T11:36:29Z,DATAREDIS-262 - Release version 1.2.0.RC1.
+2014-02-19T09:40:32Z,DATAREDIS-262 - Prepare 1.2.0.RC1 release.
+2014-02-19T09:08:56Z,DATAREDIS-259 - Upgrade Spring Framework to latest 3.2.x.
+2014-02-18T09:35:30Z,DATAREDIS-266 - Update Documentation.
+2014-02-18T09:14:46Z,DATAREDIS-206 - Add support for TIME operation.
+2014-02-18T09:10:08Z,DATAREDIS-241 - Updated jedis to version 2.4.1.
+2014-02-17T12:39:18Z,DATAREDIS-246 - RedisCacheManager.getCache() does not match the logical of CompositeCacheManager.
+2014-02-12T09:33:59Z,DATAREDIS-265 - Update Java source and target compatibility to Java 6.
+2014-02-12T09:25:50Z,DATAREDIS-264 - Update gradle version.
+2014-02-06T17:33:58Z,DATAREDIS-259 - Upgrade to Spring 3.2.7.RELEASE.
+2014-02-06T17:26:05Z,DATAREDIS-260 - Upgrade to jedis 2.3.1.
+2014-02-06T08:54:24Z,DATAREDIS-166 - Corrupted i/o streams subscribing to both patterns and channels.
+2014-02-05T17:22:27Z,DATAREDIS-170 - Cancel SubscriptionTask can leave connection open.
+2014-02-05T08:50:32Z,DATAREDIS-188 - Infinite loop renaming a non-existent Collection when using Lettuce.
+2014-01-28T09:55:12Z,DATAREDIS-254 - Clean up codebase to match spring-data conventions
+2014-01-28T09:55:00Z,DATAREDIS-254 - Clean up codebase to match spring-data conventions
+2014-01-23T08:54:40Z,DATAREDIS-257 - Shutdown the client when DefaultLettucePool is destroyed.
+2014-01-20T13:23:18Z,DATAREDIS-242 - Listener Container start() Returns Before Container is Really Started.
+2014-01-17T11:04:05Z,DATAREDIS-241 - Add a Jackson2 based RedisSerializer.
+2014-01-16T13:34:02Z,DATAREDIS-237 - Upgrade to Jedis 2.2.1.
+2014-01-16T12:43:36Z,DATAREDIS-251 - Fix tests to work against Redis 2.8.x.
+2014-01-16T09:39:52Z,DATAREDIS-253 - Avoid usage of deprecated API.
+2014-01-16T08:31:17Z,DATAREDIS-245 - Prevent Excessive Thread creation in tests.
+2014-01-15T18:36:22Z,DATAREDIS-251 - Fix tests to work against Redis 2.8.x.
+2014-01-15T18:22:25Z,DATAREDIS-245 - Prevent Excessive Thread creation in tests.
+2014-01-15T11:43:19Z,DATAREDIS-250 - Upgrade to latest Spring Framework 3.2.x release.
+2014-01-15T10:17:04Z,DATAREDIS-249 - Improve logging for tests in Gradle build.
+2014-01-15T09:45:37Z,DATAREDIS-243 - Ensure compatibility with Spring Framework 4.0.
+2014-01-15T09:38:32Z,DATAREDIS-245 - Prevent Excessive Thread creation in tests.
+2014-01-15T09:38:17Z,DATAREDIS-248 - Fix generics in DecoratingStringHashMapper to be Java 8 compatible.
+2014-01-13T16:24:11Z,DATAREDIS-247 - locale independent test execution.
+2014-01-10T17:24:08Z,Updated README.md
+2013-12-04T14:59:57Z,Prepare master branch for 1.2.0 development.
+2013-09-09T14:26:50Z,Merge remote-tracking branch 'origin/1.1.0.RELEASE'
+2013-09-09T13:54:41Z,[artifactory-release] Next development version
+2013-09-09T13:54:36Z,[artifactory-release] Release version 1.1.0.RELEASE
+2013-09-09T13:40:59Z,Update changelog for 1.1.0 release
+2013-08-22T22:46:46Z,Next development iteration
+2013-08-22T22:03:22Z,[artifactory-release] Release version 1.1.0.RC1
+2013-08-22T21:45:07Z,Modify changelog for 1.1.0.RC1
+2013-08-22T21:16:12Z,Minor enhancements to listener resubscribe
+2013-08-22T21:09:16Z,Resubscribe message listener on connection failure
+2013-08-21T19:38:02Z,"Revert ""Temp revert ""Lazily instantiate shared Lettuce connection"""""
+2013-08-21T19:30:42Z,Do not return Jedis conns to pool after NPE
+2013-08-20T23:57:49Z,Implement RedisMap concurrent remove and replace
+2013-08-19T19:34:49Z,"Temp revert ""Lazily instantiate shared Lettuce connection"""
+2013-08-16T22:21:25Z,Throw translated Exception on SRP conn failure
+2013-08-16T22:15:33Z,Add password to SrpConnectionFactory
+2013-08-16T21:20:30Z,Lazily instantiate shared Lettuce connection
+2013-08-16T20:37:29Z,Reduce test execution time when runLongTests not set
+2013-08-16T20:14:08Z,Make RedisTemplate use millisecond precision
+2013-08-15T20:13:41Z,Fix MessageListenerAdapter sending msg instead of body
+2013-08-06T17:39:24Z,Next development iteration
+2013-08-06T16:16:35Z,[artifactory-release] Release version 1.1.0.M2
+2013-08-05T23:52:40Z,Update changelog for version 1.1.0.M2
+2013-08-05T23:07:14Z,Update scripting doc
+2013-08-05T21:07:29Z,Update doc on usage of StringRedisConn in RedisCallbacks
+2013-08-05T21:06:49Z,Update doc on usage of RedisTemplate without serializers
+2013-08-05T20:53:52Z,Update pipeline and tx documentation
+2013-08-05T17:54:36Z,Fix ambiguous constructors in DefaultRedisScript
+2013-08-05T01:27:27Z,Add RedisAtomicDouble
+2013-08-04T23:43:00Z,Add RedisTemplate methods for executing Redis scripts
+2013-08-04T23:37:26Z,Fix Lettuce eval suppressing Exceptions in List return
+2013-08-02T01:44:16Z,Add doc on minimally supported Redis version 2.4
+2013-08-02T01:32:15Z,Support zRem with multiple values
+2013-08-02T01:32:15Z,Support zAdd with multiple values
+2013-08-02T01:32:14Z,Verify order of elements in LinkedHashSets
+2013-08-02T01:32:14Z,Support sRem with multiple values
+2013-08-02T01:32:14Z,Support sAdd with multiple values
+2013-08-02T01:32:13Z,Ignore intermittently failing test until fixed
+2013-08-02T01:32:13Z,Support rPush with multiple values
+2013-08-02T01:32:13Z,Support lPush with multiple values
+2013-08-02T01:32:13Z,Support hDel with multiple hash keys
+2013-08-02T01:32:12Z,Make Long and Double test factories return unique vals
+2013-07-31T20:25:26Z,Fix failing test
+2013-07-31T20:11:24Z,Fix test failures
+2013-07-31T16:18:55Z,Add tests of RedisTemplate with binary key/values
+2013-07-31T01:31:27Z,Allow usage of RedisTemplate without serialization
+2013-07-30T04:50:36Z,Improve test speed and add failure diagnostics
+2013-07-30T04:23:53Z,Improve RedisTemplate test coverage
+2013-07-30T04:23:53Z,Fix NPE on SRP sort with alpha not set
+2013-07-30T04:23:53Z,Enable testing RedisTemplate with multiple serializers
+2013-07-30T04:23:52Z,Enable JRedis Collections tests
+2013-07-30T04:23:52Z,Add more opsForX test coverage
+2013-07-30T04:23:51Z,Enable testing opsForX with multiple serializers
+2013-07-29T04:00:08Z,Fix Jedis conns not returning to pool on failed select
+2013-07-29T03:34:32Z,Remove 5 second wait starting MsgListenerContainer
+2013-07-25T22:19:53Z,Fix javadoc warnings
+2013-07-25T22:19:07Z,Add RedisTemplate executePipelined methods
+2013-07-25T16:50:42Z,Fix incorrect doc on injection of opsForXXX
+2013-07-24T23:30:17Z,Add deserialize of exec results to RedisTemplate
+2013-07-24T23:05:39Z,Fix NPE on deserialize of Tuple values in tx/pipeline
+2013-07-24T17:47:33Z,Do not deserialize StringRedisConn pipeline/tx results by default
+2013-07-23T21:58:43Z,Make Lettuce return converted tx results
+2013-07-23T21:37:03Z,Make SRP return converted tx results
+2013-07-23T21:35:03Z,Make Jedis return converted tx results
+2013-07-23T18:57:12Z,Convert tx results in DefaultStringRedisConnection
+2013-07-23T02:28:24Z,Check FutureResult status field instead of instanceof
+2013-07-23T02:05:37Z,Reduce instances of IdentityConverter in DefStringRedisConn
+2013-07-22T20:59:02Z,Add missing zRevRangeByScore ops to StringRedisConnection
+2013-07-22T19:32:54Z,Fix some tests not ignored on Redis 2.4
+2013-07-22T19:32:37Z,Throw UnsupportedOpException on watch in tx in Lettuce
+2013-07-22T19:32:02Z,Guard against NPEs on conversion of null values
+2013-07-22T19:09:03Z,Fix Jedis ClassCastExceptions closing pipeline after tx
+2013-07-19T19:06:34Z,SRP closePipeline should return List of tx results
+2013-07-18T22:43:37Z,Lettuce closePipeline should return List of tx results
+2013-07-18T22:37:52Z,Fix Lettuce setBit and setRange executing twice in pipeline
+2013-07-17T21:39:12Z,Validate converted pipeline results in conn tests
+2013-07-17T18:23:51Z,Add deserialize of pipeline results to DefaultStringRedisConnection
+2013-07-16T21:05:42Z,Deprecate connection Utils in favor of Converters
+2013-07-16T21:05:41Z,Convert SRP pipelined results to correct data type
+2013-07-16T21:05:41Z,Convert Lettuce pipelined results to correct data type
+2013-07-16T21:05:41Z,Convert Jedis pipelined results to correct data type
+2013-07-16T21:05:40Z,Add FutureResult and common type converters for pipelined ops
+2013-07-16T21:05:40Z,Change StringRedisConnection set store return types
+2013-07-16T21:02:40Z,Fix StringRedisConnection not passed to callbacks in StringTemplate.execute()
+2013-07-16T17:02:20Z,Test script load and flush in pipeline
+2013-07-16T16:35:31Z,Fix SRP test timing issue
+2013-07-16T16:34:58Z,Add connection integration tests
+2013-07-16T01:05:10Z,Fix SRP exception on select in transaction
+2013-07-15T21:34:43Z,Fix NPEs on Jedis closePipeline/exec after move
+2013-07-15T20:49:37Z,Support null sortParams in Lettuce and SRP sort
+2013-07-12T16:44:17Z,Fix DefaultStringRedisConnection not passing begin/end to bitCount method
+2013-07-11T19:16:00Z,Fix IllegalMonitorStateException in RedisCache
+2013-07-04T00:11:02Z,Fix conns wrapping UnsupportedOperationException 
+2013-07-03T17:53:28Z,Upgrade to Gradle 1.6
+2013-07-02T16:46:11Z,Next development iteration
+2013-07-02T15:27:26Z,[artifactory-release] Release version 1.1.0.M1
+2013-07-02T00:42:07Z,Lazily instantiate Lettuce dedicated connections
+2013-07-01T19:51:39Z,Update documentation for 1.1.0.M1 release
+2013-07-01T19:36:33Z,Add Javadoc HotFix Gradle plugin
+2013-07-01T18:33:02Z,Support srandmember with negative count
+2013-06-30T22:01:20Z,Upgrade to SRP 0.7
+2013-06-30T20:00:42Z,Upgrade to Lettuce 2.3.3
+2013-06-28T23:50:14Z,Add authentication to Lettuce conn factory and pool
+2013-06-28T22:41:40Z,Remove passing both connection info and pool to LettuceConnFactory
+2013-06-25T01:15:39Z,Add Redis 2.6 info(section) method to Connections
+2013-06-25T00:31:47Z,Change mSetNX/multiSetIfAbsent return type to Boolean
+2013-06-24T23:39:45Z,Add Redis 2.6 srandmember with count to SetOperations
+2013-06-24T23:39:24Z,Add Redis 2.6 srandmember with count to Connections
+2013-06-24T20:50:52Z,Add wrapper for GenericObjectPool.Config for Spring
+2013-06-24T17:50:18Z,Allow Lettuce connection pool for dedicated conns
+2013-06-24T17:27:11Z,Add Lettuce connection pool for non-shared conns
+2013-06-24T17:27:11Z,Factor JredisPool to a common Pool interface
+2013-06-22T01:52:02Z,Add scripting documentation
+2013-06-20T04:52:34Z,Add Redis 2.6 scripting commands to Connections
+2013-06-18T00:42:20Z,Fix decimal precision error in RedisMapTests
+2013-06-18T00:16:45Z,Add Redis 2.6 incrbyfloat to ValueOperations
+2013-06-17T23:26:10Z,Add Redis 2.6 hincrbyfloat to RedisMap and HashOperations
+2013-06-17T22:06:55Z,Add Redis 2.6 incrBy/hincrBy float ops to Connections
+2013-06-17T20:39:47Z,Add Redis 2.6 bitop and bitcount commands to Connections
+2013-06-16T20:36:55Z,Only return JRedis conns to pool on conn Exceptions
+2013-06-16T20:23:15Z,Add Redis 2.6 dump and restore commands to RedisTemplate
+2013-06-16T20:20:52Z,Add Redis 2.6 dump and restore commands to Connections
+2013-06-14T05:35:06Z,Return null from SRP exec if watched value modified
+2013-06-13T22:25:12Z,Upgrade to SRP 0.6
+2013-06-13T00:29:41Z,Add framework for running tests based on Redis version
+2013-06-13T00:17:39Z,Utilize new SrpUtils asBoolean method
+2013-06-12T21:03:00Z,Add Redis 2.6 millisecond expiration commands
+2013-06-12T19:26:53Z,Refactor connection tests with waitFor method
+2013-06-12T01:14:46Z,Make Jedis dependency optional
+2013-06-12T01:02:07Z,Add default implementation of JredisPool
+2013-06-12T00:56:25Z,Upgrade to JRedis master
+2013-06-11T22:25:01Z,Remove RJC driver due to lack of Redis 2.6 support
+2013-06-04T18:54:21Z,Wrap native Exceptions in LettuceConnectionFactory
+2013-06-03T19:30:30Z,Update version to 1.1.0.BUILD-SNAPSHOT
+2013-06-03T19:08:46Z,Merge pull request #10 from gregturn/DATAREDIS-190
+2013-05-31T15:16:31Z,Add alternate constructor to MessageListenerAdapter
+2013-05-30T18:05:03Z,Redis timeouts should not be converted to 0
+2013-05-28T20:55:53Z,Fix Lettuce compareAndSet 
+2013-05-26T21:59:50Z,Upgrade Lettuce to 2.3.2
+2013-04-23T20:53:55Z,[artifactory-release] Next development version
+2013-04-18T19:41:55Z,Update changelog
+2013-04-18T19:13:11Z,Add documentation on Redis transactions
+2013-04-18T00:37:39Z,Fix NPE in Lettuce sort
+2013-04-17T17:03:09Z,Fix corrupt subscription connections return to pool
+2013-04-17T03:14:49Z,Avoid NPE on LettuceConnectionFactory destroy
+2013-04-17T03:14:05Z,Move common test functionality to helper classes
+2013-04-15T21:27:28Z,Make LettuceConnectionFactory thread-safe
+2013-04-13T03:15:35Z,Fix tests for Redis 2.6
+2013-04-13T03:14:51Z,Fix SubscriptionConnectionTests timing issues
+2013-04-12T18:01:18Z,Upgrade to SRP 0.5
+2013-04-11T22:19:32Z,Fix SRP exec not returning results of commands 
+2013-04-11T00:34:29Z,Add option to disable Lettuce connection sharing
+2013-04-10T22:09:11Z,Share native connection between LettuceConnections
+2013-04-10T00:29:53Z,Fix SRP zRevRangeByScore incorrect parameter ordering
+2013-04-10T00:13:01Z,Fix Lettuce and RJC zRevRangeByScore incorrect parameter ordering
+2013-04-05T06:29:42Z,Add back synchronization to avoid corrupted subscription input/output streams
+2013-04-05T03:56:23Z,Add connection pool timeout to test
+2013-04-04T21:59:51Z,Fix SubscriptionTask leaving open connections
+2013-04-04T18:27:28Z,Fix messages not received if listening on channel and pattern
+2013-04-02T23:54:48Z,Fix NPEs and incorrect results in several ops within a Lettuce transaction
+2013-04-02T23:24:06Z,Ignore irrelevant tests of blocking ops in transactions
+2013-04-02T22:49:56Z,Fix Jedis and RJC continuing to use pipeline after closed
+2013-04-01T23:45:40Z,Fix Jedis brPop executes twice in a transaction
+2013-04-01T23:44:51Z,Fix Jedis persist does not execute as part of a transaction
+2013-04-01T23:34:17Z,Add tests for Jedis ops in transactions
+2013-04-01T23:08:38Z,Fix JedisConnection execute does not return correct results
+2013-04-01T17:32:12Z,Fix SRP zCount/zInterStore methods executing synchronously when pipelining
+2013-04-01T17:28:45Z,Fix RJC ping executing synchronously while in pipeline
+2013-04-01T17:27:39Z,Fix RJC zRevRangeWithScores returns incorrect results
+2013-04-01T17:22:33Z,Fix Lettuce zCount/zInterStore ops executing synchronously while in pipeline
+2013-04-01T17:17:19Z,Fix Lettuce exec to return null when pipelining
+2013-04-01T17:07:32Z,Fix Jedis dbSize and flush ops executing synchronously while in pipeline or tx
+2013-04-01T16:53:08Z,Fix NPE when deserializing a null Map
+2013-03-31T18:09:25Z,Only run SRP getRange tests if Redis version >= 2.4
+2013-03-31T18:06:26Z,Fix SRP continuing to use pipeline after closed
+2013-03-31T18:04:13Z,Rename test context file for case-sensitivity
+2013-03-31T17:02:21Z,Enable long-running tests via system property
+2013-03-31T04:28:51Z,Add connection integration tests
+2013-03-27T21:58:23Z,Modify connection tests to reuse connection factories
+2013-03-27T21:55:01Z,Add RedisProperties Lettuce tests
+2013-03-22T01:16:57Z,Fix JedisConnection transaction discard
+2013-03-22T01:02:56Z,Fix Jredis sort to store results under new key
+2013-03-20T22:07:42Z,Fix Lettuce and SRP blpop/brpop issues
+2013-03-19T16:46:04Z,Merge branch 'DATAREDIS-117' of github.com:porcelijn/spring-data-redis into porcelijn-DATAREDIS-117
+2013-03-19T10:15:59Z,Fix for (hash) increment treats long values as int
+2013-03-14T23:41:09Z,Cleanup test application context
+2013-03-14T23:39:46Z,Add missing client types to parameterized tests
+2013-03-14T22:17:45Z,Clean up Connection integration tests
+2013-03-14T22:10:47Z,Use connection pools in all tests
+2013-03-14T21:52:44Z,Fix intermittent SRP Pub/Sub test failures
+2013-03-08T21:27:28Z,Fix Connection Pub/Sub tests
+2013-03-07T00:40:00Z,"Revert ""convertAndSend returns the nr of targeted channels"""
+2013-02-13T16:16:06Z,next development version
+2013-02-13T16:06:31Z,Release version 1.0.3.RELEASE
+2013-02-13T15:58:33Z,remove invalid javadoc
+2013-02-13T15:36:29Z,update changelog
+2013-02-13T15:32:38Z,minor optimization to #del()
+2013-02-11T15:21:08Z,disable section of the test
+2013-02-11T15:14:56Z,make topic impl return their names (easier to dbg)
+2013-02-11T15:13:28Z,fix incorrect opening of pipeline during multi
+2013-02-11T14:01:00Z,add template constructor
+2013-02-08T16:08:19Z,update changelog
+2013-02-08T16:07:28Z,add missing methods + various pipeline fixes
+2013-02-08T16:07:02Z,minor pipeline fix in Jedis
+2013-02-08T16:06:44Z,several pipeline bug fixes for Lettuce driver
+2013-02-08T15:22:09Z,update changelog
+2013-02-08T09:16:53Z,update docbook plugin
+2013-02-08T09:16:45Z,add Lettuce driver into the docs
+2013-02-07T19:34:49Z,Merge branch 'lettuce'
+2013-02-07T19:30:06Z,remove unused code + add NPE fix
+2013-02-07T19:26:55Z,update OSGi manifest to include Lettuce & deps
+2013-02-07T19:26:38Z,improve unsubscription of channels/patterns in LettuceSub
+2013-02-07T19:17:50Z,properly unsubscribe from channels not patterns on unsub all
+2013-02-07T19:17:26Z,properly cleanup listeners in Message Container
+2013-02-07T19:16:50Z,properly close the underlying pubsub connection on (p)unsubscribe all
+2013-02-07T18:19:39Z,add lettuce into the test batch
+2013-02-07T18:10:10Z,add lettuce integration test
+2013-02-07T18:09:53Z,fixes with closePipeline and pubsub
+2013-02-07T15:52:17Z,add support for Lettuce Redis driver
+2013-02-05T17:01:14Z,fix incorrect cast of BulkReply to byte[] in SprConnection
+2013-02-05T16:58:16Z,add unimplemented method in StringRedisConnection
+2013-02-05T16:47:49Z,add warning regarding RedisTemplate initialization
+2013-02-05T16:47:49Z,update copyright years
+2013-01-28T17:13:02Z,sync javadoc with impl on useprefix
+2013-01-25T11:20:58Z,yet another test update
+2013-01-25T10:48:00Z,update integration test
+2013-01-25T09:12:51Z,test update
+2013-01-25T08:57:26Z,improve Atomic integration tests
+2013-01-25T08:57:04Z,improve conn handling when all subs are removed
+2013-01-24T22:12:02Z,minor maven update
+2013-01-24T22:11:47Z,remove listeners programatically in RMLContainer
+2013-01-24T18:24:42Z,add hash/equals impl to Topic impl
+2013-01-24T17:11:01Z,convertAndSend returns the nr of targeted channels
+2013-01-23T17:32:39Z,update copyright header
+2013-01-23T17:30:11Z,add multi-threaded test for AtomicInteger
+2013-01-23T17:16:37Z,upgrade to Spring 3.1.4
+2013-01-23T17:16:27Z,hopefully removed log4j dependency
+2013-01-23T17:15:56Z,fix typo
+2012-11-29T15:06:53Z,improve handling of staleness exception during connection init
+2012-11-29T14:46:57Z,improve handling of SocketException for Jedis driver
+2012-10-11T06:19:04Z,update readme and add contribute info
+2012-10-10T18:20:30Z,bump version to dev
+2012-10-10T18:08:47Z,Release version 1.0.2.RELEASE
+2012-10-10T18:01:36Z,update changelog
+2012-10-10T18:01:22Z,upgrade to gradle 1.2
+2012-10-10T17:38:02Z,update changelog
+2012-10-10T17:36:40Z,dependencies upgrade
+2012-09-24T18:02:27Z,add concurrency fix
+2012-09-24T17:58:11Z,add offset/count methods to ZSetOperations
+2012-08-20T15:44:32Z,remove useless public abstract from interface
+2012-08-14T15:37:34Z,disable test (until we figure why a build passes while another fails)
+2012-08-14T15:18:44Z,improve test for CI server
+2012-08-14T14:30:49Z,polish REDIS-102
+2012-08-14T13:52:57Z,Merge pull request #5 from xpoft/master
+2012-08-13T15:19:03Z,Merge pull request #3 from bm3780/patch-1
+2012-08-13T05:17:41Z,+ set usePrefix
+2012-08-10T18:04:39Z,add pipeline/multi-exec/NPE checks
+2012-08-09T10:46:58Z,clarify collection behavior with pipelined connection
+2012-07-19T18:50:23Z,Merge pull request #4 from jbrisbin/master
+2012-07-19T18:38:24Z,DATAREDIS-77 Fix for not passing the message channel to message listeners.
+2012-07-04T07:19:33Z,update readme
+2012-07-01T18:56:04Z,"prefix should use delimiter specified from constructor if possible, otherwise default to using a colon as the delimiter"
+2012-06-27T12:54:33Z,bump dev version
+2012-06-27T12:52:36Z,Merge tag 'v1.0.1.RELEASE'
+2012-06-27T11:14:29Z,Release version 1.0.1.RELEASE
+2012-06-27T11:00:08Z,fix line wrapping
+2012-06-27T10:52:17Z,update old readme
+2012-06-27T10:35:04Z,make SRP driver optional
+2012-06-27T09:58:54Z,various code improvements to reduce compiler warnings
+2012-06-27T08:03:59Z,update changelog
+2012-06-27T08:02:36Z,change HashOps#multiGet/#values return Collection->List
+2012-06-26T19:02:34Z,upgrade changelog
+2012-06-26T18:39:40Z,add docs on SRP connector
+2012-06-26T18:19:45Z,clarify passing of channel
+2012-06-26T17:54:57Z,re-add bundlor plugin
+2012-06-25T18:48:27Z,add more tests for pipeline execution
+2012-06-25T18:21:26Z,Merge branch 'pipeline-exception'
+2012-06-25T18:20:58Z,fix bug that return an empty list for #closePipeline
+2012-06-25T17:46:06Z,finish closePipeline for Srp
+2012-06-25T17:33:17Z,add tracking of futures to Srp connection
+2012-06-25T16:49:20Z,add pipeline exception for Rjc
+2012-06-25T16:06:12Z,handle exceptions of native execution
+2012-06-22T07:44:07Z,another formatting fix
+2012-06-22T07:43:15Z,fix readme
+2012-06-22T07:28:32Z,force result for Srp#exec when not in pipeline
+2012-06-21T19:35:36Z,fix groupId
+2012-06-21T19:07:57Z,small gradle build update
+2012-06-21T19:05:13Z,update gradle wrapper to 1.0
+2012-06-21T18:47:08Z,remove sample section
+2012-06-21T18:45:21Z,update build system to Gradle 1.0 and latest plugin
+2012-06-21T17:58:26Z,fix double invocation of listeners implementing intf
+2012-06-21T17:51:11Z,project cleanup
+2012-06-21T17:41:11Z,Merge branch 'srp'
+2012-06-21T17:40:36Z,add native execution for Srp connection
+2012-06-21T17:05:41Z,Merge branch 'master' into srp
+2012-06-21T16:56:41Z,Merge branch 'native_execute'
+2012-06-21T15:35:13Z,add execute native for RjcConnection
+2012-06-21T14:34:35Z,improve array check
+2012-06-21T14:33:54Z,add disambiguating method on StringRedisConnection
+2012-06-21T14:33:31Z,add jredis implementation for execute native
+2012-06-21T14:11:46Z,add native execute for JedisConnection
+2012-06-21T11:40:18Z,make use of repo.springsource.org
+2012-06-21T11:40:05Z,fix bug in closing the pipeline
+2012-06-21T11:26:34Z,simplify binding of Redis connections
+2012-06-19T16:20:41Z,fix incorrect pipeline condition in JedisConnection
+2012-06-19T16:12:39Z,make internal class protected
+2012-05-23T18:09:54Z,remove Eclipse files since they are not portable
+2012-05-23T18:08:18Z,upgrade to Jedis 2.1.0 incl. prev unsupported methods
+2012-05-23T17:45:59Z,Merge branch 'DATAREDIS-86'
+2012-05-23T17:37:43Z,ZSetOps#removeRange* return the # of elements removed
+2012-05-23T17:35:17Z,Make Template Set *storeOps() return the resulting set size
+2012-05-23T17:32:34Z,Make Template Set *storeOps() return the resulting set size
+2012-05-23T17:29:06Z,make set *store ops to return the resulting set size
+2012-05-23T17:12:09Z,remove caching of serializers in abstractOps
+2012-05-23T16:29:04Z,add test exclusion to avoid RJC bug for incr(by)
+2012-05-23T15:38:23Z,ValueOps#increment properly handles negative vals
+2012-05-23T15:10:54Z,switch params in ZSetOperations#intersectAndStore
+2012-05-23T15:05:49Z,fix connection.setBit()
+2012-05-23T15:04:06Z,fix connection.setBit()
+2012-04-04T06:25:58Z,build against SRP 0.2 version - all tests pass
+2012-04-03T19:50:47Z,update client driver - pretty much working...
+2012-04-03T13:04:38Z,update to latest SRP version
+2012-04-02T07:38:21Z,integrate the latest srp updates
+2012-04-01T16:53:28Z,update to srp 0.2 snapshot
+2012-03-30T12:34:43Z,fix casting problems with varargs
+2012-03-30T11:42:34Z,first draft for SPRP driver
+2012-03-29T15:58:46Z,update docs
+2012-03-29T15:35:52Z,translate only JedisException inside PET
+2012-03-29T14:47:38Z,improve lifecycle of RedisMessageListenerContainer
+2012-03-29T14:36:17Z,fix SetOperations#randomMember operation
+2011-12-14T21:01:58Z,+ bump version (to 1.0.1.BUILD-SNAPSHOT)
+2011-12-14T15:10:38Z,+ prepare for release
+2011-12-13T19:36:01Z,+ upgrade to Spring 3.1 GA
+2011-12-13T12:48:21Z,+ another update
+2011-12-13T12:45:25Z,+ fix readme
+2011-12-13T12:44:38Z,+ update repo info
+2011-12-13T12:37:54Z,+ update readme
+2011-12-06T10:19:35Z,DATAREDIS-80
+2011-12-06T10:10:56Z,+ update to Spring Framework 3.1 RC2
+2011-11-01T17:13:36Z,+ remove @Override annotations to allow the code to be compiled on 1.5 (though it requires JDK 6 for its collection support)
+2011-11-01T16:43:01Z,DATAREDIS-79
+2011-11-01T16:35:14Z,DATAREDIS-77
+2011-10-27T18:50:27Z,DATAREDIS-77
+2011-10-25T08:54:08Z,DATAREDIS-78
+2011-10-25T08:53:14Z,+ fix source compatibility (1.6 - target compatibility is still 1.5)
+2011-10-19T16:10:05Z,+ update changelog
+2011-10-19T16:08:07Z,+ bump version
+2011-10-19T16:07:45Z,1.0.0.RC1 Release
+2011-10-19T13:18:21Z,+ upgrade some libraries
+2011-10-12T13:33:24Z,+ upgrade to Spring 3.1 RC1
+2011-10-08T19:21:08Z,+ improve cache implementation by adding a primitive monitor mechanism (backed by Redis)
+2011-10-08T19:17:44Z,+ minor doc update
+2011-07-27T08:49:32Z,+ add dedicated img spec
+2011-07-27T08:46:01Z,DATAREDIS-75
+2011-07-27T08:35:45Z,+ minor improvements to RedisMLC
+2011-07-27T08:24:49Z,DATAREDIS-74
+2011-07-27T07:48:22Z,+ add several fixes
+2011-07-18T19:44:40Z,+ bump version
+2011-07-18T19:42:51Z,+ change version to 1.0.0.M4
+2011-07-18T18:11:55Z,+ another bunch of gradle updates
+2011-07-18T17:39:15Z,+ improve deps
+2011-07-18T16:26:33Z,+ update changelog again
+2011-07-18T16:19:28Z,+ updated changelog
+2011-07-18T16:07:10Z,+ minor updates to gradle build to fix some issues with the dist zip
+2011-07-18T15:14:39Z,+ add jackson javadoc location
+2011-07-18T14:43:14Z,+ add org.springframework.cache package
+2011-07-18T09:42:32Z,DATAREDIS-68
+2011-07-18T08:38:07Z,DATAREDIS-72
+2011-07-15T16:26:23Z,DATAREDIS-72
+2011-07-15T15:05:28Z,DATAREDIS-72
+2011-07-06T17:37:49Z,+ update server path
+2011-07-06T14:53:02Z,+ some Gradle fixes with uploads
+2011-07-06T14:02:43Z,+ update gradle wrapper to 1.0-milestone-3
+2011-07-06T13:39:45Z,docbook updates
+2011-07-06T12:34:16Z,+ update gitignore
+2011-07-06T12:33:51Z,+ fix some javadoc problems
+2011-07-05T18:59:12Z,+ update pom generation
+2011-07-05T18:32:49Z,+ gradle updates
+2011-07-05T18:10:32Z,several gradle updates
+2011-07-05T17:25:04Z,+ moved javadoc from docs to main file
+2011-07-05T16:41:11Z,+ update readme
+2011-07-05T16:38:31Z,+ update readme
+2011-07-05T16:31:47Z,+ update some references
+2011-07-05T16:18:31Z,+ renamed org.springframework.data.keyvalue.redis to o.s.d.redis
+2011-07-04T19:14:39Z,Merge branch 'gradle-build-ng' of github.com:SpringSource/spring-data-keyvalue into initial_merge
+2011-07-04T18:05:08Z,DATAKV-75
+2011-07-04T15:14:32Z,DATAKV-75
+2011-07-01T16:32:02Z,+ upgrade gradle files
+2011-07-01T15:46:52Z,+ add package exclude
+2011-07-01T12:34:01Z,Merge branch 'master' into gradle-build-ng
+2011-07-01T12:28:39Z,+ readme file
+2011-07-01T12:15:49Z,Merge branch 'jedis-20'
+2011-07-01T12:11:53Z,DATAKV-74
+2011-06-24T12:02:18Z,DATAKV-72
+2011-06-22T17:58:18Z,fixed incorrect left/rightPop in RedisTemplate
+2011-06-22T17:50:50Z,+ wrap up integration
+2011-06-22T16:56:39Z,+ upgrade to Jedis 2.0.0 (first attempt)
+2011-05-02T13:36:40Z,fix some init errors from last commit
+2011-04-28T16:05:18Z,- remove ConnectionFactory constructor since its use was misinterpreted pretty much all the time
+2011-04-28T16:03:15Z,DATAKV-67
+2011-04-28T15:04:45Z,+ add dedicated section on configurating RJC
+2011-04-28T14:56:56Z,DATAKV-68
+2011-04-28T14:44:31Z,update .gitignore
+2011-04-22T15:19:38Z,DATAKV-68
+2011-04-22T15:18:34Z,+ add bug fix to key rename
+2011-04-22T15:12:49Z,+ update manifest
+2011-04-22T14:49:29Z,DATAKV-68
+2011-04-21T18:49:49Z,+ add bug fix to key rename
+2011-04-21T18:49:26Z,+ update gradle files to make the build work
+2011-04-21T18:05:04Z,Merge branch 'master' into gradle-build-ng
+2011-04-21T17:44:47Z,+ update tasks with deployed plugins
+2011-04-21T15:52:47Z,+ fixed the upload task
+2011-04-21T12:52:17Z,+ fixed archive creation
+2011-04-21T12:17:26Z,+ another gradle update
+2011-04-21T11:51:20Z,+ breakdown the scripts
+2011-04-19T16:56:10Z,DATAKV-66
+2011-04-15T17:44:58Z,DATAKV-58
+2011-04-15T14:51:56Z,DATAKV-58
+2011-04-15T12:58:16Z,DATAKV-58
+2011-04-14T17:27:56Z,make Spring OXM optional
+2011-04-14T16:53:55Z,DATAKV-63
+2011-04-14T16:38:55Z,DATAKV-62
+2011-04-14T12:49:46Z,+ fix problem causing atomic counters to reinitialize Redis values (even if no value was given)
+2011-04-10T08:14:32Z,"Revert ""removed @Override annotations that cause problems in JDK 5 on interface methods"""
+2011-04-08T02:08:54Z,removed @Override annotations that cause problems in JDK 5 on interface methods
+2011-04-07T05:47:37Z,+ bump up version
+2011-04-06T14:04:16Z,+ update changelog
+2011-04-06T13:49:57Z,+ prepare 1.0.0.M3 release
+2011-04-06T06:16:24Z,"Revert ""Revert ""+ upgrade to Rjc 0.6.4 (snapshot for now)"""""
+2011-04-05T18:51:13Z,"Revert ""+ upgrade to Rjc 0.6.4 (snapshot for now)"""
+2011-04-05T17:44:24Z,+ add RJC to the docs
+2011-04-05T17:44:13Z,DATAKV-56
+2011-04-05T17:33:18Z,+ remove pipeline support for now since none of the drivers support it properly
+2011-04-05T17:29:46Z,+ update changelog for upcoming M3
+2011-04-05T17:13:59Z,+ update readme
+2011-04-05T17:12:04Z,fix minor typos
+2011-03-31T07:13:42Z,+ upgrade to Rjc 0.6.4 (snapshot for now)
+2011-03-30T17:05:52Z,+ upgrade to latest RJC (0.6.3)
+2011-03-18T17:24:25Z,DATAKV-44
+2011-03-18T17:08:43Z,DATAKV-44
+2011-03-17T18:33:24Z,+ add select() to RedisOperations
+2011-03-17T17:46:03Z,+ add move operation to RedisTemplate
+2011-03-17T17:40:29Z,+ add move command
+2011-03-17T16:26:00Z,DATAKV-37
+2011-03-17T16:18:54Z,DATAKV-49
+2011-03-17T12:47:20Z,DATAKV-49
+2011-03-17T11:58:27Z,DATAKV-49
+2011-03-17T11:56:53Z,+ rename the exceptions to be more consistent
+2011-03-17T07:46:16Z,DATAKV-48
+2011-03-16T14:30:37Z,DATAKV-46
+2011-03-16T13:41:29Z,DATAKV-46
+2011-03-16T13:26:02Z,+ update setRange signature
+2011-03-16T13:24:51Z,DATAKV-46
+2011-03-16T13:14:41Z,DATAKV-46
+2011-03-16T12:54:07Z,DATAKV-46
+2011-03-16T12:54:07Z,DATAKV-46
+2011-03-16T12:53:58Z,DATAKV-46
+2011-03-16T12:49:09Z,update value get/set operations
+2011-03-16T12:48:49Z,DATAKV-46
+2011-03-16T11:13:27Z,DATAKV-44
+2011-03-16T07:49:07Z,DATAKV-46
+2011-03-15T21:53:26Z,+ extracted cas rename logic into utility class
+2011-03-15T21:43:02Z,+ add atomic key/check/rename to abstract redis collection (sort of messy)
+2011-03-15T21:42:31Z,+ change exec return type to List<Object>
+2011-03-15T20:11:57Z,+ update return signature for jedis exec
+2011-03-15T19:53:48Z,DATAKV-44
+2011-03-15T19:38:40Z,DATAKV-44
+2011-03-15T19:36:45Z,+ update persist signature to return boolean instead of void
+2011-03-15T18:29:59Z,+ improve connection cleanup in some tests
+2011-03-15T18:29:40Z,DATAKV-44
+2011-03-15T16:00:36Z,DATAKV-43
+2011-03-15T13:00:02Z,+ arranged internal code better with respect to serialization util methods
+2011-03-15T11:04:13Z,DATAKV-34
+2011-03-15T10:40:16Z,DATAKV-34
+2011-03-14T21:07:04Z,DATAKV-42
+2011-03-14T21:02:15Z,DATAKV-41
+2011-03-14T16:28:42Z,DATAKV-38
+2011-03-14T14:38:13Z,+ remove unused internal class
+2011-03-14T12:39:03Z,update poms
+2011-03-14T12:32:05Z,DATAKV-38
+2011-03-14T12:31:31Z,+ refactored RedisTemplate by breaking it into multiple classes
+2011-03-14T10:37:31Z,+ fix return signature for closePipeline method
+2011-03-14T10:26:13Z,DATAKV-38
+2011-03-14T09:31:17Z,DATAKV-40
+2011-03-13T17:48:44Z,+ update dependencies
+2011-03-13T17:33:47Z,Merge branch 'master' into gradle-build
+2011-03-13T17:32:41Z,Merge branch 'master' into gradle-build
+2011-03-13T17:19:14Z,DATAKV-38
+2011-03-11T19:29:38Z,+ minor NPE check (not needed but better to be safe)
+2011-03-11T16:12:54Z,DATAKV-36
+2011-03-11T16:12:51Z,+ update jackson and slf4j
+2011-03-11T16:12:51Z,DATAKV-36
+2011-03-11T16:12:47Z,DATAKV-36
+2011-03-11T16:12:42Z,DATAKV-36
+2011-03-11T16:12:39Z,DATAKV-36
+2011-03-11T16:12:36Z,DATAKV-36
+2011-03-11T16:12:24Z,DATAKV-36
+2011-03-11T16:12:24Z,DATAKV-36
+2011-03-11T16:12:24Z,DATAKV-36
+2011-03-11T16:09:33Z,+ fix bug in sort param initialization
+2011-03-11T16:09:18Z,+ fix small init bug
+2011-03-07T12:49:53Z,DATAKV-36
+2011-03-03T11:15:05Z,+ several adjustments to the intersect/diff signatures
+2011-03-01T15:43:16Z,+ add overloaded delete/watch operation for single key invocations
+2011-02-25T10:02:52Z,+ fix project description
+2011-02-24T18:58:57Z,+ small commit
+2011-02-24T18:58:06Z,+ improve getAndXXX operations (taking advantage of the increment operation which is already atomic).
+2011-02-11T16:49:35Z,DATAKV-34
+2011-02-11T16:47:23Z,+ improve handling of Jedis exceptions
+2011-02-11T16:47:02Z,+ add detection for Jredis ClientRUntimeException
+2011-02-10T16:53:08Z,+ bump version to BUILD-SNAPSHOT
+2011-02-10T16:31:17Z,+ update readme + changelog
+2011-02-10T16:23:18Z,+ exclude empty package from javadoc
+2011-02-10T16:11:58Z,+ update authors
+2011-02-10T16:11:11Z,+ beautify XML schema rendering
+2011-02-10T16:08:38Z,+ change tabs into spaces for better reference docs rendering
+2011-02-10T16:07:53Z,preparing for 1.0.0.M2
+2011-02-10T14:58:44Z,+ update changelog for M2 release
+2011-02-10T14:58:29Z,+ fix javadoc warnings
+2011-02-09T19:06:14Z,Updated changelog
+2011-02-09T19:04:56Z,Updated changelog
+2011-02-09T16:51:36Z,+ fix ssh task by adding a repository for all tasks
+2011-02-09T13:01:52Z,+ align maven group Id
+2011-02-09T11:38:41Z,+ add several tweaks to the css/xsl
+2011-02-09T11:38:20Z,+ change tabs into spaces for better reference docs rendering
+2011-02-09T11:37:26Z,+ fix admon path (from admons to admon)
+2011-02-09T11:02:30Z,+ html.css has been replaced by manual.css
+2011-02-09T07:59:32Z,+ javadoc tweaks
+2011-02-09T07:59:06Z,+ fix some javadoc warnings (ironically some still show up)
+2011-02-09T07:42:55Z,+ add local maven repository
+2011-02-08T17:50:31Z,add pom.xml to .gitignore
+2011-02-08T17:49:36Z,+ replace placeholder for now with actual value
+2011-02-08T17:49:14Z,+ remove serial warnings
+2011-02-08T17:48:34Z,+ upgrade reference to docbook 5.0
+2011-02-08T16:30:28Z,+ remove spring-data-keyvalue-parent
+2011-02-08T16:29:30Z,+ javadoc tweaks
+2011-02-08T13:12:13Z,various tweaks
+2011-02-08T13:11:40Z,+ fix some javadoc warnings (ironically some still show up)
+2011-02-08T11:13:04Z,+ adjust settings accordingly to spring-gradle-build
+2011-02-08T11:08:50Z,+ add buildSrc module
+2011-02-08T11:06:14Z,+ rearrange docs folder
+2011-02-08T10:48:58Z,+ small tweaks
+2011-02-08T09:57:02Z,+ add automatic property expansion in manifest
+2011-02-07T19:05:50Z,+ add default gradle build dir to .gitignore
+2011-02-07T16:46:07Z,+ add springsource repository
+2011-02-04T21:13:14Z,Added Spring Integration Gradle helpers.
+2011-02-04T20:34:49Z,Fix pipeline in JedisConnection
+2011-02-04T19:55:19Z,Change JedisConnection to use pipelining
+2011-02-04T18:43:02Z,Merge branch 'master' of github.com:SpringSource/spring-data-keyvalue into gradle-build
+2011-02-04T18:42:30Z,First pass at adding Gradle as build tool
+2011-02-04T16:41:16Z,+ update to Jedis 1.5.2
+2011-02-01T18:17:45Z,add docs on StringConnection/Template and the serializers
+2011-01-31T12:28:05Z,DATAKV-32
+2011-01-31T11:48:06Z,DATAKV-32
+2011-01-31T11:47:34Z,DATAKV-32
+2011-01-31T11:28:06Z,+ remove some compiler warnings
+2011-01-31T11:24:37Z,DATAKV-32
+2011-01-31T11:23:01Z,+ update to latest Jedis version (add support for rich exceptions)
+2011-01-31T08:39:17Z,+ update to latest Jedis exception improvements
+2011-01-28T16:46:00Z,+ enable binary pubsub test
+2011-01-28T16:45:45Z,+ finished adding integration tests for OXM support (XStream used in tests)
+2011-01-28T15:39:25Z,+ add OxmConverter serializer
+2011-01-28T06:59:07Z,+ readd snapshot repo for Jedis
+2011-01-27T18:14:44Z,DATAKV-26
+2011-01-27T17:27:24Z,+ quick rename per user comments
+2011-01-27T17:23:33Z,DATAKV-26
+2011-01-27T16:12:03Z,+ propagate session changes to RedisAtomicLong as well
+2011-01-27T12:20:13Z,+ introduce Session callback to allow the same connection to be reused
+2011-01-26T16:45:00Z,DATAKV-27
+2011-01-25T12:33:14Z,DATAKV-23
+2011-01-25T12:29:25Z,DATAKV-28
+2011-01-25T12:21:45Z,DATAKV-28
+2011-01-25T11:33:24Z,DATAKV-25
+2011-01-24T21:19:12Z,+ add Jedis public snapshot repo
+2011-01-24T20:10:32Z,DATAKV-25
+2011-01-24T19:53:34Z,+ improve shutdown of Redis container (skipped waiting if the container is not started)
+2011-01-24T19:52:51Z,DATAKV-25
+2011-01-24T16:55:12Z,DATAKV-24
+2011-01-24T15:26:58Z,DATAKV-23
+2011-01-21T19:59:01Z,+ renamed get[X]Ops to -opsFor[X]
+2011-01-21T19:26:06Z,+ add a delay to improve test synchronization
+2011-01-21T19:18:08Z,+ add another convenience method on message container
+2011-01-21T18:27:05Z,+ improve Message container behaviour by waiting (as much as possible) for the initial subscription to complete
+2011-01-21T18:09:58Z,+ fix NPE caused when calling addMessageListener before afterPropertiesSet()
+2011-01-21T18:03:56Z,+ change default serializer for MessageListener adapter (since messages are usually strings)
+2011-01-21T18:02:56Z,+ fix jedis issue 82
+2011-01-21T17:34:08Z,+ fixed problem caused by message refactoring
+2011-01-21T16:48:39Z,DATAKV-23
+2011-01-21T16:48:13Z,fix publish bug in RedisTemplate
+2011-01-20T17:18:19Z,fix several methods in JedisConnection when dealing with queued connections
+2011-01-20T16:17:08Z,DATAKV-14
+2011-01-20T15:11:32Z,+ update DefaultMessage to better reflect the ongoing conventions
+2011-01-20T15:10:31Z,+ rename Message#getPayload to Message#getBody
+2011-01-20T15:09:29Z,switch message with channel on the low level publish
+2011-01-20T11:39:39Z,+ fixed pool support for JRedis
+2011-01-20T10:58:52Z,DATAKV-19
+2011-01-18T20:22:05Z,DATAKV-22
+2011-01-18T18:52:27Z,DATAKV-22
+2011-01-18T18:43:05Z,DATAKV-22
+2011-01-18T18:42:24Z,DATAKV-22
+2011-01-18T18:31:07Z,DATAKV-22
+2011-01-18T18:29:13Z,DATAKV-22
+2011-01-18T18:27:22Z,DATAKV-22
+2011-01-14T17:36:08Z,DATAKV-22
+2011-01-14T16:55:13Z,DATAKV-22
+2011-01-14T15:47:21Z,DATAKV-22
+2011-01-14T14:26:35Z,Merge commit 'abfb824f17d0e3aafb54ea8766a26ec8c27c5144' into PubSub
+2011-01-14T11:45:58Z,DATAKV-22
+2011-01-14T10:55:46Z,DATAKV-22
+2011-01-14T10:36:43Z,+ fix incorrect copyright update
+2011-01-14T10:31:20Z,DATAKV-22
+2011-01-14T10:30:46Z,Merge commit '4db15d3645cb21666d3e5d33006f05390a5947a1' into PubSub
+2011-01-13T18:49:40Z,+ add constructor signature from super class
+2011-01-13T18:40:22Z,"index on PubSub: c16901d DATAKV-22 + RedisListeningContainer updates - registration is done, still need to handle unregistration and initial batching of subscribe and psubscribe"
+2011-01-13T18:34:32Z,DATAKV-22
+2011-01-13T17:02:04Z,DATAKV-22
+2011-01-13T13:08:48Z,+ update copyright headers
+2011-01-13T13:08:31Z,DATAKV-22
+2011-01-12T20:40:08Z,DATAKV-22
+2011-01-11T22:12:50Z,DATAKV-22
+2011-01-11T22:12:47Z,DATAKV-22
+2011-01-11T22:12:43Z,DATAKV-22
+2011-01-11T22:12:40Z,DATAKV-22
+2011-01-11T22:12:31Z,DATAKV-22
+2011-01-11T22:12:24Z,DATAKV-22
+2011-01-11T22:12:10Z,+ add integration test for info() method
+2011-01-10T16:31:45Z,+ add integration test for info() method
+2011-01-10T16:25:55Z,+ add support for most Redis server commands
+2011-01-10T15:44:37Z,+ add support for zset count
+2011-01-10T12:21:59Z,Merge branch 'master' of github.com:SpringSource/spring-data-keyvalue
+2011-01-10T12:20:54Z,+ add support for [x]pushX on list operations
+2011-01-10T12:15:58Z,+ add support for [x]pushX commands on RedisConnection
+2011-01-10T12:03:51Z,+ add support for linsert (as left/right push on RedisTemplate)
+2011-01-10T11:46:40Z,+ add support for the new list index command
+2011-01-10T11:22:23Z,+ add putIfAbsent on Hash operations
+2011-01-10T11:14:33Z,+ renamed some of the hash operations to better follow the Map naming conventions
+2011-01-10T11:06:31Z,DATAKV-17
+2011-01-10T10:49:56Z,+ add new Redis 2.2 String operations on ValueOperations and RedisTemplate (bit operations still not added)
+2011-01-10T10:39:22Z,"+ add support for Redis 2.2 String commands (get/set bit, get/set range and strlen)"
+2011-01-07T20:29:56Z,Added RiakClassLoader and helper (undocumented).
+2011-01-07T20:28:55Z,"Removed SLF4J from manifest template, added ignoreNotFound convenience property for turning off 404 error messages in RestTemplate."
+2011-01-07T20:05:44Z,"Tweaked manifest template, removed SLF4J from pom.xml."
+2011-01-07T19:52:18Z,"Changed logging to commons-logging, added package documentation, fixes for cyclic dependencies, other bug fixes."
+2011-01-07T17:11:51Z,+ add missing file
+2011-01-07T16:56:56Z,+ upgrade to Jedis 1.5.1
+2011-01-03T17:19:32Z,Tweaked docs
+2011-01-03T14:18:49Z,Tweaks for tests.
+2010-12-29T20:35:28Z,Added break statement.
+2010-12-29T20:32:12Z,Added break statement.
+2010-12-29T20:28:48Z,Switched to using enums rather than String.equals() on method names.
+2010-12-29T03:42:37Z,"More fixes for NPEs when getting vclock info, fix for duplicate results in RiakBuilder."
+2010-12-28T21:27:56Z,"Fixes for RiakBuilder and templates, update docbook docs."
+2010-12-27T14:07:00Z,"Fixes for using custom ClassLoaders, try/catch for getting metadata"
+2010-12-23T19:14:22Z,Added suppress warnings annos.
+2010-12-23T19:09:33Z,"Changed the RiakBuilder to return the results of the operation, accumulate all results of all operations on the main closure, tweak the README."
+2010-12-22T22:54:27Z,Changed each to foreach in README.
+2010-12-22T22:49:15Z,Tweaked README to introduce Map/Reduce functionality in Groovy DSL.
+2010-12-22T22:40:19Z,"Implement Map/Reduce for AsyncRiakTemplate, Groovy DSL, nesting operations into a node that serves as a default bucket."
+2010-12-21T22:16:21Z,Tweak README
+2010-12-21T22:06:24Z,"Tweaked README to cover batch updates with Groovy DSL, added getAsType"
+2010-12-21T21:13:46Z,"Tweaking the specs to make more concise, use 'it' instead of v ->"
+2010-12-21T20:43:44Z,Tweaked README to cover new Groovy DSL stuff.
+2010-12-21T20:17:00Z,"Added PUT for generating IDs to AsyncRiakTemplate, put and each on RiakBuilder, bucket/key on metadata, fixes in both template styles to accommodate new metadata."
+2010-12-21T17:33:35Z,Forgot a break statement.
+2010-12-21T17:30:45Z,Tweaked setting initial bucketKeyResolvers
+2010-12-21T17:26:34Z,Better type conversion when stored object type differs from requested type. Fixes for updates that require the vclock to be sent back to Riak for object updates.
+2010-12-20T21:33:33Z,Added README.
+2010-12-20T21:04:18Z,Tweaked manifest template.
+2010-12-20T21:00:33Z,"Added asynchronous version of RiakTemplate, Groovy DSL for data access."
+2010-12-16T20:13:43Z,"Lots more documentation of Map/Reduce, Link Walking, and bucket schema updating."
+2010-12-15T21:49:55Z,+ fixed pom versioning problem
+2010-12-15T18:56:19Z,+ bump Riak version properly this time
+2010-12-15T18:53:05Z,+ aggregate changelogs for M2
+2010-12-15T18:51:02Z,bump riak version to M2-SNAPSHOT
+2010-12-15T18:39:52Z,Merge branch 'master' of github.com:SpringSource/spring-data-keyvalue
+2010-12-15T18:37:45Z,Riak 1.0.0.M1 release
+2010-12-15T17:24:52Z,Tweaked docs on letting Riak generate IDs
+2010-12-15T17:11:00Z,Added a put() method for saving objects with generated IDs
+2010-12-15T17:03:09Z,Added a put() method for saving objects and letting Riak generate an ID.
+2010-12-15T16:52:39Z,Tweaked version number to 1.0.0.M1
+2010-12-15T16:25:20Z,Added changelog
+2010-12-15T10:19:43Z,Merge branch 'master' of github.com:SpringSource/spring-data-keyvalue
+2010-12-15T10:14:27Z,+ update changelog
+2010-12-15T10:14:15Z,+ atomic counters support reading values from the backing store (rather then always use 0)
+2010-12-15T10:07:32Z,+ changed pooling to usePool for Jedis and JRedis connections
+2010-12-14T20:53:33Z,Tweaking reference docs for Riak support.
+2010-12-14T20:37:09Z,Added docbook documentation for Riak support
+2010-12-13T22:45:34Z,added serialVersionUID
+2010-12-13T22:41:28Z,Added activation jar to pom
+2010-12-13T22:37:28Z,Added java.io and Spring IO resource abstractions
+2010-12-13T16:13:47Z,+ update jedis to 1.5 final
+2010-12-13T12:45:33Z,+ bump version M2-SNAPHOT (except Riak who's still on M1)
+2010-12-13T11:50:22Z,+ bump version to M1
+2010-12-13T11:49:56Z,+ fix some minor javadoc problems
+2010-12-13T11:29:37Z,+ add changelog for redis
+2010-12-13T11:29:13Z,+ minor OSGi template typo
+2010-12-13T11:18:37Z,+ fix OSGi template typo
+2010-12-13T11:01:47Z,+ replace tabs with spaces (for better code rendering)
+2010-12-13T10:48:20Z,+ wrap up documentation
+2010-12-13T10:23:30Z,+ add template docs
+2010-12-13T08:35:06Z,+ add more redis content
+2010-12-13T08:34:27Z,+ improve docbook generation with respect to highlighting
+2010-12-11T19:08:38Z,Merge branch 'master' of github.com:SpringSource/spring-data-keyvalue
+2010-12-11T19:08:10Z,+ add more Redis configuration
+2010-12-11T19:07:48Z,+ improved configuration of jredis and jedis instances
+2010-12-10T17:09:36Z,Merge branch 'master' of github.com:SpringSource/spring-data-keyvalue
+2010-12-10T17:09:23Z,Turning off tests (yet again).
+2010-12-10T17:07:07Z,Merge branch 'master' of github.com:SpringSource/spring-data-keyvalue
+2010-12-10T17:06:35Z,+ add draft Redis docs
+2010-12-10T17:06:18Z,+ add introduction to Spring Data Key Value
+2010-12-10T17:02:56Z,Tweaking spec tests.
+2010-12-10T17:00:54Z,Trying to turn on tests again.
+2010-12-10T17:00:11Z,"Added linkWalkAsType() method, added spec test for it, also added cache-busting logic to M/R tests."
+2010-12-09T19:31:49Z,Testing on build box is hopelessly broken. Turning tests off for good.
+2010-12-09T19:28:56Z,Changing how Riak is started in tests.
+2010-12-09T19:24:54Z,Turning tests on.
+2010-12-09T19:07:21Z,Turning off tests again.
+2010-12-09T18:59:23Z,Trying to get M/R tests to pass on build box.
+2010-12-09T18:53:29Z,Setting default QosParameters for tests.
+2010-12-09T18:46:46Z,"Adding spec for RiakKeyValueTemplate, turning on tests."
+2010-12-09T11:38:12Z,Merge branch 'master' of github.com:SpringSource/spring-data-keyvalue
+2010-12-09T11:37:18Z,+ rename SimpleRedisSerializer to JdkSerializationRedisSerializer
+2010-12-09T00:23:59Z,Turned off tests.
+2010-12-09T00:22:13Z,Triggering build.
+2010-12-08T22:45:26Z,Change path to Riak exe.
+2010-12-08T22:42:41Z,"Turning on tests, adding hooks to start and stop Riak server."
+2010-12-08T22:18:17Z,Turning off tests.
+2010-12-08T22:14:13Z,Merge branch 'master' of github.com:SpringSource/spring-data-keyvalue
+2010-12-08T22:13:58Z,"Split template into two variants, added tests back in, minor tweaks."
+2010-12-08T21:23:59Z,+ add append and substract operations
+2010-12-08T21:02:28Z,+ add discard and unwatch operations
+2010-12-08T20:55:54Z,rename exists to hasKey()
+2010-12-08T20:52:45Z,+ add incrementScore to zset operations
+2010-12-08T20:47:21Z,+ rename diff to differentiate
+2010-12-08T20:46:45Z,+ add move and random member to set operations
+2010-12-08T20:39:53Z,+ add pop to set operations
+2010-12-08T20:34:25Z,add rightPopLeftPush to list operations
+2010-12-08T20:28:08Z,+ add missing getOperation to bound ops interfaces
+2010-12-08T20:10:29Z,+ added javadocs to dedicated ops
+2010-12-08T19:28:49Z,+ renamed methods on template to better convey the meaning
+2010-12-07T18:25:53Z,+ hopefully finally finished with the javadocs
+2010-12-07T18:07:09Z,+ implementing missing constructor functionality when specifying the host or the port for JRedis
+2010-12-07T18:06:38Z,+ and even more javadocs
+2010-12-07T17:39:48Z,+ and yet more javadocs
+2010-12-07T17:00:06Z,+ more javadocs added
+2010-12-07T16:32:03Z,+ add javadocs
+2010-12-07T15:45:33Z,+ eliminate API tangle by using interfaces rather then concrete classes
+2010-12-07T15:36:08Z,+ remove more compiler warnings
+2010-12-07T15:35:50Z,+ add RedisCollection interface
+2010-12-07T14:25:46Z,Merge branch 'master' of github.com:SpringSource/spring-data-keyvalue
+2010-12-07T14:25:24Z,+ change increment return type from V to Long (since we cannot guarantee transformation at this point)
+2010-12-07T14:21:21Z,+ update APIs to improve the generified usage
+2010-12-07T11:31:11Z,+ several API improvements
+2010-12-07T10:55:23Z,DATAKV-8
+2010-12-07T10:24:53Z,DATAKV-8
+2010-12-06T19:22:06Z,DATAKV-8
+2010-12-06T18:16:26Z,+ upgrade to Jedis 1.5 RC2
+2010-12-06T17:32:48Z,+ refactored util package into support collections and atomic
+2010-12-06T15:11:42Z,"Better exception handling, added checked exception on invalid conversion, tweaked javadoc."
+2010-12-06T14:44:09Z,DATAKV-12
+2010-12-06T09:55:52Z,DATAKV-12
+2010-12-06T09:49:21Z,DATAKV-11
+2010-12-06T09:05:27Z,Merge branch 'master' of github.com:SpringSource/spring-data-keyvalue
+2010-12-06T09:04:48Z,DATAKV-10
+2010-12-03T20:54:46Z,"Updated copyright, added call to containsKey() on descendants check."
+2010-12-03T18:47:17Z,DATAKV-9
+2010-12-03T15:15:23Z,Merge branch 'master' of github.com:SpringSource/spring-data-keyvalue
+2010-12-03T15:00:00Z,+ eliminate base64 encoding from StringRedisSerializer
+2010-12-03T14:59:41Z,+ add fix between jedis/jredis on zrank
+2010-12-03T14:58:53Z,+ update tests to include jredis driver
+2010-12-03T14:58:20Z,+ add base64 encoding to deal with out of band byte arrays (for JRedis)
+2010-12-03T14:57:13Z,use a separate jredis fork since the latest snapshot doesn't work with the latest JRedis releases
+2010-12-03T14:56:30Z,+ minor update to README.md
+2010-12-03T14:25:35Z,Renamed package
+2010-12-03T12:34:51Z,and another Maven update
+2010-12-03T12:06:31Z,+ update README.md
+2010-12-03T11:18:53Z,Merge branch 'master' of github.com:SpringSource/spring-data-keyvalue
+2010-12-03T11:18:25Z,+ found recipe for generating project javadocs
+2010-12-02T22:59:04Z,Merge remote branch 'origin/master'
+2010-12-02T22:47:46Z,Update JavaDoc URL
+2010-12-02T21:04:59Z,Added quick instructions to README
+2010-12-02T17:42:59Z,+ disable test for JRedis (for now)
+2010-12-02T17:39:48Z,+ update README.md
+2010-12-02T17:35:17Z,update README.md
+2010-12-02T17:33:31Z,+ update README.md
+2010-12-02T17:28:46Z,+ update README.md
+2010-12-02T17:19:04Z,Merge branch 'master' of github.com:SpringSource/spring-data-keyvalue
+2010-12-02T17:16:22Z,+ add Readme in Markdown
+2010-12-02T15:56:43Z,Merge branch 'master' of github.com:SpringSource/spring-data-keyvalue
+2010-12-02T15:56:32Z,Added QosParameters
+2010-12-02T12:05:11Z,+ update jar plugin to fix ignored manifest on latest Maven installs
+2010-12-02T12:04:36Z,+ replaced usage of int/Integers to long/Long for consistent results between x86/x64 Redis instances
+2010-11-30T19:42:56Z,+ renamed length to size on Hash ops
+2010-11-30T19:40:54Z,+ renamed length to size on List contract
+2010-11-30T19:38:32Z,Merge branch 'master' of github.com:SpringSource/spring-data-keyvalue
+2010-11-30T19:37:39Z,+ remove generified vargs signature from public interface
+2010-11-30T19:18:52Z,+ add missing implementations
+2010-11-30T18:57:10Z,+ updated some of the redis operations signatures
+2010-11-30T18:44:44Z,+ add expireAt on RedisConnection
+2010-11-30T18:38:38Z,+ add String/Value operations contract
+2010-11-30T16:38:55Z,+ add key operations contract (no impl yet)
+2010-11-30T16:10:30Z,Merge branch 'master' of github.com:SpringSource/spring-data-keyvalue
+2010-11-30T16:10:21Z,Turning off tests
+2010-11-30T12:43:58Z,+ add initial draft for ConcurrentMap contract to RedisMap
+2010-11-30T11:12:02Z,+ minor integration test improvement
+2010-11-30T10:42:47Z,Merge branch 'master' of github.com:SpringSource/spring-data-keyvalue
+2010-11-30T10:42:10Z,+ add missing entrySet implementation + integration tests
+2010-11-29T20:31:52Z,Troubleshooting build box test failures
+2010-11-29T19:50:01Z,+ add multiGet to hash operations + template
+2010-11-29T19:38:32Z,Merge branch 'master' of github.com:SpringSource/spring-data-keyvalue
+2010-11-29T19:38:23Z,Tweak M/R tests
+2010-11-29T19:12:53Z,+ better fix for generics inferring bug
+2010-11-29T19:10:10Z,+ fix compilation error on javac compilers
+2010-11-29T18:25:36Z,Merge branch 'master' of github.com:SpringSource/spring-data-keyvalue
+2010-11-29T18:24:33Z,+ improve multiSet
+2010-11-29T18:20:51Z,+ fix minor bug that caused the closing proxy to be always used
+2010-11-29T18:18:49Z,+ add proper serialization of hash specific items
+2010-11-29T17:10:05Z,+ fix equals/hashcode for redis map
+2010-11-29T17:05:14Z,+ improve serialization of hash items in RedisTemplate
+2010-11-29T14:29:49Z,Turned tests on now that Riak is running on build box
+2010-11-29T14:27:30Z,Minor fix for NPE in some cases
+2010-11-26T20:12:26Z,Turned off tests
+2010-11-26T20:08:03Z,"Added javax.activation, serialVersionUID for exceptions"
+2010-11-26T19:50:07Z,Merge branch 'master' of github.com:SpringSource/spring-data-keyvalue
+2010-11-26T19:49:58Z,Dropped javax.mail dependency back to 1.4.1
+2010-11-26T19:37:46Z,Merge branch 'master' of github.com:SpringSource/spring-data-keyvalue
+2010-11-26T19:36:40Z,+ finish bound hash operations + hash operations
+2010-11-26T19:31:47Z,Changed module name from datastore to data in root pom.xml
+2010-11-26T17:52:28Z,+ introduce hash operations
+2010-11-26T17:49:30Z,+ add getOperations to boundSet|List ops
+2010-11-26T16:46:33Z,Added the ability to return discreet objects from M/R queries as well as Lists
+2010-11-26T16:16:26Z,Fixing build so tests run groovyc/spec tests all pass
+2010-11-26T15:52:59Z,Added link walking and setting bucket properties
+2010-11-26T11:42:08Z,+ renamed redis zset test to ZSetTestS so Maven can pick it up
+2010-11-26T11:40:07Z,+ add zset tests
+2010-11-26T11:39:49Z,+ minor bug fix in redis zset
+2010-11-26T11:07:12Z,+ changed RedisSortedSet to RedisZSet
+2010-11-26T10:26:02Z,+ add more operations on ZSet contract
+2010-11-25T18:48:00Z,+ add potential JRedis params to the tests
+2010-11-25T18:47:40Z,+ removed throws Exception on RedisCallback (since all exceptions are already Spring converted)
+2010-11-25T18:39:38Z,+ add redis set tests
+2010-11-25T18:19:48Z,+ minor optimization in the template methods (underlying connection is exposed since the template methods are safe)
+2010-11-25T18:17:53Z,+ fix subtle bug with diffAndStore on the template caused by incorrect param ordering in the method signature
+2010-11-25T18:03:30Z,+ improve parameterized redis collection even more
+2010-11-25T18:02:10Z,+ fix minor array allocation problem
+2010-11-25T18:01:38Z,+ add flushDB to RedisCommands + implementations
+2010-11-25T17:16:24Z,+ refactor integration tests through easy parametrization
+2010-11-24T17:27:56Z,propagate package renaming to the other modules
+2010-11-24T17:05:07Z,rename folders from spring-datastore to spring-data
+2010-11-24T17:04:31Z,+ rename package from o.s.datastore to o.s.data
+2010-11-24T16:43:04Z,Merge branch 'cleau-dev'
+2010-11-24T16:41:01Z,+ renamed tests so they can be picked by Maven
+2010-11-24T16:28:48Z,+ disable get test on JRedis (seems to have some problem with whitespaces - not so in case of jedis)
+2010-11-24T16:11:48Z,+ update to the official jedis 1.4.0 (for proper byte[] support)
+2010-11-23T21:26:15Z,"Tweaked Javadoc, spec for Map/Reduce"
+2010-11-23T20:01:35Z,Change test spec to return array from reduce phase
+2010-11-23T17:32:07Z,"Added Spock maven plugin, tweaking Specs"
+2010-11-23T16:28:25Z,Javadoc'd almost everything
+2010-11-22T23:02:02Z,"Bug fix, added setWithMetaData()"
+2010-11-19T22:46:59Z,"Bug fixes, added link(), started on linkWalk()"
+2010-11-16T21:27:23Z,"Support for linking objects, ETag-based caching"
+2010-11-15T22:23:31Z,+ fixed test
+2010-11-15T20:54:18Z,"Added Map/Reduce support, BucketKeyResolver support"
+2010-11-15T15:16:04Z,+ fixed compilations problems
+2010-11-15T12:36:06Z,+ add (Bound)SetOperations
+2010-11-15T12:35:14Z,+ generified implementation for RedisSortedSet
+2010-11-15T10:48:55Z,+ improve redis set contract and default implementation
+2010-11-14T17:07:24Z,+ add implementation for SetOperations & co.
+2010-11-14T15:22:11Z,+ test passing for RedisList with generified template
+2010-11-12T21:33:59Z,"Fixing test failures, additional error handling"
+2010-11-12T19:30:00Z,+ updated RedisTemplate/Operations
+2010-11-12T18:48:12Z,"+ implement most of the existing, basic, RedisOperations"
+2010-11-12T16:40:31Z,+ rename RedisKeyStore to KeyBound
+2010-11-12T16:27:33Z,+ introduce generics in the Redis store and Redis list
+2010-11-12T16:26:37Z,+ update Atomic[Integer|Long] to the new generified Redis operations
+2010-11-12T16:25:49Z,+ add more methods to the RedisOperations
+2010-11-12T14:39:20Z,+ updated RedisAtomicInteger as well
+2010-11-12T14:34:54Z,+ update RedisAtomicLong to use generics
+2010-11-12T14:34:18Z,+ add back generics to RedisSerializer
+2010-11-12T14:33:01Z,+ used UTF8 instead of ISO-8559-1 as the default charset
+2010-11-12T12:49:41Z,- remove JedisPoolWrapper
+2010-11-12T08:23:18Z,String -> byte[] refactoring
+2010-11-11T22:52:47Z,Test coverage on most functionality. get/set operations.
+2010-11-11T22:52:11Z,Test coverage on most functionality. get/set operations.
+2010-11-11T12:43:25Z,+ finish Redis list tests
+2010-11-11T12:39:22Z,+ several improvements/bugfixes applied to RedisList
+2010-11-11T12:21:03Z,+ first stab at RedisList integration tests
+2010-11-11T12:20:35Z,+ add minor improvement to jedis wrapper
+2010-11-11T12:18:44Z,+ try to improve the cleanup of pooled Jedis connections
+2010-11-11T12:17:59Z,+ improve RedisList addAll implementation
+2010-11-11T07:28:22Z,+ improved serialization by using base64 instead of the default encoding
+2010-11-10T18:53:22Z,+ complete collection tests
+2010-11-10T18:09:05Z,+ add more integration tests for Redis collections
+2010-11-10T18:08:54Z,+ add equals/hashcode contract to Redis collections
+2010-11-10T18:08:30Z,+ improved JedisCF dispose contract
+2010-11-10T17:48:48Z,+ properly implement clear for list (unfortunately through 2 commands)
+2010-11-10T17:21:42Z,+ solved serialization problem for jedis
+2010-11-10T16:50:14Z,+ eliminated encoding method from Redis Connection (moving towards a byte[] interface)
+2010-11-10T16:47:44Z,+ trying to add serializer into place
+2010-11-09T18:57:36Z,+ bump Spring version to 3.0.5
+2010-11-09T18:57:21Z,+ refresh serializer contract
+2010-11-09T17:49:33Z,+ added all the committers in alphabetical order
+2010-11-09T17:39:10Z,+ update pom settings to produce the docbook artifacts during site-deploy only
+2010-11-09T17:00:42Z,+ renamed some methods for consistency and clarity
+2010-11-09T16:54:29Z,+ finish up String operations
+2010-11-09T16:19:04Z,+ add RedisMap and default impl
+2010-11-09T16:18:49Z,+ refactor RedisCollection into RedisStore
+2010-11-09T16:18:05Z,+ add hsetNX to hash commands
+2010-11-09T15:33:08Z,+ add Jredis support for hash commands
+2010-11-09T14:39:30Z,+ add Jedis support for hash commands
+2010-11-09T14:12:13Z,+ implement RedisSortedSet
+2010-11-09T11:27:20Z,+ adjust return type for rename
+2010-11-09T11:16:04Z,+ add Jredis support for new zset operations (unfortunately just UOE)
+2010-11-09T11:12:22Z,+ implement new Zset operations in jedis connection
+2010-11-09T11:12:07Z,+ add Tuple default implementation
+2010-11-09T10:59:26Z,+ add withScore operations
+2010-11-09T09:55:39Z,+ add JRedis implementation for ZSet commands
+2010-11-09T09:46:45Z,+ initial jedis implementation for zsets
+2010-11-09T09:46:30Z,+ updated Zset commands
+2010-11-09T09:25:08Z,+ add Redis ZSet commands
+2010-11-09T09:06:14Z,initial draft contract for Redis sorted sets
+2010-11-09T08:50:43Z,+ add RedisIterator + implementations for Set and List
+2010-11-09T08:50:21Z,+ improve RedisSet contract
+2010-11-09T08:09:17Z,+ overhauled RedisSet
+2010-11-08T20:04:58Z,+ update RedisList contract
+2010-11-08T20:04:25Z,+ add Jredis support for set operations
+2010-11-08T19:33:45Z,+ add set commands and jedis implementation
+2010-11-08T18:19:29Z,+ add Queue support for the the redis list
+2010-11-08T18:04:32Z,+ rewrite the collection support for Redis
+2010-11-08T18:03:27Z,+ add list implementations for Jedis and Jredis
+2010-11-08T14:19:16Z,+ add RedisAtomicLong
+2010-11-08T14:19:01Z,polish up RedisAtomicInteger
+2010-11-08T14:04:52Z,+ add backward compatible constructors
+2010-11-08T12:11:28Z,+ cleanup AtomicInteger impl.
+2010-11-08T12:06:08Z,+ add initial support for RedisAtomicInteger
+2010-11-05T12:01:25Z,+ update copyright years
+2010-11-05T11:27:22Z,+ add .gitignore
+2010-11-05T11:17:31Z,+ changed Eclipse settings from JDK to ExecEnvironment
+2010-11-05T11:16:14Z,+ fixed bundlor manifest
+2010-11-05T11:16:00Z,+ moved AbstractIntegration test to proper package
+2010-11-05T11:06:55Z,+ fixed some of the integration tests
+2010-11-05T11:06:03Z,+ moved some packages around
+2010-11-05T10:10:33Z,+ commented out some of the collection code until the template becomes more beefy
+2010-11-05T10:09:23Z,+ replaced the old RedisTemplate & co with the MyXXX version
+2010-11-05T10:08:43Z,+ renamed charset to encoding
+2010-11-05T09:59:23Z,- removed some of the old code
+2010-11-05T09:59:08Z,+ add jredis package
+2010-11-05T08:38:18Z,+ remove unused generic on Connection interface
+2010-11-04T16:55:57Z,+ beefed up Redis template
+2010-11-04T15:27:07Z,+ initial skeleton for RedisTemplate & Co.
+2010-11-03T17:14:19Z,+ add MULTI awareness to RedisConnection
+2010-11-03T16:21:54Z,+ connection implementations mainly finished
+2010-11-02T18:40:08Z,+ introduce the concept of 'Connection'
+2010-11-02T18:39:15Z,+ wire to Spring DAO exception translation
+2010-11-02T16:15:15Z,+ updated copyright header
+2010-11-02T15:47:09Z,DATA-KV6
+2010-11-02T15:45:55Z,trying to reduce duplication between the different poms
+2010-11-02T15:44:28Z,Merge branch 'master' of git.springsource.org:spring-data/datastore-keyvalue
+2010-11-02T15:28:54Z,DATAKV-6 - Create module for Riak
+2010-11-02T15:02:44Z,+ fix nightly build deployment
+2010-11-02T13:56:25Z,+ downgraded AWS wagon to 2.0.0
+2010-11-02T13:43:39Z,DATAKV-4
+2010-11-01T18:20:23Z,Partial work for DATAKV-4 - Use maven repository for JRedis
+2010-11-01T17:49:09Z,Partial work for DATAKV-4 - Use maven repository for JRedis
+2010-11-01T17:21:17Z,DATAKV-3 - Update to use Jedis 1.3.0
+2010-10-25T20:09:23Z,Add intersection for Set operations
+2010-10-07T21:24:31Z,update to commons serializer M1
+2010-10-07T20:54:43Z,migrating old spring-keyvalue-redis repository
+2010-10-07T18:30:04Z,cleanup
+2010-10-07T18:28:12Z,cleanup
+2010-10-07T16:12:55Z,cleaned up some cut-and-paste remnants
+2010-10-07T15:20:48Z,cleaned up template.mf
+2010-10-07T13:58:06Z,Switched to use new project layout; updated build
+2010-07-27T14:18:25Z,fixed spring dependencies
+2010-07-21T18:48:12Z,starting Redis common abstractions

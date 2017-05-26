@@ -1,5 +1,5 @@
 # MAMAStress
-The best JIRA/GitHub software to get the stress of the team when the deadline approches
+JIRA/GitHub scripts with dockers to get the stress of the team when the deadline approches
 
 ## Authors
 - **M**ichael Polla
@@ -8,25 +8,42 @@ The best JIRA/GitHub software to get the stress of the team when the deadline ap
 - **A**ntoine Berger
 - **S**alvatore Cicciu
 
-## Installation
-`pip install jira`
+## Build and Run all services
 
-## Tokens
+### Token Github
 Github : under 60 requests, no token is required. To be able to make more requests, generate a token :
 1. Go to https://github.com/settings/tokens
 2. Generate token
 3. Copy token and pass it as argument  
   
-JIRA : no token required.
+```bash
+export TOKEN=yourgithubtoken
+```
 
-## Build and Run all services
-In directory Dockers, make these commands in this order:
+### Set tup the project to analysis
+There are three variables for set up the project : `GITHUB_REPO`, `JIRA_PROJECT`, `JIRA_SERVER`
 
-`$ export TOKEN=yourgithubtoken`
+Exemple :
+- AMQP :
+```bash
+export GITHUB_REPO="spring-projects/spring-amqp"
+export JIRA_PROJECT="AMQP"
+export JIRA_SERVER="https://jira.spring.io"
+```
+- DATAREDIS :
+```bash
+export GITHUB_REPO="spring-projects/spring-data-redis"
+export JIRA_PROJECT="DATAREDIS"
+export JIRA_SERVER="https://jira.spring.io"
+```
+- Spring framework :
+```bash
+export GITHUB_REPO="spring-projects/spring-framework"
+export JIRA_PROJECT="SPR"
+export JIRA_SERVER="https://jira.spring.io"
+```
 
-`$ docker-compose up`
+### Run
+After configuration, just run this command : ```bash
+docker-compose up```
 
-
-## Examples
-`python jira_retriever.py`
-`python github_retriever.py [access_token]`

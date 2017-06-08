@@ -1,5 +1,5 @@
 # MAMAStress
-JIRA/GitHub scripts with dockers to get the stress of the team when the deadline approches
+JIRA/GitHub scripts with dockers to analyze the impact of the team's stress when the deadline approches.
 
 ## Authors
 - **M**ichael Polla
@@ -20,7 +20,7 @@ Github : under 60 requests, no token is required. To be able to make more reques
 export TOKEN=yourgithubtoken
 ```
 
-### Set tup the project to analysis
+### Setup the project to analysis
 There are three variables for set up the project : `GITHUB_REPO`, `JIRA_PROJECT`, `JIRA_SERVER`
 
 Exemple :
